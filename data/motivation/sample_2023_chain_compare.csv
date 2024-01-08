@@ -1,0 +1,1139 @@
+repo_name,file_html,cl,me,complicate_code,simple_code,performance,
+lc-all-solutions,https://github.com/csujedihy/lc-all-solutions/tree/master/037.sudoku-solver/sudoku-solver.py,Solution,solveSudoku$2,i == j == len(board) - 1,"
+(i == j and j == len(board) - 1)
+",1,
+thriftpy2,https://github.com/Thriftpy/thriftpy2/tree/master/thriftpy2/protocol/compact.py,TCompactProtocol,_write_field_header$362,0 < delta <= 15,"
+(0 < delta and delta <= 15)
+",1,
+dynaconf,https://github.com/rochacbruno/dynaconf/tree/master/dynaconf/vendor_src/ruamel/yaml/scanner.py,Scanner,scan_tag_uri$1667,'A' <= ch <= 'Z',"
+('A' <= ch and ch <= 'Z')
+",1,
+gpytorch,https://github.com/cornellius-gp/gpytorch/tree/master/examples/06_PyTorch_NN_Integration_DKL/densenet.py,DenseNet,__init__$64,0 < compression <= 1,"
+(0 < compression and compression <= 1)
+",1,
+sparseml,https://github.com/neuralmagic/sparseml/tree/master/tests/sparseml/pytorch/optim/test_modifier_lr.py,,test_set_lr_yaml$129,yaml_modifier.start_epoch == serialized_modifier.start_epoch == obj_modifier.start_epoch,"
+(yaml_modifier.start_epoch == serialized_modifier.start_epoch and serialized_modifier.start_epoch == obj_modifier.start_epoch)
+",,
+NostalgiaForInfinity,https://github.com/iterativv/NostalgiaForInfinity/tree/master//NostalgiaForInfinityX.py,NostalgiaForInfinityX,sell_recover$3736,0.04 > current_profit >= 0.03,"
+(0.04 > current_profit and current_profit >= 0.03)
+",1,
+retopoflow,https://github.com/CGCookie/retopoflow/tree/master/addon_common/ext/png.py,,check_palette$237,0 <= x <= 255,"
+(0 <= x and x <= 255)
+",1,
+brat,https://github.com/nlplab/brat/tree/master/server/src/annotator.py,,_offset_overlaps$665,j_start <= i_start < j_end,"
+(j_start <= i_start and i_start < j_end)
+",1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/integrate/_ivp/tests/test_ivp.py,,test_events$341,7.3 < res.t_events[1][0] < 7.7,"
+(7.3 < res.t_events[1][0] and res.t_events[1][0] < 7.7)
+",,
+core,https://github.com/home-assistant/core/tree/master/homeassistant/components/dht/sensor.py,DHTSensor,update$134,#NAME?,"
+(-20 <= temperature and temperature < 80)
+",1,
+Source-Code-from-Tutorials,https://github.com/buckyroberts/Source-Code-from-Tutorials/tree/master/Pygame/73_PythonGameDevelopment.py,,button$153,y + height > cur[1] > y,"
+(y + height > cur[1] and cur[1] > y)
+",,
+retopoflow,https://github.com/CGCookie/retopoflow/tree/master/addon_common/common/useractions.py,Actions,valid_mouse$651,0 <= mx < sx,"
+(0 <= mx and mx < sx)
+",1,
+lc-all-solutions,https://github.com/csujedihy/lc-all-solutions/tree/master/417.pacific-atlantic-water-flow/pacific-atlantic-water-flow.py,Solution,dfs$14,0 <= nj < m,"
+(0 <= nj and nj < m)
+",1,
+Top2Vec,https://github.com/ddangelov/Top2Vec/tree/master/top2vec/tests/test_top2vec.py,,test_get_topics$164,len(words) == len(word_scores) == len(topic_nums) == num_topics,"
+(len(words) == len(word_scores) and len(word_scores) == len(topic_nums) and len(topic_nums) == num_topics)
+",,
+pytext,https://github.com/facebookresearch/pytext/tree/master/pytext/metric_reporters/mask_seq2seq_topk.py,MaskedSeq2SeqFileChannel,gen_content$47,batch_size == len(context[DatasetFieldName.RAW_SEQUENCE]) == len(preds),"
+(batch_size == len(context[DatasetFieldName.RAW_SEQUENCE]) and len(context[DatasetFieldName.RAW_SEQUENCE]) == len(preds))
+",,
+nlp_xiaojiang,https://github.com/yongzhuo/nlp_xiaojiang/tree/master/ChatBot/chatbot_search/chatbot_tfserving/TFServing_preprocess.py,Tokenizer,_is_punctuation$325,123 <= code <= 126,"
+(123 <= code and code <= 126)
+",1,
+PathPlanning,https://github.com/zhm-real/PathPlanning/tree/master/CurvesGenerator/reeds_shepp.py,,SLS$136,0.0 < phi < PI * 0.99,"
+(0.0 < phi and phi < PI * 0.99)
+",1,
+WeRoBot,https://github.com/offu/WeRoBot/tree/master/werobot/utils.py,,generate_token$86,3 <= length <= 32,"
+(3 <= length and length <= 32)
+",1,
+aws-data-wrangler,https://github.com/awslabs/aws-data-wrangler/tree/master/tests/test_redshift.py,,test_decimal_cast$646,3.88 <= df2.col0.sum() <= 3.89,"
+(3.88 <= df2.col0.sum() and df2.col0.sum() <= 3.89)
+",,
+torchgpipe,https://github.com/kakaobrain/torchgpipe/tree/master/tests/test_worker.py,,test_worker_per_device$137,out_queues[0] is out_queues[1] is out_queues[2],"
+(out_queues[0] is out_queues[1] and out_queues[1] is out_queues[2])
+",,
+ansible-modules-extras,https://github.com/ansible/ansible-modules-extras/tree/master/network/illumos/flowadm.py,Flow,is_valid_port$213,1 <= int(port) <= 65535,"
+(1 <= int(port) and int(port) <= 65535)
+",,
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/backends/backend_pdf.py,GraphicsContextPdf,fillcolor_cmd$2559,rgb[0] == rgb[1] == rgb[2],"
+(rgb[0] == rgb[1] and rgb[1] == rgb[2])
+",,
+tinypilot,https://github.com/tiny-pilot/tinypilot/tree/master/app/request_parsers/mouse_event.py,,_parse_relative_position$79,0.0 <= relative_position <= 1.0,"
+(0.0 <= relative_position and relative_position <= 1.0)
+",1,
+salt,https://github.com/saltstack/salt/tree/master/tests/conftest.py,,get_group$574,0 < group_id <= total_groups,"
+(0 < group_id and group_id <= total_groups)
+",1,
+astropy,https://github.com/astropy/astropy/tree/master/astropy/coordinates/tests/test_earth.py,,test_gravitational_redshift$352,1 * u.dm / u.s < abs(zg_moonjupearth - zg0) < 1 * u.m / u.s,"
+(1 * u.dm / u.s < abs(zg_moonjupearth - zg0) and abs(zg_moonjupearth - zg0) < 1 * u.m / u.s)
+",,
+faker,https://github.com/joke2k/faker/tree/master/tests/providers/test_internet.py,TestInternetProvider,test_iana_id$336,1 <= int(faker.iana_id()) <= 8888888,"
+(1 <= int(faker.iana_id()) and int(faker.iana_id()) <= 8888888)
+",,
+cupy,https://github.com/cupy/cupy/tree/master/tests/cupyx_tests/scipy_tests/sparse_tests/test_index.py,,_check_bounds$411,0 <= ind < size,"
+(0 <= ind and ind < size)
+",1,
+flair,https://github.com/flairNLP/flair/tree/master/flair/datasets/biomedical.py,Entity,overlaps$89,self.char_span.start < other_entity.char_span.stop <= self.char_span.stop,"
+(self.char_span.start < other_entity.char_span.stop and other_entity.char_span.stop <= self.char_span.stop)
+",,
+semantic-segmentation,https://github.com/NVIDIA/semantic-segmentation/tree/master/datasets/randaugment.py,,TranslateX$39,#NAME?,"
+(-0.45 <= v and v <= 0.45)
+",,
+streamz,https://github.com/python-streamz/streamz/tree/master/streamz/tests/py3_test_core.py,,test_await_syntax$9,0.2 < stop - start < 0.4,"
+(0.2 < stop - start and stop - start < 0.4)
+",,
+hydrus,https://github.com/hydrusnetwork/hydrus/tree/master/hydrus/client/ClientSearch.py,NumberTest,GetLambda$231,lower < x < upper,"
+(lower < x and x < upper)
+",1,
+scikit-image,https://github.com/scikit-image/scikit-image/tree/master/skimage/filters/thresholding.py,,threshold_li$617,0 < t_next < np.max(image),"
+(0 < t_next and t_next < np.max(image))
+",1,
+beagle,https://github.com/yampelo/beagle/tree/master/tests/transformers/test_fireeye_ax_transformer.py,,test_file_copy_events$325,proc.process_image == proc_file.file_name == 'bar.exe',"
+(proc.process_image == proc_file.file_name and proc_file.file_name == 'bar.exe')
+",,
+gpiozero,https://github.com/gpiozero/gpiozero/tree/master/gpiozero/tones.py,Tone,note$207,0 <= octave <= 9,"
+(0 <= octave and octave <= 9)
+",1,
+astropy,https://github.com/astropy/astropy/tree/master/astropy/modeling/tests/test_input.py,TestSingleInputDoubleOutputSingleModel,test_2d_array_parameters_2d_array_input$856,"np.shape(y2) == np.shape(z2) == (2, 2, 2, 2)","
+(np.shape(y2) == np.shape(z2) and np.shape(z2) == (2, 2, 2, 2))
+",,
+tinypilot,https://github.com/tiny-pilot/tinypilot/tree/master/app/request_parsers/validators/video_jpeg_quality.py,,validate$1,1 <= value <= 100,"
+(1 <= value and value <= 100)
+",1,
+django,https://github.com/django/django/tree/master/django/db/backends/mysql/features.py,DatabaseFeatures,django_test_skips$65,"(10, 4, 12) < self.connection.mysql_version < (10, 5)","
+((10, 4, 12) < self.connection.mysql_version and self.connection.mysql_version < (10, 5))
+",,
+Sublimall,https://github.com/toxinu/Sublimall/tree/master/sublimall/requests/models.py,Response,raise_for_status$702,500 <= self.status_code < 600,"
+(500 <= self.status_code and self.status_code < 600)
+",,
+gpxpy,https://github.com/tkrajina/gpxpy/tree/master/gpxpy/geo.py,,calculate_uphill_downhill$171,0 < n < size - 1,"
+(0 < n and n < size - 1)
+",1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/matrices/expressions/tests/test_matexpr.py,,test_MatAdd_postprocessor$416,"Add(A, M) == Add(M, A) == A + M","
+(Add(A, M) == Add(M, A) and Add(M, A) == A + M)
+",,
+sentry,https://github.com/getsentry/sentry/tree/master/tests/sentry/similarity/backends/test_redis.py,RedisScriptMinHashIndexBackendTestCase,test_multiple_index$116,"self.index.classify('example', [('index:a', 0, 'hello world'), ('index:b', 0, '')]) == self.index.compare('example', '4', [('index:a', 0), ('index:b', 0)]) == [('4', [1.0, None]), ('1', [1.0, 0.0]), ('2', [1.0, 0.0]), ('3', [1.0, 0.0])]","
+(self.index.classify('example', [('index:a', 0, 'hello world'), ('index:b', 0, '')]) == self.index.compare('example', '4', [('index:a', 0), ('index:b', 0)]) and self.index.compare('example', '4', [('index:a', 0), ('index:b', 0)]) == [('4', [1.0, None]), ('1', [1.0, 0.0]), ('2', [1.0, 0.0]), ('3', [1.0, 0.0])])
+",,
+espnet,https://github.com/espnet/espnet/tree/master/espnet/lm/chainer_backend/lm.py,ClassifierWithState,__call__$103,#NAME?,"
+(-len(args) <= self.label_key and self.label_key < len(args))
+",,
+ActualVim,https://github.com/lunixbochs/ActualVim/tree/master/lib/msgpack/st3_osx_x64/msgpack/fallback.py,Packer,_pack$683,65535 < obj <= 4294967295,"
+(65535 < obj and obj <= 4294967295)
+",1,
+WebAliveScan,https://github.com/broken5/WebAliveScan/tree/master/lib/common/request.py,Request,gen_url_list$41,0 <= port <= 65535,"
+(0 <= port and port <= 65535)
+",1,
+vega,https://github.com/huawei-noah/vega/tree/master/vega/algorithms/nas/auto_lane/utils/resnet_variant_codec.py,ResNet_Variant,is_valid$306,min_block <= length <= max_block,"
+(min_block <= length and length <= max_block)
+",1,
+Dassl.pytorch,https://github.com/KaiyangZhou/Dassl.pytorch/tree/master/dassl/data/transforms/randaugment.py,,Color$112,0.0 <= v <= 2.0,"
+(0.0 <= v and v <= 2.0)
+",1,
+dcc,https://github.com/amimo/dcc/tree/master/dex2c/basic_blocks.py,,fill_node_from_block$154,110 <= opcode <= 114,"
+(110 <= opcode and opcode <= 114)
+",1,
+RenderPipeline,https://github.com/tobspr/RenderPipeline/tree/master/rplibs/yaml/yaml_py3/scanner.py,Scanner,scan_tag_uri$1378,'A' <= ch <= 'Z',"
+('A' <= ch and ch <= 'Z')
+",1,
+mitmproxy,https://github.com/mitmproxy/mitmproxy/tree/master/mitmproxy/addons/dumper.py,Dumper,_echo_response_line$176,200 <= code_int < 300,"
+(200 <= code_int and code_int < 300)
+",1,
+addons-server,https://github.com/mozilla/addons-server/tree/master/src/olympia/ratings/tests/test_views.py,TestRatingViewSetPost,test_post_auto_flagged_and_cleaned$1720,review.rating == response.data['score'] == 5,"
+(review.rating == response.data['score'] and response.data['score'] == 5)
+",,
+conjure-up,https://github.com/conjure-up/conjure-up/tree/master/conjureup/ui/widgets/base.py,Scrollable,render$59,self.scroll_top <= cy < self.scroll_top + maxrows,"
+(self.scroll_top <= cy and cy < self.scroll_top + maxrows)
+",1,
+fireplace,https://github.com/jleclanche/fireplace/tree/master/tests/test_league.py,,test_anubisath_sentinel$29,sentinel2.atk == sentinel2.health == 4 + 3,"
+(sentinel2.atk == sentinel2.health and sentinel2.health == 4 + 3)
+",,
+ReAgent,https://github.com/facebookresearch/ReAgent/tree/master/reagent/evaluation/doubly_robust_estimator.py,EstimationData,__post_init__$66,self.model_propensities_eval.shape == self.model_rewards_eval.shape == self.action_mask_eval.shape,"
+(self.model_propensities_eval.shape == self.model_rewards_eval.shape and self.model_rewards_eval.shape == self.action_mask_eval.shape)
+",,
+rex,https://github.com/angr/rex/tree/master/rex/exploit/techniques/explore_for_exploit.py,ExploreForExploit,attack$343,write.min_addr <= write_addr.addr <= write.max_addr,"
+(write.min_addr <= write_addr.addr and write_addr.addr <= write.max_addr)
+",,
+torchgeo,https://github.com/microsoft/torchgeo/tree/master/torchgeo/datasets/utils.py,BoundingBox,__contains__$289,self.miny <= other.miny <= self.maxy,"
+(self.miny <= other.miny and other.miny <= self.maxy)
+",,
+glasgow,https://github.com/GlasgowEmbedded/glasgow/tree/master/software/glasgow/gateware/fx2_crossbar.py,FX2Crossbar,get_out_fifo$475,0 <= n < 2,"
+(0 <= n and n < 2)
+",1,
+textdistance,https://github.com/life4/textdistance/tree/master/tests/test_compression/test_sqrt_ncd.py,,test_normalization_range$59,"0 <= ALG.normalized_similarity(text, text) <= 1","
+(0 <= ALG.normalized_similarity(text, text) and ALG.normalized_similarity(text, text) <= 1)
+",,
+Ananicy,https://github.com/Nefelim4ag/Ananicy/tree/master//ananicy.py,Ananicy,__check_oom_score_adj$451,#NAME?,"
+(-1000 <= adj and adj <= 1000)
+",1,
+picamera,https://github.com/waveform80/picamera/tree/master/tests/test_attr.py,,test_shutter_speed$306,33000 <= camera.shutter_speed <= 33333,"
+(33000 <= camera.shutter_speed and camera.shutter_speed <= 33333)
+",,
+scour,https://github.com/scour-project/scour/tree/master/scour/scour.py,,optimizeTransform$3092,FALSE,"
+(-1 <= A1 and A1 <= 1)
+",1,
+vyper,https://github.com/vyperlang/vyper/tree/master/tests/fuzzing/test_exponents.py,,test_exp_int128$28,-2 ** 127 <= (-(max_base + 1)) ** power < 2 ** 127,"
+(-2 ** 127 <= (-(max_base + 1)) ** power and (-(max_base + 1)) ** power < 2 ** 127)
+",,
+FCOS,https://github.com/tianzhi0549/FCOS/tree/master/onnx/test_fcos_onnx_model.py,FCOSPostProcessor,select_over_all_levels$166,number_of_detections > self.fpn_post_nms_top_n > 0,"
+(number_of_detections > self.fpn_post_nms_top_n and self.fpn_post_nms_top_n > 0)
+",,
+tubearchivist,https://github.com/bbilly1/tubearchivist/tree/master/tubearchivist/home/views.py,VideoView,star_creator$891,0.25 < rating < 0.75,"
+(0.25 < rating and rating < 0.75)
+",1,
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/tests/test_datasets.py,TestFASHIONMNISTTrain,func_test_main$196,0 <= int(label) <= 9,"
+(0 <= int(label) and int(label) <= 9)
+",,
+rex-gym,https://github.com/nicrusso7/rex-gym/tree/master/rex_gym/envs/gym/walk_env.py,RexWalkEnv,_evaluate_brakes_stage_coeff$238,end_t <= current_t <= p + end_t,"
+(end_t <= current_t and current_t <= p + end_t)
+",1,
+DDParser,https://github.com/baidu/DDParser/tree/master/tools/representation/demo/ERNIE/batching.py,,mask$25,base_prob * 0.2 < prob <= base_prob,"
+(base_prob * 0.2 < prob and prob <= base_prob)
+",1,
+python-holidays,https://github.com/dr-prodigy/python-holidays/tree/master/holidays/countries/new_zealand.py,NewZealand,_populate$81,1963 < year <= 1973,"
+(1963 < year and year <= 1973)
+",1,
+gpiozero,https://github.com/gpiozero/gpiozero/tree/master/gpiozero/output_devices.py,TonalBuzzer,value$720,#NAME?,"
+(-1 <= value and value <= 1)
+",1,
+evennia,https://github.com/evennia/evennia/tree/master/evennia/typeclasses/managers.py,TypedObjectManager,get_by_tag$249,1 < n_categories < n_keys,"
+(1 < n_categories and n_categories < n_keys)
+",1,
+organize,https://github.com/tfeldmann/organize/tree/master/organize/core.py,,execute_rules$83,succeded == failed == 0,"
+(succeded == failed and failed == 0)
+",1,
+Axelrod,https://github.com/Axelrod-Python/Axelrod/tree/master/axelrod/strategies/revised_downing.py,RevisedDowning,strategy$47,0 <= c < alt,"
+(0 <= c and c < alt)
+",1,
+BracketHighlighter,https://github.com/facelessuser/BracketHighlighter/tree/master//bh_core.py,BhOffscreenPopupCommand,run$760,v[0] <= point <= v[1],"
+(v[0] <= point and point <= v[1])
+",1,
+auto_ml,https://github.com/ClimbsRocks/auto_ml/tree/master/tests/core_tests/calibrate_classifier_tests.py,,test_calibrate_final_model_missing_X_test_y_test_classification$44,#NAME?,"
+(-0.14 < test_score and test_score < -0.12)
+",1,
+faker,https://github.com/joke2k/faker/tree/master/tests/providers/test_company.py,TestRuRu,test_individuals_ogrn$281,1 <= int(ogrn[3:5]) <= 92,"
+(1 <= int(ogrn[3:5]) and int(ogrn[3:5]) <= 92)
+",,
+TSD,https://github.com/Sense-X/TSD/tree/master/mmdet/models/mask_heads/grid_head.py,GridHead,get_bboxes$311,h == w == half_size,"
+(h == w and w == half_size)
+",1,
+tensorlayer,https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning/tutorial_prioritized_replay.py,SegmentTree,__getitem__$209,0 <= idx < self._capacity,"
+(0 <= idx and idx < self._capacity)
+",1,
+fairseq,https://github.com/pytorch/fairseq/tree/master/fairseq/optim/fp16_optimizer.py,_MemoryEfficientFP16OptimizerMixin,clip_grad_norm$416,grad_norm_cpu > max_norm > 0.0,"
+(grad_norm_cpu > max_norm and max_norm > 0.0)
+",1,
+unilm,https://github.com/microsoft/unilm/tree/master/layoutreader/s2s_ft/modeling.py,LabelSmoothingLoss,__init__$630,0.0 < label_smoothing <= 1.0,"
+(0.0 < label_smoothing and label_smoothing <= 1.0)
+",1,
+evennia,https://github.com/evennia/evennia/tree/master/evennia/objects/manager.py,ObjectDBManager,search_object$370,0 <= match_number < len(matches),"
+(0 <= match_number and match_number < len(matches))
+",1,
+SublimePrettyJson,https://github.com/dzhibas/SublimePrettyJson/tree/master/lib/simplejson/encoder.py,,_make_iterencode$420,-1 << _int_as_string_bitcount < value < 1 << _int_as_string_bitcount,"
+(-1 << _int_as_string_bitcount < value and value < 1 << _int_as_string_bitcount)
+",1,
+pyglet,https://github.com/pyglet/pyglet/tree/master/tests/integration/graphics/test_allocation.py,RegionAllocator,check_region$28,other.start < region.end < other.end,"
+(other.start < region.end and region.end < other.end)
+",,
+wechat_jump_game,https://github.com/wangshub/wechat_jump_game/tree/master//wechat_jump_auto_iOS.py,,find_piece_and_board$106,95 < pixel[2] < 110,"
+(95 < pixel[2] and pixel[2] < 110)
+",,
+fireplace,https://github.com/jleclanche/fireplace/tree/master/tests/test_classic.py,,test_amani_berserker$119,amani1.atk == amani2.atk == 2 + 3,"
+(amani1.atk == amani2.atk and amani2.atk == 2 + 3)
+",,
+conda,https://github.com/conda/conda/tree/master/conda/common/logic.py,Clauses,itersolve$233,#NAME?,"
+(-m <= k and k <= m)
+",1,
+cfn-lint,https://github.com/aws-cloudformation/cfn-lint/tree/master/src/cfnlint/rules/common.py,,approaching_number_limit$32,LIMITS['threshold'] * LIMITS[section]['number'] < len(number) <= LIMITS[section]['number'],"
+(LIMITS['threshold'] * LIMITS[section]['number'] < len(number) and len(number) <= LIMITS[section]['number'])
+",,
+cms,https://github.com/amfoss/cms/tree/master/cms/server/contest/phase_management.py,,compute_actual_phase$29,actual_start <= timestamp <= actual_stop,"
+(actual_start <= timestamp and timestamp <= actual_stop)
+",1,
+imgaug,https://github.com/aleju/imgaug/tree/master/test/augmenters/test_color.py,TestKMeansColorQuantization,test_n_colors_tuple$2047,2 <= n_colors_i <= 1000,"
+(2 <= n_colors_i and n_colors_i <= 1000)
+",1,
+py-evm,https://github.com/ethereum/py-evm/tree/master/eth/db/chain_gaps.py,,fill_gap$96,gap[0] < newly_persisted < gap[1],"
+(gap[0] < newly_persisted and newly_persisted < gap[1])
+",1,
+cupy,https://github.com/cupy/cupy/tree/master/tests/cupy_tests/fft_tests/test_cache.py,TestPlanCache,test_LRU_cache12$429,cache1.get_curr_size() == 0 <= cache1.get_size(),"
+(cache1.get_curr_size() == 0 and 0 <= cache1.get_size())
+",1,
+yosai,https://github.com/YosaiProject/yosai/tree/master/test/integrated_tests/core/authc/test_authentication.py,,test_single_factor_locks_account$184,success_event_detected == account_id.primary_identifier == 'walter',"
+(success_event_detected == account_id.primary_identifier and account_id.primary_identifier == 'walter')
+",,
+pymc,https://github.com/pymc-devs/pymc/tree/master/pymc/tests/test_sampling_jax.py,,test_transform_samples$19,1.5 < trace.posterior['sigma'].mean() < 2.5,"
+(1.5 < trace.posterior['sigma'].mean() and trace.posterior['sigma'].mean() < 2.5)
+",,
+satpy,https://github.com/pytroll/satpy/tree/master/satpy/tests/reader_tests/test_tropomi_l2.py,FakeNetCDF4FileHandlerTL2,_convert_data_content_to_dataarrays$86,1 < val.ndim <= 2,"
+(1 < val.ndim and val.ndim <= 2)
+",,
+pandas,https://github.com/pandas-dev/pandas/tree/master/pandas/tests/indexes/multi/test_indexing.py,TestGetIndexer,test_get_indexer_crossing_levels$444,mult_idx_1[7] < mult_idx_2[0] < mult_idx_1[8],"
+(mult_idx_1[7] < mult_idx_2[0] and mult_idx_2[0] < mult_idx_1[8])
+",,
+OWAPI,https://github.com/Fuyukai/OWAPI/tree/master/owapi/v3/parsing.py,,bl_parse_all_heroes$390,1 > time > 0,"
+(1 > time and time > 0)
+",1,
+anaconda,https://github.com/DamnWidget/anaconda/tree/master/anaconda_lib/linting/pycodestyle.py,,compound_statements$1128,#NAME?,"
+(-1 < found and found < last_char)
+",1,
+hivemind,https://github.com/learning-at-home/hivemind/tree/master/tests/test_routing.py,,test_routing_table_basic$30,bucket.lower <= node < bucket.upper,"
+(bucket.lower <= node and node < bucket.upper)
+",1,
+deepvariant,https://github.com/google/deepvariant/tree/master/deepvariant/realigner/window_selector_test.py,WindowSelectorTest,test_candidates_from_reads_respects_region_deletion$373,0 <= pos < 28,"
+(0 <= pos and pos < 28)
+",1,
+Sushi,https://github.com/tp7/Sushi/tree/master//sushi.py,,fix_near_borders$190,0.2 < event.diff / diff_limit < 5,"
+(0.2 < event.diff / diff_limit and event.diff / diff_limit < 5)
+",,
+JobFunnel,https://github.com/PaulMcInnis/JobFunnel/tree/master/jobfunnel/backend/scrapers/monster.py,MonsterScraperUSAEng,_convert_radius$319,75 <= radius < 100,"
+(75 <= radius and radius < 100)
+",1,
+NostalgiaForInfinity,https://github.com/iterativv/NostalgiaForInfinity/tree/master//NostalgiaForInfinityX.py,NostalgiaForInfinityX,sell_pump_main$8567,0.1 > current_profit >= 0.09,"
+(0.1 > current_profit and current_profit >= 0.09)
+",1,
+FrEIA,https://github.com/VLL-HD/FrEIA/tree/master/FrEIA/modules/coupling_layers.py,_BaseCouplingBlock,__init__$16,0 <= split_len <= 1,"
+(0 <= split_len and split_len <= 1)
+",1,
+Mycodo,https://github.com/kizniche/Mycodo/tree/master/mycodo/utils/method.py,DurationMethod,calculate_setpoint$270,0 < repeat_duration <= seconds_from_start,"
+(0 < repeat_duration and repeat_duration <= seconds_from_start)
+",1,
+brian2,https://github.com/brian-team/brian2/tree/master/brian2/tests/test_synapses.py,,test_state_variable_indexing$687,"len(S.w[:, 0:2]) == len(S.w[:, 0:2, :]) == 2 * len(G1) * 2","
+(len(S.w[:, 0:2]) == len(S.w[:, 0:2, :]) and len(S.w[:, 0:2, :]) == 2 * len(G1) * 2)
+",,
+FARM,https://github.com/deepset-ai/FARM/tree/master/farm/evaluation/metrics.py,,simple_accuracy$45,type(preds) == type(labels) == list,"
+(type(preds) == type(labels) and type(labels) == list)
+",,
+vision,https://github.com/pytorch/vision/tree/master/test/test_prototype_transforms.py,TestRandomAffine,test__get_params$621,-degrees <= params['angle'] <= degrees,"
+(-degrees <= params['angle'] and params['angle'] <= degrees)
+",,
+sockeye,https://github.com/awslabs/sockeye/tree/master/test/unit/test_data_io.py,,test_parallel_data_set_permute$367,len(permutations) == len(inverse_permutations) == len(dataset),"
+(len(permutations) == len(inverse_permutations) and len(inverse_permutations) == len(dataset))
+",,
+anki,https://github.com/ankitects/anki/tree/master/pylib/tests/test_find.py,,test_find_cards$17,len(col.find_cards('tag:foo')) == len(col.find_cards('tag:bar')) == 5,"
+(len(col.find_cards('tag:foo')) == len(col.find_cards('tag:bar')) and len(col.find_cards('tag:bar')) == 5)
+",,
+qlib,https://github.com/microsoft/qlib/tree/master/tests/misc/test_utils.py,,cal_sam_minute$12,open_time <= x <= mid_close_time,"
+(open_time <= x and x <= mid_close_time)
+",1,
+pydantic,https://github.com/samuelcolvin/pydantic/tree/master/tests/test_construction.py,,test_simple_copy$73,m.a == m2.a == 24,"
+(m.a == m2.a and m2.a == 24)
+",,
+NostalgiaForInfinity,https://github.com/iterativv/NostalgiaForInfinity/tree/master//NostalgiaForInfinityX.py,NostalgiaForInfinityX,sell_pump_main$8567,0.1 > current_profit >= 0.09,"
+(0.1 > current_profit and current_profit >= 0.09)
+",1,
+manuskript,https://github.com/olivierkes/manuskript/tree/master/manuskript/tests/models/test_outlineItem.py,,test_outlineItemsProperties$21,text.isMD() == text.isMMD() == True,"
+(text.isMD() == text.isMMD() and text.isMMD() == True)
+",,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/printing/tests/test_str.py,,test_list$240,str([x]) == sstr([x]) == '[x]',"
+(str([x]) == sstr([x]) and sstr([x]) == '[x]')
+",,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/physics/control/tests/test_lti.py,,test_TransferFunctionMatrix_construction$1088,"tfm5.shape == (tfm5.num_outputs, tfm5.num_inputs) == (2, 2)","
+(tfm5.shape == (tfm5.num_outputs, tfm5.num_inputs) and (tfm5.num_outputs, tfm5.num_inputs) == (2, 2))
+",,
+cement,https://github.com/datafolklabs/cement/tree/master/cement/cli/contrib/yaml/scanner.py,Scanner,scan_tag_handle$1350,'a' <= ch <= 'z',"
+('a' <= ch and ch <= 'z')
+",1,
+GlobaLeaks,https://github.com/globaleaks/GlobaLeaks/tree/master/backend/globaleaks/handlers/submission.py,,db_create_submission$109,0 < context.maximum_selectable_receivers < len(request['receivers']),"
+(0 < context.maximum_selectable_receivers and context.maximum_selectable_receivers < len(request['receivers']))
+",,
+core,https://github.com/home-assistant/core/tree/master/homeassistant/components/homematicip_cloud/sensor.py,,_get_wind_direction$411,326.25 <= wind_direction_degree < 348.75,"
+(326.25 <= wind_direction_degree and wind_direction_degree < 348.75)
+",1,
+yubikey-manager,https://github.com/Yubico/yubikey-manager/tree/master/tests/device/test_otp.py,,read_config$44,"(4, 0) <= info.version < (5, 5)","
+((4, 0) <= info.version and info.version < (5, 5))
+",,
+yandex-music-api,https://github.com/MarshalX/yandex-music-api/tree/master/tests/test_discrete_scale.py,TestDiscreteScale,test_equality$35,a is not b is not c,"
+(a is not b and b is not c)
+",1,
+robosuite,https://github.com/ARISE-Initiative/robosuite/tree/master/robosuite/environments/manipulation/pick_place.py,PickPlace,not_in_bin$384,bin_x_low < obj_pos[0] < bin_x_high,"
+(bin_x_low < obj_pos[0] and obj_pos[0] < bin_x_high)
+",,
+bCNC,https://github.com/vlachoudis/bCNC/tree/master/bCNC/lib/dxf.py,DXF,read$991,400 <= tag <= 409,"
+(400 <= tag and tag <= 409)
+",1,
+nvda,https://github.com/nvaccess/nvda/tree/master/source/displayModel.py,DisplayModelTextInfo,_getOffsetFromPoint$455,charTop <= y < charBottom,"
+(charTop <= y and y < charBottom)
+",1,
+exbert,https://github.com/bhoov/exbert/tree/master/server/transformers/src/transformers/optimization.py,AdamW,__init__$107,0.0 <= betas[1] < 1.0,"
+(0.0 <= betas[1] and betas[1] < 1.0)
+",,
+imageio,https://github.com/imageio/imageio/tree/master/imageio/plugins/_tifffile.py,TiffPages,keyframe$3021,0 <= index < len(self.pages),"
+(0 <= index and index < len(self.pages))
+",1,
+PaddleSeg,https://github.com/PaddlePaddle/PaddleSeg/tree/master/paddleseg/models/pointrend.py,PointHead,get_points_train$346,0 <= importance_sample_ratio <= 1,"
+(0 <= importance_sample_ratio and importance_sample_ratio <= 1)
+",1,
+czsc,https://github.com/waditu/czsc/tree/master/czsc/signals/bxt.py,,check_five_bi$82,"bi5.low < max(bi1.low, bi2.low) < bi5.high < max_high","
+(bi5.low < max(bi1.low, bi2.low) and max(bi1.low, bi2.low) < bi5.high and bi5.high < max_high)
+",,
+astropy,https://github.com/astropy/astropy/tree/master/astropy/modeling/tests/test_compound.py,,test_fit_multiplied_compound_model_with_mixed_units$984,unfit_output.unit == fit_output.unit == u.kg * u.m / u.s,"
+(unfit_output.unit == fit_output.unit and fit_output.unit == u.kg * u.m / u.s)
+",,
+chainer,https://github.com/chainer/chainer/tree/master/tests/chainer_tests/test_gradient_check.py,NumericalGradientDetectNondifferentiableTest,_func_nan_segment$398,#NAME?,"
+(-1 < x and x < 1)
+",1,
+PythonRobotics,https://github.com/AtsushiSakai/PythonRobotics/tree/master/PathPlanning/Eta3SplinePath/eta3_spline_path.py,Eta3PathSegment,calc_deriv$203,0 < order <= 2,"
+(0 < order and order <= 2)
+",1,
+kube-downscaler,https://github.com/hjacobs/kube-downscaler/tree/master/kube_downscaler/helper.py,,_matches_recurring_time_spec$44,minute_from <= local_time_minutes < minute_to,"
+(minute_from <= local_time_minutes and local_time_minutes < minute_to)
+",,
+Deep-Forest,https://github.com/LAMDA-NJU/Deep-Forest/tree/master/deepforest/forest.py,,_get_n_samples_bootstrap$52,0 < max_samples < 1,"
+(0 < max_samples and max_samples < 1)
+",1,
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/text.py,Text,contains$241,bbox.y0 <= mouseevent.y <= bbox.y1,"
+(bbox.y0 <= mouseevent.y and mouseevent.y <= bbox.y1)
+",,
+blaze,https://github.com/blaze/blaze/tree/master/blaze/server/client.py,,ok$34,200 <= response.status_code <= 299,"
+(200 <= response.status_code and response.status_code <= 299)
+",,
+ParlAI,https://github.com/facebookresearch/ParlAI/tree/master/parlai/agents/rag/model_types.py,RagTurn,__init__$993,0 < opt['rag_turn_discount_factor'] <= 1.0,"
+(0 < opt['rag_turn_discount_factor'] and opt['rag_turn_discount_factor'] <= 1.0)
+",,
+ERNIE,https://github.com/thunlp/ERNIE/tree/master/propeller/paddle/train/metrics.py,PrecisionAtK,update$754,qid.shape[0] == label.shape[0] == pred.shape[0],"
+(qid.shape[0] == label.shape[0] and label.shape[0] == pred.shape[0])
+",,
+keras-tuner,https://github.com/keras-team/keras-tuner/tree/master/tests/unit_tests/engine/hyperparameters_test.py,,test_Float$258,0.5 <= linear.random_sample() < 6.5,"
+(0.5 <= linear.random_sample() and linear.random_sample() < 6.5)
+",,
+LSTM-FCN,https://github.com/titu1994/LSTM-FCN/tree/master/utils/layer_utils.py,AttentionLSTMCell,call$334,0 < self.dropout < 1.0,"
+(0 < self.dropout and self.dropout < 1.0)
+",,
+rlax,https://github.com/deepmind/rlax/tree/master/rlax/_src/mpo_ops.py,,mpo_compute_weights_and_temperature_loss$182,0 <= sample_axis < sample_q_values.ndim,"
+(0 <= sample_axis and sample_axis < sample_q_values.ndim)
+",1,
+python-ecdsa,https://github.com/tlsfuzzer/python-ecdsa/tree/master/src/ecdsa/ecdh.py,ECDH,_get_shared_secret$77,self.private_key.curve == self.curve == remote_public_key.curve,"
+(self.private_key.curve == self.curve and self.curve == remote_public_key.curve)
+",,
+hawkpost,https://github.com/whitesmith/hawkpost/tree/master/humans/tasks.py,,fetch_key$16,200 <= res.status_code < 300,"
+(200 <= res.status_code and res.status_code < 300)
+",,
+mmocr,https://github.com/open-mmlab/mmocr/tree/master/mmocr/datasets/pipelines/textdet_targets/textsnake_targets.py,TextSnakeTargets,draw_center_region_maps$296,top_line.shape == bot_line.shape == center_line.shape,"
+(top_line.shape == bot_line.shape and bot_line.shape == center_line.shape)
+",,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/relay/op/contrib/ethosu.py,,check_dilation$150,dmin <= dilation[0] <= dmax,"
+(dmin <= dilation[0] and dilation[0] <= dmax)
+",,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/interpolate/_fitpack_impl.py,,bisplrep$798,#NAME?,"
+(-1 <= task and task <= 1)
+",1,
+nextcord,https://github.com/nextcord/nextcord/tree/master/nextcord/utils.py,,valid_icon_size$626,4096 >= size >= 16,"
+(4096 >= size and size >= 16)
+",,
+OctoPrint,https://github.com/OctoPrint/OctoPrint/tree/master/src/octoprint/util/comm.py,MachineCom,_handle_timeout$3210,0 < consecutive_max < self._consecutive_timeouts,"
+(0 < consecutive_max and consecutive_max < self._consecutive_timeouts)
+",1,
+YOLOF,https://github.com/megvii-model/YOLOF/tree/master/cvpods/modeling/anchor_generator.py,DefaultAnchorGenerator,__init__$65,0.0 <= self.offset < 1.0,"
+(0.0 <= self.offset and self.offset < 1.0)
+",,
+koila,https://github.com/rentruewang/koila/tree/master/tests/test_tensors.py,,test_buffer_sizes$1082,b.numel() == lb.numel() == lb.buffer_numel()[1],"
+(b.numel() == lb.numel() and lb.numel() == lb.buffer_numel()[1])
+",,
+fireplace,https://github.com/jleclanche/fireplace/tree/master/tests/test_blackrock.py,,test_solemn_vigil$450,vigil3.cost == vigil4.cost == 1,"
+(vigil3.cost == vigil4.cost and vigil4.cost == 1)
+",,
+pootle,https://github.com/translate/pootle/tree/master/tests/models/unit.py,,test_sync_fuzzy$141,db_unit.isfuzzy() == file_unit.isfuzzy() is False,"
+(db_unit.isfuzzy() == file_unit.isfuzzy() and file_unit.isfuzzy() is False)
+",,
+pyatv,https://github.com/postlund/pyatv/tree/master/pyatv/protocols/companion/opack.py,,_unpack$112,160 <= data[0] <= 192,"
+(160 <= data[0] and data[0] <= 192)
+",,
+SlowFast,https://github.com/facebookresearch/SlowFast/tree/master/slowfast/datasets/transform.py,,_get_param_spatial_crop$496,0 < w <= width,"
+(0 < w and w <= width)
+",1,
+textacy,https://github.com/chartbeat-labs/textacy/tree/master/tests/similarity/test_tokens.py,,test_jaccard$18,0.0 <= obs <= 1.0,"
+(0.0 <= obs and obs <= 1.0)
+",1,
+AugLy,https://github.com/facebookresearch/AugLy/tree/master/augly/image/intensity.py,,overlay_media_intensity_helper$328,0 <= opacity <= 1,"
+(0 <= opacity and opacity <= 1)
+",1,
+SerpentAI,https://github.com/SerpentAI/SerpentAI/tree/master/serpent/dashboard/cefbrowser/cefbrowser.py,CEFBrowser,is_inside_window$711,0 < y < Window.height - 1,"
+(0 < y and y < Window.height - 1)
+",1,
+edx-platform,https://github.com/edx/edx-platform/tree/master/lms/djangoapps/lti_provider/signature_validator.py,SignatureValidator,check_nonce$45,0 < len(nonce) <= 64,"
+(0 < len(nonce) and len(nonce) <= 64)
+",,
+rex,https://github.com/angr/rex/tree/master/rex/crash.py,Crash,_explore_arbitrary_read$1019,min_read <= x <= max_read,"
+(min_read <= x and x <= max_read)
+",1,
+visidata,https://github.com/saulpw/visidata/tree/master/visidata/canvas.py,Plotter,draw$223,b_x1 < a_x2 < b_x2,"
+(b_x1 < a_x2 and a_x2 < b_x2)
+",1,
+ReID-Survey,https://github.com/mangye16/ReID-Survey/tree/master/data/datasets/veri.py,VeRi,_process_dir$62,0 <= pid <= 776,"
+(0 <= pid and pid <= 776)
+",1,
+ignite,https://github.com/pytorch/ignite/tree/master/ignite/handlers/ema_handler.py,EMAHandler,__init__$121,0 < momentum < 1,"
+(0 < momentum and momentum < 1)
+",1,
+atomic,https://github.com/projectatomic/atomic/tree/master/Atomic/diff.py,RpmPrint,_print_release$395,0 <= n < len(r2_split),"
+(0 <= n and n < len(r2_split))
+",1,
+metrics,https://github.com/PyTorchLightning/metrics/tree/master/torchmetrics/functional/classification/precision_recall.py,,recall$272,0 <= ignore_index < num_classes,"
+(0 <= ignore_index and ignore_index < num_classes)
+",1,
+elastic,https://github.com/pytorch/elastic/tree/master/aws/autoscaling.py,AutoScalingGroup,create_asg$156,min_size <= size <= max_size,"
+(min_size <= size and size <= max_size)
+",1,
+sktime-dl,https://github.com/sktime/sktime-dl/tree/master/sktime_dl/utils/layer_utils.py,AttentionLSTMCell,call$330,0 < self.recurrent_dropout < 1.0,"
+(0 < self.recurrent_dropout and self.recurrent_dropout < 1.0)
+",,
+Imooc-Algorithm-PythonEdition,https://github.com/ShiveryMoon/Imooc-Algorithm-PythonEdition/tree/master/7/邻接矩阵实现.py,DenseGraph,hasEdge$33,0 <= v < self.n,"
+(0 <= v and v < self.n)
+",1,
+transformers,https://github.com/huggingface/transformers/tree/master/examples/research_projects/distillation/utils.py,,init_gpu_params$51,0 <= params.local_rank <= params.global_rank < params.world_size,"
+(0 <= params.local_rank and params.local_rank <= params.global_rank and params.global_rank < params.world_size)
+",,
+timeflake,https://github.com/anthonynsimon/timeflake/tree/master/tests/test_timeflake.py,,test_from_values_timestamp_only$23,0 <= flake.random <= timeflake.flake.MAX_RANDOM,"
+(0 <= flake.random and flake.random <= timeflake.flake.MAX_RANDOM)
+",,
+domain_generation_algorithms,https://github.com/baderj/domain_generation_algorithms/tree/master/tinba/dga.py,,dga$4,97 < tmp < 122,"
+(97 < tmp and tmp < 122)
+",1,
+freeipa,https://github.com/freeipa/freeipa/tree/master/ipatests/test_ipalib/test_errors.py,PublicExceptionTester,__get_klass$202,900 <= self.__klass.errno <= 5999,"
+(900 <= self.__klass.errno and self.__klass.errno <= 5999)
+",,
+torba,https://github.com/lbryio/torba/tree/master/torba/client/mnemonic.py,Mnemonic,make_seed$135,"0 < entropy < pow(2, n - bpw)","
+(0 < entropy and entropy < pow(2, n - bpw))
+",,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/integrate/tests/test_quadpack.py,TestQuad,myfunc$144,0 < x < 2.5,"
+(0 < x and x < 2.5)
+",1,
+invoke,https://github.com/pyinvoke/invoke/tree/master/invoke/vendor/yaml3/emitter.py,Emitter,prepare_anchor$616,'A' <= ch <= 'Z',"
+('A' <= ch and ch <= 'Z')
+",1,
+requests-cache,https://github.com/reclosedev/requests-cache/tree/master/tests/integration/test_sqlite.py,TestSQLiteDict,test_size$254,10000 < cache.size() < 200000,"
+(10000 < cache.size() and cache.size() < 200000)
+",,
+pingouin,https://github.com/raphaelvallat/pingouin/tree/master/pingouin/power.py,,power_ttest2n$213,0 < alpha <= 1,"
+(0 < alpha and alpha <= 1)
+",1,
+hyperopt,https://github.com/hyperopt/hyperopt/tree/master/hyperopt/tests/unit/test_pchoice.py,TestPChoice,test_basic3$57,1500 < c + d < 1700,"
+(1500 < c + d and c + d < 1700)
+",,
+hypothesis,https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python/tests/cover/test_slippage.py,,test_stops_immediately_on_replay$289,1 < len(seen) <= MIN_TEST_CALLS,"
+(1 < len(seen) and len(seen) <= MIN_TEST_CALLS)
+",,
+cupy,https://github.com/cupy/cupy/tree/master/cupy/testing/_attr.py,,_wrapper$46,0 <= _gpu_limit < gpu_num,"
+(0 <= _gpu_limit and _gpu_limit < gpu_num)
+",1,
+Screencast-Keys,https://github.com/nutti/Screencast-Keys/tree/master/src/screencast_keys/ops.py,SK_OT_SetOrigin,get_mouseovered_region$1680,region.x <= x < region.x + region.width,"
+(region.x <= x and x < region.x + region.width)
+",,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/core/tests/test_function.py,,test_IdentityFunction$296,"Lambda(x, x) is Lambda(y, y) is S.IdentityFunction","
+(Lambda(x, x) is Lambda(y, y) and Lambda(y, y) is S.IdentityFunction)
+",,
+speechbrain,https://github.com/speechbrain/speechbrain/tree/master/speechbrain/utils/train_logger.py,FileTrainLogger,_item_to_string$62,1.0 < value < 100.0,"
+(1.0 < value and value < 100.0)
+",1,
+yarl,https://github.com/aio-libs/yarl/tree/master/yarl/_url.py,URL,raw_suffix$669,0 < i < len(name) - 1,"
+(0 < i and i < len(name) - 1)
+",1,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/topi/testing/grid_sample_python.py,,_get_pixel$252,0 <= h <= in_height - 1,"
+(0 <= h and h <= in_height - 1)
+",1,
+cement,https://github.com/datafolklabs/cement/tree/master/cement/cli/contrib/yaml/scanner.py,Scanner,scan_tag_uri$1374,'A' <= ch <= 'Z',"
+('A' <= ch and ch <= 'Z')
+",1,
+locust,https://github.com/locustio/locust/tree/master/locust/test/test_dispatch.py,TestRampDownUsersToZero,test_ramp_down_users_to_3_workers_with_spawn_rate_of_2$1235,sleep_time - _TOLERANCE <= delta <= sleep_time + _TOLERANCE,"
+(sleep_time - _TOLERANCE <= delta and delta <= sleep_time + _TOLERANCE)
+",1,
+distributed,https://github.com/dask/distributed/tree/master/distributed/tests/test_counter.py,,test_digest$24,0 < size(c.components[1]) < 1,"
+(0 < size(c.components[1]) and size(c.components[1]) < 1)
+",,
+ActualVim,https://github.com/lunixbochs/ActualVim/tree/master/lib/msgpack/st3_windows_x32/msgpack/fallback.py,Packer,_pack$683,#NAME?,"
+(-2147483648 <= obj and obj < -32768)
+",1,
+aws-data-wrangler,https://github.com/awslabs/aws-data-wrangler/tree/master/tests/test_s3_text_compressed.py,,test_json$76,df.shape == df2.shape == df3.shape,"
+(df.shape == df2.shape and df2.shape == df3.shape)
+",,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/simplify/simplify.py,,sum_add$853,len(rself.limits) == len(rother.limits) == 1,"
+(len(rself.limits) == len(rother.limits) and len(rother.limits) == 1)
+",,
+vision,https://github.com/pytorch/vision/tree/master/torchvision/prototype/transforms/_geometry.py,RandomIoUCrop,_get_params$618,self.min_aspect_ratio <= aspect_ratio <= self.max_aspect_ratio,"
+(self.min_aspect_ratio <= aspect_ratio and aspect_ratio <= self.max_aspect_ratio)
+",1,
+BERT-NER-Pytorch,https://github.com/lonePatient/BERT-NER-Pytorch/tree/master/callback/optimizater/adamw.py,AdamW,__init__$18,0.0 <= betas[0] < 1.0,"
+(0.0 <= betas[0] and betas[0] < 1.0)
+",,
+gluon-ts,https://github.com/awslabs/gluon-ts/tree/master/test/mx/test_variable_length.py,,test_train_loader_shapes$89,d['past_valid_length'].shape[0] == d['future_valid_length'].shape[0] == 10,"
+(d['past_valid_length'].shape[0] == d['future_valid_length'].shape[0] and d['future_valid_length'].shape[0] == 10)
+",,
+redis-py,https://github.com/redis/redis-py/tree/master/tests/test_lock.py,TestLock,test_extend_lock$163,16000 < r.pttl('foo') <= 20000,"
+(16000 < r.pttl('foo') and r.pttl('foo') <= 20000)
+",,
+flexx,https://github.com/flexxui/flexx/tree/master/flexx/app/bsdf_lite.py,BsdfLiteSerializer,_encode$164,#NAME?,"
+(-32768 <= value and value <= 32767)
+",1,
+CrossHair,https://github.com/pschanely/CrossHair/tree/master/crosshair/libimpl/randomlib.py,,make_registrations$94,"min(a, b) <= __return__ <= max(a, b)","
+(min(a, b) <= __return__ and __return__ <= max(a, b))
+",,
+ptan,https://github.com/Shmuma/ptan/tree/master/ptan/experience.py,PrioritizedReplayBuffer,update_priorities$459,0 <= idx < len(self),"
+(0 <= idx and idx < len(self))
+",1,
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/model/world.py,World,tiles_around$415,0 <= nx < self.width,"
+(0 <= nx and nx < self.width)
+",1,
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/graphics/wheel.py,,wheel$69,90 < d % 360 < 270,"
+(90 < d % 360 and d % 360 < 270)
+",,
+tensorflow-ocr,https://github.com/pannous/tensorflow-ocr/tree/master//train.py,TextImageGenerator,on_epoch_begin$373,6 <= epoch < 9,"
+(6 <= epoch and epoch < 9)
+",1,
+WeasyPrint,https://github.com/Kozea/WeasyPrint/tree/master/tests/layout/test_flex.py,,test_flex_direction_column_reverse$165,div_1.position_x == div_2.position_x == div_3.position_x == article.position_x,"
+(div_1.position_x == div_2.position_x and div_2.position_x == div_3.position_x and div_3.position_x == article.position_x)
+",,
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/nn/functional/loss.py,,triplet_margin_with_distance_loss$3591,input.shape == positive.shape == negative.shape,"
+(input.shape == positive.shape and positive.shape == negative.shape)
+",,
+pyts,https://github.com/johannfaouzi/pyts/tree/master/pyts/bag_of_words/bow.py,WordExtractor,_check_params$110,1 <= self.window_step <= n_timestamps,"
+(1 <= self.window_step and self.window_step <= n_timestamps)
+",,
+mutagen,https://github.com/quodlibet/mutagen/tree/master/mutagen/musepack.py,MusepackInfo,check_frame_key$127,b'AA' <= frame_type <= b'ZZ',"
+(b'AA' <= frame_type and frame_type <= b'ZZ')
+",1,
+faker,https://github.com/joke2k/faker/tree/master/tests/providers/test_date_time.py,DatesOfBirth,test_acceptable_age_range_five_years$660,days_since_six_years_ago > days_since_dob >= days_since_now,"
+(days_since_six_years_ago > days_since_dob and days_since_dob >= days_since_now)
+",1,
+gluon-cv,https://github.com/dmlc/gluon-cv/tree/master/gluoncv/torch/model_zoo/pose/directpose_outputs.py,DirectPoseOutputs,select_over_all_levels$987,number_of_detections > self.post_nms_topk > 0,"
+(number_of_detections > self.post_nms_topk and self.post_nms_topk > 0)
+",,
+imgaug,https://github.com/aleju/imgaug/tree/master/test/test_parameters.py,TestAdd,test_add_to_stochastic_parameter$3595,samples_sorted[0] - _eps(samples_sorted[0]) < samples_sorted[-1] < samples_sorted[0] + _eps(samples_sorted[0]),"
+(samples_sorted[0] - _eps(samples_sorted[0]) < samples_sorted[-1] and samples_sorted[-1] < samples_sorted[0] + _eps(samples_sorted[0]))
+",,
+PyQt,https://github.com/PyQt5/PyQt/tree/master/Demo/Lib/FramelessWindow.py,FramelessWindow,mouseMoveEvent$238,0 <= xPos <= self.Margins,"
+(0 <= xPos and xPos <= self.Margins)
+",1,
+lbry-sdk,https://github.com/lbryio/lbry-sdk/tree/master/lbry/dht/protocol/routing_table.py,KBucket,key_in_range$128,self.range_min <= self._distance_to_self(key) < self.range_max,"
+(self.range_min <= self._distance_to_self(key) and self._distance_to_self(key) < self.range_max)
+",,
+PARL,https://github.com/PaddlePaddle/PARL/tree/master/examples/ES/utils.py,,batched_weighted_sum$45,len(batch_weights) == len(batch_vecs) <= batch_size,"
+(len(batch_weights) == len(batch_vecs) and len(batch_vecs) <= batch_size)
+",,
+lc-all-solutions,https://github.com/csujedihy/lc-all-solutions/tree/master/498.diagonal-traverse/diagonal-traverse.py,Solution,findDiagonalOrder$2,0 <= i < len(matrix),"
+(0 <= i and i < len(matrix))
+",1,
+sunpy,https://github.com/sunpy/sunpy/tree/master/sunpy/database/tests/test_database.py,,test_download_from_qr$531,len(database) == num_of_fits_headers > 0,"
+(len(database) == num_of_fits_headers and num_of_fits_headers > 0)
+",,
+salt,https://github.com/saltstack/salt/tree/master/salt/modules/nilrt_ip.py,,_remove_quotes$247,value[0] == value[-1] == '"',"
+(value[0] == value[-1] and value[-1] == '""')
+",,
+PythonProgrammingPuzzles,https://github.com/microsoft/PythonProgrammingPuzzles/tree/master/generators/human_eval.py,IncreasingViolation,sat$4257,0 <= i < j,"
+(0 <= i and i < j)
+",1,
+Dassl.pytorch,https://github.com/KaiyangZhou/Dassl.pytorch/tree/master/dassl/data/transforms/randaugment.py,,ShearX$16,#NAME?,"
+(-0.3 <= v and v <= 0.3)
+",1,
+pootle,https://github.com/translate/pootle/tree/master/tests/pootle_translationproject/utils.py,,test_tp_tool_move$41,"tp.pootle_path == tp.directory.pootle_path == '/%s/%s/' % (templates.code, project0.code)","
+(tp.pootle_path == tp.directory.pootle_path and tp.directory.pootle_path == '/%s/%s/' % (templates.code, project0.code))
+",,
+PolarMask,https://github.com/xieenze/PolarMask/tree/master/mmdet/core/bbox/samplers/iou_balanced_neg_sampler.py,IoUBalancedNegSampler,__init__$27,0 <= floor_fraction <= 1,"
+(0 <= floor_fraction and floor_fraction <= 1)
+",,
+emmett,https://github.com/emmett-framework/emmett/tree/master/emmett/validators/consist.py,isIPv4,__init__$630,"len(value) == len(list(filter(lambda item: isinstance(item, int), value))) == 4","
+(len(value) == len(list(filter(lambda item: isinstance(item, int), value))) and len(list(filter(lambda item: isinstance(item, int), value))) == 4)
+",,
+anki,https://github.com/ankitects/anki/tree/master/pylib/anki/scheduler/v2.py,Scheduler,_answerCardPreview$774,1 <= ease <= 2,"
+(1 <= ease and ease <= 2)
+",1,
+pdfplumber,https://github.com/jsvine/pdfplumber/tree/master/tests/test_utils.py,Test,test_snap_objects$270,a_new == b_new == c_new,"
+(a_new == b_new and b_new == c_new)
+",1,
+fireplace,https://github.com/jleclanche/fireplace/tree/master/tests/test_classic.py,,test_keeper_of_the_grove$1853,adventurer1.health == adventurer1.atk == 3,"
+(adventurer1.health == adventurer1.atk and adventurer1.atk == 3)
+",,
+openpilot,https://github.com/commaai/openpilot/tree/master/selfdrive/locationd/paramsd.py,,main$74,min_sr <= params['steerRatio'] <= max_sr,"
+(min_sr <= params['steerRatio'] and params['steerRatio'] <= max_sr)
+",,
+xkcd-font,https://github.com/ipython/xkcd-font/tree/master/xkcd-script/generator/pt1_character_extraction.py,,min_interval_distance$64,interval_2_sorted[0] <= i_1 <= interval_2_sorted[1],"
+(interval_2_sorted[0] <= i_1 and i_1 <= interval_2_sorted[1])
+",1,
+hypothesis,https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python/tests/array_api/test_from_dtype.py,,test_from_dtype_with_kwargs$94,1 <= x <= 2,"
+(1 <= x and x <= 2)
+",,
+NostalgiaForInfinity,https://github.com/iterativv/NostalgiaForInfinity/tree/master//NostalgiaForInfinityX.py,NostalgiaForInfinityX,sell_long_mode$9301,0.16 < current_profit <= 0.18,"
+(0.16 < current_profit and current_profit <= 0.18)
+",1,
+GotoX,https://github.com/SeaHOH/GotoX/tree/master/local/HTTPUtil.py,HTTPUtil,create_connection$614,i == n == 0,"
+(i == n and n == 0)
+",1,
+freqtrade,https://github.com/freqtrade/freqtrade/tree/master/freqtrade/optimize/backtesting.py,Backtesting,_get_order_filled$572,row[LOW_IDX] <= rate <= row[HIGH_IDX],"
+(row[LOW_IDX] <= rate and rate <= row[HIGH_IDX])
+",1,
+czsc,https://github.com/waditu/czsc/tree/master/scripts_gm/src/utils/bt.py,,init_context_bt$346,0 <= context.max_share_position <= 1,"
+(0 <= context.max_share_position and context.max_share_position <= 1)
+",,
+zenodo,https://github.com/zenodo/zenodo/tree/master/zenodo/modules/records/serializers/schemas/common.py,LocationSchemaV1,validate_latitude$323,#NAME?,"
+(-90 <= value and value <= 90)
+",1,
+panoptic-deeplab,https://github.com/bowenc0221/panoptic-deeplab/tree/master/segmentation/model/backbone/mnasnet.py,,_round_to_multiple_of$74,0.0 < round_up_bias < 1.0,"
+(0.0 < round_up_bias and round_up_bias < 1.0)
+",1,
+pretix,https://github.com/pretix/pretix/tree/master/src/pretix/base/models/orders.py,OrderPayment,_mark_order_paid$1671,0 < invoices <= cancellations,"
+(0 < invoices and invoices <= cancellations)
+",1,
+gibMacOS,https://github.com/corpnewt/gibMacOS/tree/master/Scripts/run.py,Run,_stream_output$29,c == z == '',"
+(c == z and z == '')
+",1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/printing/tests/test_latex.py,,test_latex_UnevaluatedExpr$2268,latex(he) == latex(1 / x) == '\\frac{1}{x}',"
+(latex(he) == latex(1 / x) and latex(1 / x) == '\\frac{1}{x}')
+",,
+ignite,https://github.com/pytorch/ignite/tree/master/tests/ignite/engine/test_deterministic.py,,log_event_filter$736,1 <= event % save_iter <= 5,"
+(1 <= event % save_iter and event % save_iter <= 5)
+",,
+Hypernets,https://github.com/DataCanvasIO/Hypernets/tree/master/hypernets/tabular/column_selector.py,AutoCategoryColumnSelector,__init__$64,0.0 < cat_exponent < 1.0,"
+(0.0 < cat_exponent and cat_exponent < 1.0)
+",1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/odr/_odrpack.py,ODR,_check$786,p == q == 1,"
+(p == q and q == 1)
+",1,
+piano_transcription,https://github.com/bytedance/piano_transcription/tree/master/utils/utilities.py,,load_audio$1373,n_prev <= s_start <= n,"
+(n_prev <= s_start and s_start <= n)
+",1,
+Krakatau,https://github.com/Storyyeller/Krakatau/tree/master/Krakatau/assembler/writer.py,Writer,fillLabels$84,0 <= offset < 1 << 16,"
+(0 <= offset and offset < 1 << 16)
+",1,
+vision,https://github.com/pytorch/vision/tree/master/test/test_prototype_transforms.py,TestRandomIoUCrop,test__get_params$1225,int(transform.min_scale * orig_h) <= params['height'] <= int(transform.max_scale * orig_h),"
+(int(transform.min_scale * orig_h) <= params['height'] and params['height'] <= int(transform.max_scale * orig_h))
+",,
+rlkit,https://github.com/rail-berkeley/rlkit/tree/master/rlkit/torch/sac/policies/gaussian_policy.py,TanhCNNGaussianPolicy,__init__$459,LOG_SIG_MIN <= self.log_std <= LOG_SIG_MAX,"
+(LOG_SIG_MIN <= self.log_std and self.log_std <= LOG_SIG_MAX)
+",,
+musicpy,https://github.com/Rainbow-Dreamer/musicpy/tree/master/musicpy/structures.py,circle_of_fifths,__getitem__$2817,0 <= ind < 12,"
+(0 <= ind and ind < 12)
+",1,
+3d-photo-inpainting,https://github.com/vt-vl-lab/3d-photo-inpainting/tree/master//mesh.py,,judge_dangle$715,0 < xx[1] < mesh.graph['W'] - 1,"
+(0 < xx[1] and xx[1] < mesh.graph['W'] - 1)
+",,
+NostalgiaForInfinity,https://github.com/iterativv/NostalgiaForInfinity/tree/master//NostalgiaForInfinityX.py,NostalgiaForInfinityX,sell_pump_main$8567,0.03 > current_profit >= 0.02,"
+(0.03 > current_profit and current_profit >= 0.02)
+",1,
+cfn-lint,https://github.com/aws-cloudformation/cfn-lint/tree/master/src/cfnlint/rules/resources/properties/StringSize.py,StringSize,_check_string_length$31,string_min <= len(value) <= string_max,"
+(string_min <= len(value) and len(value) <= string_max)
+",,
+allennlp,https://github.com/allenai/allennlp/tree/master/tests/training/checkpointer_test.py,TestCheckpointer,test_default_distributed_with_sharded_state$125,models == training == target,"
+(models == training and training == target)
+",1,
+imgaug,https://github.com/aleju/imgaug/tree/master/test/augmenters/test_blend.py,TestBlendAlphaElementwise,test_keypoints_factor_is_choice_of_vals_close_050_per_channel$1453,100 - 50 < seen[0] < 100 + 50,"
+(100 - 50 < seen[0] and seen[0] < 100 + 50)
+",,
+YOLOP,https://github.com/hustvl/YOLOP/tree/master/lib/core/evaluate.py,ConfusionMatrix,plot$159,0 < len(names) < 99,"
+(0 < len(names) and len(names) < 99)
+",,
+metrics,https://github.com/PyTorchLightning/metrics/tree/master/torchmetrics/functional/classification/stat_scores.py,,stat_scores$240,0 <= ignore_index < num_classes,"
+(0 <= ignore_index and ignore_index < num_classes)
+",1,
+Krakatau,https://github.com/Storyyeller/Krakatau/tree/master/Krakatau/ssa/ssa_ops/imath.py,IDiv,propagateConstraints$146,y.min <= val <= y.max,"
+(y.min <= val and val <= y.max)
+",1,
+airflow,https://github.com/apache/airflow/tree/master/chart/tests/test_ingress_web.py,IngressWebTest,test_should_ingress_hosts_have_priority_over_host$53,"['*.a-host', 'b-host'] == jmespath.search('spec.rules[*].host', docs[0]) == jmespath.search('spec.tls[0].hosts', docs[0])","
+(['*.a-host', 'b-host'] == jmespath.search('spec.rules[*].host', docs[0]) and jmespath.search('spec.rules[*].host', docs[0]) == jmespath.search('spec.tls[0].hosts', docs[0]))
+",,
+django-localflavor,https://github.com/django/django-localflavor/tree/master/localflavor/ir/forms.py,IRIDNumberField,clean$71,2 > s == check,"
+(2 > s and s == check)
+",1,
+mido,https://github.com/mido/mido/tree/master/mido/sockets.py,,parse_address$138,0 < port < 2 ** 16,"
+(0 < port and port < 2 ** 16)
+",1,
+pyts,https://github.com/johannfaouzi/pyts/tree/master/pyts/classification/tsbf.py,IntervalFeatureExtractor,_check_params$208,1 <= self.min_subsequence_size <= n_timestamps,"
+(1 <= self.min_subsequence_size and self.min_subsequence_size <= n_timestamps)
+",,
+pyvista,https://github.com/pyvista/pyvista/tree/master/pyvista/core/objects.py,Texture,flip$416,0 <= axis <= 1,"
+(0 <= axis and axis <= 1)
+",1,
+go-explore,https://github.com/uber-research/go-explore/tree/master/policy_based/goexplore_py/montezuma_env.py,MyMontezuma,pos_from_unprocessed_state$167,30 > y > 23,"
+(30 > y and y > 23)
+",1,
+audiolazy,https://github.com/danilobellini/audiolazy/tree/master/audiolazy/tests/test_core.py,TestMultiKeyDict,test_key2keys_value2keys$231,"md.key2keys(3) == md.key2keys(4) == (3, 4) == md.value2keys(-4)","
+(md.key2keys(3) == md.key2keys(4) and md.key2keys(4) == (3, 4) and (3, 4) == md.value2keys(-4))
+",,
+a-PyTorch-Tutorial-to-Object-Detection,https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection/tree/master//utils.py,,calculate_mAP$145,len(det_boxes) == len(det_labels) == len(det_scores) == len(true_boxes) == len(true_labels) == len(true_difficulties),"
+(len(det_boxes) == len(det_labels) and len(det_labels) == len(det_scores) and len(det_scores) == len(true_boxes) and len(true_boxes) == len(true_labels) and len(true_labels) == len(true_difficulties))
+",,
+lifelines,https://github.com/CamDavidsonPilon/lifelines/tree/master/lifelines/tests/test_estimation.py,TestWeibullFitter,test_left_censorship_inference$934,"wf.summary.loc['rho_', 'coef lower 95%'] < 5 < wf.summary.loc['rho_', 'coef upper 95%']","
+(wf.summary.loc['rho_', 'coef lower 95%'] < 5 and 5 < wf.summary.loc['rho_', 'coef upper 95%'])
+",,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/tests/test_rings.py,,test_PolyElement___sub__$516,"dict(-u * x + x) == dict(x - u * x) == {(1, 0, 0): -u + 1}","
+(dict(-u * x + x) == dict(x - u * x) and dict(x - u * x) == {(1, 0, 0): -u + 1})
+",,
+micropython-lib,https://github.com/micropython/micropython-lib/tree/master/python-stdlib/quopri/quopri.py,,ishex$184,b'0' <= c <= b'9',"
+(b'0' <= c and c <= b'9')
+",1,
+imgaug,https://github.com/aleju/imgaug/tree/master/test/test_parameters.py,TestDivide,test_divide_floats_both_deterministic$3369,v1 / v2 - _eps(sample) <= sample <= v1 / v2 + _eps(sample),"
+(v1 / v2 - _eps(sample) <= sample and sample <= v1 / v2 + _eps(sample))
+",,
+katana,https://github.com/JohnHammond/katana/tree/master/katana/units/crypto/rot47.py,Unit,do_rot47$49,33 <= j <= 126,"
+(33 <= j and j <= 126)
+",1,
+R-Drop,https://github.com/dropreg/R-Drop/tree/master/huggingface_transformer_src/src/transformers/models/roberta/convert_roberta_original_pytorch_checkpoint_to_pytorch.py,,convert_roberta_checkpoint_to_pytorch$48,"roberta_layer.self_attn.k_proj.weight.data.shape == roberta_layer.self_attn.q_proj.weight.data.shape == roberta_layer.self_attn.v_proj.weight.data.shape == torch.Size((config.hidden_size, config.hidden_size))","
+(roberta_layer.self_attn.k_proj.weight.data.shape == roberta_layer.self_attn.q_proj.weight.data.shape and roberta_layer.self_attn.q_proj.weight.data.shape == roberta_layer.self_attn.v_proj.weight.data.shape and roberta_layer.self_attn.v_proj.weight.data.shape == torch.Size((config.hidden_size, config.hidden_size)))
+",,
+fonttools,https://github.com/fonttools/fonttools/tree/master/Tests/pens/ttGlyphPen_test.py,TTGlyphPointPenTest,test_open_path_starting_with_move$552,"pen1.points == pen2.points == [(0, 0), (10, 10), (20, 20), (20, 0)]","
+(pen1.points == pen2.points and pen2.points == [(0, 0), (10, 10), (20, 20), (20, 0)])
+",,
+returns,https://github.com/dry-python/returns/tree/master/tests/test_context/test_requires_context_ioresult/test_requires_context_ioresult_bind.py,,test_bind$8,RCR.from_value(0).bind(factory)(2) == factory(0)(2) == IOFailure('0'),"
+(RCR.from_value(0).bind(factory)(2) == factory(0)(2) and factory(0)(2) == IOFailure('0'))
+",,
+brownie,https://github.com/eth-brownie/brownie/tree/master/tests/network/state/test_blocks.py,,test_mine_timedelta$66,0 <= chain[-1].timestamp - 12345 - now <= 1,"
+(0 <= chain[-1].timestamp - 12345 - now and chain[-1].timestamp - 12345 - now <= 1)
+",,
+cats-blender-plugin,https://github.com/absolute-quantum/cats-blender-plugin/tree/master/tools/armature_manual.py,PoseToRest,execute$288,scale_x == scale_y == scale_z != 1,"
+(scale_x == scale_y and scale_y == scale_z and scale_z != 1)
+",1,
+highway-env,https://github.com/eleurent/highway-env/tree/master/highway_env/road/lane.py,AbstractLane,on_lane$60,#NAME?,"
+(-self.VEHICLE_LENGTH <= longitudinal and longitudinal < self.length + self.VEHICLE_LENGTH)
+",,
+guake,https://github.com/Guake/guake/tree/master/guake/guake_app.py,Guake,callback$1040,0 <= N < self.get_notebook().get_n_pages(),"
+(0 <= N and N < self.get_notebook().get_n_pages())
+",1,
+mypy,https://github.com/python/mypy/tree/master/mypy/test/helpers.py,,assert_string_arrays_equal$46,0 <= first_diff < len(actual),"
+(0 <= first_diff and first_diff < len(actual))
+",1,
+deep-learning-for-image-processing,https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/swin_transformer/model.py,SwinTransformerBlock,__init__$304,0 <= self.shift_size < self.window_size,"
+(0 <= self.shift_size and self.shift_size < self.window_size)
+",,
+PaddleHub,https://github.com/PaddlePaddle/PaddleHub/tree/master/modules/text/language_model/slda_weibo/sampler.py,GibbsSampler,__sample_token$227,accum_prob[i - 1] < dart <= accum_prob[i],"
+(accum_prob[i - 1] < dart and dart <= accum_prob[i])
+",1,
+indico,https://github.com/indico/indico/tree/master/indico/modules/rb/operations/bookings.py,,split_booking$387,booking.start_dt.date() < date.today() < booking.end_dt.date(),"
+(booking.start_dt.date() < date.today() and date.today() < booking.end_dt.date())
+",,
+chainer,https://github.com/chainer/chainer/tree/master/tests/chainer_tests/test_gradient_check.py,NumericalGradientEpsTest,check_different_eps$246,#NAME?,"
+(-1 < x and x < 1)
+",1,
+imgaug,https://github.com/aleju/imgaug/tree/master/imgaug/augmenters/blend.py,BlendAlphaMask,_blend_coordinates$916,0 <= y_int < h_img,"
+(0 <= y_int and y_int < h_img)
+",1,
+fairscale,https://github.com/facebookresearch/fairscale/tree/master/fairscale/experimental/nn/data_parallel/gossip/distributed.py,SlowMoDistributedDataParallel,_init_global_momentum_buffers$655,p.dtype == params_dtype == torch.float32,"
+(p.dtype == params_dtype and params_dtype == torch.float32)
+",1,
+sunpy,https://github.com/sunpy/sunpy/tree/master/sunpy/timeseries/tests/test_timeseriesmetadata.py,,test_rename_column$481,col_renamed_md.metadata[0][1][0] == col_renamed_md.metadata[2][1][0] == col_renamed_md.metadata[3][1][0] == new,"
+(col_renamed_md.metadata[0][1][0] == col_renamed_md.metadata[2][1][0] and col_renamed_md.metadata[2][1][0] == col_renamed_md.metadata[3][1][0] and col_renamed_md.metadata[3][1][0] == new)
+",,
+attrs,https://github.com/python-attrs/attrs/tree/master/tests/test_converters.py,TestPipe,test_success$104,True is c('True') is c(True),"
+(True is c('True') and c('True') is c(True))
+",,
+geoalchemy2,https://github.com/geoalchemy/geoalchemy2/tree/master/tests/test_functional_spatialite.py,TestCallFunction,test_ST_Buffer$221,r1.data == r2.data == r3.data,"
+(r1.data == r2.data and r2.data == r3.data)
+",,
+auto_ml,https://github.com/ClimbsRocks/auto_ml/tree/master/tests/advanced_tests/classifiers.py,,feature_learning_getting_single_predictions_classification$276,0.2 < duration.total_seconds() < 60,"
+(0.2 < duration.total_seconds() and duration.total_seconds() < 60)
+",,
+ichnaea,https://github.com/mozilla/ichnaea/tree/master/ichnaea/webapp/tests.py,TestHeartbeat,test_ok$53,1 < data['geoip']['age_in_days'] < 1000,"
+(1 < data['geoip']['age_in_days'] and data['geoip']['age_in_days'] < 1000)
+",,
+ViLT,https://github.com/dandelin/ViLT/tree/master/vilt/transforms/randaug.py,,TranslateY$40,#NAME?,"
+(-0.45 <= v and v <= 0.45)
+",1,
+scikit-bio,https://github.com/biocore/scikit-bio/tree/master/skbio/stats/composition.py,,ancom$811,0 < alpha < 1,"
+(0 < alpha and alpha < 1)
+",1,
+ezdxf,https://github.com/mozman/ezdxf/tree/master/src/ezdxf/math/curvetools.py,,cubic_bezier_bbox$194,0.0 < t < 1.0,"
+(0.0 < t and t < 1.0)
+",1,
+consensus-specs,https://github.com/ethereum/consensus-specs/tree/master/tests/core/pyspec/eth2spec/test/phase0/fork_choice/test_on_block.py,,test_on_block_finalized_skip_slots_not_in_skip_chain$240,state.current_justified_checkpoint.epoch == store.justified_checkpoint.epoch == 3,"
+(state.current_justified_checkpoint.epoch == store.justified_checkpoint.epoch and store.justified_checkpoint.epoch == 3)
+",,
+angr,https://github.com/angr/angr/tree/master/angr/analyses/calling_convention.py,CallingConventionAnalysis,_is_sane_register_variable$447,112 <= variable.reg < 208,"
+(112 <= variable.reg and variable.reg < 208)
+",,
+PyBoy,https://github.com/Baekalfen/PyBoy/tree/master/pyboy/plugins/debug.py,Debug,handle_breakpoint$282,16384 <= pc < 32768,"
+(16384 <= pc and pc < 32768)
+",1,
+asyncio-redis,https://github.com/jonathanslenders/asyncio-redis/tree/master/asyncio_redis/protocol.py,RedisProtocol,_encode_int$864,0 < value < 1000,"
+(0 < value and value < 1000)
+",1,
+backtesting.py,https://github.com/kernc/backtesting.py/tree/master/backtesting/backtesting.py,Trade,close$534,0 < portion <= 1,"
+(0 < portion and portion <= 1)
+",1,
+holoviews,https://github.com/holoviz/holoviews/tree/master/holoviews/core/overlay.py,CompositeOverlay,hist$64,0 <= index < len(self),"
+(0 <= index and index < len(self))
+",1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/tests/test_rings.py,,test_PolyElement___truediv__$583,f.quo(g) == f / g == q,"
+(f.quo(g) == f / g and f / g == q)
+",,
+friture,https://github.com/tlecomte/friture/tree/master/friture/plotting/scaleBar.py,VerticalScaleBar,paintEvent$55,self.coordinateTransform.startBorder < y < self.coordinateTransform.length - self.coordinateTransform.endBorder,"
+(self.coordinateTransform.startBorder < y and y < self.coordinateTransform.length - self.coordinateTransform.endBorder)
+",,
+UnsupervisedMT,https://github.com/facebookresearch/UnsupervisedMT/tree/master/NMT/src/model/attention.py,Decoder,generate_beam$532,0 <= word_id < n_words,"
+(0 <= word_id and word_id < n_words)
+",1,
+torchgeo,https://github.com/microsoft/torchgeo/tree/master/torchgeo/datasets/utils.py,BoundingBox,__contains__$289,self.mint <= other.maxt <= self.maxt,"
+(self.mint <= other.maxt and other.maxt <= self.maxt)
+",,
+barf-project,https://github.com/programa-stic/barf-project/tree/master/barf/core/binary.py,Memory,_read_byte$110,0 <= index - address < len(data),"
+(0 <= index - address and index - address < len(data))
+",,
+poclbm,https://github.com/m0mchil/poclbm/tree/master//socks.py,socksocket,connect$353,"type(destpair) in (list, tuple) == False","
+(type(destpair) in (list, tuple) and (list, tuple) == False)
+",1,
+hypothesis,https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python/tests/numpy/test_gen_data.py,,test_advanced_integer_index_is_valid_and_satisfies_bounds$990,min_dims <= out.ndim <= max_dims,"
+(min_dims <= out.ndim and out.ndim <= max_dims)
+",,
+photonix,https://github.com/photonixapp/photonix/tree/master/photonix/classifiers/object/utils/label_map_util.py,,convert_label_map_to_categories$58,0 < item.id <= max_num_classes,"
+(0 < item.id and item.id <= max_num_classes)
+",,
+wechat_jump_game,https://github.com/wangshub/wechat_jump_game/tree/master//wechat_jump_auto.py,,find_piece_and_board$103,50 < pixel[0] < 60,"
+(50 < pixel[0] and pixel[0] < 60)
+",,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/optimize/tests/test_slsqp.py,TestSLSQP,f$220,0 <= x[0] <= 1,"
+(0 <= x[0] and x[0] <= 1)
+",,
+jasmin,https://github.com/jookies/jasmin/tree/master/jasmin/routing/Filters.py,TimeIntervalFilter,match$244,self.timeInterval[0] <= routable.datetime.time() <= self.timeInterval[1],"
+(self.timeInterval[0] <= routable.datetime.time() and routable.datetime.time() <= self.timeInterval[1])
+",,
+pandapower,https://github.com/e2nIEE/pandapower/tree/master/pandapower/test/opf/test_basic.py,,test_gen_p_vm_limits$915,"min_vm_pu < net.res_bus.at[bus, 'vm_pu'] < max_vm_pu","
+(min_vm_pu < net.res_bus.at[bus, 'vm_pu'] and net.res_bus.at[bus, 'vm_pu'] < max_vm_pu)
+",,
+pynguin,https://github.com/se2p/pynguin/tree/master/tests/analyses/module/test_inheritance.py,,test_build_class_information$81,ci_1 == ci_2 == ci_3,"
+(ci_1 == ci_2 and ci_2 == ci_3)
+",1,
+keras-bert,https://github.com/CyberZHG/keras-bert/tree/master/keras_bert/tokenizer.py,Tokenizer,_is_cjk_character$151,173824 <= code <= 177983,"
+(173824 <= code and code <= 177983)
+",1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/optimize/tests/test_quadratic_assignment.py,TestFAQ,test_options$173,11156 <= res.fun < 21000,"
+(11156 <= res.fun and res.fun < 21000)
+",,
+pandapower,https://github.com/e2nIEE/pandapower/tree/master/pandapower/auxiliary.py,,_check_bus_index_and_print_warning_if_high$611,max_bus >= n_max > len(net['bus']),"
+(max_bus >= n_max and n_max > len(net['bus']))
+",1,
+transform,https://github.com/tensorflow/transform/tree/master/tensorflow_transform/beam/impl_test.py,BeamImplTest,testProbUnknownBoundaries$2623,24 < i < 75,"
+(24 < i and i < 75)
+",1,
+texar,https://github.com/asyml/texar/tree/master/texar/tf/data/tokenizers/bert_tokenizer_utils.py,BasicTokenizer,_is_chinese_char$172,131072 <= cp <= 173791,"
+(131072 <= cp and cp <= 173791)
+",1,
+unknown-horizons,https://github.com/unknown-horizons/unknown-horizons/tree/master/horizons/world/units/weaponholder.py,WeaponHolder,attack_in_range$224,self._min_range <= distance <= self._max_range,"
+(self._min_range <= distance and distance <= self._max_range)
+",,
+mmgeneration,https://github.com/open-mmlab/mmgeneration/tree/master/apps/interpolate_sample.py,,sample_from_path$214,latent_a.ndim == latent_b.ndim == 2,"
+(latent_a.ndim == latent_b.ndim and latent_b.ndim == 2)
+",,
+torchbeast,https://github.com/facebookresearch/torchbeast/tree/master/tests/dynamic_batcher_test.py,DynamicBatcherTest,test_timeout$52,timeout_ms <= waiting_time_ms <= timeout_ms + timeout_ms / 10,"
+(timeout_ms <= waiting_time_ms and waiting_time_ms <= timeout_ms + timeout_ms / 10)
+",1,
+TauonMusicBox,https://github.com/Taiko2k/TauonMusicBox/tree/master/t_modules/t_webserve.py,,webserve$35,1 < position < chunker.master_count,"
+(1 < position and position < chunker.master_count)
+",1,
+PaddleGAN,https://github.com/PaddlePaddle/PaddleGAN/tree/master/ppgan/models/starganv2_model.py,,soft_update$101,0.0 <= beta <= 1.0,"
+(0.0 <= beta and beta <= 1.0)
+",1,
+PaddleDetection,https://github.com/PaddlePaddle/PaddleDetection/tree/master/ppdet/modeling/architectures/keypoint_hrnet.py,HRNetPostProcess,get_final_preds$219,1 < py < heatmap_height - 1,"
+(1 < py and py < heatmap_height - 1)
+",1,
+sktime-dl,https://github.com/sktime/sktime-dl/tree/master/sktime_dl/utils/layer_utils.py,AttentionLSTMCell,_generate_dropout_mask$297,0 < self.dropout < 1,"
+(0 < self.dropout and self.dropout < 1)
+",,
+ASRT_SpeechRecognition,https://github.com/nl8590687/ASRT_SpeechRecognition/tree/master/speech_features/speech_features.py,SpecAugment,run$170,60 < mode <= 75,"
+(60 < mode and mode <= 75)
+",1,
+pdftabextract,https://github.com/WZBSocialScienceCenter/pdftabextract/tree/master/pdftabextract/imgproc.py,ImageProc,split_image$104,0 <= ya2 <= img_h,"
+(0 <= ya2 and ya2 <= img_h)
+",1,
+checkmk,https://github.com/tribe29/checkmk/tree/master/cmk/utils/render.py,Age,__str__$60,0 < secs < 1,"
+(0 < secs and secs < 1)
+",1,
+xonsh,https://github.com/xonsh/xonsh/tree/master/xonsh/tools.py,,findfirst$152,#NAME?,"
+(-1 < pos and pos < i)
+",1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/sets/tests/test_fancysets.py,,test_Range_symbolic$347,inr[-1] == inr.inf == -ip + 1,"
+(inr[-1] == inr.inf and inr.inf == -ip + 1)
+",,
+optuna,https://github.com/optuna/optuna/tree/master/optuna/visualization/matplotlib/_contour.py,,_interpolate_zmap$345,0 <= y + dy < contour_plot_num,"
+(0 <= y + dy and y + dy < contour_plot_num)
+",,
+returns,https://github.com/dry-python/returns/tree/master/tests/test_context/test_requires_context_result/test_requires_context_result_cast.py,,test_requires_context_aliases$23,container(0) == container2(0) == container3(0) == container4(0),"
+(container(0) == container2(0) and container2(0) == container3(0) and container3(0) == container4(0))
+",,
+nlp_xiaojiang,https://github.com/yongzhuo/nlp_xiaojiang/tree/master/ChatBot/chatbot_search/chatbot_tfserving/TFServing_preprocess.py,Tokenizer,_is_cjk_character$343,178208 <= code <= 183983,"
+(178208 <= code and code <= 183983)
+",1,
+boofuzz,https://github.com/jtpereyda/boofuzz/tree/master/boofuzz/connections/raw_l3_socket_connection.py,RawL3SocketConnection,recv$54,0 < max_bytes < self.packet_size,"
+(0 < max_bytes and max_bytes < self.packet_size)
+",1,
+NostalgiaForInfinity,https://github.com/iterativv/NostalgiaForInfinity/tree/master//NostalgiaForInfinityX.py,NostalgiaForInfinityX,sell_over_main$3002,0.2 > current_profit >= 0.12,"
+(0.2 > current_profit and current_profit >= 0.12)
+",1,
+kombu,https://github.com/celery/kombu/tree/master/t/unit/test_connection.py,test_Connection,test_reuse_connection$157,conn.connect() is conn.connection is conn.connect(),"
+(conn.connect() is conn.connection and conn.connection is conn.connect())
+",,
+CudaText,https://github.com/Alexey-T/CudaText/tree/master/app/cudatext.app/Contents/Resources/py/sys/idna/core.py,,valid_contexto$182,1632 <= cp_value <= 1641,"
+(1632 <= cp_value and cp_value <= 1641)
+",1,
+hypothesis,https://github.com/HypothesisWorks/hypothesis/tree/master/hypothesis-python/tests/quality/test_shrink_quality.py,,test_list_with_wide_gap$282,max(x) > min(x) + 10 > 0,"
+(max(x) > min(x) + 10 and min(x) + 10 > 0)
+",,
+exabgp,https://github.com/Exa-Networks/exabgp/tree/master/src/exabgp/data/check.py,,label$246,"0 <= data < pow(2, 20)","
+(0 <= data and data < pow(2, 20))
+",1,
+PINCE,https://github.com/korcankaraokcu/PINCE/tree/master//PINCE.py,MemoryViewWindowForm,hex_dump_address$2826,self.hex_view_current_region.start <= int_address < self.hex_view_current_region.end,"
+(self.hex_view_current_region.start <= int_address and int_address < self.hex_view_current_region.end)
+",,
+thonny,https://github.com/thonny/thonny/tree/master/thonny/misc_utils.py,,levenshtein_damerau_distance$295,1 < rowNum <= colNum,"
+(1 < rowNum and rowNum <= colNum)
+",1,
+chainer,https://github.com/chainer/chainer/tree/master/tests/chainer_tests/utils_tests/test_conv_nd.py,TestIm2ColND,check_im2col_nd$44,0 <= ox < d,"
+(0 <= ox and ox < d)
+",1,
+electrum-personal-server,https://github.com/chris-belcher/electrum-personal-server/tree/master/electrumpersonalserver/server/socks.py,socksocket,connect$374,"type(destpair) in (list, tuple) == False","
+(type(destpair) in (list, tuple) and (list, tuple) == False)
+",1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/printing/tests/test_str.py,,test_tuple$685,"str((x,)) == sstr((x,)) == '(x,)'","
+(str((x,)) == sstr((x,)) and sstr((x,)) == '(x,)')
+",,
+differential-privacy-library,https://github.com/IBM/differential-privacy-library/tree/master/tests/tools/test_var.py,TestVar,test_clipped_output$59,"0 <= var(a, epsilon=0.001, bounds=(0, 1), random_state=rng) <= 1","
+(0 <= var(a, epsilon=0.001, bounds=(0, 1), random_state=rng) and var(a, epsilon=0.001, bounds=(0, 1), random_state=rng) <= 1)
+",,
+SublimeJEDI,https://github.com/srusskih/SublimeJEDI/tree/master/dependencies/jedi/api/helpers.py,,validate_line_column$463,0 < line <= len(self._code_lines),"
+(0 < line and line <= len(self._code_lines))
+",1,
+xlrd,https://github.com/python-excel/xlrd/tree/master/xlrd/book.py,Name,area2d$226,0 <= colxlo <= colxhi <= sh.ncols,"
+(0 <= colxlo and colxlo <= colxhi and colxhi <= sh.ncols)
+",1,
+CrossHair,https://github.com/pschanely/CrossHair/tree/master/crosshair/libimpl/datetimelib.py,time,__hash__$1354,0 <= h < 24,"
+(0 <= h and h < 24)
+",1,
+keepsake,https://github.com/replicate/keepsake/tree/master/python/keepsake/_vendor/yaml/scanner.py,Scanner,scan_tag_handle$1348,'0' <= ch <= '9',"
+('0' <= ch and ch <= '9')
+",1,
+furl,https://github.com/gruns/furl/tree/master/tests/test_furl.py,TestFurl,test_username_and_password$1308,f.username == f.password == '',"
+(f.username == f.password and f.password == '')
+",,
+nussl,https://github.com/nussl/nussl/tree/master/nussl/core/effects.py,,_compressor_argcheck$574,0.01 <= release <= 9000,"
+(0.01 <= release and release <= 9000)
+",1,
+CtCI-6th-Edition-Python,https://github.com/careercup/CtCI-6th-Edition-Python/tree/master/chapter_10/p03_search_in_rotated_array.py,,_recursive_search$39,array[start] <= num < array[middle],"
+(array[start] <= num and num < array[middle])
+",1,
+FedML,https://github.com/FedML-AI/FedML/tree/master/fedml_api/distributed/fedgkt/GKTServerTrainer.py,GKTServerTrainer,get_server_epoch_strategy2$170,100 <= round_idx < 150,"
+(100 <= round_idx and round_idx < 150)
+",1,
+stellargraph,https://github.com/stellargraph/stellargraph/tree/master/tests/data/test_unsupervised_sampler.py,,test_run_batch_sizes$49,len(ids) == len(labels) == batch_size,"
+(len(ids) == len(labels) and len(labels) == batch_size)
+",,
+alfred-workflow,https://github.com/deanishe/alfred-workflow/tree/master/workflow/notify.py,,notify$175,title == text == '',"
+(title == text and text == '')
+",1,
+TauonMusicBox,https://github.com/Taiko2k/TauonMusicBox/tree/master/t_modules/t_main.py,,del_selected$19653,0 < pctl.playlist_playing_position + 1 > item,"
+(0 < pctl.playlist_playing_position + 1 and pctl.playlist_playing_position + 1 > item)
+",,
+dask-ml,https://github.com/dask/dask-ml/tree/master/dask_ml/decomposition/incremental_pca.py,IncrementalPCA,partial_fit$223,1 <= self.n_components <= n_features,"
+(1 <= self.n_components and self.n_components <= n_features)
+",,
+numpy,https://github.com/numpy/numpy/tree/master/numpy/typing/tests/test_generic_alias.py,TestGenericAlias,test_getattr$152,value == value_ref1 == value_ref2,"
+(value == value_ref1 and value_ref1 == value_ref2)
+",1,
+pyroute2,https://github.com/svinota/pyroute2/tree/master/tests/pytest/test_ndb/test_sources.py,,test_disconnect_localhost$159,"0 < count_interfaces(context.ndb, 'localhost') < total_ifnum","
+(0 < count_interfaces(context.ndb, 'localhost') and count_interfaces(context.ndb, 'localhost') < total_ifnum)
+",,
+cogdl,https://github.com/THUDM/cogdl/tree/master/tests/tasks/test_node_classification.py,,test_dropedge_densegcn_cora$359,0 <= ret['test_acc'] <= 1,"
+(0 <= ret['test_acc'] and ret['test_acc'] <= 1)
+",,
+pymc,https://github.com/pymc-devs/pymc/tree/master/pymc/tests/test_sampling_jax.py,,test_transform_samples$19,8 < trace.posterior['a'].mean() < 11,"
+(8 < trace.posterior['a'].mean() and trace.posterior['a'].mean() < 11)
+",,
+fireplace,https://github.com/jleclanche/fireplace/tree/master/tests/test_wog.py,,test_forlorn_stalker$266,wisp.atk == wisp.health == 1,"
+(wisp.atk == wisp.health and wisp.health == 1)
+",,
+kornia,https://github.com/kornia/kornia/tree/master/kornia/geometry/epipolar/essential.py,,essential_from_fundamental$22,len(F_mat.shape[:-2]) == len(K1.shape[:-2]) == len(K2.shape[:-2]),"
+(len(F_mat.shape[:-2]) == len(K1.shape[:-2]) and len(K1.shape[:-2]) == len(K2.shape[:-2]))
+",,
+graph4nlp,https://github.com/graph4ai/graph4nlp/tree/master/graph4nlp/pytorch/modules/prediction/generation/decoder_strategy.py,DecoderStrategy,_beam_search$152,0 < topk <= beam_size,"
+(0 < topk and topk <= beam_size)
+",1,
+UnsupervisedMT,https://github.com/facebookresearch/UnsupervisedMT/tree/master/NMT/src/modules/multihead_attention.py,MultiheadAttention,forward$49,query.data_ptr() == key.data_ptr() == value.data_ptr(),"
+(query.data_ptr() == key.data_ptr() and key.data_ptr() == value.data_ptr())
+",,
+angr,https://github.com/angr/angr/tree/master/angr/knowledge_plugins/cfg/cfg_model.py,CFGModel,get_all_nodes$262,cfg_node.addr <= addr < cfg_node.addr + cfg_node.size,"
+(cfg_node.addr <= addr and addr < cfg_node.addr + cfg_node.size)
+",1,
+Efficient-Segmentation-Networks,https://github.com/xiaoyufenfei/Efficient-Segmentation-Networks/tree/master/utils/optim/AdamW.py,AdamW,__init__$25,0.0 <= betas[1] < 1.0,"
+(0.0 <= betas[1] and betas[1] < 1.0)
+",,
+lingvo,https://github.com/tensorflow/lingvo/tree/master/lingvo/core/layers.py,UniformLabelSmoother,__init__$4927,0.0 <= p.uncertainty < 1.0,"
+(0.0 <= p.uncertainty and p.uncertainty < 1.0)
+",,
+jax,https://github.com/google/jax/tree/master/docs/autodidax.py,,split_list$1114,0 <= n <= len(lst),"
+(0 <= n and n <= len(lst))
+",1,
+fast-reid,https://github.com/JDAI-CV/fast-reid/tree/master/fastreid/data/datasets/market1501.py,Market1501,process_dir$72,1 <= camid <= 6,"
+(1 <= camid and camid <= 6)
+",1,
+codechecker,https://github.com/Ericsson/codechecker/tree/master/analyzer/codechecker_analyzer/analyzer.py,,__get_statistics_data$117,1 > args.stats_relevance_threshold > 0,"
+(1 > args.stats_relevance_threshold and args.stats_relevance_threshold > 0)
+",,
+textual,https://github.com/willmcgugan/textual/tree/master/src/textual/geometry.py,Region,contains_point$603,x2 > ox >= x1,"
+(x2 > ox and ox >= x1)
+",1,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/relay/op/contrib/ethosu.py,,check_dilation$150,dmin <= dilation[1] <= dmax,"
+(dmin <= dilation[1] and dilation[1] <= dmax)
+",,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/integrate/_ivp/tests/test_ivp.py,,test_events$341,7.3 < res.t_events[2][0] < 7.5,"
+(7.3 < res.t_events[2][0] and res.t_events[2][0] < 7.5)
+",,
+katrain,https://github.com/sanderland/katrain/tree/master/katrain/core/sgf_parser.py,SGFNode,_expanded_placements$250,0 <= x < board_size[0],"
+(0 <= x and x < board_size[0])
+",1,
+gluon-nlp,https://github.com/dmlc/gluon-nlp/tree/master/tests/test_data_sampler.py,,test_bounded_budget_sampler$142,len(set(total_sampled_ids)) == len(total_sampled_ids) == N,"
+(len(set(total_sampled_ids)) == len(total_sampled_ids) and len(total_sampled_ids) == N)
+",,
+Ciphey,https://github.com/Ciphey/Ciphey/tree/master/ciphey/__main__.py,,if_main_my$10,sys.maxsize > 2 ** 32 is False,"
+(sys.maxsize > 2 ** 32 and 2 ** 32 is False)
+",,
+gluon-cv,https://github.com/dmlc/gluon-cv/tree/master/scripts/gan/stylegan/model.py,Generator,hybrid_forward$39,mixing_range[0] <= i <= mixing_range[1],"
+(mixing_range[0] <= i and i <= mixing_range[1])
+",1,
+gmaps,https://github.com/pbugnion/gmaps/tree/master/gmaps/tests/test_bounds.py,LatitudeBounds,test_latitude_bounds$22,5.0 < lower < 15.0,"
+(5.0 < lower and lower < 15.0)
+",1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/interpolate/tests/test_interpolate.py,,_ppoly2d_eval$2274,xs[1][0] <= y <= xs[1][-1],"
+(xs[1][0] <= y and y <= xs[1][-1])
+",,
+XLM,https://github.com/facebookresearch/XLM/tree/master/xlm/trainer.py,Trainer,mask_out$423,0 <= x.min() <= x.max() < params.n_words,"
+(0 <= x.min() and x.min() <= x.max() and x.max() < params.n_words)
+",,
+networkx,https://github.com/networkx/networkx/tree/master/networkx/generators/tests/test_expanders.py,,test_margulis_gabber_galil_graph$15,0 <= i < n,"
+(0 <= i and i < n)
+",1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/stats/tests/test_distributions.py,TestTruncnorm,test_gh_2477_large_values$804,low < x.min() < x.max() < high,"
+(low < x.min() and x.min() < x.max() and x.max() < high)
+",,
+tahoe-lafs,https://github.com/tahoe-lafs/tahoe-lafs/tree/master/src/allmydata/util/spans.py,DataSpans,get$283,s_start <= start < s_end,"
+(s_start <= start and start < s_end)
+",1,
+tianshou,https://github.com/thu-ml/tianshou/tree/master/test/base/test_buffer.py,,test_segtree$465,naive[:index].sum() <= scalar <= naive[:index + 1].sum(),"
+(naive[:index].sum() <= scalar and scalar <= naive[:index + 1].sum())
+",,
+mars,https://github.com/mars-project/mars/tree/master/mars/utils.py,,readable_size$168,1024 <= size < 1024 ** 2,"
+(1024 <= size and size < 1024 ** 2)
+",1,
+PolarMask,https://github.com/xieenze/PolarMask/tree/master/mmdet/models/mask_heads/grid_head.py,GridHead,forward$153,x.shape[-1] == x.shape[-2] == self.roi_feat_size,"
+(x.shape[-1] == x.shape[-2] and x.shape[-2] == self.roi_feat_size)
+",,
+PixelLib,https://github.com/ayoolaolafenwa/PixelLib/tree/master/pixellib/torchbackend/instance/evaluation/coco_evaluation.py,,_evaluate_predictions_on_coco$537,num_keypoints_oks == num_keypoints_dt == num_keypoints_gt,"
+(num_keypoints_oks == num_keypoints_dt and num_keypoints_dt == num_keypoints_gt)
+",1,
+mindsdb,https://github.com/mindsdb/mindsdb/tree/master/mindsdb/api/mysql/mysql_proxy/classes/sql_query.py,SQLQuery,_make_list_result_view$1756,table_name in row is False,"
+(table_name in row and row is False)
+",1,
+pychess,https://github.com/pychess/pychess/tree/master/lib/pychess/ic/managers/ChatManager.py,ChatManager,entityEncode$336,32 <= ord(char) <= 127,"
+(32 <= ord(char) and ord(char) <= 127)
+",,
+river,https://github.com/online-ml/river/tree/master/river/metrics/mutual_info.py,NormalizedMutualInfo,get$195,n_classes == n_clusters == 1,"
+(n_classes == n_clusters and n_clusters == 1)
+",1,
+Source-Code-from-Tutorials,https://github.com/buckyroberts/Source-Code-from-Tutorials/tree/master/Pygame/53_PythonGameDevelopment.py,,button$106,x + width > cur[0] > x,"
+(x + width > cur[0] and cur[0] > x)
+",,
+jesse,https://github.com/jesse-ai/jesse/tree/master/jesse/services/candle.py,,split_candle$64,l < price < c,"
+(l < price and price < c)
+",1,
+,,,,,,195,0.513157895

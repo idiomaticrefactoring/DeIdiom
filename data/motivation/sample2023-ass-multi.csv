@@ -1,0 +1,1558 @@
+repo_name,file_html,cl,me,simple_code,cmplete_code,count_tmp,count_targets,count_star_total,count_tmp_func,
+transformers,https://github.com/huggingface/transformers/tree/master/examples/research_projects/jax-projects/model_parallel/run_clm_mp.py,,main$229,"(updates, new_opt_state) = optimizer.update(grads, opt_state, params)","tmp_fun_0 = optimizer.update(grads, opt_state, params)
+updates = tmp_fun_0[0]
+new_opt_state = tmp_fun_0[1]
+",0,0,0,1,
+detectron2,https://github.com/facebookresearch/detectron2/tree/master/projects/DensePose/densepose/evaluation/densepose_coco_evaluation.py,DensePoseCocoEval,computeOgps_single_pair$617,"(ipoints, upoints, vpoints) = self.extract_iuv_from_raw(record, gt, py, px, pt_mask)","tmp_fun_0 = self.extract_iuv_from_raw(record, gt, py, px, pt_mask)
+ipoints = tmp_fun_0[0]
+upoints = tmp_fun_0[1]
+vpoints = tmp_fun_0[2]
+",0,0,0,1,
+baserow,https://github.com/bram2w/baserow/tree/master/backend/tests/baserow/contrib/database/api/views/grid/test_grid_view_views.py,,test_patch_grid_view_field_options$1342,"(user, token) = data_fixture.create_user_and_token(email='test@test.nl', password='password', first_name='Test1')","tmp_fun_0 = data_fixture.create_user_and_token(email='test@test.nl', password='password', first_name='Test1')
+user = tmp_fun_0[0]
+token = tmp_fun_0[1]
+",0,0,0,1,
+edx-platform,https://github.com/edx/edx-platform/tree/master/lms/djangoapps/program_enrollments/rest_api/v1/tests/test_views.py,ProgramCourseEnrollmentOverviewGetTests,test_absolute_resume_url_stays_absolute$1844,"(response_status_code, response_course_runs) = self.get_status_and_course_runs()","tmp_fun_0 = self.get_status_and_course_runs()
+response_status_code = tmp_fun_0[0]
+response_course_runs = tmp_fun_0[1]
+",0,0,0,1,
+blam,https://github.com/stuffmatic/blam/tree/master/src/blam.py,,solveCubic$374,"(r, w) = polar(u.real, u.imag)","tmp_fun_0 = polar(u.real, u.imag)
+r = tmp_fun_0[0]
+w = tmp_fun_0[1]
+",0,0,0,1,
+esim-response-selection,https://github.com/alibaba/esim-response-selection/tree/master/scripts/esim/main.py,,predict_accuracy$400,"(batch_x1, batch_x1_mask, batch_x2, batch_x2_mask, batch_y) = prepare_data(instance)","tmp_fun_0 = prepare_data(instance)
+batch_x1 = tmp_fun_0[0]
+batch_x1_mask = tmp_fun_0[1]
+batch_x2 = tmp_fun_0[2]
+batch_x2_mask = tmp_fun_0[3]
+batch_y = tmp_fun_0[4]
+",0,0,0,1,
+PyOne,https://github.com/abbeyokgo/PyOne/tree/master/app/admin/offdownload.py,,off_download$14,"(p, status) = get_aria2()","tmp_fun_0 = get_aria2()
+p = tmp_fun_0[0]
+status = tmp_fun_0[1]
+",0,0,0,1,
+pyqtgraph,https://github.com/pyqtgraph/pyqtgraph/tree/master/tests/test_makeARGB.py,,test_makeARGB_with_human_readable_code$4349,"(im2, alpha) = _makeARGB(im1, lut=lut, levels=(512, 2 ** 16 - 256))","tmp_fun_0 = _makeARGB(im1, lut=lut, levels=(512, 2 ** 16 - 256))
+im2 = tmp_fun_0[0]
+alpha = tmp_fun_0[1]
+",0,0,0,1,
+great_expectations,https://github.com/great-expectations/great_expectations/tree/master/great_expectations/expectations/metrics/table_metrics/table_head.py,TableHead,_pandas$27,"(df, _, _) = execution_engine.get_compute_domain(metric_domain_kwargs, domain_type=MetricDomainTypes.TABLE)","tmp_fun_0 = execution_engine.get_compute_domain(metric_domain_kwargs, domain_type=MetricDomainTypes.TABLE)
+df = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+_ = tmp_fun_0[2]
+",0,0,0,1,
+sentry,https://github.com/getsentry/sentry/tree/master/tests/sentry/api/endpoints/test_relay_projectids.py,RelayProjectIdsEndpointTest,setUp$39,"(sk, pk) = generate_key_pair()","tmp_fun_0 = generate_key_pair()
+sk = tmp_fun_0[0]
+pk = tmp_fun_0[1]
+",0,0,0,1,
+keras-rcnn,https://github.com/broadinstitute/keras-rcnn/tree/master/tests/layers/object_detection/test_anchor.py,TestAnchor,test_label$26,"(argmax_overlaps_inds, anchor_labels) = anchor_layer._label(gt_boxes, all_inside_anchors, inds_inside)","tmp_fun_0 = anchor_layer._label(gt_boxes, all_inside_anchors, inds_inside)
+argmax_overlaps_inds = tmp_fun_0[0]
+anchor_labels = tmp_fun_0[1]
+",0,0,0,1,
+swift,https://github.com/openstack/swift/tree/master/test/unit/common/middleware/s3api/test_s3_acl.py,TestS3ApiS3Acl,test_canned_acl_private$204,"(status, headers, body) = self.call_s3api(req)","tmp_fun_0 = self.call_s3api(req)
+status = tmp_fun_0[0]
+headers = tmp_fun_0[1]
+body = tmp_fun_0[2]
+",0,0,0,1,
+deepvariant,https://github.com/google/deepvariant/tree/master/deepvariant/modeling.py,DeepVariantSmallModel,_create$1542,"(_, endpoints) = inception_v3.inception_v3(images, num_classes, create_aux_logits=False, is_training=is_training)","tmp_fun_0 = inception_v3.inception_v3(images, num_classes, create_aux_logits=False, is_training=is_training)
+_ = tmp_fun_0[0]
+endpoints = tmp_fun_0[1]
+",0,0,0,1,
+holoviews,https://github.com/holoviz/holoviews/tree/master/holoviews/tests/core/test_collation.py,TestCollation,setUp$13,"(alphas, betas, deltas) = (2, 2, 2)","alphas = 2
+betas = 2
+deltas = 2
+",0,0,0,0,
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/tests/test_axes.py,,test_stem_args$4058,"(x, y) = map(list, stem_container.markerline.get_data())","tmp_fun_0 = map(list, stem_container.markerline.get_data())
+x = tmp_fun_0[0]
+y = tmp_fun_0[1]
+",0,0,0,1,
+ReID-Survey,https://github.com/mangye16/ReID-Survey/tree/master/data/datasets/msmt17.py,MSMT17,__init__$26,"(self.num_train_pids, self.num_train_imgs, self.num_train_cams) = self.get_imagedata_info(self.train)","tmp_fun_0 = self.get_imagedata_info(self.train)
+self.num_train_pids = tmp_fun_0[0]
+self.num_train_imgs = tmp_fun_0[1]
+self.num_train_cams = tmp_fun_0[2]
+",0,0,0,1,
+syncplay,https://github.com/Syncplay/syncplay/tree/master/syncplay/protocols.py,SyncClientProtocol,handleState$263,"(messageAge, latencyCalculation) = self._handleStatePing(state)","tmp_fun_0 = self._handleStatePing(state)
+messageAge = tmp_fun_0[0]
+latencyCalculation = tmp_fun_0[1]
+",0,0,0,1,
+ml4a,https://github.com/ml4a/ml4a/tree/master/ml4a/dataset/processing.py,,simplify$106,"(w, h) = (img.width, img.height)","w = img.width
+h = img.height
+",0,0,0,0,
+joinmarket-clientserver,https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/jmclient/jmclient/maker.py,Maker,on_tx_received$127,"(goodtx, errmsg) = self.verify_unsigned_tx(tx, offerinfo)","tmp_fun_0 = self.verify_unsigned_tx(tx, offerinfo)
+goodtx = tmp_fun_0[0]
+errmsg = tmp_fun_0[1]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/topi/arm_cpu/conv2d_spatial_pack.py,,schedule_conv2d_spatial_pack_nchw$188,"(co, _, _, _, _) = s[kernel_vec].op.axis","co = s[kernel_vec].op.axis[0]
+_ = s[kernel_vec].op.axis[1]
+_ = s[kernel_vec].op.axis[2]
+_ = s[kernel_vec].op.axis[3]
+_ = s[kernel_vec].op.axis[4]
+",0,0,0,0,
+datashader,https://github.com/holoviz/datashader/tree/master/datashader/glyphs/line.py,,extend_cuda$1254,"(i, j) = cuda.grid(2)","tmp_fun_0 = cuda.grid(2)
+i = tmp_fun_0[0]
+j = tmp_fun_0[1]
+",0,0,0,1,
+rlpyt,https://github.com/astooke/rlpyt/tree/master/rlpyt/models/dqn/atari_catdqn_model.py,AtariCatDqnModel,__init__$28,"(c, h, w) = image_shape","c = image_shape[0]
+h = image_shape[1]
+w = image_shape[2]
+",0,0,0,0,
+azure-cli,https://github.com/Azure/azure-cli/tree/master/src/azure-cli/azure/cli/command_modules/acs/tests/latest/test_aks_commands.py,AzureKubernetesServiceScenarioTest,test_aks_create_default_setting$1203,"(fd, temp_path) = tempfile.mkstemp()","tmp_fun_0 = tempfile.mkstemp()
+fd = tmp_fun_0[0]
+temp_path = tmp_fun_0[1]
+",0,0,0,1,
+gpt-neox,https://github.com/EleutherAI/gpt-neox/tree/master/megatron/data/indexed_dataset.py,MMapIndexedDataset,__getitem__$486,"(ptr, size) = self._index[idx]","ptr = self._index[idx][0]
+size = self._index[idx][1]
+",0,0,0,0,
+osxphotos,https://github.com/RhetTbull/osxphotos/tree/master/tests/test_cli.py,,test_export_jpeg_ext_edited_movie$6447,"(filename, ext) = fileinfo","filename = fileinfo[0]
+ext = fileinfo[1]
+",0,0,0,0,
+hydrus,https://github.com/hydrusnetwork/hydrus/tree/master/hydrus/client/db/ClientDB.py,DB,_CacheCombinedFilesDisplayMappingsDeleteImplications$654,"(current_delta, pending_delta) = self._GetWithAndWithoutTagsFileCountCombined(tag_service_id, implication_tag_ids, remaining_implication_tag_ids)","tmp_fun_0 = self._GetWithAndWithoutTagsFileCountCombined(tag_service_id, implication_tag_ids, remaining_implication_tag_ids)
+current_delta = tmp_fun_0[0]
+pending_delta = tmp_fun_0[1]
+",0,0,0,1,
+dask,https://github.com/dask/dask/tree/master/dask/array/tests/test_creation.py,,test_meshgrid_inputcoercion$393,"(x, y) = np.meshgrid(a, b, indexing='ij')","tmp_fun_0 = np.meshgrid(a, b, indexing='ij')
+x = tmp_fun_0[0]
+y = tmp_fun_0[1]
+",0,0,0,1,
+buildbot,https://github.com/buildbot/buildbot/tree/master/master/buildbot/test/unit/steps/test_transfer.py,TestFileDownload,setUp$820,"(fd, self.destfile) = tempfile.mkstemp()","tmp_fun_0 = tempfile.mkstemp()
+fd = tmp_fun_0[0]
+self.destfile = tmp_fun_0[1]
+",0,0,0,1,
+dionaea,https://github.com/DinoTools/dionaea/tree/master/modules/python/dionaea/smb/include/asn1fields.py,ASN1F_enum_INTEGER,__init__$143,"(i2s, s2i) = (s2i, i2s)","tmp0 = i2s
+i2s = s2i
+s2i = tmp0
+",1,0,0,0,
+DSView,https://github.com/DreamSourceLab/DSView/tree/master/libsigrokdecode4DSL/decoders/ds243x/pd.py,Decoder,decode$97,"(self.ss, self.es) = (ss, es)","self.ss = ss
+self.es = es
+",0,0,0,0,
+nilearn,https://github.com/nilearn/nilearn/tree/master/nilearn/glm/tests/test_model.py,,test_conf_int$134,"(lower_, upper_) = RESULTS.conf_int()","tmp_fun_0 = RESULTS.conf_int()
+lower_ = tmp_fun_0[0]
+upper_ = tmp_fun_0[1]
+",0,0,0,1,
+ALAE,https://github.com/podgorskiy/ALAE/tree/master/make_figures/make_recon_figure_interpolation.py,,encode$106,"(Z, _) = model.encode(x, layer_count - 1, 1)","tmp_fun_0 = model.encode(x, layer_count - 1, 1)
+Z = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+checkmk,https://github.com/tribe29/checkmk/tree/master/cmk/base/plugins/agent_based/utils/ps.py,,format_value$236,"(value, unit) = pvalue","value = pvalue[0]
+unit = pvalue[1]
+",0,0,0,0,
+lingvo,https://github.com/tensorflow/lingvo/tree/master/lingvo/core/attention_test.py,AttentionTest,testLocationSensitiveAttentionQuantized$1470,"(atten_vec_out2, prob_out2, atten_init_state_out2, atten_state_out2) = self._testLocationSensitiveAttentionSameBatchSizeHelper(False, True)","tmp_fun_0 = self._testLocationSensitiveAttentionSameBatchSizeHelper(False, True)
+atten_vec_out2 = tmp_fun_0[0]
+prob_out2 = tmp_fun_0[1]
+atten_init_state_out2 = tmp_fun_0[2]
+atten_state_out2 = tmp_fun_0[3]
+",0,0,0,1,
+rpaframework,https://github.com/robocorp/rpaframework/tree/master/packages/windows/src/RPA/Windows/keywords/action.py,ActionKeywords,_click_element_coordinates$81,"(offset_x, offset_y) = [int(v) for v in element.item.robocorp_click_offset.split(',')]","tmp_fun_0 = [int(v) for v in element.item.robocorp_click_offset.split(',')]
+offset_x = tmp_fun_0[0]
+offset_y = tmp_fun_0[1]
+",0,0,0,1,
+PaddleX,https://github.com/PaddlePaddle/PaddleX/tree/master/paddlex/ppdet/modeling/transformers/deformable_transformer.py,MSDeformableAttention,forward$93,"(bs, Len_q) = query.shape[:2]","bs = query.shape[:2][0]
+Len_q = query.shape[:2][1]
+",0,0,0,0,
+pychess,https://github.com/pychess/pychess/tree/master/lib/pychess/Savers/pgn.py,,parseTimeControlTag$106,"(moves, secs) = match.groups()","tmp_fun_0 = match.groups()
+moves = tmp_fun_0[0]
+secs = tmp_fun_0[1]
+",0,0,0,1,
+plaso,https://github.com/log2timeline/plaso/tree/master/plaso/parsers/sqlite_plugins/gdrive.py,GoogleDrivePlugin,GetCloudPath$204,"(parent_path, parent_id) = cloud_path.get(parent_id, ['', ''])","tmp_fun_0 = cloud_path.get(parent_id, ['', ''])
+parent_path = tmp_fun_0[0]
+parent_id = tmp_fun_0[1]
+",0,0,0,1,
+asteroid,https://github.com/asteroid-team/asteroid/tree/master/egs/demask/train.py,,if_main_my$132,"(arg_dic, plain_args) = parse_args_as_dict(parser, return_plain_args=True)","tmp_fun_0 = parse_args_as_dict(parser, return_plain_args=True)
+arg_dic = tmp_fun_0[0]
+plain_args = tmp_fun_0[1]
+",0,0,0,1,
+Ulauncher,https://github.com/Ulauncher/Ulauncher/tree/master/tests/ui/windows/test_HotkeyDialog.py,TestHotkeyDialog,test_on_key_press__valid_hotkey$36,"(key, mode) = Gtk.accelerator_parse(return_accel_name)","tmp_fun_0 = Gtk.accelerator_parse(return_accel_name)
+key = tmp_fun_0[0]
+mode = tmp_fun_0[1]
+",0,0,0,1,
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/annotation/reformat.py,,instantiate$301,"(name, tag) = nametag.split('|')","tmp_fun_0 = nametag.split('|')
+name = tmp_fun_0[0]
+tag = tmp_fun_0[1]
+",0,0,0,1,
+rows,https://github.com/turicas/rows/tree/master/rows/plugins/plugin_pdf.py,PDFMinerBackend,convert_object$251,"(x0, x1) = (obj.x0, obj.x1)","x0 = obj.x0
+x1 = obj.x1
+",0,0,0,0,
+trezor-firmware,https://github.com/trezor/trezor-firmware/tree/master/python/src/trezorlib/cardano.py,,parse_certificate$379,"(path, script_hash, key_hash) = _parse_credential(certificate, CERTIFICATE_MISSING_FIELDS_ERROR)","tmp_fun_0 = _parse_credential(certificate, CERTIFICATE_MISSING_FIELDS_ERROR)
+path = tmp_fun_0[0]
+script_hash = tmp_fun_0[1]
+key_hash = tmp_fun_0[2]
+",0,0,0,1,
+MLAlgorithms,https://github.com/rushter/MLAlgorithms/tree/master/examples/nnet_rnn_binary_add.py,,addition_problem$54,"(X_train, X_test, y_train, y_test) = addition_dataset(8, 5000)","tmp_fun_0 = addition_dataset(8, 5000)
+X_train = tmp_fun_0[0]
+X_test = tmp_fun_0[1]
+y_train = tmp_fun_0[2]
+y_test = tmp_fun_0[3]
+",0,0,0,1,
+ldap3,https://github.com/cannatag/ldap3/tree/master/test/testMockSyncStrategy.py,Test,test_search_presence_and_filter_3$1101,"(response, result) = self.connection_3.get_response(result)","tmp_fun_0 = self.connection_3.get_response(result)
+response = tmp_fun_0[0]
+result = tmp_fun_0[1]
+",0,0,0,1,
+i3pystatus,https://github.com/enkore/i3pystatus/tree/master/tests/test_shell.py,ShellModuleMetaTest,test_shell_correct_output$15,"(retcode, out, err) = run_through_shell(""echo '%s'"" % self.valid_output, enable_shell=True)","tmp_fun_0 = run_through_shell(""echo '%s'"" % self.valid_output, enable_shell=True)
+retcode = tmp_fun_0[0]
+out = tmp_fun_0[1]
+err = tmp_fun_0[2]
+",0,0,0,1,
+detectron2,https://github.com/facebookresearch/detectron2/tree/master/detectron2/export/shared.py,,fuse_copy_between_cpu_and_gpu$952,"(next_op_id, inp_id) = consumer_map[rs_copy_versioned_output][0]","next_op_id = consumer_map[rs_copy_versioned_output][0][0]
+inp_id = consumer_map[rs_copy_versioned_output][0][1]
+",0,0,0,0,
+YAD2K,https://github.com/allanzelener/YAD2K/tree/master/voc_conversion_scripts/voc_to_tfrecords.py,,process_dataset$149,"(image_data, height, width) = process_image(image_file)","tmp_fun_0 = process_image(image_file)
+image_data = tmp_fun_0[0]
+height = tmp_fun_0[1]
+width = tmp_fun_0[2]
+",0,0,0,1,
+CrossHair,https://github.com/pschanely/CrossHair/tree/master/crosshair/libimpl/datetimelib.py,,_format_offset$189,"(mm, ss) = divmod(mm, timedelta(minutes=1))","tmp_fun_0 = divmod(mm, timedelta(minutes=1))
+mm = tmp_fun_0[0]
+ss = tmp_fun_0[1]
+",0,0,0,1,
+ansible-modules-core,https://github.com/ansible/ansible-modules-core/tree/master/cloud/amazon/ec2_group.py,,make_rule_key$144,"(proto, from_port, to_port) = [rule.get(x, None) for x in ('proto', 'from_port', 'to_port')]","tmp_fun_0 = [rule.get(x, None) for x in ('proto', 'from_port', 'to_port')]
+proto = tmp_fun_0[0]
+from_port = tmp_fun_0[1]
+to_port = tmp_fun_0[2]
+",0,0,0,1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/signal/tests/test_filter_design.py,TestGammatone,test_iir_symmetry$4067,"(b, a) = gammatone(440, 'iir', fs=24000)","tmp_fun_0 = gammatone(440, 'iir', fs=24000)
+b = tmp_fun_0[0]
+a = tmp_fun_0[1]
+",0,0,0,1,
+numpy,https://github.com/numpy/numpy/tree/master/numpy/lib/tests/test_histograms.py,TestHistogram,test_one_bin$32,"(h, e) = histogram([1, 2], bins=1)","tmp_fun_0 = histogram([1, 2], bins=1)
+h = tmp_fun_0[0]
+e = tmp_fun_0[1]
+",0,0,0,1,
+sparrow,https://github.com/wylok/sparrow/tree/master/operation/assets_manage.py,,assets_manage$22,"(ip, ssh_port) = info.split(':')","tmp_fun_0 = info.split(':')
+ip = tmp_fun_0[0]
+ssh_port = tmp_fun_0[1]
+",0,0,0,1,
+rpaframework,https://github.com/robocorp/rpaframework/tree/master/packages/main/src/RPA/Tables.py,,uniq$91,"(seen, result) = ({}, [])","seen = {}
+result = []
+",0,0,0,0,
+pandas,https://github.com/pandas-dev/pandas/tree/master/pandas/tests/frame/methods/test_sample.py,TestSample,test_sample$23,"(os1, os2) = ([], [])","os1 = []
+os2 = []
+",0,0,0,0,
+DeepPavlov,https://github.com/deepmipt/DeepPavlov/tree/master/deeppavlov/models/ner/network.py,NerNetwork,train_on_batch$315,"(*xs, y) = args","xs = args[0:-1]
+y = args[1]
+",0,0,1,0,
+fastformers,https://github.com/microsoft/fastformers/tree/master/src/transformers/modeling_bart.py,BartForQuestionAnswering,forward$1155,"(start_logits, end_logits) = logits.split(1, dim=-1)","tmp_fun_0 = logits.split(1, dim=-1)
+start_logits = tmp_fun_0[0]
+end_logits = tmp_fun_0[1]
+",0,0,0,1,
+cement,https://github.com/datafolklabs/cement/tree/master/scripts/devtools.py,CementDevtoolsController,_do_git$40,"(out, err, res) = shell.exec_cmd(['git', 'status'])","tmp_fun_0 = shell.exec_cmd(['git', 'status'])
+out = tmp_fun_0[0]
+err = tmp_fun_0[1]
+res = tmp_fun_0[2]
+",0,0,0,1,
+GitSavvy,https://github.com/timbrel/GitSavvy/tree/master/core/commands/log_graph_rebase_actions.py,gs_rebase_action,run$143,"(description, action) = actions[index]","description = actions[index][0]
+action = actions[index][1]
+",0,0,0,0,
+deocclusion,https://github.com/XiaohangZhan/deocclusion/tree/master/models/partial_completion_content.py,PartialCompletionContent,step$76,"(output, _) = self.model(self.rgb, self.visible_mask3)","tmp_fun_0 = self.model(self.rgb, self.visible_mask3)
+output = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+pycorrector,https://github.com/shibing624/pycorrector/tree/master/pycorrector/__main__.py,,main$14,"(corrected_sent, info) = pycorrector.correct(line)","tmp_fun_0 = pycorrector.correct(line)
+corrected_sent = tmp_fun_0[0]
+info = tmp_fun_0[1]
+",0,0,0,1,
+doit,https://github.com/pydoit/doit/tree/master/tests/test_cmdparse.py,TestCommand,test_getOption$262,"(opt, is_inverse) = cmd.get_option('--achoice')","tmp_fun_0 = cmd.get_option('--achoice')
+opt = tmp_fun_0[0]
+is_inverse = tmp_fun_0[1]
+",0,0,0,1,
+pygorithm,https://github.com/OmkarPathak/pygorithm/tree/master/tests/test_geometry.py,TestExtrapolatedIntersection,test_line_line_no_intr$1608,"(intr, dist, msg) = fn(((1, 4), (1, 3)), (1, 0), ((1, 1), (3, 2)))","tmp_fun_0 = fn(((1, 4), (1, 3)), (1, 0), ((1, 1), (3, 2)))
+intr = tmp_fun_0[0]
+dist = tmp_fun_0[1]
+msg = tmp_fun_0[2]
+",0,0,0,1,
+angr,https://github.com/angr/angr/tree/master/angr/engines/vex/claripy/ccall.py,,x86g_calculate_RCR$1078,"(carry_bit_out, overflow_bit_out, arg_out) = generic_rotate_with_carry(state, False, arg, rot_amt, carry_bit_in, sz)","tmp_fun_0 = generic_rotate_with_carry(state, False, arg, rot_amt, carry_bit_in, sz)
+carry_bit_out = tmp_fun_0[0]
+overflow_bit_out = tmp_fun_0[1]
+arg_out = tmp_fun_0[2]
+",0,0,0,1,
+AI-System,https://github.com/microsoft/AI-System/tree/master/Labs/AdvancedLabs/Lab8/hpo/main.py,,cutout_fn$44,"(h, w) = (img.size(1), img.size(2))","h = img.size(1)
+w = img.size(2)
+",0,0,0,0,
+angr,https://github.com/angr/angr/tree/master/angr/engines/light/engine.py,SimEngineLightVEXMixin,_handle_CmpEQ_v$706,"(_, _) = self._binop_get_args(expr)","tmp_fun_0 = self._binop_get_args(expr)
+_ = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+circus,https://github.com/circus-tent/circus/tree/master/circus/tests/test_pidfile.py,TestPidfile,test_pidfile$11,"(fd, path) = tempfile.mkstemp()","tmp_fun_0 = tempfile.mkstemp()
+fd = tmp_fun_0[0]
+path = tmp_fun_0[1]
+",0,0,0,1,
+Merlion,https://github.com/salesforce/Merlion/tree/master/tests/forecast/test_smoother.py,TestMSES,test_full$95,"(model, imodel) = (MSES(config), MSES(config))","model = MSES(config)
+imodel = MSES(config)
+",0,0,0,0,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/tensor/tests/test_tensor.py,,test_valued_components_with_wrong_symmetry$1569,"(i0, i1, i2, i3) = tensor_indices('i0:4', IT)","tmp_fun_0 = tensor_indices('i0:4', IT)
+i0 = tmp_fun_0[0]
+i1 = tmp_fun_0[1]
+i2 = tmp_fun_0[2]
+i3 = tmp_fun_0[3]
+",0,0,0,1,
+aiohttp,https://github.com/aio-libs/aiohttp/tree/master/aiohttp/helpers.py,BasicAuth,decode$148,"(username, password) = decoded.split(':', 1)","tmp_fun_0 = decoded.split(':', 1)
+username = tmp_fun_0[0]
+password = tmp_fun_0[1]
+",0,0,0,1,
+CellProfiler,https://github.com/CellProfiler/CellProfiler/tree/master/cellprofiler/modules/flipandrotate.py,FlipAndRotate,run$231,"(i, j) = numpy.mgrid[pixel_data.shape[0] - 1:-1:-1, 0:pixel_data.shape[1]]","i = numpy.mgrid[pixel_data.shape[0] - 1:-1:-1, 0:pixel_data.shape[1]][0]
+j = numpy.mgrid[pixel_data.shape[0] - 1:-1:-1, 0:pixel_data.shape[1]][1]
+",0,0,0,0,
+formspree,https://github.com/formspree/formspree/tree/master/tests/test_archive_submissions.py,,test_automatically_created_forms$9,"(newest, last) = secondform.submissions.all()","tmp_fun_0 = secondform.submissions.all()
+newest = tmp_fun_0[0]
+last = tmp_fun_0[1]
+",0,0,0,1,
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/tests/unittests/test_conv3d_op.py,,conv3d_forward_naive$25,"(in_n, in_c, in_d, in_h, in_w) = input.shape","in_n = input.shape[0]
+in_c = input.shape[1]
+in_d = input.shape[2]
+in_h = input.shape[3]
+in_w = input.shape[4]
+",0,0,0,0,
+feincms,https://github.com/feincms/feincms/tree/master/feincms/module/medialibrary/fields.py,MediaFileForeignKeyRawIdWidget,label_and_url_for_value$25,"(label, url) = super().label_and_url_for_value(value)","tmp_fun_0 = super().label_and_url_for_value(value)
+label = tmp_fun_0[0]
+url = tmp_fun_0[1]
+",0,0,0,1,
+raveberry,https://github.com/raveberry/raveberry/tree/master/core/musiq/song_utils.py,,format_seconds$66,"(hours, seconds) = (seconds // 3600, seconds % 3600)","hours = seconds // 3600
+seconds = seconds % 3600
+",0,0,0,0,
+uncertainty-baselines,https://github.com/google/uncertainty-baselines/tree/master/uncertainty_baselines/models/wide_resnet_hyperbatchensemble.py,,wide_resnet_hyperbatchensemble$198,"(data, lambdas, block_e_list) = inputs","data = inputs[0]
+lambdas = inputs[1]
+block_e_list = inputs[2]
+",0,0,0,0,
+scenic,https://github.com/google-research/scenic/tree/master/scenic/train_lib/train_utils.py,,initialize_multitask_model$337,"(init_params, init_model_state) = _initialize_model(rngs)","tmp_fun_0 = _initialize_model(rngs)
+init_params = tmp_fun_0[0]
+init_model_state = tmp_fun_0[1]
+",0,0,0,1,
+numpy,https://github.com/numpy/numpy/tree/master/numpy/lib/_iotools.py,StringConverter,__init__$597,"(self._status, (_, func, default_def)) = self._find_map_entry(dtype)","tmp_fun_0 = self._find_map_entry(dtype)
+self._status = tmp_fun_0[0]
+_ = tmp_fun_0[1][0]
+func = tmp_fun_0[1][1]
+default_def = tmp_fun_0[1][2]
+",0,0,0,1,
+music_source_separation,https://github.com/bytedance/music_source_separation/tree/master/bytesep/models/pytorch_modules.py,Subband,synthesis$174,"(batch_size, subband_channels_num, time_steps, subband_freq_bins) = x.shape","batch_size = x.shape[0]
+subband_channels_num = x.shape[1]
+time_steps = x.shape[2]
+subband_freq_bins = x.shape[3]
+",0,0,0,0,
+gluon-nlp,https://github.com/dmlc/gluon-nlp/tree/master/tests/test_models_gpt2.py,,test_gpt2_small_config$19,"(hiddens, _) = gpt2_model(inputs, gpt2_model.init_states(batch_size, ctx))","tmp_fun_0 = gpt2_model(inputs, gpt2_model.init_states(batch_size, ctx))
+hiddens = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+textual,https://github.com/willmcgugan/textual/tree/master/src/textual/geometry.py,Region,shrink$704,"(x, y, width, height) = self","x = self[0]
+y = self[1]
+width = self[2]
+height = self[3]
+",0,0,0,0,
+cats-blender-plugin,https://github.com/absolute-quantum/cats-blender-plugin/tree/master/extern_tools/mmd_tools_local/core/material.py,_FnMaterialCycles,update_sphere_texture_type$441,"(nodes, links) = (mat.node_tree.nodes, mat.node_tree.links)","nodes = mat.node_tree.nodes
+links = mat.node_tree.links
+",0,0,0,0,
+aioredis-py,https://github.com/aio-libs/aioredis-py/tree/master/aioredis/client.py,,parse_scan$448,"(cursor, r) = response","cursor = response[0]
+r = response[1]
+",0,0,0,0,
+magenta,https://github.com/magenta/magenta/tree/master/magenta/contrib/seq2seq.py,,body$409,"(next_outputs, decoder_state, next_inputs, decoder_finished) = decoder.step(time, inputs, state)","tmp_fun_0 = decoder.step(time, inputs, state)
+next_outputs = tmp_fun_0[0]
+decoder_state = tmp_fun_0[1]
+next_inputs = tmp_fun_0[2]
+decoder_finished = tmp_fun_0[3]
+",0,0,0,1,
+PaddleDetection,https://github.com/PaddlePaddle/PaddleDetection/tree/master/ppdet/modeling/backbones/lite_hrnet.py,Stem,forward$473,"(x1, x2) = x.chunk(2, axis=1)","tmp_fun_0 = x.chunk(2, axis=1)
+x1 = tmp_fun_0[0]
+x2 = tmp_fun_0[1]
+",0,0,0,1,
+neural-mmo,https://github.com/openai/neural-mmo/tree/master/forge/blade/systems/ai.py,,l1$79,"(r2, c2) = pos2","r2 = pos2[0]
+c2 = pos2[1]
+",0,0,0,0,
+Gerapy,https://github.com/Gerapy/Gerapy/tree/master/gerapy/downloadermiddlewares/pyppeteer.py,PyppeteerMiddleware,process_request$101,"(html, result, status) = self.render(request.url, **self.args)","tmp_fun_0 = self.render(request.url, **self.args)
+html = tmp_fun_0[0]
+result = tmp_fun_0[1]
+status = tmp_fun_0[2]
+",0,0,0,1,
+Just-Code,https://github.com/YaxeZhang/Just-Code/tree/master/src/0086.partition-list/partition-list.py,Solution,partition$8,dummy2 = other = ListNode(0),"tmp_value = ListNode(0)
+dummy2 = tmp_value
+other = tmp_value
+",0,2,0,0,
+chainerrl,https://github.com/chainer/chainerrl/tree/master/chainerrl/envs/multiprocess_vector_env.py,,worker$12,"(cmd, data) = remote.recv()","tmp_fun_0 = remote.recv()
+cmd = tmp_fun_0[0]
+data = tmp_fun_0[1]
+",0,0,0,1,
+flask_jsondash,https://github.com/christabor/flask_jsondash/tree/master/tests/test_charts_builder.py,,test_create_valid$196,"(_, test) = client","_ = client[0]
+test = client[1]
+",0,0,0,0,
+authentik,https://github.com/goauthentik/authentik/tree/master/authentik/core/api/users.py,UserViewSet,_create_recovery_link$309,"(token, __) = FlowToken.objects.update_or_create(identifier=f'{user.uid}-password-reset', defaults={'user': user, 'flow': flow, '_plan': FlowToken.pickle(plan)})","tmp_fun_0 = FlowToken.objects.update_or_create(identifier=f'{user.uid}-password-reset', defaults={'user': user, 'flow': flow, '_plan': FlowToken.pickle(plan)})
+token = tmp_fun_0[0]
+__ = tmp_fun_0[1]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/relay/quantize/_annotate.py,,batch_matmul_rewrite$413,"(lhs_expr, lhs_kind) = _get_expr_kind(new_args[0])","tmp_fun_0 = _get_expr_kind(new_args[0])
+lhs_expr = tmp_fun_0[0]
+lhs_kind = tmp_fun_0[1]
+",0,0,0,1,
+open_model_zoo,https://github.com/openvinotoolkit/open_model_zoo/tree/master/demos/instance_segmentation_demo/python/instance_segmentation_demo/visualizer.py,Visualizer,overlay_boxes$140,"(top_left, bottom_right) = (box[:2].tolist(), box[2:].tolist())","top_left = box[:2].tolist()
+bottom_right = box[2:].tolist()
+",0,0,0,0,
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/layers/control_flow.py,IfElse,input$2831,"(out_true, out_false) = self.input_table[id(x)]","tmp_fun_0 = self.input_table[id(x)]
+out_true = tmp_fun_0[0]
+out_false = tmp_fun_0[1]
+",0,0,0,1,
+rally,https://github.com/elastic/rally/tree/master/esrally/tracker/tracker.py,,create_track$71,"(indices, corpora) = extract_mappings_and_corpora(client, output_path, indices)","tmp_fun_0 = extract_mappings_and_corpora(client, output_path, indices)
+indices = tmp_fun_0[0]
+corpora = tmp_fun_0[1]
+",0,0,0,1,
+exbert,https://github.com/bhoov/exbert/tree/master/server/transformers/templates/adding_a_new_model/tests/test_modeling_xxx.py,XxxModelTester,create_and_check_xxx_for_token_classification$210,"(loss, logits) = model(input_ids, attention_mask=input_mask, token_type_ids=token_type_ids, labels=token_labels)","tmp_fun_0 = model(input_ids, attention_mask=input_mask, token_type_ids=token_type_ids, labels=token_labels)
+loss = tmp_fun_0[0]
+logits = tmp_fun_0[1]
+",0,0,0,1,
+lighttrack,https://github.com/Guanghan/lighttrack/tree/master/HPE/train_PoseTrack_COCO_17_MSRA152.py,Network,make_data$97,"(train_data, _) = d.load_data(cfg.min_kps)","tmp_fun_0 = d.load_data(cfg.min_kps)
+train_data = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+AnimeGANv2,https://github.com/TachibanaYoshino/AnimeGANv2/tree/master//AnimeGANv2.py,AnimeGANv2,build_model$127,"(c_loss, s_loss) = con_sty_loss(self.vgg, self.real, self.anime_gray, self.generated)","tmp_fun_0 = con_sty_loss(self.vgg, self.real, self.anime_gray, self.generated)
+c_loss = tmp_fun_0[0]
+s_loss = tmp_fun_0[1]
+",0,0,0,1,
+kombu,https://github.com/celery/kombu/tree/master/t/unit/test_mixins.py,test_ConsumerMixin_interface,test_run$192,consume = self.c.consume = Mock(name='c.consume'),"tmp_value = Mock(name='c.consume')
+consume = tmp_value
+self.c.consume = tmp_value
+",0,2,0,0,
+pyhsmm,https://github.com/mattjj/pyhsmm/tree/master/pyhsmm/internals/hsmm_states.py,,hsmm_sample_forwards_log$1044,"(obs, offset) = (obs[:, state], offset[state])","obs = obs[:, state]
+offset = offset[state]
+",0,0,0,0,
+espnet,https://github.com/espnet/espnet/tree/master/egs2/TEMPLATE/enh1/scripts/utils/calculate_speech_metrics.py,,scoring$22,"(ref_spec, flens) = stft(torch.from_numpy(ref), ilens)","tmp_fun_0 = stft(torch.from_numpy(ref), ilens)
+ref_spec = tmp_fun_0[0]
+flens = tmp_fun_0[1]
+",0,0,0,1,
+mars,https://github.com/mars-project/mars/tree/master/mars/dataframe/missing/fillna.py,,fillna$483,"(value, value_df) = (None, value)","tmp0 = value
+value = None
+value_df = tmp0
+",1,0,0,0,
+fastformers,https://github.com/microsoft/fastformers/tree/master/src/transformers/modeling_tf_gpt2.py,TFBlock,call$192,"(x, layer_past, attention_mask, head_mask, use_cache, output_attentions) = inputs","x = inputs[0]
+layer_past = inputs[1]
+attention_mask = inputs[2]
+head_mask = inputs[3]
+use_cache = inputs[4]
+output_attentions = inputs[5]
+",0,0,0,0,
+qiskit-terra,https://github.com/Qiskit/qiskit-terra/tree/master/qiskit/visualization/pulse_v2/events.py,ChannelEvents,get_frame_changes$196,"(phase, frequency) = ChannelEvents._calculate_current_frame(frame_changes=frame_changes, phase=phase, frequency=frequency)","tmp_fun_0 = ChannelEvents._calculate_current_frame(frame_changes=frame_changes, phase=phase, frequency=frequency)
+phase = tmp_fun_0[0]
+frequency = tmp_fun_0[1]
+",0,0,0,1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/numberfields/tests/test_modules.py,,test_ModuleElement_compatibility$466,"(u, v) = C(0).unify(D(0))","tmp_fun_0 = C(0).unify(D(0))
+u = tmp_fun_0[0]
+v = tmp_fun_0[1]
+",0,0,0,1,
+bayespy,https://github.com/bayespy/bayespy/tree/master/bayespy/inference/vmp/nodes/tests/test_gaussian_markov_chain.py,TestGaussianMarkovChain,test_message_to_child$341,"(mu0, mumu0) = Mu.get_moments()","tmp_fun_0 = Mu.get_moments()
+mu0 = tmp_fun_0[0]
+mumu0 = tmp_fun_0[1]
+",0,0,0,1,
+zipline,https://github.com/quantopian/zipline/tree/master/zipline/data/in_memory_daily_bars.py,,verify_frames_aligned$142,"(start, end) = indexes[0][[0, -1]]","start = indexes[0][[0, -1]][0]
+end = indexes[0][[0, -1]][1]
+",0,0,0,0,
+freqtrade,https://github.com/freqtrade/freqtrade/tree/master/freqtrade/freqtradebot.py,FreqtradeBot,replace_order$1273,"(analyzed_df, _) = self.dataprovider.get_analyzed_dataframe(trade.pair, self.strategy.timeframe)","tmp_fun_0 = self.dataprovider.get_analyzed_dataframe(trade.pair, self.strategy.timeframe)
+analyzed_df = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+jax,https://github.com/google/jax/tree/master/jax/_src/numpy/linalg.py,,norm$395,"(row_axis, col_axis) = cast(Tuple[int, ...], axis)","tmp_fun_0 = cast(Tuple[int, ...], axis)
+row_axis = tmp_fun_0[0]
+col_axis = tmp_fun_0[1]
+",0,0,0,1,
+CCNet,https://github.com/speedinghzl/CCNet/tree/master/dataset/datasets.py,CSDataSet,__getitem__$173,"(img_h, img_w) = label.shape","img_h = label.shape[0]
+img_w = label.shape[1]
+",0,0,0,0,
+RCAN,https://github.com/yulunzhang/RCAN/tree/master/RCAN_TestCode/code/data/common.py,,get_patch$11,"(ih, iw) = img_in.shape[:2]","ih = img_in.shape[:2][0]
+iw = img_in.shape[:2][1]
+",0,0,0,0,
+fair_self_supervision_benchmark,https://github.com/facebookresearch/fair_self_supervision_benchmark/tree/master/self_supervision_benchmark/modeling/jigsaw/resnet_jigsaw_finetune_linear.py,,create_model$37,"(blob_in, dim_in) = siamese_model_helper.residual_layer(residual_block, blob_in, dim_in, 1024, stride=2, num_blocks=n3, prefix='res4', index=0, dim_inner=256)","tmp_fun_0 = siamese_model_helper.residual_layer(residual_block, blob_in, dim_in, 1024, stride=2, num_blocks=n3, prefix='res4', index=0, dim_inner=256)
+blob_in = tmp_fun_0[0]
+dim_in = tmp_fun_0[1]
+",0,0,0,1,
+pytorch3d,https://github.com/facebookresearch/pytorch3d/tree/master/tests/test_blending.py,TestBlending,test_hard_rgb_blend$168,"(N, H, W, K) = (5, 10, 10, 20)","N = 5
+H = 10
+W = 10
+K = 20
+",0,0,0,0,
+PaddleOCR,https://github.com/PaddlePaddle/PaddleOCR/tree/master/deploy/hubserving/ocr_system/module.py,OCRSystem,predict$82,"(text, score) = rec_res[dno]","text = rec_res[dno][0]
+score = rec_res[dno][1]
+",0,0,0,0,
+lidar-bonnetal,https://github.com/PRBonn/lidar-bonnetal/tree/master/train/tasks/semantic/decoders/darknet.py,Decoder,forward$118,"(x, skips, os) = self.run_layer(x, self.dec4, skips, os)","tmp_fun_0 = self.run_layer(x, self.dec4, skips, os)
+x = tmp_fun_0[0]
+skips = tmp_fun_0[1]
+os = tmp_fun_0[2]
+",0,0,0,1,
+espresso,https://github.com/freewym/espresso/tree/master/fairseq/models/wav2vec/wav2vec.py,Wav2VecPredictionsModel,sample_negatives$516,"(bsz, fsz, tsz) = y.shape","bsz = y.shape[0]
+fsz = y.shape[1]
+tsz = y.shape[2]
+",0,0,0,0,
+gistandard,https://github.com/RobbieHan/gistandard/tree/master/extra_apps/DjangoUeditor/views.py,,catcher_remote_image$228,"(remote_original_name, remote_original_ext) = os.path.splitext(remote_file_name)","tmp_fun_0 = os.path.splitext(remote_file_name)
+remote_original_name = tmp_fun_0[0]
+remote_original_ext = tmp_fun_0[1]
+",0,0,0,1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/solvers/ode/riccati.py,,rational_laurent_series$572,"(num, den) = (num * x ** m).cancel(den, include=True)","tmp_fun_0 = (num * x ** m).cancel(den, include=True)
+num = tmp_fun_0[0]
+den = tmp_fun_0[1]
+",0,0,0,1,
+wifipumpkin3,https://github.com/P0cL4bs/wifipumpkin3/tree/master/wifipumpkin3/core/servers/proxy/pumpkin_proxy.py,PumpKinProxy,parser_set_pumpkinproxy$104,"(name_plugin, key_plugin) = (plugin_name.split('.')[1], plugin_name.split('.')[2])","name_plugin = plugin_name.split('.')[1]
+key_plugin = plugin_name.split('.')[2]
+",0,0,0,0,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/integrals/tests/test_integrals.py,,test_issue_12645$1466,"(x, y) = symbols('x y', real=True)","tmp_fun_0 = symbols('x y', real=True)
+x = tmp_fun_0[0]
+y = tmp_fun_0[1]
+",0,0,0,1,
+pyglet,https://github.com/pyglet/pyglet/tree/master/tests/unit/media/test_player.py,PlayerTestCase,_assert_player_created_for$95,"(args, kwargs) = call_args","args = call_args[0]
+kwargs = call_args[1]
+",0,0,0,0,
+neon,https://github.com/NervanaSystems/neon/tree/master/tests/test_gradient_mlp.py,,test_mlp$72,NervanaObject.be.bsz = NervanaObject.be.batch_size = batch_size,"tmp_value = batch_size
+NervanaObject.be.bsz = tmp_value
+NervanaObject.be.batch_size = tmp_value
+",0,2,0,0,
+modin,https://github.com/modin-project/modin/tree/master/modin/test/storage_formats/pandas/test_internals.py,,test_apply_func_to_both_axis$62,"(md_df, pd_df) = create_test_dfs(data)","tmp_fun_0 = create_test_dfs(data)
+md_df = tmp_fun_0[0]
+pd_df = tmp_fun_0[1]
+",0,0,0,1,
+videos,https://github.com/3b1b/videos/tree/master/_2019/minute_physics_gr_equations.py,GREquations,construct$17,"(sys1_rects, sys2_rects) = [VGroup(*map(self.get_rects, sys)) for sys in [sys1, sys2]]","(sys1_rects, sys2_rects) = [VGroup(*map(self.get_rects, sys)) for sys in [sys1, sys2]]
+",0,0,1,0,
+electrum,https://github.com/spesmilo/electrum/tree/master/electrum/rsakey.py,,invMod$162,"(uc, ud) = (ud - q * uc, uc)","tmp0 = uc
+uc = ud - q * uc
+ud = tmp0
+",1,0,0,0,
+LinOTP,https://github.com/LinOTP/LinOTP/tree/master/linotp/lib/user.py,,getUserId$1343,"(_login, uid, _user_info) = lookup_user_in_resolver(user.login, None, resolver_spec)","tmp_fun_0 = lookup_user_in_resolver(user.login, None, resolver_spec)
+_login = tmp_fun_0[0]
+uid = tmp_fun_0[1]
+_user_info = tmp_fun_0[2]
+",0,0,0,1,
+typesystem,https://github.com/encode/typesystem/tree/master/tests/test_fields.py,,test_validation_error_is_hashable$836,"(_, error) = validator.validate_or_error('abc')","tmp_fun_0 = validator.validate_or_error('abc')
+_ = tmp_fun_0[0]
+error = tmp_fun_0[1]
+",0,0,0,1,
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/graphics/histogram.py,,histogram$172,"(data, vmin, vmax) = get_data(numberfile, vmin, vmax, skip=skip, col=col)","tmp_fun_0 = get_data(numberfile, vmin, vmax, skip=skip, col=col)
+data = tmp_fun_0[0]
+vmin = tmp_fun_0[1]
+vmax = tmp_fun_0[2]
+",0,0,0,1,
+fastformers,https://github.com/microsoft/fastformers/tree/master/src/transformers/modeling_ctrl.py,,scaled_dot_product_attention$59,"(nd, ns) = (scaled_attention_logits.size(-2), scaled_attention_logits.size(-1))","nd = scaled_attention_logits.size(-2)
+ns = scaled_attention_logits.size(-1)
+",0,0,0,0,
+mmdetection,https://github.com/open-mmlab/mmdetection/tree/master/mmdet/core/anchor/anchor_generator.py,AnchorGenerator,single_level_valid_flags$419,"(feat_h, feat_w) = featmap_size","feat_h = featmap_size[0]
+feat_w = featmap_size[1]
+",0,0,0,0,
+NVTabular,https://github.com/NVIDIA-Merlin/NVTabular/tree/master//versioneer.py,,git_pieces_from_vcs$1196,"(branches, rc) = runner(GITS, ['branch', '--contains'], cwd=root)","tmp_fun_0 = runner(GITS, ['branch', '--contains'], cwd=root)
+branches = tmp_fun_0[0]
+rc = tmp_fun_0[1]
+",0,0,0,1,
+garage,https://github.com/rlworkgroup/garage/tree/master/src/garage/tf/policies/gaussian_mlp_task_embedding_policy.py,GaussianMLPTaskEmbeddingPolicy,get_actions_given_latents$297,"(samples, means, log_stds) = self._f_dist_obs_latent(flat_obses, flat_latents)","tmp_fun_0 = self._f_dist_obs_latent(flat_obses, flat_latents)
+samples = tmp_fun_0[0]
+means = tmp_fun_0[1]
+log_stds = tmp_fun_0[2]
+",0,0,0,1,
+texar-pytorch,https://github.com/asyml/texar-pytorch/tree/master/tests/modules/encoders/roberta_encoder_test.py,RoBERTaEncoderTest,test_hparams$45,"(_, _) = encoder(self.inputs)","tmp_fun_0 = encoder(self.inputs)
+_ = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+football,https://github.com/google-research/football/tree/master/gfootball/env/football_env_test.py,FootballEnvTest,test_score_empty_goal$215,"(o, reward, done, _) = env.step(football_action_set.action_right)","tmp_fun_0 = env.step(football_action_set.action_right)
+o = tmp_fun_0[0]
+reward = tmp_fun_0[1]
+done = tmp_fun_0[2]
+_ = tmp_fun_0[3]
+",0,0,0,1,
+kaolin,https://github.com/NVIDIAGameWorks/kaolin/tree/master/kaolin/ops/mesh/check_sign.py,_UnbatchedMeshIntersector,query$182,"(points_indices, tri_indices) = self._tri_intersector2d.query(points[:, :2])","tmp_fun_0 = self._tri_intersector2d.query(points[:, :2])
+points_indices = tmp_fun_0[0]
+tri_indices = tmp_fun_0[1]
+",0,0,0,1,
+forseti-security,https://github.com/forseti-security/forseti-security/tree/master/google/cloud/forseti/services/dao.py,,define_model$229,"(m_type, name) = member.split('/', 1)","tmp_fun_0 = member.split('/', 1)
+m_type = tmp_fun_0[0]
+name = tmp_fun_0[1]
+",0,0,0,1,
+unilm,https://github.com/microsoft/unilm/tree/master/markuplm/examples/fine_tuning/run_swde/run.py,,do_something$407,"(global_step, tr_loss) = train(args, train_dataset, model, tokenizer, sub_output_dir)","tmp_fun_0 = train(args, train_dataset, model, tokenizer, sub_output_dir)
+global_step = tmp_fun_0[0]
+tr_loss = tmp_fun_0[1]
+",0,0,0,1,
+fuel,https://github.com/mila-iqia/fuel/tree/master/tests/converters/test_convert_ilsvrc2012.py,,test_prepare_metadata$19,"(n_train, v_gt, n_test, wnid_map) = prepare_metadata(devkit_path)","tmp_fun_0 = prepare_metadata(devkit_path)
+n_train = tmp_fun_0[0]
+v_gt = tmp_fun_0[1]
+n_test = tmp_fun_0[2]
+wnid_map = tmp_fun_0[3]
+",0,0,0,1,
+pmdarima,https://github.com/alkaline-ml/pmdarima/tree/master/pmdarima/arima/approx.py,,_regularize$39,"(x, y) = [check_endog(arr, dtype=DTYPE, preserve_series=False) for arr in (x, y)]","tmp_fun_0 = [check_endog(arr, dtype=DTYPE, preserve_series=False) for arr in (x, y)]
+x = tmp_fun_0[0]
+y = tmp_fun_0[1]
+",0,0,0,1,
+papermill,https://github.com/nteract/papermill/tree/master/papermill/tests/test_adl.py,ADLTest,test_split_url_splits_valid_url$30,"(store_name, path) = ADL._split_url('adl://foo.azuredatalakestore.net/bar/baz')","tmp_fun_0 = ADL._split_url('adl://foo.azuredatalakestore.net/bar/baz')
+store_name = tmp_fun_0[0]
+path = tmp_fun_0[1]
+",0,0,0,1,
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/tests/test_axes.py,,test_artist_sublists$8056,"(fig, ax) = plt.subplots()","tmp_fun_0 = plt.subplots()
+fig = tmp_fun_0[0]
+ax = tmp_fun_0[1]
+",0,0,0,1,
+transformer-xl,https://github.com/kimiyoung/transformer-xl/tree/master/tf/tpu_estimator.py,_OutfeedHostCall,record$1679,"(host_fn, tensor_list_or_dict) = host_call","host_fn = host_call[0]
+tensor_list_or_dict = host_call[1]
+",0,0,0,0,
+jax,https://github.com/google/jax/tree/master/tests/scipy_optimize_test.py,,func$44,"(x, y) = p","x = p[0]
+y = p[1]
+",0,0,0,0,
+lingvo,https://github.com/tensorflow/lingvo/tree/master/lingvo/tasks/car/tools/kitti_data.py,,LoadCalibrationFile$208,"(key, value) = line.split(':', 1)","tmp_fun_0 = line.split(':', 1)
+key = tmp_fun_0[0]
+value = tmp_fun_0[1]
+",0,0,0,1,
+TSD,https://github.com/Sense-X/TSD/tree/master/mmdet/datasets/utils/eval.py,ObjectDetectionEvaluation,add_single_detected_image_info$499,"(scores, tp_fp_labels, is_class_correctly_detected_in_image) = self.per_image_eval.compute_object_detection_metrics(detected_boxes=detected_boxes, detected_scores=detected_scores, detected_class_labels=detected_class_labels, groundtruth_boxes=groundtruth_boxes, groundtruth_class_labels=groundtruth_class_labels, groundtruth_is_difficult_list=groundtruth_is_difficult_list, groundtruth_is_group_of_list=groundtruth_is_group_of_list, detected_masks=detected_masks, groundtruth_masks=groundtruth_masks)","tmp_fun_0 = self.per_image_eval.compute_object_detection_metrics(detected_boxes=detected_boxes, detected_scores=detected_scores, detected_class_labels=detected_class_labels, groundtruth_boxes=groundtruth_boxes, groundtruth_class_labels=groundtruth_class_labels, groundtruth_is_difficult_list=groundtruth_is_difficult_list, groundtruth_is_group_of_list=groundtruth_is_group_of_list, detected_masks=detected_masks, groundtruth_masks=groundtruth_masks)
+scores = tmp_fun_0[0]
+tp_fp_labels = tmp_fun_0[1]
+is_class_correctly_detected_in_image = tmp_fun_0[2]
+",0,0,0,1,
+PolarMask,https://github.com/xieenze/PolarMask/tree/master/mmdet/models/anchor_heads/fcos_instance_head_miou_mskctness.py,FCOS_Instance_Head_MIOU_MSKCTNESS,loss$209,"(labels, bbox_targets, mask_targets) = self.fcos_target(all_level_points, extra_data)","tmp_fun_0 = self.fcos_target(all_level_points, extra_data)
+labels = tmp_fun_0[0]
+bbox_targets = tmp_fun_0[1]
+mask_targets = tmp_fun_0[2]
+",0,0,0,1,
+rpg_trajectory_evaluation,https://github.com/uzh-rpg/rpg_trajectory_evaluation/tree/master/src/rpg_trajectory_evaluation/transformations.py,,euler_matrix$1200,"(firstaxis, parity, repetition, frame) = axes","firstaxis = axes[0]
+parity = axes[1]
+repetition = axes[2]
+frame = axes[3]
+",0,0,0,0,
+espresso,https://github.com/freewym/espresso/tree/master/examples/textless_nlp/gslm/unit2speech/glow.py,WaveGlow,forward$207,"(spect, audio) = forward_input","spect = forward_input[0]
+audio = forward_input[1]
+",0,0,0,0,
+fairseq,https://github.com/pytorch/fairseq/tree/master/examples/simultaneous_translation/tests/test_text_models.py,InfiniteLookbackTestCase,test_expected_attention$304,"(_, extra_out) = self.model.forward(**sample['net_input'])","tmp_fun_0 = self.model.forward(**sample['net_input'])
+_ = tmp_fun_0[0]
+extra_out = tmp_fun_0[1]
+",0,0,0,1,
+bi-att-flow,https://github.com/allenai/bi-att-flow/tree/master/basic/read_data.py,,data_filter$228,"(rx, rcx, q, cq, y) = (data_point[key] for key in ('*x', '*cx', 'q', 'cq', 'y'))","rx = (data_point[key] for key in ('*x', '*cx', 'q', 'cq', 'y'))[0]
+rcx = (data_point[key] for key in ('*x', '*cx', 'q', 'cq', 'y'))[1]
+q = (data_point[key] for key in ('*x', '*cx', 'q', 'cq', 'y'))[2]
+cq = (data_point[key] for key in ('*x', '*cx', 'q', 'cq', 'y'))[3]
+y = (data_point[key] for key in ('*x', '*cx', 'q', 'cq', 'y'))[4]
+",0,0,0,0,
+OpenPCDet,https://github.com/open-mmlab/OpenPCDet/tree/master/pcdet/models/detectors/pv_rcnn.py,PVRCNN,get_training_loss$24,"(loss_point, tb_dict) = self.point_head.get_loss(tb_dict)","tmp_fun_0 = self.point_head.get_loss(tb_dict)
+loss_point = tmp_fun_0[0]
+tb_dict = tmp_fun_0[1]
+",0,0,0,1,
+KILT,https://github.com/facebookresearch/KILT/tree/master/kilt/datasets/fact_verification.py,FactVerificationDataset,process_chunk$134,"(paragraph_id, start_character, end_character, bleu) = utils.match_answer(text, page, nlp=self.nlp, debug=False)","tmp_fun_0 = utils.match_answer(text, page, nlp=self.nlp, debug=False)
+paragraph_id = tmp_fun_0[0]
+start_character = tmp_fun_0[1]
+end_character = tmp_fun_0[2]
+bleu = tmp_fun_0[3]
+",0,0,0,1,
+Merlion,https://github.com/salesforce/Merlion/tree/master/merlion/models/base.py,ModelBase,transform_time_series$316,"(time_series_prev, time_series) = self.transform(time_series).bisect(t0, t_in_left=False)","tmp_fun_0 = self.transform(time_series).bisect(t0, t_in_left=False)
+time_series_prev = tmp_fun_0[0]
+time_series = tmp_fun_0[1]
+",0,0,0,1,
+fiftyone,https://github.com/voxel51/fiftyone/tree/master/fiftyone/utils/cvat.py,CVATVideoPolyline,from_polyline$2719,"(outside, occluded, keyframe, attributes) = cls._parse_attributes(polyline)","tmp_fun_0 = cls._parse_attributes(polyline)
+outside = tmp_fun_0[0]
+occluded = tmp_fun_0[1]
+keyframe = tmp_fun_0[2]
+attributes = tmp_fun_0[3]
+",0,0,0,1,
+face.evoLVe,https://github.com/ZhaoJ9014/face.evoLVe/tree/master/util/extract_feature_v1.py,,extract_feature$39,"(batch, _) = iter_loader.next()","tmp_fun_0 = iter_loader.next()
+batch = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+mesh,https://github.com/tensorflow/mesh/tree/master/mesh_tensorflow/transformer/funnel_transformer_test.py,FunnelTransformerTest,test_layer_stack_call_padding_handling$99,"(layer_stack, context) = create_dummy_model(self.converter.mesh, shapes=x.shape)","tmp_fun_0 = create_dummy_model(self.converter.mesh, shapes=x.shape)
+layer_stack = tmp_fun_0[0]
+context = tmp_fun_0[1]
+",0,0,0,1,
+moto,https://github.com/spulec/moto/tree/master/tests/test_eks/test_eks.py,NodegroupTestDataFactory,__init__$148,"(self.existing_nodegroup_name, self.nonexistent_nodegroup_name) = random_names(self.nodegroup_names)","tmp_fun_0 = random_names(self.nodegroup_names)
+self.existing_nodegroup_name = tmp_fun_0[0]
+self.nonexistent_nodegroup_name = tmp_fun_0[1]
+",0,0,0,1,
+urllib3,https://github.com/urllib3/urllib3/tree/master/src/urllib3/util/connection.py,,create_connection$27,"(af, socktype, proto, canonname, sa) = res","af = res[0]
+socktype = res[1]
+proto = res[2]
+canonname = res[3]
+sa = res[4]
+",0,0,0,0,
+Multilingual_Text_to_Speech,https://github.com/Tomiinek/Multilingual_Text_to_Speech/tree/master/dataset/dataset.py,TextToSpeechDataset,create_meta_file$193,"(raw_text, audio_path, speaker, language) = items[i]","raw_text = items[i][0]
+audio_path = items[i][1]
+speaker = items[i][2]
+language = items[i][3]
+",0,0,0,0,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/solvers.py,,solve_lin_sys$182,"(c, s) = k.as_coeff_Mul()","tmp_fun_0 = k.as_coeff_Mul()
+c = tmp_fun_0[0]
+s = tmp_fun_0[1]
+",0,0,0,1,
+pyatv,https://github.com/postlund/pyatv/tree/master/tests/fake_device/companion.py,FakeCompanionService,data_received$139,"(unpacked, _) = opack.unpack(data)","tmp_fun_0 = opack.unpack(data)
+unpacked = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+lingvo,https://github.com/tensorflow/lingvo/tree/master/lingvo/core/wpm_encoder_test.py,WpmEncoderTest,testDitto$61,"(ids, strs) = self._enc.Encode('Ditto')","tmp_fun_0 = self._enc.Encode('Ditto')
+ids = tmp_fun_0[0]
+strs = tmp_fun_0[1]
+",0,0,0,1,
+mmdetection,https://github.com/open-mmlab/mmdetection/tree/master/.dev_scripts/gather_train_benchmark_metric.py,,if_main_my$42,"(filename, sufflx) = osp.splitext(args.excel)","tmp_fun_0 = osp.splitext(args.excel)
+filename = tmp_fun_0[0]
+sufflx = tmp_fun_0[1]
+",0,0,0,1,
+astropy,https://github.com/astropy/astropy/tree/master/astropy/units/tests/test_quantity_non_ufuncs.py,TestLinAlg,test_lstsq$2051,"(xx, residualsx, rankx, sx) = np.linalg.lstsq(self.q.value, b.value, rcond=None)","tmp_fun_0 = np.linalg.lstsq(self.q.value, b.value, rcond=None)
+xx = tmp_fun_0[0]
+residualsx = tmp_fun_0[1]
+rankx = tmp_fun_0[2]
+sx = tmp_fun_0[3]
+",0,0,0,1,
+scrapy,https://github.com/scrapy/scrapy/tree/master/tests/test_webclient.py,WebClientTestCase,testFactoryInfo$335,"(_, _, host, port, _) = client._parse(url)","tmp_fun_0 = client._parse(url)
+_ = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+host = tmp_fun_0[2]
+port = tmp_fun_0[3]
+_ = tmp_fun_0[4]
+",0,0,0,1,
+OpenSeq2Seq,https://github.com/NVIDIA/OpenSeq2Seq/tree/master/open_seq2seq/models/speech2text.py,Speech2Text,maybe_print_logs$198,"(y, len_y) = input_values['target_tensors']","y = input_values['target_tensors'][0]
+len_y = input_values['target_tensors'][1]
+",0,0,0,0,
+DeepCTR-Torch,https://github.com/shenweichen/DeepCTR-Torch/tree/master/deepctr_torch/layers/sequence.py,AUGRUCell,forward$269,"(h_r, h_z, h_n) = gh.chunk(3, 1)","tmp_fun_0 = gh.chunk(3, 1)
+h_r = tmp_fun_0[0]
+h_z = tmp_fun_0[1]
+h_n = tmp_fun_0[2]
+",0,0,0,1,
+Lasagne,https://github.com/Lasagne/Lasagne/tree/master/lasagne/tests/test_regularization.py,TestRegularizationHelpers,test_regularize_layer_params_multiple_layers$64,"(l_1, l_2, l_3) = layers","l_1 = layers[0]
+l_2 = layers[1]
+l_3 = layers[2]
+",0,0,0,0,
+aiogram,https://github.com/aiogram/aiogram/tree/master/aiogram/contrib/fsm_storage/files.py,_FileStorage,__init__$10,path = self.path = pathlib.Path(path),"tmp_value = pathlib.Path(path)
+path = tmp_value
+self.path = tmp_value
+",0,2,0,0,
+DeepMoji,https://github.com/bfelbo/DeepMoji/tree/master/deepmoji/sentence_tokenizer.py,SentenceTokenizer,split_train_val_test$132,"(ind_train, ind_test) = train_test_split(ind, test_size=split_parameter[2])","tmp_fun_0 = train_test_split(ind, test_size=split_parameter[2])
+ind_train = tmp_fun_0[0]
+ind_test = tmp_fun_0[1]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/tests/python/unittest/test_meta_schedule_task_scheduler.py,MatmulModule,main$37,"(vi, vj, vk) = T.axis.remap('SSR', [i, j, k])","tmp_fun_0 = T.axis.remap('SSR', [i, j, k])
+vi = tmp_fun_0[0]
+vj = tmp_fun_0[1]
+vk = tmp_fun_0[2]
+",0,0,0,1,
+pytorch_sparse,https://github.com/rusty1s/pytorch_sparse/tree/master/torch_sparse/saint.py,,saint_subgraph$7,"(row, col, edge_index) = data","row = data[0]
+col = data[1]
+edge_index = data[2]
+",0,0,0,0,
+dagster,https://github.com/dagster-io/dagster/tree/master/helm/dagster/schema/schema_tests/test_workspace.py,,test_workspace_external_configmap_not_present$209,"(_, err) = capfd.readouterr()","tmp_fun_0 = capfd.readouterr()
+_ = tmp_fun_0[0]
+err = tmp_fun_0[1]
+",0,0,0,1,
+pytorch_tabular,https://github.com/manujosephv/pytorch_tabular/tree/master/pytorch_tabular/models/category_embedding/category_embedding_model.py,CategoryEmbeddingBackbone,unpack_input$55,"(continuous_data, categorical_data) = (x['continuous'], x['categorical'])","continuous_data = x['continuous']
+categorical_data = x['categorical']
+",0,0,0,0,
+colour,https://github.com/colour-science/colour/tree/master/colour/plotting/models.py,,ellipses_MacAdam1942$1130,"(x, y, _a, _b, _theta, a, b, theta) = tsplit(DATA_MACADAM_1942_ELLIPSES)","tmp_fun_0 = tsplit(DATA_MACADAM_1942_ELLIPSES)
+x = tmp_fun_0[0]
+y = tmp_fun_0[1]
+_a = tmp_fun_0[2]
+_b = tmp_fun_0[3]
+_theta = tmp_fun_0[4]
+a = tmp_fun_0[5]
+b = tmp_fun_0[6]
+theta = tmp_fun_0[7]
+",0,0,0,1,
+ja3,https://github.com/salesforce/ja3/tree/master/python/ja3/ja3.py,,process_pcap$138,"(records, bytes_used) = dpkt.ssl.tls_multi_factory(tcp.data)","tmp_fun_0 = dpkt.ssl.tls_multi_factory(tcp.data)
+records = tmp_fun_0[0]
+bytes_used = tmp_fun_0[1]
+",0,0,0,1,
+data-science-competition,https://github.com/DLLXW/data-science-competition/tree/master/else/Chick-Counting/detect/utils/augmentations.py,,cutout$238,"(h, w) = im.shape[:2]","h = im.shape[:2][0]
+w = im.shape[:2][1]
+",0,0,0,0,
+joinmarket-clientserver,https://github.com/JoinMarket-Org/joinmarket-clientserver/tree/master/jmclient/test/test_yieldgenerator.py,OidToOrderTests,test_extra_with_dust_threshold$152,"(utxos, cj_addr, change_addr) = self.call_oid_to_order(yg, 500)","tmp_fun_0 = self.call_oid_to_order(yg, 500)
+utxos = tmp_fun_0[0]
+cj_addr = tmp_fun_0[1]
+change_addr = tmp_fun_0[2]
+",0,0,0,1,
+gyroflow,https://github.com/ElvinC/gyroflow/tree/master//gyrolog.py,RuncamData,guess_log_from_videofile$750,"(path, fname) = os.path.split(videofile)","tmp_fun_0 = os.path.split(videofile)
+path = tmp_fun_0[0]
+fname = tmp_fun_0[1]
+",0,0,0,1,
+SSL4MIS,https://github.com/HiLab-git/SSL4MIS/tree/master/code/dataloaders/utils.py,,cross_entropy2d$123,"(n, c, h, w) = logit.size()","tmp_fun_0 = logit.size()
+n = tmp_fun_0[0]
+c = tmp_fun_0[1]
+h = tmp_fun_0[2]
+w = tmp_fun_0[3]
+",0,0,0,1,
+hangoutsbot,https://github.com/hangoutsbot/hangoutsbot/tree/master/hangupsbot/commands/basic.py,,help$37,"[help_chat_id, help_conv_id] = args","help_chat_id = args[0]
+help_conv_id = args[1]
+",0,0,0,0,
+fonttools,https://github.com/fonttools/fonttools/tree/master/Lib/fontTools/pens/momentsPen.py,MomentsPen,_curveToOne$134,"(x2, y2) = p2","x2 = p2[0]
+y2 = p2[1]
+",0,0,0,0,
+detectron2,https://github.com/facebookresearch/detectron2/tree/master/detectron2/export/caffe2_inference.py,ProtobufModel,_infer_output_devices$48,"(ssa, versions) = core.get_ssa(predict_net)","tmp_fun_0 = core.get_ssa(predict_net)
+ssa = tmp_fun_0[0]
+versions = tmp_fun_0[1]
+",0,0,0,1,
+xonsh,https://github.com/xonsh/xonsh/tree/master/tests/test_lazyjson.py,,test_index_str$15,"(s, obs) = index('wakka')","tmp_fun_0 = index('wakka')
+s = tmp_fun_0[0]
+obs = tmp_fun_0[1]
+",0,0,0,1,
+python-docs-samples,https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/jobs/v3/api_client/commute_search_sample_test.py,,test_commute_search_sample$30,"(out, _) = capsys.readouterr()","tmp_fun_0 = capsys.readouterr()
+out = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+cherrypy,https://github.com/cherrypy/cherrypy/tree/master/cherrypy/_cptools.py,Toolbox,__enter__$437,"(toolname, arg) = k.split('.', 1)","tmp_fun_0 = k.split('.', 1)
+toolname = tmp_fun_0[0]
+arg = tmp_fun_0[1]
+",0,0,0,1,
+pgmpy,https://github.com/pgmpy/pgmpy/tree/master/pgmpy/estimators/ScoreCache.py,LRUCache,__call__$82,mapping[key] = last[_NEXT] = tail[_PREV] = link,"tmp_value = link
+mapping[key] = tmp_value
+last[_NEXT] = tmp_value
+tail[_PREV] = tmp_value
+",0,3,0,0,
+baserow,https://github.com/bram2w/baserow/tree/master/backend/tests/baserow/api/groups/test_group_invitation_views.py,,test_list_group_invitations$18,"(user_1, token_1) = data_fixture.create_user_and_token(email='test1@test.nl')","tmp_fun_0 = data_fixture.create_user_and_token(email='test1@test.nl')
+user_1 = tmp_fun_0[0]
+token_1 = tmp_fun_0[1]
+",0,0,0,1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/sparse/tests/test_base.py,_NonCanonicalCompressedMixin,_arg1_for_noncanonical$4688,"(data, indices, indptr) = _same_sum_duplicate(M.data, M.indices, indptr=M.indptr)","tmp_fun_0 = _same_sum_duplicate(M.data, M.indices, indptr=M.indptr)
+data = tmp_fun_0[0]
+indices = tmp_fun_0[1]
+indptr = tmp_fun_0[2]
+",0,0,0,1,
+dulwich,https://github.com/dulwich/dulwich/tree/master/dulwich/tests/test_client.py,TestGetTransportAndPathFromUrl,test_ssh_homepath$636,"(c, path) = get_transport_and_path_from_url('git+ssh://foo.com/~/bar/baz')","tmp_fun_0 = get_transport_and_path_from_url('git+ssh://foo.com/~/bar/baz')
+c = tmp_fun_0[0]
+path = tmp_fun_0[1]
+",0,0,0,1,
+two-stream-pytorch,https://github.com/bryanyzhu/two-stream-pytorch/tree/master/datasets/build_file_list.py,,build_set_list$42,"(rgb_list, flow_list) = (list(), list())","rgb_list = list()
+flow_list = list()
+",0,0,0,0,
+DeepPavlov,https://github.com/deepmipt/DeepPavlov/tree/master/deeppavlov/core/layers/tf_layers.py,,cudnn_compatible_gru$557,"(h, h_last) = tf.nn.dynamic_rnn(cell=cell, inputs=units, time_major=True, initial_state=tuple(tf.unstack(initial_h, axis=0)))","tmp_fun_0 = tf.nn.dynamic_rnn(cell=cell, inputs=units, time_major=True, initial_state=tuple(tf.unstack(initial_h, axis=0)))
+h = tmp_fun_0[0]
+h_last = tmp_fun_0[1]
+",0,0,0,1,
+dynaconf,https://github.com/rochacbruno/dynaconf/tree/master/dynaconf/vendor/ruamel/yaml/cyaml.py,CBaseDumper,__init__$16,A._emitter = A._serializer = A._representer = A,"tmp_value = A
+A._emitter = tmp_value
+A._serializer = tmp_value
+A._representer = tmp_value
+",0,3,0,0,
+tensorflow-for-poets-2,https://github.com/googlecodelabs/tensorflow-for-poets-2/tree/master/scripts/retrain.py,,main$967,"(train_accuracy, cross_entropy_value) = sess.run([evaluation_step, cross_entropy], feed_dict={bottleneck_input: train_bottlenecks, ground_truth_input: train_ground_truth})","tmp_fun_0 = sess.run([evaluation_step, cross_entropy], feed_dict={bottleneck_input: train_bottlenecks, ground_truth_input: train_ground_truth})
+train_accuracy = tmp_fun_0[0]
+cross_entropy_value = tmp_fun_0[1]
+",0,0,0,1,
+HanLP,https://github.com/hankcs/HanLP/tree/master/hanlp/components/parsers/biaffine/biaffine_model.py,EncoderWithContextualLayer,forward$89,"(batch_size, seq_len) = mask.shape","batch_size = mask.shape[0]
+seq_len = mask.shape[1]
+",0,0,0,0,
+video-object-removal,https://github.com/zllrunning/video-object-removal/tree/master/get_mask/test.py,,generate_anchor$117,"(xx, yy) = (np.tile(xx.flatten(), (anchor_num, 1)).flatten(), np.tile(yy.flatten(), (anchor_num, 1)).flatten())","xx = np.tile(xx.flatten(), (anchor_num, 1)).flatten()
+yy = np.tile(yy.flatten(), (anchor_num, 1)).flatten()
+",0,0,0,0,
+PaddleViT,https://github.com/BR-IDL/PaddleViT/tree/master/image_classification/CrossViT/t2t.py,Attention,forward$149,"(q, k, v) = (qkv[0], qkv[1], qkv[2])","q = qkv[0]
+k = qkv[1]
+v = qkv[2]
+",0,0,0,0,
+galaxy,https://github.com/ansible/galaxy/tree/master/test/unit/app/authnz/test_custos_authnz.py,CustosAuthnzTestCase,test_callback_user_not_created_when_does_not_exists$348,"(login_redirect_url, user) = self.custos_authnz.callback(state_token='xxx', authz_code=self.test_code, trans=self.trans, login_redirect_url='http://localhost:8000/')","tmp_fun_0 = self.custos_authnz.callback(state_token='xxx', authz_code=self.test_code, trans=self.trans, login_redirect_url='http://localhost:8000/')
+login_redirect_url = tmp_fun_0[0]
+user = tmp_fun_0[1]
+",0,0,0,1,
+ccm,https://github.com/riptano/ccm/tree/master/ccmlib/node.py,Node,get_sstable_data_files$2214,"(out, _, _) = handle_external_tool_process(p, ['sstableutil', '--type', 'final', ks, table])","tmp_fun_0 = handle_external_tool_process(p, ['sstableutil', '--type', 'final', ks, table])
+out = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+_ = tmp_fun_0[2]
+",0,0,0,1,
+ML_CIA,https://github.com/gutouyu/ML_CIA/tree/master/AFM/AFM.py,,decode_libsvm$12,"(feat_ids, feat_vals) = tf.split(id_vals, num_or_size_splits=2, axis=1)","tmp_fun_0 = tf.split(id_vals, num_or_size_splits=2, axis=1)
+feat_ids = tmp_fun_0[0]
+feat_vals = tmp_fun_0[1]
+",0,0,0,1,
+librosa,https://github.com/librosa/librosa/tree/master/librosa/sequence.py,,dtw$56,"(D, steps) = __dtw_calc_accu_cost(C, D, steps, step_sizes_sigma, weights_mul, weights_add, max_0, max_1)","tmp_fun_0 = __dtw_calc_accu_cost(C, D, steps, step_sizes_sigma, weights_mul, weights_add, max_0, max_1)
+D = tmp_fun_0[0]
+steps = tmp_fun_0[1]
+",0,0,0,1,
+RepDistiller,https://github.com/HobbitLong/RepDistiller/tree/master/models/ShuffleNetv1.py,ShuffleNet,forward$95,"(out, f3_pre) = self.layer3(out)","tmp_fun_0 = self.layer3(out)
+out = tmp_fun_0[0]
+f3_pre = tmp_fun_0[1]
+",0,0,0,1,
+xkcd-font,https://github.com/ipython/xkcd-font/tree/master/xkcd-script/generator/pt4_svg_to_font.py,,scale_glyph$122,"(import_width, import_height) = (import_bbox[2] - import_bbox[0], import_bbox[3] - import_bbox[1])","import_width = import_bbox[2] - import_bbox[0]
+import_height = import_bbox[3] - import_bbox[1]
+",0,0,0,0,
+scenic,https://github.com/google-research/scenic/tree/master/scenic/model_lib/matchers/hungarian_jax.py,,row_scan_fn$31,"(_, j0) = state","_ = state[0]
+j0 = state[1]
+",0,0,0,0,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/physics/control/tests/test_lti.py,,test_TransferFunction_functions$124,"(p3, p4) = (c1 * p, d2 * p ** 3 + d1 * p ** 2 - d0)","p3 = c1 * p
+p4 = d2 * p ** 3 + d1 * p ** 2 - d0
+",0,0,0,0,
+AutoDL-Projects,https://github.com/D-X-Y/AutoDL-Projects/tree/master/exps/NATS-Bench/draw-fig2_5.py,,visualize_tss_info$260,"(fig, axs) = plt.subplots(1, 4, figsize=figsize)","tmp_fun_0 = plt.subplots(1, 4, figsize=figsize)
+fig = tmp_fun_0[0]
+axs = tmp_fun_0[1]
+",0,0,0,1,
+river,https://github.com/online-ml/river/tree/master/river/utils/param_grid.py,,expand_tuple$108,"(klass, params) = t","klass = t[0]
+params = t[1]
+",0,0,0,0,
+hfnet,https://github.com/ethz-asl/hfnet/tree/master/colmap-helpers/internal/frame_matching.py,,baseline_sift_matching$6,"(kp2, des2) = sift.detectAndCompute(img2, None)","tmp_fun_0 = sift.detectAndCompute(img2, None)
+kp2 = tmp_fun_0[0]
+des2 = tmp_fun_0[1]
+",0,0,0,1,
+hmr,https://github.com/akanazawa/hmr/tree/master/src/data_loader.py,DataLoader,get_loader_w3d$104,"(image_batch, label_batch, label3d_batch, bool_batch) = tf.train.shuffle_batch([image, label, label3d, has_3dgt], batch_size=self.batch_size, num_threads=8, capacity=capacity, min_after_dequeue=min_after_dequeue, enqueue_many=True, name='input_batch_train_3d')","tmp_fun_0 = tf.train.shuffle_batch([image, label, label3d, has_3dgt], batch_size=self.batch_size, num_threads=8, capacity=capacity, min_after_dequeue=min_after_dequeue, enqueue_many=True, name='input_batch_train_3d')
+image_batch = tmp_fun_0[0]
+label_batch = tmp_fun_0[1]
+label3d_batch = tmp_fun_0[2]
+bool_batch = tmp_fun_0[3]
+",0,0,0,1,
+deep-learning-from-scratch-2,https://github.com/oreilly-japan/deep-learning-from-scratch-2/tree/master/common/trainer.py,Trainer,fit$19,"(params, grads) = remove_duplicate(model.params, model.grads)","tmp_fun_0 = remove_duplicate(model.params, model.grads)
+params = tmp_fun_0[0]
+grads = tmp_fun_0[1]
+",0,0,0,1,
+cozmo-python-sdk,https://github.com/anki/cozmo-python-sdk/tree/master/examples/apps/color_finder.py,,hsv_color_distance_sqr$74,"(h, s, v) = color","h = color[0]
+s = color[1]
+v = color[2]
+",0,0,0,0,
+KivyMD,https://github.com/kivymd/KivyMD/tree/master/kivymd/uix/toolbar/toolbar.py,NotchedBox,_update_canvas$441,"(right_vertices, right_indices) = self._make_vertices_indices(raw_vertices_right)","tmp_fun_0 = self._make_vertices_indices(raw_vertices_right)
+right_vertices = tmp_fun_0[0]
+right_indices = tmp_fun_0[1]
+",0,0,0,1,
+HanLP,https://github.com/hankcs/HanLP/tree/master/hanlp/components/sts/transformer_sts.py,TransformerSemanticTextualSimilarity,build_optimizer$64,"(optimizer, scheduler) = build_optimizer_scheduler_with_transformer(self.model, self.model.base_model, lr, transformer_lr, num_training_steps, warmup_steps, weight_decay, adam_epsilon)","tmp_fun_0 = build_optimizer_scheduler_with_transformer(self.model, self.model.base_model, lr, transformer_lr, num_training_steps, warmup_steps, weight_decay, adam_epsilon)
+optimizer = tmp_fun_0[0]
+scheduler = tmp_fun_0[1]
+",0,0,0,1,
+python_video_stab,https://github.com/AdamSpannbauer/python_video_stab/tree/master/vidstab/VidStab.py,VidStab,__init__$67,self.trajectory = self.smoothed_trajectory = self.transforms = None,"tmp_value = None
+self.trajectory = tmp_value
+self.smoothed_trajectory = tmp_value
+self.transforms = tmp_value
+",0,3,0,0,
+uda,https://github.com/google-research/uda/tree/master/text/uda.py,,model_fn$229,"(train_op, curr_lr) = optimization.create_optimizer(total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu, clip_norm, global_step)","tmp_fun_0 = optimization.create_optimizer(total_loss, learning_rate, num_train_steps, num_warmup_steps, use_tpu, clip_norm, global_step)
+train_op = tmp_fun_0[0]
+curr_lr = tmp_fun_0[1]
+",0,0,0,1,
+scikit-video,https://github.com/scikit-video/scikit-video/tree/master/skvideo/utils/edge.py,,canny$30,"(labels, count) = scipy.ndimage.label(low_mask, strel)","tmp_fun_0 = scipy.ndimage.label(low_mask, strel)
+labels = tmp_fun_0[0]
+count = tmp_fun_0[1]
+",0,0,0,1,
+PaddleSlim,https://github.com/PaddlePaddle/PaddleSlim/tree/master/paddleslim/nas/ofa/utils/nlp_utils.py,,_prepare_qkv$174,"(k, v) = (cache.k, cache.v)","k = cache.k
+v = cache.v
+",0,0,0,0,
+librosa,https://github.com/librosa/librosa/tree/master/tests/test_multichannel.py,,test_melspectrogram_multi_time$695,"(y, sr) = y_multi","y = y_multi[0]
+sr = y_multi[1]
+",0,0,0,0,
+YOLOv5-Lite,https://github.com/ppogg/YOLOv5-Lite/tree/master/utils/datasets.py,,load_mosaic$671,"(img4, labels4) = random_perspective(img4, labels4, segments4, degrees=self.hyp['degrees'], translate=self.hyp['translate'], scale=self.hyp['scale'], shear=self.hyp['shear'], perspective=self.hyp['perspective'], border=self.mosaic_border)","tmp_fun_0 = random_perspective(img4, labels4, segments4, degrees=self.hyp['degrees'], translate=self.hyp['translate'], scale=self.hyp['scale'], shear=self.hyp['shear'], perspective=self.hyp['perspective'], border=self.mosaic_border)
+img4 = tmp_fun_0[0]
+labels4 = tmp_fun_0[1]
+",0,0,0,1,
+causalnex,https://github.com/quantumblacklabs/causalnex/tree/master/tests/structure/data_generators/test_wrappers.py,TestGenerateStationaryDynamicStructureAndSamples,test_fail_to_find_stationary_network$861,"(_, df, _, _) = gen_stationary_dyn_net_and_df(n_samples=1000, p=1, w_min_inter=0.6, w_max_inter=0.6, max_data_gen_trials=20, degree_intra=4, degree_inter=7)","tmp_fun_0 = gen_stationary_dyn_net_and_df(n_samples=1000, p=1, w_min_inter=0.6, w_max_inter=0.6, max_data_gen_trials=20, degree_intra=4, degree_inter=7)
+_ = tmp_fun_0[0]
+df = tmp_fun_0[1]
+_ = tmp_fun_0[2]
+_ = tmp_fun_0[3]
+",0,0,0,1,
+jax,https://github.com/google/jax/tree/master/jaxlib/cusolver.py,,gesvd$302,"(lwork, opaque) = _cusolver.build_gesvd_descriptor(np.dtype(dtype), b, m, n, compute_uv, full_matrices)","tmp_fun_0 = _cusolver.build_gesvd_descriptor(np.dtype(dtype), b, m, n, compute_uv, full_matrices)
+lwork = tmp_fun_0[0]
+opaque = tmp_fun_0[1]
+",0,0,0,1,
+koalas,https://github.com/databricks/koalas/tree/master/databricks/koalas/tests/test_series.py,SeriesTest,test_align$2869,"(pser_l, pser_r) = pdf.a.align(pdf.b, join=join, axis=axis)","tmp_fun_0 = pdf.a.align(pdf.b, join=join, axis=axis)
+pser_l = tmp_fun_0[0]
+pser_r = tmp_fun_0[1]
+",0,0,0,1,
+Deep-Reinforcement-Learning-Hands-On,https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On/tree/master/Chapter18/lib/mcts.py,MCTS,search_minibatch$91,"(logits_v, values_v) = net(batch_v)","tmp_fun_0 = net(batch_v)
+logits_v = tmp_fun_0[0]
+values_v = tmp_fun_0[1]
+",0,0,0,1,
+pycoin,https://github.com/richardkiss/pycoin/tree/master/pycoin/message/PeerAddress.py,PeerAddress,parse$45,"(services, ip_bin, port) = parse_struct('Q@h', f)","tmp_fun_0 = parse_struct('Q@h', f)
+services = tmp_fun_0[0]
+ip_bin = tmp_fun_0[1]
+port = tmp_fun_0[2]
+",0,0,0,1,
+InstaLooter,https://github.com/althonos/InstaLooter/tree/master/instalooter/medias.py,TimedMediasIterator,__init__$103,"(self.start_time, self.end_time) = self.get_times(timeframe)","tmp_fun_0 = self.get_times(timeframe)
+self.start_time = tmp_fun_0[0]
+self.end_time = tmp_fun_0[1]
+",0,0,0,1,
+mypaint,https://github.com/mypaint/mypaint/tree/master/gui/spinbox.py,ItemSpinBox,_update_label$100,"(value, text) = self._model[self._model_index]","value = self._model[self._model_index][0]
+text = self._model[self._model_index][1]
+",0,0,0,0,
+keras-retinanet,https://github.com/fizyr/keras-retinanet/tree/master/keras_retinanet/models/densenet.py,,densenet_retinanet$71,"(blocks, creator) = allowed_backbones[backbone]","blocks = allowed_backbones[backbone][0]
+creator = allowed_backbones[backbone][1]
+",0,0,0,0,
+fairseq,https://github.com/pytorch/fairseq/tree/master/fairseq/data/language_pair_dataset.py,,compute_alignment_weights$51,"(_, align_tgt_i, align_tgt_c) = torch.unique(align_tgt, return_inverse=True, return_counts=True)","tmp_fun_0 = torch.unique(align_tgt, return_inverse=True, return_counts=True)
+_ = tmp_fun_0[0]
+align_tgt_i = tmp_fun_0[1]
+align_tgt_c = tmp_fun_0[2]
+",0,0,0,1,
+ansible,https://github.com/ansible/ansible/tree/master/test/units/executor/test_play_iterator.py,TestPlayIterator,test_play_iterator$53,"(host_state, task) = itr.get_next_task_for_host(hosts[0])","tmp_fun_0 = itr.get_next_task_for_host(hosts[0])
+host_state = tmp_fun_0[0]
+task = tmp_fun_0[1]
+",0,0,0,1,
+khaiii,https://github.com/kakao/khaiii/tree/master/rsc/bin/compile_restore.py,,_make_bin$58,"(char_val, tag_val) = char_tag.rsplit('/', 1)","tmp_fun_0 = char_tag.rsplit('/', 1)
+char_val = tmp_fun_0[0]
+tag_val = tmp_fun_0[1]
+",0,0,0,1,
+kubediff,https://github.com/weaveworks/kubediff/tree/master/kubedifflib/_diff.py,,diff_not_equal$91,"(want_lines, have_lines) = (want.splitlines(), have.splitlines())","want_lines = want.splitlines()
+have_lines = have.splitlines()
+",0,0,0,0,
+geemap,https://github.com/giswqs/geemap/tree/master/geemap/cartoee.py,,_add_bbox$733,"(xmin, ymin) = ax.transData.inverted().transform((xmin, ymin))","tmp_fun_0 = ax.transData.inverted().transform((xmin, ymin))
+xmin = tmp_fun_0[0]
+ymin = tmp_fun_0[1]
+",0,0,0,1,
+OpenNMT-tf,https://github.com/OpenNMT/OpenNMT-tf/tree/master/opennmt/layers/transformer.py,MultiHeadAttention,call$284,"(keys, values) = _compute_kv(memory)","tmp_fun_0 = _compute_kv(memory)
+keys = tmp_fun_0[0]
+values = tmp_fun_0[1]
+",0,0,0,1,
+chia-rosechain,https://github.com/snight1983/chia-rosechain/tree/master/chia/cmds/configure.py,,configure$10,"(host, port) = (':'.join(set_farmer_peer.split(':')[:-1]), set_farmer_peer.split(':')[-1])","host = ':'.join(set_farmer_peer.split(':')[:-1])
+port = set_farmer_peer.split(':')[-1]
+",0,0,0,0,
+pyodide,https://github.com/pyodide/pyodide/tree/master/docs/sphinx_pyodide/tests/test_directives.py,,test_content$100,"[directive, name] = first_line.split('::')","tmp_fun_0 = first_line.split('::')
+directive = tmp_fun_0[0]
+name = tmp_fun_0[1]
+",0,0,0,1,
+pymc,https://github.com/pymc-devs/pymc/tree/master/pymc/step_methods/metropolis.py,CategoricalGibbsMetropolis,__init__$506,"((k_graph,), _) = rvs_to_value_vars((k_graph,), apply_transforms=True)","tmp_fun_0 = rvs_to_value_vars((k_graph,), apply_transforms=True)
+k_graph = tmp_fun_0[0][0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+POT,https://github.com/PythonOT/POT/tree/master/ot/bregman.py,,_convolutional_barycenter2d_debiased_log$2464,"(log_bar, c) = nx.zeros((2, width, height), type_as=A)","tmp_fun_0 = nx.zeros((2, width, height), type_as=A)
+log_bar = tmp_fun_0[0]
+c = tmp_fun_0[1]
+",0,0,0,1,
+Pillow,https://github.com/python-pillow/Pillow/tree/master/Tests/test_image_reduce.py,,assert_compare_images$172,"(a, b) = convert_to_comparable(a, b)","tmp_fun_0 = convert_to_comparable(a, b)
+a = tmp_fun_0[0]
+b = tmp_fun_0[1]
+",0,0,0,1,
+GANTheftAuto,https://github.com/Sentdex/GANTheftAuto/tree/master//trainer.py,Trainer,generator_trainstep$102,"(loss_dict, grads) = ({}, {})","loss_dict = {}
+grads = {}
+",0,0,0,0,
+sphinx,https://github.com/sphinx-doc/sphinx/tree/master/sphinx/environment/collectors/toctree.py,TocTreeCollector,build_toc$57,"(*parents, _) = sig_node['_toc_parts']","parents = sig_node['_toc_parts'][0:-1]
+_ = sig_node['_toc_parts'][1]
+",0,0,1,0,
+retopoflow,https://github.com/CGCookie/retopoflow/tree/master/addon_common/common/maths.py,Box2D,set$1408,"(ln, rn, wn) = (left is not None, right is not None, width is not None)","ln = left is not None
+rn = right is not None
+wn = width is not None
+",0,0,0,0,
+djongo,https://github.com/nesdis/djongo/tree/master/tests/django_tests/tests/v21/tests/model_formsets/tests.py,ModelFormsetTest,test_custom_save_method$454,"(poet1, poet2) = poets","poet1 = poets[0]
+poet2 = poets[1]
+",0,0,0,0,
+maro,https://github.com/microsoft/maro/tree/master/maro/cli/utils/cmp.py,,resource_op$14,"(is_satisfied, updated_resource) = (True, {})","is_satisfied = True
+updated_resource = {}
+",0,0,0,0,
+deep-learning-for-image-processing,https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/model_complexity/utils.py,,conv2d_cx$7,"(h, w, c) = (cx['h'], cx['w'], cx['c'])","h = cx['h']
+w = cx['w']
+c = cx['c']
+",0,0,0,0,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/sparse/linalg/_eigen/arpack/arpack.py,_SymmetricArpackParams,extract$573,"(d, z, ierr) = self._arpack_extract(rvec, howmny, sselect, self.sigma, self.bmat, self.which, self.k, self.tol, self.resid, self.v, self.iparam[0:7], self.ipntr, self.workd[0:2 * self.n], self.workl, ierr)","tmp_fun_0 = self._arpack_extract(rvec, howmny, sselect, self.sigma, self.bmat, self.which, self.k, self.tol, self.resid, self.v, self.iparam[0:7], self.ipntr, self.workd[0:2 * self.n], self.workl, ierr)
+d = tmp_fun_0[0]
+z = tmp_fun_0[1]
+ierr = tmp_fun_0[2]
+",0,0,0,1,
+torch-light,https://github.com/ne7ermore/torch-light/tree/master/retrieval-based-chatbots/model.py,Model,forward$46,"(utte_gru, _) = self.first_gru(utte_emb)","tmp_fun_0 = self.first_gru(utte_emb)
+utte_gru = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+AIF360,https://github.com/Trusted-AI/AIF360/tree/master/aif360/sklearn/preprocessing/reweighing.py,Reweighing,fit_transform$58,"(groups, self.prot_attr_) = check_groups(X, self.prot_attr)","tmp_fun_0 = check_groups(X, self.prot_attr)
+groups = tmp_fun_0[0]
+self.prot_attr_ = tmp_fun_0[1]
+",0,0,0,1,
+invoke,https://github.com/pyinvoke/invoke/tree/master/tests/program.py,initial_context,null_namespace_triggers_task_related_args$213,"(stdout, _) = run('--help', program=program)","tmp_fun_0 = run('--help', program=program)
+stdout = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+transformers,https://github.com/huggingface/transformers/tree/master/src/transformers/models/lxmert/modeling_tf_lxmert.py,TFLxmertForPreTraining,call$1290,"(lang_prediction_scores, cross_relationship_score) = self.cls(lang_output, pooled_output)","tmp_fun_0 = self.cls(lang_output, pooled_output)
+lang_prediction_scores = tmp_fun_0[0]
+cross_relationship_score = tmp_fun_0[1]
+",0,0,0,1,
+maml_rl,https://github.com/cbfinn/maml_rl/tree/master/rllab/algos/cma_es_lib.py,CMAEvolutionStrategy,tell$3553,"(cc, c1, cmu) = (sp.cc, sp.c1, sp.cmu)","cc = sp.cc
+c1 = sp.c1
+cmu = sp.cmu
+",0,0,0,0,
+Transfer-Learning-Library,https://github.com/thuml/Transfer-Learning-Library/tree/master/examples/domain_adaptation/image_regression/dd.py,,train$187,"(x_s, labels_s) = next(train_source_iter)","tmp_fun_0 = next(train_source_iter)
+x_s = tmp_fun_0[0]
+labels_s = tmp_fun_0[1]
+",0,0,0,1,
+MozDef,https://github.com/mozilla/MozDef/tree/master/tests/mq/plugins/test_cloudtrail.py,TestCloudtrailPlugin,test_incorrect_source$21,"(retmessage, retmeta) = self.plugin.onMessage(msg, {})","tmp_fun_0 = self.plugin.onMessage(msg, {})
+retmessage = tmp_fun_0[0]
+retmeta = tmp_fun_0[1]
+",0,0,0,1,
+fonttools,https://github.com/fonttools/fonttools/tree/master/Tests/feaLib/lexer_test.py,IncludingLexerTest,getpath$148,"(path, _) = os.path.split(__file__)","tmp_fun_0 = os.path.split(__file__)
+path = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+cifar-10-cnn,https://github.com/BIGBALLON/cifar-10-cnn/tree/master/Tensorflow_version/Network_in_Network_bn.py,,main$122,"(_, batch_loss, sum_op) = sess.run([train_op, loss, summary_op], feed_dict={x: batch_x, y_: batch_y, phase: True, keep_prob: FLAGS.dropout, learning_rate: lr})","tmp_fun_0 = sess.run([train_op, loss, summary_op], feed_dict={x: batch_x, y_: batch_y, phase: True, keep_prob: FLAGS.dropout, learning_rate: lr})
+_ = tmp_fun_0[0]
+batch_loss = tmp_fun_0[1]
+sum_op = tmp_fun_0[2]
+",0,0,0,1,
+numpy,https://github.com/numpy/numpy/tree/master/numpy/core/_dtype.py,,_struct_list_str$279,"(fld_dtype, fld_offset, title) = _unpack_field(*dtype.fields[name])","(fld_dtype, fld_offset, title) = _unpack_field(*dtype.fields[name])
+",0,0,1,0,
+portia,https://github.com/scrapinghub/portia/tree/master/slyd/slyd/splash/ferry.py,PortiaJSApi,sendMessage$227,"(command, data) = json.loads(message)","tmp_fun_0 = json.loads(message)
+command = tmp_fun_0[0]
+data = tmp_fun_0[1]
+",0,0,0,1,
+Ghost.py,https://github.com/jeanphix/Ghost.py/tree/master/tests/run.py,GhostTest,test_set_field_value_select$318,"(value, resources) = self.session.evaluate(""document.querySelector('option[value=one]').selected;"")","tmp_fun_0 = self.session.evaluate(""document.querySelector('option[value=one]').selected;"")
+value = tmp_fun_0[0]
+resources = tmp_fun_0[1]
+",0,0,0,1,
+galaxy,https://github.com/ansible/galaxy/tree/master/lib/galaxy_test/api/test_workflows.py,WorkflowsApiTestCase,test_cannot_run_against_other_users_history$2904,"(workflow_request, history_id, workflow_id) = self._setup_workflow_run(workflow)","tmp_fun_0 = self._setup_workflow_run(workflow)
+workflow_request = tmp_fun_0[0]
+history_id = tmp_fun_0[1]
+workflow_id = tmp_fun_0[2]
+",0,0,0,1,
+PixelLib,https://github.com/ayoolaolafenwa/PixelLib/tree/master/pixellib/torchbackend/instance/modeling/anchor_generator.py,,_create_grid_offsets$40,"(shift_y, shift_x) = torch.meshgrid(shifts_y, shifts_x)","tmp_fun_0 = torch.meshgrid(shifts_y, shifts_x)
+shift_y = tmp_fun_0[0]
+shift_x = tmp_fun_0[1]
+",0,0,0,1,
+yt-dlp,https://github.com/yt-dlp/yt-dlp/tree/master/yt_dlp/extractor/disney.py,DisneyIE,_real_extract$79,"(domain, video_id, display_id) = self._match_valid_url(url).groups()","tmp_fun_0 = self._match_valid_url(url).groups()
+domain = tmp_fun_0[0]
+video_id = tmp_fun_0[1]
+display_id = tmp_fun_0[2]
+",0,0,0,1,
+Machine-Learning-with-Python,https://github.com/devAmoghS/Machine-Learning-with-Python/tree/master/naive_bayes_classfier/model.py,,train_and_test_model$41,"(train_data, test_data) = split_data(data, 0.75)","tmp_fun_0 = split_data(data, 0.75)
+train_data = tmp_fun_0[0]
+test_data = tmp_fun_0[1]
+",0,0,0,1,
+questionary,https://github.com/tmbo/questionary/tree/master/tests/prompts/test_select.py,,test_cycle_backwards$115,"(result, cli) = feed_cli_with_input('select', message, text, **kwargs)","tmp_fun_0 = feed_cli_with_input('select', message, text, **kwargs)
+result = tmp_fun_0[0]
+cli = tmp_fun_0[1]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/topi/x86/conv2d.py,,schedule_conv2d_nhwc$87,"(c, ci) = s[O].split(c, 64)","tmp_fun_0 = s[O].split(c, 64)
+c = tmp_fun_0[0]
+ci = tmp_fun_0[1]
+",0,0,0,1,
+Dain-App,https://github.com/BurguerJohn/Dain-App/tree/master//train.py,,train$20,"(train_sets, test_sets) = ([], [])","train_sets = []
+test_sets = []
+",0,0,0,0,
+gym,https://github.com/openai/gym/tree/master/gym/envs/robotics/rotations.py,,mat2quat$176,"(Qxy, Qyy, Qzy) = (mat[..., 1, 0], mat[..., 1, 1], mat[..., 1, 2])","Qxy = mat[..., 1, 0]
+Qyy = mat[..., 1, 1]
+Qzy = mat[..., 1, 2]
+",0,0,0,0,
+python-gitlab,https://github.com/python-gitlab/python-gitlab/tree/master/tests/functional/conftest.py,,_check$178,"(minutes, seconds) = (int(setup_time / 60), int(setup_time % 60))","minutes = int(setup_time / 60)
+seconds = int(setup_time % 60)
+",0,0,0,0,
+fastHan,https://github.com/fastnlp/fastHan/tree/master/fastHan/model/CharParser.py,CharBiaffineParser,forward$114,"(arc_sz, label_sz) = (self.arc_mlp_size, self.label_mlp_size)","arc_sz = self.arc_mlp_size
+label_sz = self.label_mlp_size
+",0,0,0,0,
+python-twitter,https://github.com/bear/python-twitter/tree/master/twitter/api.py,Api,GetBlocksIDs$1928,"(next_cursor, previous_cursor, user_ids) = self.GetBlocksIDsPaged(cursor=cursor, stringify_ids=stringify_ids)","tmp_fun_0 = self.GetBlocksIDsPaged(cursor=cursor, stringify_ids=stringify_ids)
+next_cursor = tmp_fun_0[0]
+previous_cursor = tmp_fun_0[1]
+user_ids = tmp_fun_0[2]
+",0,0,0,1,
+SimCSE,https://github.com/princeton-nlp/SimCSE/tree/master/SentEval/examples/bow.py,,prepare$70,"(_, params.word2id) = create_dictionary(samples)","tmp_fun_0 = create_dictionary(samples)
+_ = tmp_fun_0[0]
+params.word2id = tmp_fun_0[1]
+",0,0,0,1,
+objgraph,https://github.com/mgedmin/objgraph/tree/master//tests.py,TypestatsFilterArguTest,test_without_filter$312,"(x, y) = (MyClass(), MyClass())","x = MyClass()
+y = MyClass()
+",0,0,0,0,
+twisted-intro,https://github.com/jdavisp3/twisted-intro/tree/master/twisted-server-4/poetry-proxy.py,,parse_args$9,"(options, args) = parser.parse_args()","tmp_fun_0 = parser.parse_args()
+options = tmp_fun_0[0]
+args = tmp_fun_0[1]
+",0,0,0,1,
+CogView,https://github.com/THUDM/CogView/tree/master/vqvae/vqvae_zc.py,Quantize,forward_$41,"(_, embed_ind) = (-dist).max(1)","tmp_fun_0 = (-dist).max(1)
+_ = tmp_fun_0[0]
+embed_ind = tmp_fun_0[1]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/tests/python/unittest/test_tir_transform_plan_update_buffer_allocation_location.py,,before$252,"(vi, vj, vk) = T.axis.remap('SSS', [i, j, k])","tmp_fun_0 = T.axis.remap('SSS', [i, j, k])
+vi = tmp_fun_0[0]
+vj = tmp_fun_0[1]
+vk = tmp_fun_0[2]
+",0,0,0,1,
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/tests/unittests/test_pool3d_api.py,TestPool3D_API,check_max_dygraph_stride_is_none$265,"(result, indices) = max_pool3d(input, kernel_size=2, stride=None, padding='SAME', return_mask=True)","tmp_fun_0 = max_pool3d(input, kernel_size=2, stride=None, padding='SAME', return_mask=True)
+result = tmp_fun_0[0]
+indices = tmp_fun_0[1]
+",0,0,0,1,
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/formats/bed.py,,merge$1242,"(opts, args) = p.parse_args(args)","tmp_fun_0 = p.parse_args(args)
+opts = tmp_fun_0[0]
+args = tmp_fun_0[1]
+",0,0,0,1,
+scrapy,https://github.com/scrapy/scrapy/tree/master/scrapy/utils/iterators.py,_StreamReader,_read_string$85,"(s, e) = (self._ptr, self._ptr + n)","s = self._ptr
+e = self._ptr + n
+",0,0,0,0,
+sunpy,https://github.com/sunpy/sunpy/tree/master/sunpy/map/mapbase.py,GenericMap,_repr_html_$308,"(values, bins, patches) = ax.hist(finite_data.ravel(), bins=100)","tmp_fun_0 = ax.hist(finite_data.ravel(), bins=100)
+values = tmp_fun_0[0]
+bins = tmp_fun_0[1]
+patches = tmp_fun_0[2]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/topi/cuda/conv2d_nhwc_winograd.py,,schedule_bgemm_direct$226,"(fused, tx) = s[load].split(fused, cfg['tile_x'].size[2])","tmp_fun_0 = s[load].split(fused, cfg['tile_x'].size[2])
+fused = tmp_fun_0[0]
+tx = tmp_fun_0[1]
+",0,0,0,1,
+lightning-bolts,https://github.com/PyTorchLightning/lightning-bolts/tree/master/pl_bolts/models/rl/advantage_actor_critic_model.py,AdvantageActorCritic,train_batch$114,"(next_state, reward, done, _) = self.env.step(action)","tmp_fun_0 = self.env.step(action)
+next_state = tmp_fun_0[0]
+reward = tmp_fun_0[1]
+done = tmp_fun_0[2]
+_ = tmp_fun_0[3]
+",0,0,0,1,
+pytorch_geometric_temporal,https://github.com/benedekrozemberczki/pytorch_geometric_temporal/tree/master/torch_geometric_temporal/nn/attention/astgcn.py,ChebConvAttention,forward$111,"(TAx_0, TAx_1) = (TAx_1, TAx_2)","TAx_0 = TAx_1
+TAx_1 = TAx_2
+",0,0,0,0,
+ansible,https://github.com/ansible/ansible/tree/master/lib/ansible/modules/pip.py,,main$634,"(rc, out_pip, err_pip) = module.run_command(cmd, path_prefix=path_prefix, cwd=chdir)","tmp_fun_0 = module.run_command(cmd, path_prefix=path_prefix, cwd=chdir)
+rc = tmp_fun_0[0]
+out_pip = tmp_fun_0[1]
+err_pip = tmp_fun_0[2]
+",0,0,0,1,
+pupil,https://github.com/pupil-labs/pupil/tree/master/pupil_src/shared_modules/av_writer.py,,write_timestamps$60,"(name, ext) = os.path.splitext(video_file)","tmp_fun_0 = os.path.splitext(video_file)
+name = tmp_fun_0[0]
+ext = tmp_fun_0[1]
+",0,0,0,1,
+Mathics,https://github.com/mathics/Mathics/tree/master/mathics/core/evaluation.py,,run_with_timeout_and_stack$106,"(success, result) = queue.get()","tmp_fun_0 = queue.get()
+success = tmp_fun_0[0]
+result = tmp_fun_0[1]
+",0,0,0,1,
+mars,https://github.com/mars-project/mars/tree/master/mars/tensor/linalg/core.py,TSQR,tile$121,"(stage2_q_chunk, stage2_r_chunk) = qr_chunks","stage2_q_chunk = qr_chunks[0]
+stage2_r_chunk = qr_chunks[1]
+",0,0,0,0,
+kolibri,https://github.com/learningequality/kolibri/tree/master/kolibri/core/auth/models.py,FacilityUserModelManager,get_or_create_os_user$630,"(os_username, is_superuser) = interface.get_os_user(auth_token)","tmp_fun_0 = interface.get_os_user(auth_token)
+os_username = tmp_fun_0[0]
+is_superuser = tmp_fun_0[1]
+",0,0,0,1,
+Age-Gender-Estimate-TF,https://github.com/BoyuanJiang/Age-Gender-Estimate-TF/tree/master//test.py,,choose_best_model$69,"(best_age_mae, best_age_idx) = (mean_error_age, idx)","best_age_mae = mean_error_age
+best_age_idx = idx
+",0,0,0,0,
+python-spider,https://github.com/Jack-Cherish/python-spider/tree/master/video_downloader/MyQR/mylibs/data.py,,if_main_my$115,"(v, datacode) = encode(1, 'H', s)","tmp_fun_0 = encode(1, 'H', s)
+v = tmp_fun_0[0]
+datacode = tmp_fun_0[1]
+",0,0,0,1,
+pyvmomi,https://github.com/vmware/pyvmomi/tree/master/pyVmomi/SoapAdapter.py,SoapSerializer,_QName$367,"(ns, name) = GetQualifiedWsdlName(typ)","tmp_fun_0 = GetQualifiedWsdlName(typ)
+ns = tmp_fun_0[0]
+name = tmp_fun_0[1]
+",0,0,0,1,
+tvm,https://github.com/apache/tvm/tree/master/tests/python/relay/test_op_qnn_conv2d.py,,test_tflite_large_irregular$766,"(ref_func, qnn_func) = get_funcs(data_shape=data_shape, data_dtype=data_dtype, kernel_shape=kernel_shape, kernel_dtype=kernel_dtype, input_zero_point=127, kernel_zero_point=127, input_scale=1.0, kernel_scale=1.0, kernel_size=(1, 1), padding=(0, 0), strides=(1, 1), dilation=(1, 1), data_layout='NCHW', kernel_layout='OIHW', out_dtype='int32')","tmp_fun_0 = get_funcs(data_shape=data_shape, data_dtype=data_dtype, kernel_shape=kernel_shape, kernel_dtype=kernel_dtype, input_zero_point=127, kernel_zero_point=127, input_scale=1.0, kernel_scale=1.0, kernel_size=(1, 1), padding=(0, 0), strides=(1, 1), dilation=(1, 1), data_layout='NCHW', kernel_layout='OIHW', out_dtype='int32')
+ref_func = tmp_fun_0[0]
+qnn_func = tmp_fun_0[1]
+",0,0,0,1,
+sfepy,https://github.com/sfepy/sfepy/tree/master/sfepy/solvers/ls.py,ScipyIterative,__call__$315,"(sol, info) = self.solver(mtx, rhs, x0=x0, atol=eps_a, tol=eps_r, maxiter=i_max, callback=iter_callback, **solver_kwargs)","tmp_fun_0 = self.solver(mtx, rhs, x0=x0, atol=eps_a, tol=eps_r, maxiter=i_max, callback=iter_callback, **solver_kwargs)
+sol = tmp_fun_0[0]
+info = tmp_fun_0[1]
+",0,0,0,1,
+SSD,https://github.com/lufficc/SSD/tree/master/ssd/data/transforms/transforms.py,RandomSampleCrop,__call__$266,"(height, width, _) = image.shape","height = image.shape[0]
+width = image.shape[1]
+_ = image.shape[2]
+",0,0,0,0,
+poliastro,https://github.com/poliastro/poliastro/tree/master/src/poliastro/plotting/tisserand.py,TisserandPlotter,__init__$24,"(_, self.ax) = plt.subplots(1, 1)","tmp_fun_0 = plt.subplots(1, 1)
+_ = tmp_fun_0[0]
+self.ax = tmp_fun_0[1]
+",0,0,0,1,
+erpnext,https://github.com/frappe/erpnext/tree/master/erpnext/accounts/doctype/gl_entry/gl_entry.py,GLEntry,validate_cost_center$229,"(is_group, company) = frappe.get_cached_value('Cost Center', self.cost_center, ['is_group', 'company'])","tmp_fun_0 = frappe.get_cached_value('Cost Center', self.cost_center, ['is_group', 'company'])
+is_group = tmp_fun_0[0]
+company = tmp_fun_0[1]
+",0,0,0,1,
+deeptype,https://github.com/openai/deeptype/tree/master/wikidata_linker_utils_src/src/python/wikidata_linker_utils/offset_array.py,,save_record_with_offset$74,"(values, offsets) = convert_dict_to_offset_array(index2indices, total_size)","tmp_fun_0 = convert_dict_to_offset_array(index2indices, total_size)
+values = tmp_fun_0[0]
+offsets = tmp_fun_0[1]
+",0,0,0,1,
+real-url,https://github.com/wbt5/real-url/tree/master/danmu/danmaku/egame.py,MessageDecode,m$208,"(value, position) = self.f2(i, s_position)","tmp_fun_0 = self.f2(i, s_position)
+value = tmp_fun_0[0]
+position = tmp_fun_0[1]
+",0,0,0,1,
+iredis,https://github.com/laixintao/iredis/tree/master/iredis/commands.py,,_load_command$21,"(group, command, syntax, func_name) = line","group = line[0]
+command = line[1]
+syntax = line[2]
+func_name = line[3]
+",0,0,0,0,
+MozDef,https://github.com/mozilla/MozDef/tree/master/tests/mq/plugins/test_large_strings.py,TestLargeStrings,test_large_details_message$13,"(retmessage, retmeta) = self.plugin.onMessage(msg, {})","tmp_fun_0 = self.plugin.onMessage(msg, {})
+retmessage = tmp_fun_0[0]
+retmeta = tmp_fun_0[1]
+",0,0,0,1,
+causalml,https://github.com/uber/causalml/tree/master/tests/test_meta_learners.py,,test_BaseXLearner_without_p$287,"(cate_p, _, _) = learner.fit_predict(X=X, treatment=treatment, y=y, return_ci=True, n_bootstraps=10)","tmp_fun_0 = learner.fit_predict(X=X, treatment=treatment, y=y, return_ci=True, n_bootstraps=10)
+cate_p = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+_ = tmp_fun_0[2]
+",0,0,0,1,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/tensor/index_methods.py,,_get_indices_Mul$65,"(inds, dummies) = _remove_repeated(inds)","tmp_fun_0 = _remove_repeated(inds)
+inds = tmp_fun_0[0]
+dummies = tmp_fun_0[1]
+",0,0,0,1,
+pyroute2,https://github.com/svinota/pyroute2/tree/master/pyroute2.ndb/pr2modules/ndb/main.py,EventQueue,__init__$892,"self._bypass = self._queue = queue.Queue(*argv, **kwarg)","tmp_value = queue.Queue(*argv, **kwarg)
+self._bypass = tmp_value
+self._queue = tmp_value
+",0,2,0,0,
+websocket-client,https://github.com/websocket-client/websocket-client/tree/master/websocket/_core.py,WebSocket,recv_data$370,"(opcode, frame) = self.recv_data_frame(control_frame)","tmp_fun_0 = self.recv_data_frame(control_frame)
+opcode = tmp_fun_0[0]
+frame = tmp_fun_0[1]
+",0,0,0,1,
+softlearning,https://github.com/rail-berkeley/softlearning/tree/master/softlearning/algorithms/sac.py,SAC,_update_actor$209,"(actions, log_pis) = self._policy.actions_and_log_probs(observations)","tmp_fun_0 = self._policy.actions_and_log_probs(observations)
+actions = tmp_fun_0[0]
+log_pis = tmp_fun_0[1]
+",0,0,0,1,
+h,https://github.com/hypothesis/h/tree/master/tests/functional/api/errors_test.py,,append_header$162,"(_, token) = user_with_token","_ = user_with_token[0]
+token = user_with_token[1]
+",0,0,0,0,
+subfinder,https://github.com/ausaki/subfinder/tree/master/subfinder/tools/compressed_file.py,CompressedFile,is_compressed_file$51,"(_, ext) = os.path.splitext(filename)","tmp_fun_0 = os.path.splitext(filename)
+_ = tmp_fun_0[0]
+ext = tmp_fun_0[1]
+",0,0,0,1,
+oio-sds,https://github.com/open-io/oio-sds/tree/master/tests/functional/container/test_container.py,,gen_names$67,"(i, index) = (index, index + 1)","i = index
+index = index + 1
+",0,0,0,0,
+flax,https://github.com/google/flax/tree/master/flax/linen/transforms.py,,create_trans_fn$236,"(module_scopes, args, kwargs) = get_module_scopes(self, args, kwargs)","tmp_fun_0 = get_module_scopes(self, args, kwargs)
+module_scopes = tmp_fun_0[0]
+args = tmp_fun_0[1]
+kwargs = tmp_fun_0[2]
+",0,0,0,1,
+NeoVintageous,https://github.com/NeoVintageous/NeoVintageous/tree/master/nv/commands.py,nv_vi_question_mark_impl,run$4350,"(pattern, flags) = process_search_pattern(self.view, pattern)","tmp_fun_0 = process_search_pattern(self.view, pattern)
+pattern = tmp_fun_0[0]
+flags = tmp_fun_0[1]
+",0,0,0,1,
+pennylane,https://github.com/PennyLaneAI/pennylane/tree/master/tests/ops/qubit/test_observables.py,TestHermitian,test_hermitian_eigendecomposition_multiple_wires$195,"(eigvals, eigvecs) = np.linalg.eigh(observable)","tmp_fun_0 = np.linalg.eigh(observable)
+eigvals = tmp_fun_0[0]
+eigvecs = tmp_fun_0[1]
+",0,0,0,1,
+GPflow,https://github.com/GPflow/GPflow/tree/master/gpflow/optimizers/natgrad.py,NaturalGradient,_natgrad_apply_gradients$278,"(xi1, xi2) = xi_transform.meanvarsqrt_to_xi(q_mu, q_sqrt)","tmp_fun_0 = xi_transform.meanvarsqrt_to_xi(q_mu, q_sqrt)
+xi1 = tmp_fun_0[0]
+xi2 = tmp_fun_0[1]
+",0,0,0,1,
+rlkit,https://github.com/rail-berkeley/rlkit/tree/master/rlkit/torch/networks/stochastic/distribution_generator.py,TanhGaussian,forward$86,"(mean, log_std) = super().forward(*input)","(mean, log_std) = super().forward(*input)
+",0,0,1,0,
+programmingbitcoin,https://github.com/jimmysong/programmingbitcoin/tree/master/code-ch05/ecc.py,S256Point,__init__$377,"(a, b) = (S256Field(A), S256Field(B))","a = S256Field(A)
+b = S256Field(B)
+",0,0,0,0,
+GPflow,https://github.com/GPflow/GPflow/tree/master/gpflow/models/vgp.py,VGPOpperArchambeau,__init__$293,"(X_data, _Y_data) = self.data","X_data = self.data[0]
+_Y_data = self.data[1]
+",0,0,0,0,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/stats/tests/test_stats.py,Test_ttest_ind_permutations,test_ttest_ind_exact_distribution$4400,"(na, nb) = (len(a), len(b))","na = len(a)
+nb = len(b)
+",0,0,0,0,
+asyncssh,https://github.com/ronf/asyncssh/tree/master/asyncssh/connection.py,SSHConnection,_report_global_response$1940,"(_, _, want_reply) = self._global_request_queue.pop(0)","tmp_fun_0 = self._global_request_queue.pop(0)
+_ = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+want_reply = tmp_fun_0[2]
+",0,0,0,1,
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/variation/str.py,,lobstrindex$1505,retained = total = 0,"tmp_value = 0
+retained = tmp_value
+total = tmp_value
+",0,2,0,0,
+python-docs-samples,https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/iot/api-client/mqtt_example/cloudiot_mqtt_image_test.py,,test_image$37,"(out, _) = capsys.readouterr()","tmp_fun_0 = capsys.readouterr()
+out = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+",0,0,0,1,
+cloud-custodian,https://github.com/cloud-custodian/cloud-custodian/tree/master/c7n/cwe.py,CloudWatchEvents,match$82,v['ids'] = e = jmespath.compile('detail.%s' % v['ids']),"tmp_value = jmespath.compile('detail.%s' % v['ids'])
+v['ids'] = tmp_value
+e = tmp_value
+",0,2,0,0,
+ElegantRL,https://github.com/AI4Finance-Foundation/ElegantRL/tree/master/elegantrl/agents/AgentPPO.py,AgentPPO,select_actions$66,"(action, noise) = self.act.get_action(state)","tmp_fun_0 = self.act.get_action(state)
+action = tmp_fun_0[0]
+noise = tmp_fun_0[1]
+",0,0,0,1,
+mimic3-benchmarks,https://github.com/YerevaNN/mimic3-benchmarks/tree/master/mimic3models/feature_extractor.py,,calculate$49,"(L, R) = get_range(L, R, sub_period)","tmp_fun_0 = get_range(L, R, sub_period)
+L = tmp_fun_0[0]
+R = tmp_fun_0[1]
+",0,0,0,1,
+SC-FEGAN,https://github.com/run-youngjoo/SC-FEGAN/tree/master//model.py,Model,build_gen$29,"(x10, mask10) = gate_conv(x10, 8 * cnum, 3, 1, name='gconv10')","tmp_fun_0 = gate_conv(x10, 8 * cnum, 3, 1, name='gconv10')
+x10 = tmp_fun_0[0]
+mask10 = tmp_fun_0[1]
+",0,0,0,1,
+detectron2,https://github.com/facebookresearch/detectron2/tree/master/tests/layers/test_roi_align_rotated.py,ROIAlignRotatedTest,test_roi_align_rotated_gradient_cuda$128,"(pool_h, pool_w) = (5, 5)","pool_h = 5
+pool_w = 5
+",0,0,0,0,
+Plex-Meta-Manager,https://github.com/meisnate12/Plex-Meta-Manager/tree/master/modules/library.py,Library,upload_images$162,"(_, image_compare, _) = self.config.Cache.query_image_map(item.ratingKey, f'{self.image_table_name}_backgrounds')","tmp_fun_0 = self.config.Cache.query_image_map(item.ratingKey, f'{self.image_table_name}_backgrounds')
+_ = tmp_fun_0[0]
+image_compare = tmp_fun_0[1]
+_ = tmp_fun_0[2]
+",0,0,0,1,
+hivemind,https://github.com/learning-at-home/hivemind/tree/master/hivemind/moe/server/task_pool.py,TaskPool,_pool_output_loop$193,"(batch_index, batch_outputs) = self.outputs_receiver.recv()","tmp_fun_0 = self.outputs_receiver.recv()
+batch_index = tmp_fun_0[0]
+batch_outputs = tmp_fun_0[1]
+",0,0,0,1,
+WeasyPrint,https://github.com/Kozea/WeasyPrint/tree/master/weasyprint/layout/page.py,,make_box$306,"(quote_depth, counter_values, counter_scopes) = margin_state","quote_depth = margin_state[0]
+counter_values = margin_state[1]
+counter_scopes = margin_state[2]
+",0,0,0,0,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/linalg/tests/test_decomp.py,TestSchur,test_simple$1902,"(tc2, zc2) = rsf2csf(tc, zc)","tmp_fun_0 = rsf2csf(tc, zc)
+tc2 = tmp_fun_0[0]
+zc2 = tmp_fun_0[1]
+",0,0,0,1,
+scikit-bio,https://github.com/biocore/scikit-bio/tree/master/skbio/diversity/_driver.py,,alpha_diversity$115,"(otu_ids, tree, kwargs) = _get_phylogenetic_kwargs(counts, **kwargs)","tmp_fun_0 = _get_phylogenetic_kwargs(counts, **kwargs)
+otu_ids = tmp_fun_0[0]
+tree = tmp_fun_0[1]
+kwargs = tmp_fun_0[2]
+",0,0,0,1,
+st2,https://github.com/StackStorm/st2/tree/master/st2common/tests/integration/test_register_content_script.py,ContentRegisterScriptTestCase,test_register_from_packs_doesnt_throw_on_missing_pack_resource_folder$111,"(exit_code, _, stderr) = run_command(cmd=cmd)","tmp_fun_0 = run_command(cmd=cmd)
+exit_code = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+stderr = tmp_fun_0[2]
+",0,0,0,1,
+docker-systemctl-replacement,https://github.com/gdraheim/docker-systemctl-replacement/tree/master//testsuite.py,DockerSystemctlReplacementTest,test_2704_create_logs$4030,"(out, err, end) = output3(cmd.format(**locals()))","tmp_fun_0 = output3(cmd.format(**locals()))
+out = tmp_fun_0[0]
+err = tmp_fun_0[1]
+end = tmp_fun_0[2]
+",0,0,0,1,
+visidata,https://github.com/saulpw/visidata/tree/master/visidata/loaders/sqlite.py,SqliteSheet,iterload$38,"(colnum, colname, coltype, nullable, defvalue, colkey, *_) = r","colnum = r[0]
+colname = r[1]
+coltype = r[2]
+nullable = r[3]
+defvalue = r[4]
+colkey = r[5]
+_ = r[6:]
+",0,0,1,0,
+fonttools,https://github.com/fonttools/fonttools/tree/master/Lib/fontTools/ttLib/tables/otConverters.py,AATLookup,buildFormat2$790,"(numUnits, unitSize) = (len(segments) + 1, valueSize + 4)","numUnits = len(segments) + 1
+unitSize = valueSize + 4
+",0,0,0,0,
+pyhsmm,https://github.com/mattjj/pyhsmm/tree/master/pyhsmm/internals/hsmm_states.py,HSMMStatesPython,mf_aDsl$190,"self._mf_aDsl = aDsl = np.empty((self.T, self.num_states))","tmp_value = np.empty((self.T, self.num_states))
+self._mf_aDsl = tmp_value
+aDsl = tmp_value
+",0,2,0,0,
+PGL,https://github.com/PaddlePaddle/PGL/tree/master/apps/GNNAutoScale/examples/run.py,,main$133,"(best_val_acc, final_test_acc, log_epoch) = train_eval(model, feature, gcn_norm, criterion, optim, dataset, data_mode, eval_graph, best_val_acc, final_test_acc, num_batches, log_epoch, train_loader, eval_loader)","tmp_fun_0 = train_eval(model, feature, gcn_norm, criterion, optim, dataset, data_mode, eval_graph, best_val_acc, final_test_acc, num_batches, log_epoch, train_loader, eval_loader)
+best_val_acc = tmp_fun_0[0]
+final_test_acc = tmp_fun_0[1]
+log_epoch = tmp_fun_0[2]
+",0,0,0,1,
+oauth2client,https://github.com/googleapis/oauth2client/tree/master/oauth2client/transport.py,,new_request$153,"(resp, content) = request(orig_request_method, uri, method, body, clean_headers(headers), redirections, connection_type)","tmp_fun_0 = request(orig_request_method, uri, method, body, clean_headers(headers), redirections, connection_type)
+resp = tmp_fun_0[0]
+content = tmp_fun_0[1]
+",0,0,0,1,
+chainer,https://github.com/chainer/chainer/tree/master/tests/chainer_tests/serializers_tests/test_npz.py,TestNpzDeserializerIgnoreNamesGroupHierachy,setUp$406,"(fd, path) = tempfile.mkstemp()","tmp_fun_0 = tempfile.mkstemp()
+fd = tmp_fun_0[0]
+path = tmp_fun_0[1]
+",0,0,0,1,
+lasertagger,https://github.com/google-research/lasertagger/tree/master/official_transformer/beam_search.py,SequenceBeamSearch,_grow_alive_seq$341,"(topk_log_probs, topk_indices) = tf.nn.top_k(flat_log_probs, k=beams_to_keep)","tmp_fun_0 = tf.nn.top_k(flat_log_probs, k=beams_to_keep)
+topk_log_probs = tmp_fun_0[0]
+topk_indices = tmp_fun_0[1]
+",0,0,0,1,
+salt,https://github.com/saltstack/salt/tree/master/salt/utils/pkg/win.py,WinSoftware,__get_software_details$1367,"(reg_key_all, _, _, _) = zip(*win32api.RegEnumKeyEx(handle))","(reg_key_all, _, _, _) = zip(*win32api.RegEnumKeyEx(handle))
+",0,0,1,0,
+sktime,https://github.com/alan-turing-institute/sktime/tree/master/sktime/forecasting/tests/test_theta.py,,test_forecaster_with_initial_level$48,"(y_train, y_test) = temporal_train_test_split(y)","tmp_fun_0 = temporal_train_test_split(y)
+y_train = tmp_fun_0[0]
+y_test = tmp_fun_0[1]
+",0,0,0,1,
+rl-teacher,https://github.com/nottombrown/rl-teacher/tree/master/rl_teacher/envs.py,UseReward,_step$57,"(ob, reward, done, info) = super()._step(a)","tmp_fun_0 = super()._step(a)
+ob = tmp_fun_0[0]
+reward = tmp_fun_0[1]
+done = tmp_fun_0[2]
+info = tmp_fun_0[3]
+",0,0,0,1,
+PIFu,https://github.com/shunsukesaito/PIFu/tree/master/apps/prt_util.py,,computePRT$87,"(vectors_orig, phi, theta) = sampleSphericalDirections(n)","tmp_fun_0 = sampleSphericalDirections(n)
+vectors_orig = tmp_fun_0[0]
+phi = tmp_fun_0[1]
+theta = tmp_fun_0[2]
+",0,0,0,1,
+pygubu,https://github.com/alejandroautalan/pygubu/tree/master/tests/test_tkinterscrolledtext.py,TestText,setUp$26,self.builder = builder = pygubu.Builder(),"tmp_value = pygubu.Builder()
+self.builder = tmp_value
+builder = tmp_value
+",0,2,0,0,
+uncertainty-baselines,https://github.com/google/uncertainty-baselines/tree/master/baselines/jft/sngp.py,,main$81,"(logits, labels, _, masks) = batch_metric_args","logits = batch_metric_args[0]
+labels = batch_metric_args[1]
+_ = batch_metric_args[2]
+masks = batch_metric_args[3]
+",0,0,0,0,
+tapas,https://github.com/google-research/tapas/tree/master/tapas/utils/synthesize_entablement.py,,_synthesize_condition$728,"(right, right_values) = _synthesize_expression(config, rng, table, column)","tmp_fun_0 = _synthesize_expression(config, rng, table, column)
+right = tmp_fun_0[0]
+right_values = tmp_fun_0[1]
+",0,0,0,1,
+django-tastypie,https://github.com/django-tastypie/django-tastypie/tree/master/tests/gis/tests/views.py,ViewsTestCase,test_posts$47,request._body = request._raw_post_data = post_data,"tmp_value = post_data
+request._body = tmp_value
+request._raw_post_data = tmp_value
+",0,2,0,0,
+checkov,https://github.com/bridgecrewio/checkov/tree/master/checkov/terraform/runner.py,Runner,_parse_files$464,"(file, parse_result, file_parsing_errors) = result","file = result[0]
+parse_result = result[1]
+file_parsing_errors = result[2]
+",0,0,0,0,
+DeepKE,https://github.com/zjunlp/DeepKE/tree/master/example/ae/standard/run.py,,main$24,"(train_losses, valid_losses) = ([], [])","train_losses = []
+valid_losses = []
+",0,0,0,0,
+FARM,https://github.com/deepset-ai/FARM/tree/master/farm/modeling/language_model.py,XLMRoberta,forward$750,"(sequence_output, pooled_output) = (output_tuple[0], output_tuple[1])","sequence_output = output_tuple[0]
+pooled_output = output_tuple[1]
+",0,0,0,0,
+neutron,https://github.com/openstack/neutron/tree/master/neutron/plugins/ml2/drivers/ovn/mech_driver/mech_driver.py,OVNMechanismDriver,_update_security_group$409,"(old_state, new_state) = payload.states","old_state = payload.states[0]
+new_state = payload.states[1]
+",0,0,0,0,
+ElegantRL,https://github.com/AI4Finance-Foundation/ElegantRL/tree/master/elegantrl/agents/AgentSAC.py,AgentSAC,get_obj_critic_per$127,"(q1, q2) = self.cri.get_q1_q2(state, action)","tmp_fun_0 = self.cri.get_q1_q2(state, action)
+q1 = tmp_fun_0[0]
+q2 = tmp_fun_0[1]
+",0,0,0,1,
+zipline,https://github.com/quantopian/zipline/tree/master/zipline/pipeline/factors/statistical.py,,vectorized_beta$571,"(N, M) = dependents.shape","N = dependents.shape[0]
+M = dependents.shape[1]
+",0,0,0,0,
+TSD,https://github.com/Sense-X/TSD/tree/master/tests/test_nms.py,,test_nms_device_and_dtypes_cpu$11,"(supressed, inds) = nms(dets, iou_thr)","tmp_fun_0 = nms(dets, iou_thr)
+supressed = tmp_fun_0[0]
+inds = tmp_fun_0[1]
+",0,0,0,1,
+X2Paddle,https://github.com/PaddlePaddle/X2Paddle/tree/master/x2paddle/op_mapper/pytorch2paddle/aten.py,,aten_abs$75,"(inputs_name, inputs_node) = mapper._get_inputs_name(node)","tmp_fun_0 = mapper._get_inputs_name(node)
+inputs_name = tmp_fun_0[0]
+inputs_node = tmp_fun_0[1]
+",0,0,0,1,
+audio,https://github.com/pytorch/audio/tree/master/examples/libtorchaudio/speech_recognition/parse_voxforge.py,,_parse_prompts$29,"(id_, transcript) = line.split(' ', maxsplit=1)","tmp_fun_0 = line.split(' ', maxsplit=1)
+id_ = tmp_fun_0[0]
+transcript = tmp_fun_0[1]
+",0,0,0,1,
+icevision,https://github.com/airctic/icevision/tree/master/icevision/models/ultralytics/yolov5/prediction.py,,predict$49,"(batch, records) = build_infer_batch(dataset)","tmp_fun_0 = build_infer_batch(dataset)
+batch = tmp_fun_0[0]
+records = tmp_fun_0[1]
+",0,0,0,1,
+vispy,https://github.com/vispy/vispy/tree/master/examples/gloo/animate_images.py,Canvas,on_resize$90,"(w, h) = (width, width / R)","w = width
+h = width / R
+",0,0,0,0,
+GMS-Feature-Matcher,https://github.com/JiawangBian/GMS-Feature-Matcher/tree/master/python/gms_matcher.py,GmsMatcher,compute_matches$107,"(self.keypoints_image1, descriptors_image1) = self.descriptor.detectAndCompute(img1, np.array([]))","tmp_fun_0 = self.descriptor.detectAndCompute(img1, np.array([]))
+self.keypoints_image1 = tmp_fun_0[0]
+descriptors_image1 = tmp_fun_0[1]
+",0,0,0,1,
+sktime,https://github.com/alan-turing-institute/sktime/tree/master/sktime/performance_metrics/tests/test_performance_metrics_forecasting.py,,test_y_true_y_pred_inconsistent_n_outputs_raises_error$507,"(y_train, y_true) = (y.iloc[:50], y.iloc[50:])","y_train = y.iloc[:50]
+y_true = y.iloc[50:]
+",0,0,0,0,
+pynndescent,https://github.com/lmcinnes/pynndescent/tree/master/pynndescent/rp_trees.py,,recursive_convert_sparse$1087,"(node_num, leaf_start) = recursive_convert_sparse(tree, hyperplanes, offsets, children, indices, node_num + 1, leaf_start, tree.children[tree_node][1])","tmp_fun_0 = recursive_convert_sparse(tree, hyperplanes, offsets, children, indices, node_num + 1, leaf_start, tree.children[tree_node][1])
+node_num = tmp_fun_0[0]
+leaf_start = tmp_fun_0[1]
+",0,0,0,1,
+kornia,https://github.com/kornia/kornia/tree/master/test/color/test_yuv.py,TestRgbToYuv420,test_jit$209,"(B, C, H, W) = (2, 3, 4, 4)","B = 2
+C = 3
+H = 4
+W = 4
+",0,0,0,0,
+AerialDetection,https://github.com/dingjiansw101/AerialDetection/tree/master/mmdet/apis/train.py,,batch_processor$38,"(loss, log_vars) = parse_losses(losses)","tmp_fun_0 = parse_losses(losses)
+loss = tmp_fun_0[0]
+log_vars = tmp_fun_0[1]
+",0,0,0,1,
+dataset-sts,https://github.com/brmson/dataset-sts/tree/master/tools/retrieval-api.py,,get_score$64,"(gr, y, _) = task.load_set(None, ([s0toks for _ in s1toks], s1toks, np.array([0 for _ in s1toks])))","tmp_fun_0 = task.load_set(None, ([s0toks for _ in s1toks], s1toks, np.array([0 for _ in s1toks])))
+gr = tmp_fun_0[0]
+y = tmp_fun_0[1]
+_ = tmp_fun_0[2]
+",0,0,0,1,
+botorch,https://github.com/pytorch/botorch/tree/master/botorch/utils/multi_objective/box_decompositions/utils.py,,compute_non_dominated_hypercell_bounds_2d$222,"(front0, front1) = torch.split(front, 1, dim=-1)","tmp_fun_0 = torch.split(front, 1, dim=-1)
+front0 = tmp_fun_0[0]
+front1 = tmp_fun_0[1]
+",0,0,0,1,
+python-telegram-bot,https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples/chatmemberbot.py,,extract_status_change$43,"(old_status, new_status) = status_change","old_status = status_change[0]
+new_status = status_change[1]
+",0,0,0,0,
+baserow,https://github.com/bram2w/baserow/tree/master/backend/src/baserow/contrib/database/rows/handler.py,RowHandler,import_rows$1143,"(valid_rows, original_row_index_mapping) = error_report.get_valid_rows_and_mapping()","tmp_fun_0 = error_report.get_valid_rows_and_mapping()
+valid_rows = tmp_fun_0[0]
+original_row_index_mapping = tmp_fun_0[1]
+",0,0,0,1,
+xarray,https://github.com/pydata/xarray/tree/master/xarray/plot/utils.py,,legend_elements$924,"(color, size) = _get_color_and_size(val)","tmp_fun_0 = _get_color_and_size(val)
+color = tmp_fun_0[0]
+size = tmp_fun_0[1]
+",0,0,0,1,
+sphinx,https://github.com/sphinx-doc/sphinx/tree/master/sphinx/util/parallel.py,,make_chunks$137,"(nchunks, rest) = divmod(nargs, chunksize)","tmp_fun_0 = divmod(nargs, chunksize)
+nchunks = tmp_fun_0[0]
+rest = tmp_fun_0[1]
+",0,0,0,1,
+tahoe-lafs,https://github.com/tahoe-lafs/tahoe-lafs/tree/master/misc/simulators/count_dirs.py,,slotsize$53,"(per_slot, per_entry) = (0, 0)","per_slot = 0
+per_entry = 0
+",0,0,0,0,
+Finger,https://github.com/EASY233/Finger/tree/master/lib/identify.py,Identify,_prepare_pattern$50,"(regex, _, rest) = pattern.partition('\\;')","tmp_fun_0 = pattern.partition('\\;')
+regex = tmp_fun_0[0]
+_ = tmp_fun_0[1]
+rest = tmp_fun_0[2]
+",0,0,0,1,
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/axis.py,Axis,_update_ticks$1252,"(view_low, view_high) = (view_high, view_low)","tmp0 = view_low
+view_low = view_high
+view_high = tmp0
+",1,0,0,0,
+agents,https://github.com/tensorflow/agents/tree/master/tf_agents/policies/batched_py_policy.py,,_execute_policy$195,"(policy, time_step, policy_state) = zip_results_element","policy = zip_results_element[0]
+time_step = zip_results_element[1]
+policy_state = zip_results_element[2]
+",0,0,0,0,
+ffjord,https://github.com/rtqichen/ffjord/tree/master/lib/odenvp.py,StackedCNFLayers,__init__$139,"(c, h, w) = initial_size","c = initial_size[0]
+h = initial_size[1]
+w = initial_size[2]
+",0,0,0,0,
+galaxy,https://github.com/ansible/galaxy/tree/master/tools/filters/ucsc_gene_table_to_intervals.py,,main$24,"(region_start, region_end) = (cds_end, tx_end)","region_start = cds_end
+region_end = tx_end
+",0,0,0,0,
+sympy,https://github.com/sympy/sympy/tree/master/sympy/simplify/radsimp.py,,parse_term$235,"(coeff, tail) = expr.exp.as_coeff_Mul()","tmp_fun_0 = expr.exp.as_coeff_Mul()
+coeff = tmp_fun_0[0]
+tail = tmp_fun_0[1]
+",0,0,0,1,
+trezor-firmware,https://github.com/trezor/trezor-firmware/tree/master/legacy/firmware/protob/messages_map.py,,handle_message$44,"(interface, direction) = IFACE_DIR_PAIRS[extension]","interface = IFACE_DIR_PAIRS[extension][0]
+direction = IFACE_DIR_PAIRS[extension][1]
+",0,0,0,0,
+neat-python,https://github.com/CodeReclaimers/neat-python/tree/master/examples/xor/evolve-spiking.py,,run$93,"(sum_square_error, simulated) = simulate(winner, config)","tmp_fun_0 = simulate(winner, config)
+sum_square_error = tmp_fun_0[0]
+simulated = tmp_fun_0[1]
+",0,0,0,1,
+fast-neural-style-tensorflow,https://github.com/hzy46/fast-neural-style-tensorflow/tree/master/nets/inception_v1_test.py,InceptionV1Test,testBuildBaseNetwork$45,"(mixed_6c, end_points) = inception.inception_v1_base(inputs)","tmp_fun_0 = inception.inception_v1_base(inputs)
+mixed_6c = tmp_fun_0[0]
+end_points = tmp_fun_0[1]
+",0,0,0,1,
+fedlearner,https://github.com/bytedance/fedlearner/tree/master/fedlearner/data_join/rsa_psi/rsa_psi_component.py,PsiRsaSigner,_make_inner_generator$265,"(raw_id_batches, next_index) = self._consum_raw_id_batch(next_index, required_num)","tmp_fun_0 = self._consum_raw_id_batch(next_index, required_num)
+raw_id_batches = tmp_fun_0[0]
+next_index = tmp_fun_0[1]
+",0,0,0,1,
+deep-learning-for-image-processing,https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/pytorch_classification/Test3_vggnet/train.py,,main$14,"(val_images, val_labels) = val_data","val_images = val_data[0]
+val_labels = val_data[1]
+",0,0,0,0,
+milk,https://github.com/luispedro/milk/tree/master/milk/ext/jugparallel.py,,_evaluate_solution$78,"(features, results, method) = args","features = args[0]
+results = args[1]
+method = args[2]
+",0,0,0,0,
+Plex-Meta-Manager,https://github.com/meisnate12/Plex-Meta-Manager/tree/master/modules/tmdb.py,TMDb,get_item$392,"(_id, _type) = self.config.Convert.imdb_to_tmdb(imdb_id)","tmp_fun_0 = self.config.Convert.imdb_to_tmdb(imdb_id)
+_id = tmp_fun_0[0]
+_type = tmp_fun_0[1]
+",0,0,0,1,
+timesketch,https://github.com/google/timesketch/tree/master/timesketch/lib/aggregators/manager_test.py,TestAggregatorManager,test_get_aggregators$46,"(aggregator_name, aggregator_class) = first_aggregator_tuple","aggregator_name = first_aggregator_tuple[0]
+aggregator_class = first_aggregator_tuple[1]
+",0,0,0,0,
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/topi/cuda/conv2d_nhwc_tensorcore.py,,schedule_nhwc_tensorcore_cuda$95,"(ko, ki) = s[ConvF].split(ic, factor=chunk)","tmp_fun_0 = s[ConvF].split(ic, factor=chunk)
+ko = tmp_fun_0[0]
+ki = tmp_fun_0[1]
+",0,0,0,1,
+scipy,https://github.com/scipy/scipy/tree/master/scipy/sparse/linalg/_isolve/lsmr.py,,lsmr$29,"(m, n) = A.shape","m = A.shape[0]
+n = A.shape[1]
+",0,0,0,0,
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/apps/gbsubmit.py,,get_rows_cols$479,"(rows, cols) = (string.ascii_uppercase[:nrows], range(1, ncols + 1))","rows = string.ascii_uppercase[:nrows]
+cols = range(1, ncols + 1)
+",0,0,0,0,
+OpenSfM,https://github.com/mapillary/OpenSfM/tree/master/opensfm/reconstruction.py,,two_view_reconstruction_5pt$401,"(R_5p, t_5p, inliers_5p) = results_5pt[0]","R_5p = results_5pt[0][0]
+t_5p = results_5pt[0][1]
+inliers_5p = results_5pt[0][2]
+",0,0,0,0,
+,,,,,,380,371,377,138,0.359375

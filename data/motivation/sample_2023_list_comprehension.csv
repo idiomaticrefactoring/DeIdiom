@@ -1,0 +1,1710 @@
+repo_name,file_html,cl,me,stmt_code,parent_code,code,complicate_code,temporary_flag,create_fun_flag,temporary_flag,func_flag
+baserow,https://github.com/bram2w/baserow/tree/master/backend/tests/baserow/contrib/database/view/test_view_filters.py,,test_link_row_has_not_filter_type$3707,"ids = [r.id for r in handler.apply_filters(grid_view, model.objects.all()).all()]","ids = [r.id for r in handler.apply_filters(grid_view, model.objects.all()).all()]","ids = [r.id for r in handler.apply_filters(grid_view, model.objects.all()).all()]","ids = []
+for r in handler.apply_filters(grid_view, model.objects.all()).all():
+    ids.append(r.id)
+",0,0,0,0
+Super-SloMo,https://github.com/avinashpaliwal/Super-SloMo/tree/master/data/create_dataset.py,,main$81,trainVideoNames = [videos[index] for index in trainIndices],trainVideoNames = [videos[index] for index in trainIndices],trainVideoNames = [videos[index] for index in trainIndices],"trainVideoNames = []
+for index in trainIndices:
+    trainVideoNames.append(videos[index])
+",0,0,0,0
+yolov5-face,https://github.com/deepcam-cn/yolov5-face/tree/master/utils/face_datasets.py,LoadFaceImagesAndLabels,__init__$117,self.labels = [self.labels[i] for i in irect],self.labels = [self.labels[i] for i in irect],self.labels = [self.labels[i] for i in irect],"tmp_ListComp0 = []
+for i in irect:
+    tmp_ListComp0.append(self.labels[i])
+self.labels = tmp_ListComp0",1,0,1,0
+pytorch-metric-learning,https://github.com/KevinMusgrave/pytorch-metric-learning/tree/master/tests/miners/test_batch_hard_miner.py,TestBatchHardMiner,test_normalized_dist_squared_mining$75,"embeddings = torch.tensor([angle_to_coord(a, normalized=True) for a in angles], dtype=dtype).to(TEST_DEVICE)","torch.tensor([angle_to_coord(a, normalized=True) for a in angles], dtype=dtype)","torch.tensor([angle_to_coord(a, normalized=True) for a in angles], dtype=dtype)","tmp_ListComp0 = []
+for a in angles:
+    tmp_ListComp0.append(angle_to_coord(a, normalized=True))
+embeddings = torch.tensor(tmp_ListComp0, dtype=dtype).to(TEST_DEVICE)",1,0,1,0
+ros_comm,https://github.com/ros/ros_comm/tree/master/tools/roslaunch/src/roslaunch/rlutil.py,,print_file_list$255,files = [os.path.abspath(x) for x in set(config.roslaunch_files) - set([get_roscore_filename()])],files = [os.path.abspath(x) for x in set(config.roslaunch_files) - set([get_roscore_filename()])],files = [os.path.abspath(x) for x in set(config.roslaunch_files) - set([get_roscore_filename()])],"files = []
+for x in set(config.roslaunch_files) - set([get_roscore_filename()]):
+    files.append(os.path.abspath(x))
+",0,0,0,0
+pycma,https://github.com/CMA-ES/pycma/tree/master/cma/fitness_functions.py,FitnessFunctions,rastrigin$415,return [10 * N + sum(xi ** 2 - 10 * np.cos(2 * np.pi * xi)) for xi in x],return [10 * N + sum(xi ** 2 - 10 * np.cos(2 * np.pi * xi)) for xi in x],return [10 * N + sum(xi ** 2 - 10 * np.cos(2 * np.pi * xi)) for xi in x],"tmp_ListComp0 = []
+for xi in x:
+    tmp_ListComp0.append(10 * N + sum(xi ** 2 - 10 * np.cos(2 * np.pi * xi)))
+return tmp_ListComp0",1,0,1,0
+speechbrain,https://github.com/speechbrain/speechbrain/tree/master/speechbrain/utils/DER.py,,DER$38,error_speaker_times = np.array([float(m) for m in ERROR_SPEAKER_TIME.findall(stdout)]),np.array([float(m) for m in ERROR_SPEAKER_TIME.findall(stdout)]),np.array([float(m) for m in ERROR_SPEAKER_TIME.findall(stdout)]),"tmp_ListComp0 = []
+for m in ERROR_SPEAKER_TIME.findall(stdout):
+    tmp_ListComp0.append(float(m))
+error_speaker_times = np.array(tmp_ListComp0)",1,0,1,0
+weevely3,https://github.com/epinna/weevely3/tree/master//weevely.py,,if_main_my$61,agents_available = [os.path.split(agent)[1].split('.')[0] for agent in glob.glob('%s/*.tpl' % agent_templates_folder_path)],agents_available = [os.path.split(agent)[1].split('.')[0] for agent in glob.glob('%s/*.tpl' % agent_templates_folder_path)],agents_available = [os.path.split(agent)[1].split('.')[0] for agent in glob.glob('%s/*.tpl' % agent_templates_folder_path)],"agents_available = []
+for agent in glob.glob('%s/*.tpl' % agent_templates_folder_path):
+    agents_available.append(os.path.split(agent)[1].split('.')[0])
+",0,0,0,0
+pyexcel,https://github.com/pyexcel/pyexcel/tree/master/pyexcel/internal/sheets/matrix.py,Matrix,_paste_rows$413,empty_row = [[constants.DEFAULT_NA for _ in compact.irange(max_columns)] for __ in compact.irange(delta)],empty_row = [[constants.DEFAULT_NA for _ in compact.irange(max_columns)] for __ in compact.irange(delta)],empty_row = [[constants.DEFAULT_NA for _ in compact.irange(max_columns)] for __ in compact.irange(delta)],"empty_row = []
+for __ in compact.irange(delta):
+    empty_row1 = []
+    for _ in compact.irange(max_columns):
+        empty_row1.append(constants.DEFAULT_NA)
+    empty_row.append(empty_row1)
+",0,0,0,0
+Kaggler,https://github.com/jeongyoonlee/Kaggler/tree/master/kaggler/model/nn.py,NN,fit$40,"neg_idx = [n_idx for (n_idx, n_y) in enumerate(y[sub_idx]) if n_y == 0.0]","neg_idx = [n_idx for (n_idx, n_y) in enumerate(y[sub_idx]) if n_y == 0.0]","neg_idx = [n_idx for (n_idx, n_y) in enumerate(y[sub_idx]) if n_y == 0.0]","neg_idx = []
+for (n_idx, n_y) in enumerate(y[sub_idx]):
+    if n_y == 0.0:
+        neg_idx.append(n_idx)
+",0,0,0,0
+seed_rl,https://github.com/google-research/seed_rl/tree/master/dmlab/networks.py,ImpalaDeep,__init__$72,"self._stacks = [_Stack(num_ch, num_blocks) for (num_ch, num_blocks) in [(16, 2), (32, 2), (32, 2)]]","self._stacks = [_Stack(num_ch, num_blocks) for (num_ch, num_blocks) in [(16, 2), (32, 2), (32, 2)]]","self._stacks = [_Stack(num_ch, num_blocks) for (num_ch, num_blocks) in [(16, 2), (32, 2), (32, 2)]]","self._stacks = []
+for (num_ch, num_blocks) in [(16, 2), (32, 2), (32, 2)]:
+    self._stacks.append(_Stack(num_ch, num_blocks))
+",0,0,0,0
+mimesis,https://github.com/lk-geimfari/mimesis/tree/master/mimesis/random.py,Random,randints$27,return [int(self.random() * (b - a)) + a for _ in range(amount)],return [int(self.random() * (b - a)) + a for _ in range(amount)],return [int(self.random() * (b - a)) + a for _ in range(amount)],"tmp_ListComp0 = []
+for _ in range(amount):
+    tmp_ListComp0.append(int(self.random() * (b - a)) + a)
+return tmp_ListComp0",1,0,1,0
+SogouMRCToolkit,https://github.com/sogou/SogouMRCToolkit/tree/master/sogou_mrc/libraries/BertWrapper.py,BertDataHelper,convert_to_bert_input$32,tf.logging.info('input_ids: %s' % ' '.join([str(x) for x in input_ids])),' '.join([str(x) for x in input_ids]),' '.join([str(x) for x in input_ids]),"tmp_ListComp0 = []
+for x in input_ids:
+    tmp_ListComp0.append(str(x))
+tf.logging.info('input_ids: %s' % ' '.join(tmp_ListComp0))",1,0,1,0
+baserow,https://github.com/bram2w/baserow/tree/master/backend/src/baserow/contrib/database/api/views/views.py,ViewsView,get$251,"data = [view_type_registry.get_serializer(view, ViewSerializer, filters=filters, sortings=sortings, decorations=decorations).data for view in views]","data = [view_type_registry.get_serializer(view, ViewSerializer, filters=filters, sortings=sortings, decorations=decorations).data for view in views]","data = [view_type_registry.get_serializer(view, ViewSerializer, filters=filters, sortings=sortings, decorations=decorations).data for view in views]","data = []
+for view in views:
+    data.append(view_type_registry.get_serializer(view, ViewSerializer, filters=filters, sortings=sortings, decorations=decorations).data)
+",0,0,0,0
+kaggle-imaterialist,https://github.com/amirassov/kaggle-imaterialist/tree/master/src/submit.py,,main$90,"submission['mAP'] = sum([[x['metric']] * len(x['samples']) for x in results], [])","sum([[x['metric']] * len(x['samples']) for x in results], [])","sum([[x['metric']] * len(x['samples']) for x in results], [])","tmp_ListComp0 = []
+for x in results:
+    tmp_ListComp0.append([x['metric']] * len(x['samples']))
+submission['mAP'] = sum(tmp_ListComp0, [])",1,0,1,0
+pyAudioAnalysis,https://github.com/tyiannak/pyAudioAnalysis/tree/master/pyAudioAnalysis/ShortTermFeatures.py,,chromagram$324,time_axis = [t * step / sampling_rate for t in range(chromogram.shape[0])],time_axis = [t * step / sampling_rate for t in range(chromogram.shape[0])],time_axis = [t * step / sampling_rate for t in range(chromogram.shape[0])],"time_axis = []
+for t in range(chromogram.shape[0]):
+    time_axis.append(t * step / sampling_rate)
+",0,0,0,0
+seahub,https://github.com/haiwen/seahub/tree/master/seahub/api2/endpoints/revision_tag.py,,_decorated$23,"names = [name.strip() for name in tag_names.split(',')]","names = [name.strip() for name in tag_names.split(',')]","names = [name.strip() for name in tag_names.split(',')]","names = []
+for name in tag_names.split(','):
+    names.append(name.strip())
+",0,0,0,0
+pygal,https://github.com/Kozea/pygal/tree/master/pygal/test/test_line.py,,test_simple_line$29,"line.add('test2', [sin(x / 10) for x in rng])","line.add('test2', [sin(x / 10) for x in rng])","line.add('test2', [sin(x / 10) for x in rng])","tmp_ListComp0 = []
+for x in rng:
+    tmp_ListComp0.append(sin(x / 10))
+line.add('test2', tmp_ListComp0)",1,0,1,0
+transformers,https://github.com/huggingface/transformers/tree/master/examples/pytorch/translation/run_translation_no_trainer.py,,main$308,preds = [pred.strip() for pred in preds],preds = [pred.strip() for pred in preds],preds = [pred.strip() for pred in preds],"tmp_ListComp0 = []
+for pred in preds:
+    tmp_ListComp0.append(pred.strip())
+preds = tmp_ListComp0",1,0,1,0
+imgaug,https://github.com/aleju/imgaug/tree/master/test/augmenters/test_blend.py,TestBlendAlpha,test_get_children_lists$1089,assert ia.is_iterable([lst for lst in children_lsts]),ia.is_iterable([lst for lst in children_lsts]),ia.is_iterable([lst for lst in children_lsts]),"tmp_ListComp0 = []
+for lst in children_lsts:
+    tmp_ListComp0.append(lst)
+assert ia.is_iterable(tmp_ListComp0)",1,0,1,0
+PaddleX,https://github.com/PaddlePaddle/PaddleX/tree/master/paddlex/ppdet/modeling/mot/tracker/base_jde_tracker.py,STrack,multi_predict$143,multi_mean = np.asarray([track.mean.copy() for track in tracks]),np.asarray([track.mean.copy() for track in tracks]),np.asarray([track.mean.copy() for track in tracks]),"tmp_ListComp0 = []
+for track in tracks:
+    tmp_ListComp0.append(track.mean.copy())
+multi_mean = np.asarray(tmp_ListComp0)",1,0,1,0
+nilearn,https://github.com/nilearn/nilearn/tree/master/nilearn/plotting/matrix_plotting.py,,plot_contrast_matrix$239,max_len = np.max([len(str(name)) for name in design_column_names]),np.max([len(str(name)) for name in design_column_names]),np.max([len(str(name)) for name in design_column_names]),"tmp_ListComp0 = []
+for name in design_column_names:
+    tmp_ListComp0.append(len(str(name)))
+max_len = np.max(tmp_ListComp0)",1,0,1,0
+faster-rcnn-pytorch,https://github.com/bubbliiiing/faster-rcnn-pytorch/tree/master/utils/utils_map.py,,get_map$276,rounded_rec = ['%.2f' % elem for elem in rec],rounded_rec = ['%.2f' % elem for elem in rec],rounded_rec = ['%.2f' % elem for elem in rec],"rounded_rec = []
+for elem in rec:
+    rounded_rec.append('%.2f' % elem)
+",0,0,0,0
+anchore-engine,https://github.com/anchore/anchore-engine/tree/master/anchore_engine/common/models/policy_engine.py,VulnerabilityMatch,get_cvss_scores_nvd$794,[scores.extend(nvd_reference.cvss) for nvd_reference in self.nvd if nvd_reference.cvss],[scores.extend(nvd_reference.cvss) for nvd_reference in self.nvd if nvd_reference.cvss],[scores.extend(nvd_reference.cvss) for nvd_reference in self.nvd if nvd_reference.cvss],"tmp_ListComp0 = []
+for nvd_reference in self.nvd:
+    if nvd_reference.cvss:
+        tmp_ListComp0.append(scores.extend(nvd_reference.cvss))
+tmp_ListComp0",1,0,1,0
+apex,https://github.com/NVIDIA/apex/tree/master/apex/optimizers/fused_sgd.py,FusedSGD,step$138,fp16_model_grads = [p.grad for p in stash.fp16_groups[gid] if p.grad is not None],fp16_model_grads = [p.grad for p in stash.fp16_groups[gid] if p.grad is not None],fp16_model_grads = [p.grad for p in stash.fp16_groups[gid] if p.grad is not None],"fp16_model_grads = []
+for p in stash.fp16_groups[gid]:
+    if p.grad is not None:
+        fp16_model_grads.append(p.grad)
+",0,0,0,0
+KivyMD,https://github.com/kivymd/KivyMD/tree/master/kivymd/uix/pickers/colorpicker/colorpicker.py,MDColorPicker,on_type_color$526,self.selected_color = [value for value in rgb],self.selected_color = [value for value in rgb],self.selected_color = [value for value in rgb],"self.selected_color = []
+for value in rgb:
+    self.selected_color.append(value)
+",0,0,0,0
+nltk,https://github.com/nltk/nltk/tree/master/nltk/classify/decisiontree.py,DecisionTreeClassifier,refine$206,"fval_featuresets = [(featureset, label) for (featureset, label) in labeled_featuresets if featureset.get(self._fname) == fval]","fval_featuresets = [(featureset, label) for (featureset, label) in labeled_featuresets if featureset.get(self._fname) == fval]","fval_featuresets = [(featureset, label) for (featureset, label) in labeled_featuresets if featureset.get(self._fname) == fval]","fval_featuresets = []
+for (featureset, label) in labeled_featuresets:
+    if featureset.get(self._fname) == fval:
+        fval_featuresets.append((featureset, label))
+",0,0,0,0
+hyperopt,https://github.com/hyperopt/hyperopt/tree/master/hyperopt/base.py,Trials,best_trial$600,losses = [float(t['result']['loss']) for t in candidates],losses = [float(t['result']['loss']) for t in candidates],losses = [float(t['result']['loss']) for t in candidates],"losses = []
+for t in candidates:
+    losses.append(float(t['result']['loss']))
+",0,0,0,0
+pycord,https://github.com/Pycord-Development/pycord/tree/master/discord/webhook/async_.py,,handle_message_parameters$606,payload['embeds'] = [e.to_dict() for e in embeds],payload['embeds'] = [e.to_dict() for e in embeds],payload['embeds'] = [e.to_dict() for e in embeds],"payload['embeds'] = []
+for e in embeds:
+    payload['embeds'].append(e.to_dict())
+",0,0,0,0
+deep_gcns_torch,https://github.com/lightaime/deep_gcns_torch/tree/master/examples/ppi/main.py,,train_step$62,"gt = torch.cat([data_batch.y for data_batch in data], 0).to(opt.device)","torch.cat([data_batch.y for data_batch in data], 0)","torch.cat([data_batch.y for data_batch in data], 0)","tmp_ListComp0 = []
+for data_batch in data:
+    tmp_ListComp0.append(data_batch.y)
+gt = torch.cat(tmp_ListComp0, 0).to(opt.device)",1,0,1,0
+Flask-MonitoringDashboard,https://github.com/flask-dashboard/Flask-MonitoringDashboard/tree/master/flask_monitoringdashboard/controllers/versions.py,,get_multi_version_data$37,"endpoints = [get_endpoint_by_name(session, name) for name in endpoints]","endpoints = [get_endpoint_by_name(session, name) for name in endpoints]","endpoints = [get_endpoint_by_name(session, name) for name in endpoints]","tmp_ListComp0 = []
+for name in endpoints:
+    tmp_ListComp0.append(get_endpoint_by_name(session, name))
+endpoints = tmp_ListComp0",1,0,1,0
+microk8s,https://github.com/ubuntu/microk8s/tree/master/scripts/wrappers/common/utils.py,,parse_xable_single_arg$385,"matching_repos = [repo for (repo, addon) in available_addons if addon == addon_name]","matching_repos = [repo for (repo, addon) in available_addons if addon == addon_name]","matching_repos = [repo for (repo, addon) in available_addons if addon == addon_name]","matching_repos = []
+for (repo, addon) in available_addons:
+    if addon == addon_name:
+        matching_repos.append(repo)
+",0,0,0,0
+SublimeCodeIntel,https://github.com/SublimeCodeIntel/SublimeCodeIntel/tree/master//SublimeCodeIntel.py,CodeintelSettings,get_prefs$749,language_scan_extra_paths = [os.path.normcase(os.path.normpath(os.path.expanduser(e))).rstrip(os.sep) for e in scan_extra_paths | language_scan_extra_paths],language_scan_extra_paths = [os.path.normcase(os.path.normpath(os.path.expanduser(e))).rstrip(os.sep) for e in scan_extra_paths | language_scan_extra_paths],language_scan_extra_paths = [os.path.normcase(os.path.normpath(os.path.expanduser(e))).rstrip(os.sep) for e in scan_extra_paths | language_scan_extra_paths],"tmp_ListComp0 = []
+for e in scan_extra_paths | language_scan_extra_paths:
+    tmp_ListComp0.append(os.path.normcase(os.path.normpath(os.path.expanduser(e))).rstrip(os.sep))
+language_scan_extra_paths = tmp_ListComp0",1,0,1,0
+networkx,https://github.com/networkx/networkx/tree/master/networkx/algorithms/centrality/group.py,,_heuristic$458,[CL.remove(m) for m in CL if m in DF_tree.nodes[node_p]['GM']],[CL.remove(m) for m in CL if m in DF_tree.nodes[node_p]['GM']],[CL.remove(m) for m in CL if m in DF_tree.nodes[node_p]['GM']],"tmp_ListComp0 = []
+for m in CL:
+  if m in DF_tree.nodes[node_p]['GM']:  
+tmp_ListComp0.append(CL.remove(m))",0,0,1,0
+video_analyst,https://github.com/MegviiDetection/video_analyst/tree/master/videoanalyst/engine/tester/tester_impl/vot.py,VOTTester,write_result_to_csv$302,"row_data = ','.join([str(v) for v in row_dict.values()])",",'.join([str(v) for v in row_dict.values()])",",'.join([str(v) for v in row_dict.values()])","tmp_ListComp0 = []
+for v in row_dict.values():
+    tmp_ListComp0.append(str(v))
+row_data = ','.join(tmp_ListComp0)",1,0,1,0
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/tir/op.py,,trace$1406,"call_args = [_pack_buffer(x) if isinstance(x, Buffer) else x for x in args]","call_args = [_pack_buffer(x) if isinstance(x, Buffer) else x for x in args]","call_args = [_pack_buffer(x) if isinstance(x, Buffer) else x for x in args]","call_args = []
+for x in args:
+    if isinstance(x, Buffer):
+        call_args.append(_pack_buffer(x))
+    else:
+        call_args.append(x)
+",0,0,0,0
+moto,https://github.com/spulec/moto/tree/master/tests/test_ec2/test_elastic_block_store.py,,test_volume_filters$269,"set([vol.id for vol in volumes_by_unencrypted if vol.id in volume_ids]).should.equal({block_mapping.volume_id, volume2.id})",set([vol.id for vol in volumes_by_unencrypted if vol.id in volume_ids]),set([vol.id for vol in volumes_by_unencrypted if vol.id in volume_ids]),"tmp_ListComp0 = []
+for vol in volumes_by_unencrypted:
+    if vol.id in volume_ids:
+        tmp_ListComp0.append(vol.id)
+set(tmp_ListComp0).should.equal({block_mapping.volume_id, volume2.id})",1,0,1,0
+neutron,https://github.com/openstack/neutron/tree/master/neutron/tests/unit/plugins/ml2/extensions/test_dns_integration.py,DNSIntegrationTestCase,test_update_port_fixed_ips_with_new_dns_name$391,original_ips = [ip['ip_address'] for ip in port['fixed_ips']],original_ips = [ip['ip_address'] for ip in port['fixed_ips']],original_ips = [ip['ip_address'] for ip in port['fixed_ips']],"original_ips = []
+for ip in port['fixed_ips']:
+    original_ips.append(ip['ip_address'])
+",0,0,0,0
+checkov,https://github.com/bridgecrewio/checkov/tree/master/tests/cloudformation/checks/resource/aws/test_BackupVaultEncrypted.py,TestBackupVaultEncrypted,test_summary$11,failed_check_resources = set([c.resource for c in report.failed_checks]),set([c.resource for c in report.failed_checks]),set([c.resource for c in report.failed_checks]),"tmp_ListComp0 = []
+for c in report.failed_checks:
+    tmp_ListComp0.append(c.resource)
+failed_check_resources = set(tmp_ListComp0)",1,0,1,0
+ignite,https://github.com/pytorch/ignite/tree/master/ignite/metrics/metrics_lambda.py,MetricsLambda,compute$96,materialized = [_get_value_on_cpu(i) for i in self.args],materialized = [_get_value_on_cpu(i) for i in self.args],materialized = [_get_value_on_cpu(i) for i in self.args],"materialized = []
+for i in self.args:
+    materialized.append(_get_value_on_cpu(i))
+",0,0,0,0
+greykite,https://github.com/linkedin/greykite/tree/master/greykite/framework/templates/autogen/forecast_config.py,ForecastConfig,from_dict$407,"model_components_param = [from_union([ModelComponentsParam.from_dict, from_none], mcp) for mcp in obj.get('model_components_param')]","model_components_param = [from_union([ModelComponentsParam.from_dict, from_none], mcp) for mcp in obj.get('model_components_param')]","model_components_param = [from_union([ModelComponentsParam.from_dict, from_none], mcp) for mcp in obj.get('model_components_param')]","model_components_param = []
+for mcp in obj.get('model_components_param'):
+    model_components_param.append(from_union([ModelComponentsParam.from_dict, from_none], mcp))
+",0,0,0,0
+vega,https://github.com/huawei-noah/vega/tree/master/vega/model_zoo/model_zoo.py,ModelZoo,parse_desc_from_pretrained_model$132,wts = [n for n in graph_def.node if n.op == 'Const'],wts = [n for n in graph_def.node if n.op == 'Const'],wts = [n for n in graph_def.node if n.op == 'Const'],"wts = []
+for n in graph_def.node:
+    if n.op == 'Const':
+        wts.append(n)
+",0,0,0,0
+transformers,https://github.com/huggingface/transformers/tree/master/examples/pytorch/language-modeling/run_clm.py,,group_texts$445,"result = {k: [t[i:i + block_size] for i in range(0, total_length, block_size)] for (k, t) in concatenated_examples.items()}","{k: [t[i:i + block_size] for i in range(0, total_length, block_size)] for (k, t) in concatenated_examples.items()}","{k: [t[i:i + block_size] for i in range(0, total_length, block_size)] for (k, t) in concatenated_examples.items()}","def my_comprehension_func(t):
+    tmp_ListComp0 = []
+    for i in range(0, total_length, block_size):
+        tmp_ListComp0.append(t[i:i + block_size])
+    return tmp_ListComp0
+result = {k: [t[i:i + block_size] for i in range(0, total_length, block_size)] for (k, t) in concatenated_examples.items()}",1,1,1,1
+hayaku,https://github.com/hayaku/hayaku/tree/master//hayaku_probe.py,,tree$79,trees_i = set([tuple(t) for t in trees if len(t) == level + 1]),set([tuple(t) for t in trees if len(t) == level + 1]),set([tuple(t) for t in trees if len(t) == level + 1]),"tmp_ListComp0 = []
+for t in trees:
+    if len(t) == level + 1:
+        tmp_ListComp0.append(tuple(t))
+trees_i = set(tmp_ListComp0)",1,0,1,0
+django-tastypie,https://github.com/django-tastypie/django-tastypie/tree/master/tests/core/tests/api.py,ApiTestCase,test_urls$112,"self.assertEqual(sorted([pattern.name for pattern in patterns if hasattr(pattern, 'name')]), ['api_v1_top_level'])","sorted([pattern.name for pattern in patterns if hasattr(pattern, 'name')])","sorted([pattern.name for pattern in patterns if hasattr(pattern, 'name')])","tmp_ListComp0 = []
+for pattern in patterns:
+    if hasattr(pattern, 'name'):
+        tmp_ListComp0.append(pattern.name)
+self.assertEqual(sorted(tmp_ListComp0), ['api_v1_top_level'])",1,0,1,0
+USRNet,https://github.com/cszn/USRNet/tree/master/models/network_usrnet.py,ResUNet,__init__$193,"self.m_body = B.sequential(*[B.ResBlock(nc[3], nc[3], bias=False, mode='C' + act_mode + 'C') for _ in range(nb)])","*[B.ResBlock(nc[3], nc[3], bias=False, mode='C' + act_mode + 'C') for _ in range(nb)]","*[B.ResBlock(nc[3], nc[3], bias=False, mode='C' + act_mode + 'C') for _ in range(nb)]","
+tmp_ListComp0 = []
+for _ in range(nb):
+        tmp_ListComp0.append(B.ResBlock(nc[3], nc[3], bias=False, mode='C' + act_mode + 'C'))
+    return tmp_ListComp0
+self.m_body = B.sequential(*tmp_ListComp0)",1,1,1,0
+sparseml,https://github.com/neuralmagic/sparseml/tree/master/research/information_retrieval/DPR/train_dense_encoder.py,,_calc_loss$646,positive_idx_per_question.extend([v + total_ctxs for v in local_positive_idxs]),positive_idx_per_question.extend([v + total_ctxs for v in local_positive_idxs]),positive_idx_per_question.extend([v + total_ctxs for v in local_positive_idxs]),"tmp_ListComp0 = []
+for v in local_positive_idxs:
+    tmp_ListComp0.append(v + total_ctxs)
+positive_idx_per_question.extend(tmp_ListComp0)",1,0,1,0
+moto,https://github.com/spulec/moto/tree/master/moto/cloudformation/parsing.py,,clean_json$88,"return [clean_json(val, resources_map) for val in resource_json]","return [clean_json(val, resources_map) for val in resource_json]","return [clean_json(val, resources_map) for val in resource_json]","tmp_ListComp0 = []
+for val in resource_json:
+    tmp_ListComp0.append(clean_json(val, resources_map))
+return tmp_ListComp0",1,0,1,0
+mindmeld,https://github.com/cisco/mindmeld/tree/master/mindmeld/components/nlp.py,IntentProcessor,_align_entities$1341,aligned_entities = [[entity] for entity in entities[0]],aligned_entities = [[entity] for entity in entities[0]],aligned_entities = [[entity] for entity in entities[0]],"aligned_entities = []
+for entity in entities[0]:
+    aligned_entities.append([entity])
+",0,0,0,0
+neutron,https://github.com/openstack/neutron/tree/master/neutron/tests/unit/plugins/ml2/extensions/test_dns_integration.py,DNSIntegrationTestCase,test_update_port_fixed_ips_clearing_dns_name$415,original_ips = [ip['ip_address'] for ip in port['fixed_ips']],original_ips = [ip['ip_address'] for ip in port['fixed_ips']],original_ips = [ip['ip_address'] for ip in port['fixed_ips']],"original_ips = []
+for ip in port['fixed_ips']:
+    original_ips.append(ip['ip_address'])
+",0,0,0,0
+yolov5-face,https://github.com/deepcam-cn/yolov5-face/tree/master/utils/face_datasets.py,LoadFaceImagesAndLabels,__init__$117,self.label_files = [self.label_files[i] for i in irect],self.label_files = [self.label_files[i] for i in irect],self.label_files = [self.label_files[i] for i in irect],"tmp_ListComp0 = []
+for i in irect:
+    tmp_ListComp0.append(self.label_files[i])
+self.label_files = tmp_ListComp0",1,0,1,0
+tpot,https://github.com/EpistasisLab/tpot/tree/master/tpot/gp_deap.py,,pick_two_individuals_eligible_for_crossover$40,"eligible_pairs += [(j, i) for (i, j) in eligible_pairs]","eligible_pairs += [(j, i) for (i, j) in eligible_pairs]","eligible_pairs += [(j, i) for (i, j) in eligible_pairs]","tmp_ListComp0 = []
+for (i, j) in eligible_pairs:
+    tmp_ListComp0.append((j, i))
+eligible_pairs += tmp_ListComp0",1,0,1,0
+SfmLearner-Pytorch,https://github.com/ClementPinard/SfmLearner-Pytorch/tree/master//custom_transforms.py,RandomScaleCrop,__call__$65,"cropped_images = [im[offset_y:offset_y + in_h, offset_x:offset_x + in_w] for im in scaled_images]","cropped_images = [im[offset_y:offset_y + in_h, offset_x:offset_x + in_w] for im in scaled_images]","cropped_images = [im[offset_y:offset_y + in_h, offset_x:offset_x + in_w] for im in scaled_images]","cropped_images = []
+for im in scaled_images:
+    cropped_images.append(im[offset_y:offset_y + in_h, offset_x:offset_x + in_w])
+",0,0,0,0
+coach,https://github.com/IntelLabs/coach/tree/master/rl_coach/architectures/tensorflow_components/architecture.py,TensorFlowArchitecture,_create_gradient_accumulators$222,self.shared_accumulated_gradients = [tf.Variable(initial_value=tf.zeros_like(var)) for var in self.weights],self.shared_accumulated_gradients = [tf.Variable(initial_value=tf.zeros_like(var)) for var in self.weights],self.shared_accumulated_gradients = [tf.Variable(initial_value=tf.zeros_like(var)) for var in self.weights],"tmp_ListComp0 = []
+for var in self.weights:
+    tmp_ListComp0.append(tf.Variable(initial_value=tf.zeros_like(var)))
+self.shared_accumulated_gradients = tmp_ListComp0",1,0,1,0
+EssayKiller_V2,https://github.com/EssayKillerBrain/EssayKiller_V2/tree/master/LanguageNetwork/BERT/utils/prepropress/data_builder.py,,combination_selection$66,"evaluated_1grams = [_get_word_ngrams(1, [sent]) for sent in sents]","evaluated_1grams = [_get_word_ngrams(1, [sent]) for sent in sents]","evaluated_1grams = [_get_word_ngrams(1, [sent]) for sent in sents]","evaluated_1grams = []
+for sent in sents:
+    evaluated_1grams.append(_get_word_ngrams(1, [sent]))
+",0,0,0,0
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/reader.py,GeneratorLoader,_init_non_iterable$1393,dtype_int = [int(t) for t in dtypes],dtype_int = [int(t) for t in dtypes],dtype_int = [int(t) for t in dtypes],"dtype_int = []
+for t in dtypes:
+    dtype_int.append(int(t))
+",0,0,0,0
+fastMRI,https://github.com/facebookresearch/fastMRI/tree/master/fastmri/data/volume_sampler.py,VolumeSampler,__init__$26,"self.all_volumes_split.append([self.all_volume_names[i] for i in range(rank_num, len(self.all_volume_names), self.num_replicas)])","self.all_volumes_split.append([self.all_volume_names[i] for i in range(rank_num, len(self.all_volume_names), self.num_replicas)])","self.all_volumes_split.append([self.all_volume_names[i] for i in range(rank_num, len(self.all_volume_names), self.num_replicas)])","def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for i in range(rank_num, len(self.all_volume_names), self.num_replicas):
+        tmp_ListComp0.append(self.all_volume_names[i])
+    return tmp_ListComp0
+self.all_volumes_split.append(my_comprehension_func(self))",1,1,1,0
+marshmallow,https://github.com/marshmallow-code/marshmallow/tree/master/src/marshmallow/schema.py,Schema,__apply_nested_option$930,"nested_fields = [name.split('.', 1) for name in field_names if '.' in name]","nested_fields = [name.split('.', 1) for name in field_names if '.' in name]","nested_fields = [name.split('.', 1) for name in field_names if '.' in name]","nested_fields = []
+for name in field_names:
+    if '.' in name:
+        nested_fields.append(name.split('.', 1))
+",0,0,0,0
+ABSA-PyTorch,https://github.com/songyouwei/ABSA-PyTorch/tree/master/models/mgan.py,LocationEncoding,weight_matrix$22,weight = [[] for i in range(batch_size)],weight = [[] for i in range(batch_size)],weight = [[] for i in range(batch_size)],"weight = []
+for i in range(batch_size):
+    weight.append([])
+",0,0,0,0
+EasyOCR,https://github.com/JaidedAI/EasyOCR/tree/master/trainer/dataset.py,AlignCollate,__call__$234,"image_tensors = torch.cat([t.unsqueeze(0) for t in image_tensors], 0)","torch.cat([t.unsqueeze(0) for t in image_tensors], 0)","torch.cat([t.unsqueeze(0) for t in image_tensors], 0)","tmp_ListComp0 = []
+for t in image_tensors:
+    tmp_ListComp0.append(t.unsqueeze(0))
+image_tensors = torch.cat(tmp_ListComp0, 0)",1,0,1,0
+TensorNetwork,https://github.com/google/TensorNetwork/tree/master/tensornetwork/backends/symmetric/symmetric_backend_test.py,,test_subbtraction_raises$628,c = BlockSparseTensor.random([shape[n] for n in reversed(range(len(shape)))]),BlockSparseTensor.random([shape[n] for n in reversed(range(len(shape)))]),BlockSparseTensor.random([shape[n] for n in reversed(range(len(shape)))]),"tmp_ListComp0 = []
+for n in reversed(range(len(shape))):
+    tmp_ListComp0.append(shape[n])
+c = BlockSparseTensor.random(tmp_ListComp0)",1,0,1,0
+Detectron-Cascade-RCNN,https://github.com/zhaoweicai/Detectron-Cascade-RCNN/tree/master/detectron/utils/segms.py,,rle_mask_voting$145,"decoded_all_masks = [np.array(mask_util.decode(rle), dtype=np.float32) for rle in all_masks]","decoded_all_masks = [np.array(mask_util.decode(rle), dtype=np.float32) for rle in all_masks]","decoded_all_masks = [np.array(mask_util.decode(rle), dtype=np.float32) for rle in all_masks]","decoded_all_masks = []
+for rle in all_masks:
+    decoded_all_masks.append(np.array(mask_util.decode(rle), dtype=np.float32))
+",0,0,0,0
+modin,https://github.com/modin-project/modin/tree/master/modin/core/dataframe/pandas/partitioning/partition_manager.py,PandasDataframePartitionManager,broadcast_axis_partitions$371,"result_blocks = np.array([left_partitions[i].apply(preprocessed_map_func, **kw, **{'partition_idx': idx} if enumerate_partitions else {}, **kwargs) for (idx, i) in enumerate(apply_indices)])","np.array([left_partitions[i].apply(preprocessed_map_func, **kw, **{'partition_idx': idx} if enumerate_partitions else {}, **kwargs) for (idx, i) in enumerate(apply_indices)])","np.array([left_partitions[i].apply(preprocessed_map_func, **kw, **{'partition_idx': idx} if enumerate_partitions else {}, **kwargs) for (idx, i) in enumerate(apply_indices)])","tmp_ListComp0 = []
+for (idx, i) in enumerate(apply_indices):
+    tmp_ListComp0.append(left_partitions[i].apply(preprocessed_map_func, **kw, **{'partition_idx': idx} if enumerate_partitions else {}, **kwargs))
+result_blocks = np.array(tmp_ListComp0)",1,0,1,0
+keras,https://github.com/keras-team/keras/tree/master/keras/testing_utils.py,,generate_combinations_with_testcase_name$1044,"combinations.append([(key, value) for value in values])","combinations.append([(key, value) for value in values])","combinations.append([(key, value) for value in values])","tmp_ListComp0 = []
+for value in values:
+    tmp_ListComp0.append((key, value))
+combinations.append(tmp_ListComp0)",1,0,1,0
+HyperGAN,https://github.com/HyperGAN/HyperGAN/tree/master/hypergan/optimizers/needs_pytorch/competitive2_optimizer.py,CompetitiveOptimizer,apply_gradients$36,"hyp_y = self.hessian_vector_product(f, max_params, min_params, [lr * _g for _g in grad_x_rev])","self.hessian_vector_product(f, max_params, min_params, [lr * _g for _g in grad_x_rev])","self.hessian_vector_product(f, max_params, min_params, [lr * _g for _g in grad_x_rev])","tmp_ListComp0 = []
+for _g in grad_x_rev:
+    tmp_ListComp0.append(lr * _g)
+hyp_y = self.hessian_vector_product(f, max_params, min_params, tmp_ListComp0)",1,0,1,0
+jax,https://github.com/google/jax/tree/master/tests/random_test.py,PrngTest,result_to_hex$61,return tuple([hex(x.copy()).rstrip('L') for x in result]),tuple([hex(x.copy()).rstrip('L') for x in result]),tuple([hex(x.copy()).rstrip('L') for x in result]),"tmp_ListComp0 = []
+for x in result:
+    tmp_ListComp0.append(hex(x.copy()).rstrip('L'))
+return tuple(tmp_ListComp0)",1,0,1,0
+maml_rl,https://github.com/cbfinn/maml_rl/tree/master/rllab/algos/cma_es_lib.py,FitnessFunctions,cigtab$8363,f = [0.0001 * x[0] ** 2 + 10000.0 * x[1] ** 2 + sum(x[2:] ** 2) for x in X],f = [0.0001 * x[0] ** 2 + 10000.0 * x[1] ** 2 + sum(x[2:] ** 2) for x in X],f = [0.0001 * x[0] ** 2 + 10000.0 * x[1] ** 2 + sum(x[2:] ** 2) for x in X],"f = []
+for x in X:
+    f.append(0.0001 * x[0] ** 2 + 10000.0 * x[1] ** 2 + sum(x[2:] ** 2))
+",0,0,0,0
+flair,https://github.com/flairNLP/flair/tree/master/flair/datasets/entity_linking.py,NEL_ENGLISH_REDDIT,_text_to_cols$918,"link_index = [j for (j, v) in enumerate(links) if sentence[i].start_position >= v[0] and sentence[i].end_position <= v[1]]","link_index = [j for (j, v) in enumerate(links) if sentence[i].start_position >= v[0] and sentence[i].end_position <= v[1]]","link_index = [j for (j, v) in enumerate(links) if sentence[i].start_position >= v[0] and sentence[i].end_position <= v[1]]","link_index = []
+for (j, v) in enumerate(links):
+    if sentence[i].start_position >= v[0] and sentence[i].end_position <= v[1]:
+        link_index.append(j)
+",0,0,0,0
+cvpods,https://github.com/Megvii-BaseDetection/cvpods/tree/master/cvpods/checkpoint/c2_model_loading.py,,convert_c2_detectron_names$74,"layer_keys = [re.sub('^bbox\\.pred', 'bbox_pred', k) for k in layer_keys]","layer_keys = [re.sub('^bbox\\.pred', 'bbox_pred', k) for k in layer_keys]","layer_keys = [re.sub('^bbox\\.pred', 'bbox_pred', k) for k in layer_keys]","tmp_ListComp0 = []
+for k in layer_keys:
+    tmp_ListComp0.append(re.sub('^bbox\\.pred', 'bbox_pred', k))
+layer_keys = tmp_ListComp0",1,0,1,0
+TextRecognitionDataGenerator,https://github.com/Belval/TextRecognitionDataGenerator/tree/master/trdg/utils.py,,load_dict$14,word_dict = [l for l in d.read().splitlines() if len(l) > 0],word_dict = [l for l in d.read().splitlines() if len(l) > 0],word_dict = [l for l in d.read().splitlines() if len(l) > 0],"word_dict = []
+for l in d.read().splitlines():
+    if len(l) > 0:
+        word_dict.append(l)
+",0,0,0,0
+nni,https://github.com/microsoft/nni/tree/master/examples/nas/legacy/cream/lib/utils/builder_util.py,,parse_ksize$11,return [int(k) for k in ss.split('.')],return [int(k) for k in ss.split('.')],return [int(k) for k in ss.split('.')],"tmp_ListComp0 = []
+for k in ss.split('.'):
+    tmp_ListComp0.append(int(k))
+return tmp_ListComp0",1,0,1,0
+clusterfuzz,https://github.com/google/clusterfuzz/tree/master/src/clusterfuzz/_internal/tests/appengine/handlers/jobs_test.py,JobsTest,test_fuzzers_result$88,"self.assertListEqual([job.key.id()], [item['id'] for item in resp.json['items']])","self.assertListEqual([job.key.id()], [item['id'] for item in resp.json['items']])","self.assertListEqual([job.key.id()], [item['id'] for item in resp.json['items']])","tmp_ListComp0 = []
+for item in resp.json['items']:
+    tmp_ListComp0.append(item['id'])
+self.assertListEqual([job.key.id()], tmp_ListComp0)",1,0,1,0
+pysystemtrade,https://github.com/robcarver17/pysystemtrade/tree/master/sysexecution/trade_qty.py,,reduce_trade_size_proportionally_so_smallest_leg_is_max_size$213,abs_trade_list = [abs(x) for x in trade_list_qty],abs_trade_list = [abs(x) for x in trade_list_qty],abs_trade_list = [abs(x) for x in trade_list_qty],"abs_trade_list = []
+for x in trade_list_qty:
+    abs_trade_list.append(abs(x))
+",0,0,0,0
+superpaper,https://github.com/hhannine/superpaper/tree/master/superpaper/wallpaper_processing.py,DisplaySystem,compute_initial_preview_offsets$359,columns = [[dsp] for dsp in self.disp_list],columns = [[dsp] for dsp in self.disp_list],columns = [[dsp] for dsp in self.disp_list],"columns = []
+for dsp in self.disp_list:
+    columns.append([dsp])
+",0,0,0,0
+koalas,https://github.com/databricks/koalas/tree/master/databricks/koalas/frame.py,DataFrame,pivot_table$5865,"agg_columns = [key for (key, _) in aggfunc.items()]","agg_columns = [key for (key, _) in aggfunc.items()]","agg_columns = [key for (key, _) in aggfunc.items()]","agg_columns = []
+for (key, _) in aggfunc.items():
+    agg_columns.append(key)
+",0,0,0,0
+glTF-Blender-IO,https://github.com/KhronosGroup/glTF-Blender-IO/tree/master/addons/io_scene_gltf2/blender/imp/gltf2_blender_mesh.py,,skin_into_bind_pose$492,inv_binds = [gltf.matrix_gltf_to_blender(m) for m in inv_binds],inv_binds = [gltf.matrix_gltf_to_blender(m) for m in inv_binds],inv_binds = [gltf.matrix_gltf_to_blender(m) for m in inv_binds],"tmp_ListComp0 = []
+for m in inv_binds:
+    tmp_ListComp0.append(gltf.matrix_gltf_to_blender(m))
+inv_binds = tmp_ListComp0",1,0,1,0
+transformer-xl-chinese,https://github.com/GaoPeng97/transformer-xl-chinese/tree/master/tf/avg_checkpoints.py,,main$46,"tf_vars = [tf.get_variable(v, shape=var_values[v].shape, dtype=var_dtypes[v]) for v in var_values]","tf_vars = [tf.get_variable(v, shape=var_values[v].shape, dtype=var_dtypes[v]) for v in var_values]","tf_vars = [tf.get_variable(v, shape=var_values[v].shape, dtype=var_dtypes[v]) for v in var_values]","tf_vars = []
+for v in var_values:
+    tf_vars.append(tf.get_variable(v, shape=var_values[v].shape, dtype=var_dtypes[v]))
+",0,0,0,0
+fooltrader,https://github.com/foolcage/fooltrader/tree/master/fooltrader/spiders/chinastock/stock_finance_report_event_spider.py,StockFinanceReportEventSpider,download_fi_report_event_data$68,report_timestamps = [date.strip() for date in report_timestamps if date.strip()],report_timestamps = [date.strip() for date in report_timestamps if date.strip()],report_timestamps = [date.strip() for date in report_timestamps if date.strip()],"tmp_ListComp0 = []
+for date in report_timestamps:
+    if date.strip():
+        tmp_ListComp0.append(date.strip())
+report_timestamps = tmp_ListComp0",1,0,1,0
+trax,https://github.com/google/trax/tree/master/trax/tf_numpy/numpy_impl/array_ops.py,,dstack$1266,"unwrapped_arrays = [a.data if isinstance(a, arrays_lib.ndarray) else a for a in arrays]","unwrapped_arrays = [a.data if isinstance(a, arrays_lib.ndarray) else a for a in arrays]","unwrapped_arrays = [a.data if isinstance(a, arrays_lib.ndarray) else a for a in arrays]","unwrapped_arrays = []
+for a in arrays:
+    if isinstance(a, arrays_lib.ndarray):
+        unwrapped_arrays.append(a.data)
+    else:
+        unwrapped_arrays.append(a)
+",0,0,0,0
+brian2,https://github.com/brian-team/brian2/tree/master/brian2/tests/test_network.py,,test_scheduling_summary_magic$361,"assert [entry.name for entry in summary_before.entries] == [f'{basename}_sm', f'{basename}_stateupdater', f'{basename}_spike_thresholder', f'{basename}_spike_resetter', f'{basename}_run_regularly', f'{basename}_sm_ia']","[entry.name for entry in summary_before.entries] == [f'{basename}_sm', f'{basename}_stateupdater', f'{basename}_spike_thresholder', f'{basename}_spike_resetter', f'{basename}_run_regularly', f'{basename}_sm_ia']","[entry.name for entry in summary_before.entries] == [f'{basename}_sm', f'{basename}_stateupdater', f'{basename}_spike_thresholder', f'{basename}_spike_resetter', f'{basename}_run_regularly', f'{basename}_sm_ia']","tmp_ListComp0 = []
+for entry in summary_before.entries:
+    tmp_ListComp0.append(entry.name)
+assert tmp_ListComp0 == [f'{basename}_sm', f'{basename}_stateupdater', f'{basename}_spike_thresholder', f'{basename}_spike_resetter', f'{basename}_run_regularly', f'{basename}_sm_ia']",1,0,1,0
+HoshinoBot,https://github.com/Ice-Cirno/HoshinoBot/tree/master/hoshino/modules/pcrclanbattle/clanbattle/dao/sqlitedao.py,ClanDao,find_all$106,return [self.row2item(r) for r in ret],return [self.row2item(r) for r in ret],return [self.row2item(r) for r in ret],"tmp_ListComp0 = []
+for r in ret:
+    tmp_ListComp0.append(self.row2item(r))
+return tmp_ListComp0",1,0,1,0
+tensorpack,https://github.com/tensorpack/tensorpack/tree/master/tensorpack/callbacks/prof.py,GPUMemoryTracker,__init__$247,"devices = ['/gpu:{}'.format(x) if isinstance(x, int) else x for x in devices]","devices = ['/gpu:{}'.format(x) if isinstance(x, int) else x for x in devices]","devices = ['/gpu:{}'.format(x) if isinstance(x, int) else x for x in devices]","tmp_ListComp0 = []
+for x in devices:
+    if isinstance(x, int):
+        tmp_ListComp0.append('/gpu:{}'.format(x))
+    else:
+        tmp_ListComp0.append(x)
+devices = tmp_ListComp0",1,0,1,0
+tfx,https://github.com/tensorflow/tfx/tree/master/tfx/types/component_spec.py,ExecutionParameter,_type_check_helper$336,placeholders_involved_str = [x.__class__.__name__ for x in placeholders_involved],placeholders_involved_str = [x.__class__.__name__ for x in placeholders_involved],placeholders_involved_str = [x.__class__.__name__ for x in placeholders_involved],"placeholders_involved_str = []
+for x in placeholders_involved:
+    placeholders_involved_str.append(x.__class__.__name__)
+",0,0,0,0
+django-pipeline,https://github.com/jazzband/django-pipeline/tree/master/tests/tests/test_forms.py,PipelineFormMediaTests,test_css_packages_with_pipeline_enabled$51,"expected_regex = ['<link href=""%s"" type=""text/css"" media=""all"" rel=""stylesheet""( /)?>' % path for path in ('/static/extra1.css', '/static/extra2.css', '/static/styles1.min.css', '/static/styles2.min.css')] + ['<link href=""/static/print.min.css"" type=""text/css"" media=""print"" rel=""stylesheet""( /)?>']","['<link href=""%s"" type=""text/css"" media=""all"" rel=""stylesheet""( /)?>' % path for path in ('/static/extra1.css', '/static/extra2.css', '/static/styles1.min.css', '/static/styles2.min.css')] + ['<link href=""/static/print.min.css"" type=""text/css"" media=""print"" rel=""stylesheet""( /)?>']","['<link href=""%s"" type=""text/css"" media=""all"" rel=""stylesheet""( /)?>' % path for path in ('/static/extra1.css', '/static/extra2.css', '/static/styles1.min.css', '/static/styles2.min.css')] + ['<link href=""/static/print.min.css"" type=""text/css"" media=""print"" rel=""stylesheet""( /)?>']","tmp_ListComp0 = []
+for path in ('/static/extra1.css', '/static/extra2.css', '/static/styles1.min.css', '/static/styles2.min.css'):
+    tmp_ListComp0.append('<link href=""%s"" type=""text/css"" media=""all"" rel=""stylesheet""( /)?>' % path)
+expected_regex = tmp_ListComp0 + ['<link href=""/static/print.min.css"" type=""text/css"" media=""print"" rel=""stylesheet""( /)?>']",1,0,1,0
+HyperGAN,https://github.com/HyperGAN/HyperGAN/tree/master/hypergan/trainers/accumulate_gradient_trainer.py,AccumulateGradientTrainer,calculate_gradients$21,self.min_grads = [g.clone() for g in gs],self.min_grads = [g.clone() for g in gs],self.min_grads = [g.clone() for g in gs],"self.min_grads = []
+for g in gs:
+    self.min_grads.append(g.clone())
+",0,0,0,0
+SiamDW,https://github.com/researchmm/SiamDW/tree/master/lib/utils/utils.py,,make_scale_pyramid$94,in_side_scaled = [round(x) for x in in_side_scaled],in_side_scaled = [round(x) for x in in_side_scaled],in_side_scaled = [round(x) for x in in_side_scaled],"tmp_ListComp0 = []
+for x in in_side_scaled:
+    tmp_ListComp0.append(round(x))
+in_side_scaled = tmp_ListComp0",1,0,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/tests/test_specialpolys.py,,test_fateman_poly_F_2$131,"assert [t.rep.rep for t in [f, g, h]] == [F, G, H]","[t.rep.rep for t in [f, g, h]] == [F, G, H]","[t.rep.rep for t in [f, g, h]] == [F, G, H]","tmp_ListComp0 = []
+for t in [f, g, h]:
+    tmp_ListComp0.append(t.rep.rep)
+assert tmp_ListComp0 == [F, G, H]",1,0,1,0
+virt-manager,https://github.com/virt-manager/virt-manager/tree/master/tests/test_misc.py,,test_misc_osxml_cornercases$132,"assert [i.val for i in guest.os.initargs] == ['baz', 'wibble']","[i.val for i in guest.os.initargs] == ['baz', 'wibble']","[i.val for i in guest.os.initargs] == ['baz', 'wibble']","tmp_ListComp0 = []
+for i in guest.os.initargs:
+    tmp_ListComp0.append(i.val)
+assert tmp_ListComp0 == ['baz', 'wibble']",1,0,1,0
+mypy,https://github.com/python/mypy/tree/master/mypy/treetransform.py,TransformVisitor,visit_with_stmt$298,new.analyzed_types = [self.type(typ) for typ in node.analyzed_types],new.analyzed_types = [self.type(typ) for typ in node.analyzed_types],new.analyzed_types = [self.type(typ) for typ in node.analyzed_types],"new.analyzed_types = []
+for typ in node.analyzed_types:
+    new.analyzed_types.append(self.type(typ))
+",0,0,0,0
+clearml,https://github.com/allegroai/clearml/tree/master/examples/reporting/html_reporting.py,,report_html_periodic_table$26,"groups = [str(x) for x in range(1, 19)]","groups = [str(x) for x in range(1, 19)]","groups = [str(x) for x in range(1, 19)]","groups = []
+for x in range(1, 19):
+    groups.append(str(x))
+",0,0,0,0
+Seq2seqChatbots,https://github.com/ricsinaruto/Seq2seqChatbots/tree/master/t2t_csaky/scripts/remove.py,,main$4,fou.write(' '.join([word for word in line.strip().split() if word not in tokens]) + '\n'),' '.join([word for word in line.strip().split() if word not in tokens]),' '.join([word for word in line.strip().split() if word not in tokens]),"tmp_ListComp0 = []
+for word in line.strip().split():
+    if word not in tokens:
+        tmp_ListComp0.append(word)
+fou.write(' '.join(tmp_ListComp0) + '\n')",1,0,1,0
+pymorphy2,https://github.com/kmike/pymorphy2/tree/master/pymorphy2/cli.py,_TokenParserFormatter,__init__$202,"seq = [lemma for (lemma, w) in items]","seq = [lemma for (lemma, w) in items]","seq = [lemma for (lemma, w) in items]","seq = []
+for (lemma, w) in items:
+    seq.append(lemma)
+",0,0,0,0
+DeBERTa,https://github.com/microsoft/DeBERTa/tree/master/DeBERTa/apps/tasks/superglue_tasks.py,BoolQTask,load_data$117,data = [json.loads(l) for l in fs],data = [json.loads(l) for l in fs],data = [json.loads(l) for l in fs],"data = []
+for l in fs:
+    data.append(json.loads(l))
+",0,0,0,0
+jumpserver,https://github.com/jumpserver/jumpserver/tree/master/apps/assets/api/node.py,NodeListAsTreeApi,to_tree_queryset$93,queryset = [node.as_tree_node() for node in queryset],queryset = [node.as_tree_node() for node in queryset],queryset = [node.as_tree_node() for node in queryset],"tmp_ListComp0 = []
+for node in queryset:
+    tmp_ListComp0.append(node.as_tree_node())
+queryset = tmp_ListComp0",1,0,1,0
+agents,https://github.com/tensorflow/agents/tree/master/tf_agents/utils/example_encoding.py,,_example_decoder$143,dtypes = [s.dtype for s in tf.nest.flatten(example_spec)],dtypes = [s.dtype for s in tf.nest.flatten(example_spec)],dtypes = [s.dtype for s in tf.nest.flatten(example_spec)],"dtypes = []
+for s in tf.nest.flatten(example_spec):
+    dtypes.append(s.dtype)
+",0,0,0,0
+Plex-Meta-Manager,https://github.com/meisnate12/Plex-Meta-Manager/tree/master/modules/plex.py,Plex,check_filter$1382,values.extend([a.extendedDisplayTitle for a in part.audioStreams() if a.extendedDisplayTitle]),values.extend([a.extendedDisplayTitle for a in part.audioStreams() if a.extendedDisplayTitle]),values.extend([a.extendedDisplayTitle for a in part.audioStreams() if a.extendedDisplayTitle]),"tmp_ListComp0 = []
+for a in part.audioStreams():
+    if a.extendedDisplayTitle:
+        tmp_ListComp0.append(a.extendedDisplayTitle)
+values.extend(tmp_ListComp0)",1,0,1,0
+kitsune,https://github.com/mozilla/kitsune/tree/master/kitsune/notifications/tests/test_api.py,TestNotificationViewSet,test_filter_is_read_false$131,"self.assertEqual([d['id'] for d in res.data], [n.id])","self.assertEqual([d['id'] for d in res.data], [n.id])","self.assertEqual([d['id'] for d in res.data], [n.id])","tmp_ListComp0 = []
+for d in res.data:
+    tmp_ListComp0.append(d['id'])
+self.assertEqual(tmp_ListComp0, [n.id])",1,0,1,0
+robust_loss_pytorch,https://github.com/jonbarron/robust_loss_pytorch/tree/master/tests/adaptive_test.py,TestAdaptive,testFittingToyNdMixedDataIsCorrect$276,"optimizer = torch.optim.Adam([p for p in params] + [mu], lr=0.1)",[p for p in params] + [mu],[p for p in params] + [mu],"tmp_ListComp0 = []
+for p in params:
+    tmp_ListComp0.append(p)
+optimizer = torch.optim.Adam(tmp_ListComp0 + [mu], lr=0.1)",1,0,1,0
+tensorboardX,https://github.com/lanpa/tensorboardX/tree/master/examples/demo_beholder.py,,beholder_pytorch$35,"arrays = [tensor_and_name(np.random.randn(128, 768, 3), 'test' + str(i)) for i in range(5)]","arrays = [tensor_and_name(np.random.randn(128, 768, 3), 'test' + str(i)) for i in range(5)]","arrays = [tensor_and_name(np.random.randn(128, 768, 3), 'test' + str(i)) for i in range(5)]","arrays = []
+for i in range(5):
+    arrays.append(tensor_and_name(np.random.randn(128, 768, 3), 'test' + str(i)))
+",0,0,0,0
+espnet,https://github.com/espnet/espnet/tree/master/test/test_e2e_asr_mulenc.py,,prepare_inputs$83,"ys = [np.random.randint(1, 2, olen).astype(np.int32) for olen in olens]","ys = [np.random.randint(1, 2, olen).astype(np.int32) for olen in olens]","ys = [np.random.randint(1, 2, olen).astype(np.int32) for olen in olens]","ys = []
+for olen in olens:
+    ys.append(np.random.randint(1, 2, olen).astype(np.int32))
+",0,0,0,0
+SparseR-CNN,https://github.com/PeizeSun/SparseR-CNN/tree/master/tools/visualize_json_results.py,,create_instances$19,score = np.asarray([x['score'] for x in predictions]),np.asarray([x['score'] for x in predictions]),np.asarray([x['score'] for x in predictions]),"tmp_ListComp0 = []
+for x in predictions:
+    tmp_ListComp0.append(x['score'])
+score = np.asarray(tmp_ListComp0)",1,0,1,0
+videos,https://github.com/3b1b/videos/tree/master/_2020/monster.py,SymmetriesOfACube,explostion_transform$984,"self.play(LaggedStart(*[Transform(face, cube[perm[i]]) for (i, face) in enumerate(cube)], lag_ratio=0.1))","*[Transform(face, cube[perm[i]]) for (i, face) in enumerate(cube)]","*[Transform(face, cube[perm[i]]) for (i, face) in enumerate(cube)]","tmp_ListComp0 = []
+for (i, face) in enumerate(cube):
+    tmp_ListComp0.append(Transform(face, cube[perm[i]]))
+self.play(LaggedStart(*tmp_ListComp0, lag_ratio=0.1))",1,0,1,0
+KPConv,https://github.com/HuguesTHOMAS/KPConv/tree/master/datasets/S3DIS.py,S3DISDataset,get_batch_gen$354,"yield (np.concatenate(p_list, axis=0), np.concatenate(c_list, axis=0), np.concatenate(pl_list, axis=0), np.array([tp.shape[0] for tp in p_list]), np.concatenate(pi_list, axis=0), np.array(ci_list, dtype=np.int32))",np.array([tp.shape[0] for tp in p_list]),np.array([tp.shape[0] for tp in p_list]),"def my_comprehension_func(p_list):
+    tmp_ListComp0 = []
+    for tp in p_list:
+        tmp_ListComp0.append(tp.shape[0])
+    return tmp_ListComp0
+yield (np.concatenate(p_list, axis=0), np.concatenate(c_list, axis=0), np.concatenate(pl_list, axis=0), np.array(my_comprehension_func(p_list)), np.concatenate(pi_list, axis=0), np.array(ci_list, dtype=np.int32))",1,1,1,0
+brian2,https://github.com/brian-team/brian2/tree/master/brian2/tests/test_stateupdaters.py,,test_determination$597,"assert len(logs) == 0, f'Got {len(logs)} unexpected warnings: {str([l[2] for l in logs])}'",str([l[2] for l in logs]),str([l[2] for l in logs]),"def my_comprehension_func(logs):
+    tmp_ListComp0 = []
+    for l in logs:
+        tmp_ListComp0.append(l[2])
+    return tmp_ListComp0
+assert len(logs) == 0, f'Got {len(logs)} unexpected warnings: {str(my_comprehension_func(logs))}'",1,1,1,0
+sktime,https://github.com/alan-turing-institute/sktime/tree/master/sktime/registry/_lookup.py,,all_estimators$41,"all_estimators = [(n, est) for (n, est) in all_estimators if _check_tag_cond(est, filter_tags)]","all_estimators = [(n, est) for (n, est) in all_estimators if _check_tag_cond(est, filter_tags)]","all_estimators = [(n, est) for (n, est) in all_estimators if _check_tag_cond(est, filter_tags)]","tmp_ListComp0 = []
+for (n, est) in all_estimators:
+    if _check_tag_cond(est, filter_tags):
+        tmp_ListComp0.append((n, est))
+all_estimators = tmp_ListComp0",1,0,1,0
+BiSeNet,https://github.com/CoinCheung/BiSeNet/tree/master/old/bisenetv2/transform_cv2.py,ColorJitter,adj_contrast$113,"table = np.array([74 + (i - 74) * rate for i in range(256)]).clip(0, 255).astype(np.uint8)",np.array([74 + (i - 74) * rate for i in range(256)]),np.array([74 + (i - 74) * rate for i in range(256)]),"tmp_ListComp0 = []
+for i in range(256):
+    tmp_ListComp0.append(74 + (i - 74) * rate)
+table = np.array(tmp_ListComp0).clip(0, 255).astype(np.uint8)",1,0,1,0
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/compara/synfind.py,,find_synteny_region$69,"group = [group[i] for (y, i) in track]","group = [group[i] for (y, i) in track]","group = [group[i] for (y, i) in track]","tmp_ListComp0 = []
+for (y, i) in track:
+    tmp_ListComp0.append(group[i])
+group = tmp_ListComp0",1,0,1,0
+PGL,https://github.com/PaddlePaddle/PGL/tree/master/examples/kddcup2021/PCQM4M/features/extended_feature.py,,get_graph_threehop_str$52,subgraph_threehop_str += 'Q' + ':'.join([str(x) for x in np.sort(bond_type[neineinei_bond_indices])]),':'.join([str(x) for x in np.sort(bond_type[neineinei_bond_indices])]),':'.join([str(x) for x in np.sort(bond_type[neineinei_bond_indices])]),"tmp_ListComp0 = []
+for x in np.sort(bond_type[neineinei_bond_indices]):
+    tmp_ListComp0.append(str(x))
+subgraph_threehop_str += 'Q' + ':'.join(tmp_ListComp0)",1,0,1,0
+amundsen,https://github.com/amundsen-io/amundsen/tree/master/databuilder/databuilder/publisher/neptune_csv_publisher.py,NeptuneCSVPublisher,_get_file_paths$146,"edge_names = [join(self.relation_files_dir, f) for f in listdir(self.relation_files_dir) if isfile(join(self.relation_files_dir, f))]","edge_names = [join(self.relation_files_dir, f) for f in listdir(self.relation_files_dir) if isfile(join(self.relation_files_dir, f))]","edge_names = [join(self.relation_files_dir, f) for f in listdir(self.relation_files_dir) if isfile(join(self.relation_files_dir, f))]","edge_names = []
+for f in listdir(self.relation_files_dir):
+    if isfile(join(self.relation_files_dir, f)):
+        edge_names.append(join(self.relation_files_dir, f))
+",0,0,0,0
+tpot,https://github.com/EpistasisLab/tpot/tree/master/tests/tpot_tests.py,,test_mutNodeReplacement_2$2336,new_ret_type_list = [node.ret for node in mut_ind[0]],new_ret_type_list = [node.ret for node in mut_ind[0]],new_ret_type_list = [node.ret for node in mut_ind[0]],"new_ret_type_list = []
+for node in mut_ind[0]:
+    new_ret_type_list.append(node.ret)
+",0,0,0,0
+hazm,https://github.com/sobhe/hazm/tree/master/hazm/InformalNormalizer.py,InformalLemmatizer,iconjugations$700,present_not_simples = ['鐠' + item for item in present_simples],present_not_simples = ['鐠' + item for item in present_simples],present_not_simples = ['鐠' + item for item in present_simples],"present_not_simples = []
+for item in present_simples:
+    present_not_simples.append('鐠' + item)
+",0,0,0,0
+TSD,https://github.com/Sense-X/TSD/tree/master/mmdet/models/anchor_heads/fovea_head.py,FoveaHead,get_bboxes$348,cls_score_list = [cls_scores[i][img_id].detach() for i in range(num_levels)],cls_score_list = [cls_scores[i][img_id].detach() for i in range(num_levels)],cls_score_list = [cls_scores[i][img_id].detach() for i in range(num_levels)],"cls_score_list = []
+for i in range(num_levels):
+    cls_score_list.append(cls_scores[i][img_id].detach())
+",0,0,0,0
+astropy,https://github.com/astropy/astropy/tree/master/astropy/modeling/tests/test_quantities_fitting.py,,test_compound_without_units$197,assert all([res_fit[i]._has_units for i in range(3)]),all([res_fit[i]._has_units for i in range(3)]),all([res_fit[i]._has_units for i in range(3)]),"tmp_ListComp0 = []
+for i in range(3):
+    tmp_ListComp0.append(res_fit[i]._has_units)
+assert all(tmp_ListComp0)",1,0,1,0
+GFocal,https://github.com/implus/GFocal/tree/master/mmdet/datasets/pipelines/transforms.py,MinIoURandomCrop,__call__$653,"results['gt_masks'] = np.stack([gt_mask[patch[1]:patch[3], patch[0]:patch[2]] for gt_mask in valid_masks])","np.stack([gt_mask[patch[1]:patch[3], patch[0]:patch[2]] for gt_mask in valid_masks])","np.stack([gt_mask[patch[1]:patch[3], patch[0]:patch[2]] for gt_mask in valid_masks])","tmp_ListComp0 = []
+for gt_mask in valid_masks:
+    tmp_ListComp0.append(gt_mask[patch[1]:patch[3], patch[0]:patch[2]])
+results['gt_masks'] = np.stack(tmp_ListComp0)",1,0,1,0
+MultiQC,https://github.com/ewels/MultiQC/tree/master/multiqc/modules/mosdepth/mosdepth.py,,get_cov_thresholds$330,threshs = [int(t) for t in threshs],threshs = [int(t) for t in threshs],threshs = [int(t) for t in threshs],"tmp_ListComp0 = []
+for t in threshs:
+    tmp_ListComp0.append(int(t))
+threshs = tmp_ListComp0",1,0,1,0
+curve-contract,https://github.com/curvefi/curve-contract/tree/master/scripts/deploy.py,,main$34,deployment_args = [args[i['name']] for i in abi] + [_tx_params()],[args[i['name']] for i in abi] + [_tx_params()],[args[i['name']] for i in abi] + [_tx_params()],"tmp_ListComp0 = []
+for i in abi:
+    tmp_ListComp0.append(args[i['name']])
+deployment_args = tmp_ListComp0 + [_tx_params()]",1,0,1,0
+qlib,https://github.com/microsoft/qlib/tree/master/qlib/contrib/data/handler.py,Alpha158,parse_config_to_fields$192,"fields += ['Resi($close, %d)/$close' % d for d in windows]","fields += ['Resi($close, %d)/$close' % d for d in windows]","fields += ['Resi($close, %d)/$close' % d for d in windows]","tmp_ListComp0 = []
+for d in windows:
+    tmp_ListComp0.append('Resi($close, %d)/$close' % d)
+fields += tmp_ListComp0",1,0,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/tests/test_rootoftools.py,,test_CRootOf_evalf$188,"r = [RootOf(x ** 3 + x + 3, i) for i in range(3)]","r = [RootOf(x ** 3 + x + 3, i) for i in range(3)]","r = [RootOf(x ** 3 + x + 3, i) for i in range(3)]","r = []
+for i in range(3):
+    r.append(RootOf(x ** 3 + x + 3, i))
+",0,0,0,0
+conan-center-index,https://github.com/conan-io/conan-center-index/tree/master/recipes/qt/5.x.x/conanfile.py,QtConan,_gather_libs$1463,libs += ['-framework ' + i for i in self.deps_cpp_info[p].frameworks],libs += ['-framework ' + i for i in self.deps_cpp_info[p].frameworks],libs += ['-framework ' + i for i in self.deps_cpp_info[p].frameworks],"tmp_ListComp0 = []
+for i in self.deps_cpp_info[p].frameworks:
+    tmp_ListComp0.append('-framework ' + i)
+libs += tmp_ListComp0",1,0,1,0
+ijson,https://github.com/isagalaev/ijson/tree/master/ijson/backends/yajl.py,,basic_parse$58,callbacks = Callbacks(*[callback(*data) for data in _callback_data]),*[callback(*data) for data in _callback_data],*[callback(*data) for data in _callback_data],"tmp_ListComp0 = []
+for data in _callback_data:
+    tmp_ListComp0.append(callback(*data))
+callbacks = Callbacks(*tmp_ListComp0)",1,0,1,0
+checkov,https://github.com/bridgecrewio/checkov/tree/master/tests/cloudformation/checks/resource/aws/test_DynamoDBTablesEncrypted.py,TestDynamoDBTablesEncrypted,test_summary$10,failed_check_resources = set([c.resource for c in report.failed_checks]),set([c.resource for c in report.failed_checks]),set([c.resource for c in report.failed_checks]),"tmp_ListComp0 = []
+for c in report.failed_checks:
+    tmp_ListComp0.append(c.resource)
+failed_check_resources = set(tmp_ListComp0)",1,0,1,0
+MySQLdb1,https://github.com/farcepest/MySQLdb1/tree/master/tests/capabilities.py,DatabaseTest,check_data_integrity$81,"data = [[generator(i, j) for j in range(len(columndefs))] for i in range(self.rows)]","data = [[generator(i, j) for j in range(len(columndefs))] for i in range(self.rows)]","data = [[generator(i, j) for j in range(len(columndefs))] for i in range(self.rows)]","data = []
+for i in range(self.rows):
+    data1 = []
+    for j in range(len(columndefs)):
+        data1.append(generator(i, j))
+    data.append(data1)
+",0,0,0,0
+chainer,https://github.com/chainer/chainer/tree/master/tests/chainer_tests/links_tests/rnn_tests/test_link_n_step_gru.py,TestNStepBiGRU,setUp$212,"self.gys = [numpy.random.uniform(-1, 1, (l, self.out_size * 2)).astype('f') for l in self.lengths]","self.gys = [numpy.random.uniform(-1, 1, (l, self.out_size * 2)).astype('f') for l in self.lengths]","self.gys = [numpy.random.uniform(-1, 1, (l, self.out_size * 2)).astype('f') for l in self.lengths]","tmp_ListComp0 = []
+for l in self.lengths:
+    tmp_ListComp0.append(numpy.random.uniform(-1, 1, (l, self.out_size * 2)).astype('f'))
+self.gys = tmp_ListComp0",1,0,1,0
+odo,https://github.com/blaze/odo/tree/master/odo/backends/sql.py,,batch$189,columns = [col.name for col in sel.columns],columns = [col.name for col in sel.columns],columns = [col.name for col in sel.columns],"columns = []
+for col in sel.columns:
+    columns.append(col.name)
+",0,0,0,0
+CompilerGym,https://github.com/facebookresearch/CompilerGym/tree/master/examples/op_benchmarks.py,,_aggregate$445,runtimes += [float(x.split()[0]) for x in f if x.strip()],runtimes += [float(x.split()[0]) for x in f if x.strip()],runtimes += [float(x.split()[0]) for x in f if x.strip()],"tmp_ListComp0 = []
+for x in f:
+    if x.strip():
+        tmp_ListComp0.append(float(x.split()[0]))
+runtimes += tmp_ListComp0",1,0,1,0
+mlrun,https://github.com/mlrun/mlrun/tree/master/mlrun/runtimes/serving.py,ServingRuntime,add_model$339,routers = [step for step in graph.steps.values() if step.kind == StepKinds.router],routers = [step for step in graph.steps.values() if step.kind == StepKinds.router],routers = [step for step in graph.steps.values() if step.kind == StepKinds.router],"routers = []
+for step in graph.steps.values():
+    if step.kind == StepKinds.router:
+        routers.append(step)
+",0,0,0,0
+mona,https://github.com/corelan/mona/tree/master//mona.py,,compareFormattedFileWithMemory$7966,"formats = ', '.join([""'"" + x + ""'"" for x in avail_formats])",", '.join([""'"" + x + ""'"" for x in avail_formats])",", '.join([""'"" + x + ""'"" for x in avail_formats])","tmp_ListComp0 = []
+for x in avail_formats:
+    tmp_ListComp0.append(""'"" + x + ""'"")
+formats = ', '.join(tmp_ListComp0)",1,0,1,0
+rows,https://github.com/turicas/rows/tree/master/rows/plugins/postgresql.py,,get_create_table_from_query$673,"columns = [(column.name, type_name_by_oid[column.type_code]) for column in columns]","columns = [(column.name, type_name_by_oid[column.type_code]) for column in columns]","columns = [(column.name, type_name_by_oid[column.type_code]) for column in columns]","tmp_ListComp0 = []
+for column in columns:
+    tmp_ListComp0.append((column.name, type_name_by_oid[column.type_code]))
+columns = tmp_ListComp0",1,0,1,0
+litecli,https://github.com/dbcli/litecli/tree/master/litecli/packages/completion_engine.py,,suggest_based_on_last_token$144,"aliases = [alias or table for (schema, table, alias) in tables]","aliases = [alias or table for (schema, table, alias) in tables]","aliases = [alias or table for (schema, table, alias) in tables]","aliases = []
+for (schema, table, alias) in tables:
+    aliases.append(alias or table)
+",0,0,0,0
+nova,https://github.com/openstack/nova/tree/master/nova/virt/libvirt/driver.py,LibvirtDriver,_detach_direct_passthrough_ports$4912,direct_passthrough_pci_addresses = [pci_dev for pci_dev in pci_devs if pci_dev.address in direct_passthrough_pci_addresses],direct_passthrough_pci_addresses = [pci_dev for pci_dev in pci_devs if pci_dev.address in direct_passthrough_pci_addresses],direct_passthrough_pci_addresses = [pci_dev for pci_dev in pci_devs if pci_dev.address in direct_passthrough_pci_addresses],"tmp_ListComp0 = []
+for pci_dev in pci_devs:
+    if pci_dev.address in direct_passthrough_pci_addresses:
+        tmp_ListComp0.append(pci_dev)
+direct_passthrough_pci_addresses = tmp_ListComp0",1,0,1,0
+pefile,https://github.com/erocarrera/pefile/tree/master/tests/pefile_test.py,Test_pefile,test_pe_image_regression_test$33,control_file_lines = [l for l in control_data.decode('utf-8').splitlines()],control_file_lines = [l for l in control_data.decode('utf-8').splitlines()],control_file_lines = [l for l in control_data.decode('utf-8').splitlines()],"control_file_lines = []
+for l in control_data.decode('utf-8').splitlines():
+    control_file_lines.append(l)
+",0,0,0,0
+fawkes,https://github.com/Shawn-Shan/fawkes/tree/master/fawkes/utils.py,Faces,__init__$130,cur_faces = [face for face in cur_faces if face.shape[0] != 0 and face.shape[1] != 0],cur_faces = [face for face in cur_faces if face.shape[0] != 0 and face.shape[1] != 0],cur_faces = [face for face in cur_faces if face.shape[0] != 0 and face.shape[1] != 0],"tmp_ListComp0 = []
+for face in cur_faces:
+    if face.shape[0] != 0 and face.shape[1] != 0:
+        tmp_ListComp0.append(face)
+cur_faces = tmp_ListComp0",1,0,1,0
+raveberry,https://github.com/raveberry/raveberry/tree/master/core/lights/programs.py,Adaptive,__init__$247,"self.ring_base_colors = [colorsys.hsv_to_rgb(hue, 1, 1) for hue in ring_hues]","self.ring_base_colors = [colorsys.hsv_to_rgb(hue, 1, 1) for hue in ring_hues]","self.ring_base_colors = [colorsys.hsv_to_rgb(hue, 1, 1) for hue in ring_hues]","self.ring_base_colors = []
+for hue in ring_hues:
+    self.ring_base_colors.append(colorsys.hsv_to_rgb(hue, 1, 1))
+",0,0,0,0
+feast,https://github.com/feast-dev/feast/tree/master/sdk/python/feast/feature_service.py,FeatureService,from_proto$102,fs.feature_view_projections.extend([FeatureViewProjection.from_proto(projection) for projection in feature_service_proto.spec.features]),fs.feature_view_projections.extend([FeatureViewProjection.from_proto(projection) for projection in feature_service_proto.spec.features]),fs.feature_view_projections.extend([FeatureViewProjection.from_proto(projection) for projection in feature_service_proto.spec.features]),"tmp_ListComp0 = []
+for projection in feature_service_proto.spec.features:
+    tmp_ListComp0.append(FeatureViewProjection.from_proto(projection))
+fs.feature_view_projections.extend(tmp_ListComp0)",1,0,1,0
+torchsample,https://github.com/ncullen93/torchsample/tree/master/torchsample/modules/module_trainer.py,MultiInput_NoTarget_Helper,move_to_cuda$800,inputs = [input_.cuda(cuda_device) for input_ in inputs],inputs = [input_.cuda(cuda_device) for input_ in inputs],inputs = [input_.cuda(cuda_device) for input_ in inputs],"tmp_ListComp0 = []
+for input_ in inputs:
+    tmp_ListComp0.append(input_.cuda(cuda_device))
+inputs = tmp_ListComp0",1,0,1,0
+bottle,https://github.com/bottlepy/bottle/tree/master//bottle.py,Bottle,_mount_wsgi$713,"headerlist = [(k, v.encode('latin1').decode('utf8')) for (k, v) in headerlist]","headerlist = [(k, v.encode('latin1').decode('utf8')) for (k, v) in headerlist]","headerlist = [(k, v.encode('latin1').decode('utf8')) for (k, v) in headerlist]","tmp_ListComp0 = []
+for (k, v) in headerlist:
+    tmp_ListComp0.append((k, v.encode('latin1').decode('utf8')))
+headerlist = tmp_ListComp0",1,0,1,0
+flow,https://github.com/flow-project/flow/tree/master/flow/core/kernel/vehicle/traci.py,TraCIVehicle,get_lane_headways$658,"return [self.get_lane_headways(vehID, error) for vehID in veh_id]","return [self.get_lane_headways(vehID, error) for vehID in veh_id]","return [self.get_lane_headways(vehID, error) for vehID in veh_id]","tmp_ListComp0 = []
+for vehID in veh_id:
+    tmp_ListComp0.append(self.get_lane_headways(vehID, error))
+return tmp_ListComp0",1,0,1,0
+sdf,https://github.com/fogleman/sdf/tree/master/sdf/d2.py,,circular_array$232,angles = [i / count * 2 * np.pi for i in range(count)],angles = [i / count * 2 * np.pi for i in range(count)],angles = [i / count * 2 * np.pi for i in range(count)],"angles = []
+for i in range(count):
+    angles.append(i / count * 2 * np.pi)
+",0,0,0,0
+CompilerGym,https://github.com/facebookresearch/CompilerGym/tree/master/compiler_gym/envs/llvm/datasets/cbench.py,,validator$437,outfiles = [Path(p) for p in outs or []],outfiles = [Path(p) for p in outs or []],outfiles = [Path(p) for p in outs or []],"outfiles = []
+for p in outs or []:
+    outfiles.append(Path(p))
+",0,0,0,0
+deeptype,https://github.com/openai/deeptype/tree/master/extraction/get_wikiname_to_wikidata.py,,convert_wikidata_ids_to_ids$143,"return [[id2index.get(wikidata_id, -1) for wikidata_id in propgroup] for propgroup in wikidata_ids]","return [[id2index.get(wikidata_id, -1) for wikidata_id in propgroup] for propgroup in wikidata_ids]","return [[id2index.get(wikidata_id, -1) for wikidata_id in propgroup] for propgroup in wikidata_ids]","tmp_ListComp0 = []
+for propgroup in wikidata_ids:
+    tmp_ListComp1 = []
+    for wikidata_id in propgroup:
+        tmp_ListComp1.append(id2index.get(wikidata_id, -1))
+    tmp_ListComp0.append(tmp_ListComp1)
+return tmp_ListComp0",1,0,1,0
+oio-sds,https://github.com/open-io/oio-sds/tree/master/oio/directory/indexer.py,Meta2IndexingWorker,index_meta2_database$142,is_peer = self.volume_id in [x['host'] for x in srvcs['srv'] if x['type'] == 'meta2'],self.volume_id in [x['host'] for x in srvcs['srv'] if x['type'] == 'meta2'],self.volume_id in [x['host'] for x in srvcs['srv'] if x['type'] == 'meta2'],"tmp_ListComp0 = []
+for x in srvcs['srv']:
+    if x['type'] == 'meta2':
+        tmp_ListComp0.append(x['host'])
+is_peer = self.volume_id in tmp_ListComp0",1,0,1,0
+beets,https://github.com/beetbox/beets/tree/master/test/test_discogs.py,DGAlbumInfoTest,_make_release$29,"return Bag(data=data, title=data['title'], artists=[Bag(data=d) for d in data['artists']])",artists=[Bag(data=d) for d in data['artists']],artists=[Bag(data=d) for d in data['artists']],"def my_comprehension_func(data, Bag):
+    tmp_ListComp0 = []
+    for d in data['artists']:
+        tmp_ListComp0.append(Bag(data=d))
+    return tmp_ListComp0
+return Bag(data=data, title=data['title'], artists=my_comprehension_func(data, Bag))",1,1,1,0
+swift-jupyter,https://github.com/google/swift-jupyter/tree/master/test/notebook_tester.py,NotebookTestRunner,__init__$73,self.code_cells = [cell for cell in nb.cells if cell.cell_type == 'code' and (not cell.source.startswith('#@title'))],self.code_cells = [cell for cell in nb.cells if cell.cell_type == 'code' and (not cell.source.startswith('#@title'))],self.code_cells = [cell for cell in nb.cells if cell.cell_type == 'code' and (not cell.source.startswith('#@title'))],"self.code_cells = []
+for cell in nb.cells:
+    if cell.cell_type == 'code' and (not cell.source.startswith('#@title')):
+        self.code_cells.append(cell)
+",0,0,0,0
+celeb-detection-oss,https://github.com/Giphy/celeb-detection-oss/tree/master/model_training/helpers/face_recognizer.py,FaceRecognizer,_calculate_predictions$35,"similarities = np.array([1 - self._distance(centers[i].reshape(1, -1), embeddings[i].reshape(1, -1)).squeeze() for i in range(len(embeddings))])","np.array([1 - self._distance(centers[i].reshape(1, -1), embeddings[i].reshape(1, -1)).squeeze() for i in range(len(embeddings))])","np.array([1 - self._distance(centers[i].reshape(1, -1), embeddings[i].reshape(1, -1)).squeeze() for i in range(len(embeddings))])","tmp_ListComp0 = []
+for i in range(len(embeddings)):
+    tmp_ListComp0.append(1 - self._distance(centers[i].reshape(1, -1), embeddings[i].reshape(1, -1)).squeeze())
+similarities = np.array(tmp_ListComp0)",1,0,1,0
+open-reid,https://github.com/Cysu/open-reid/tree/master/reid/datasets/cuhk01.py,CUHK01,download$27,identities = [[[] for _ in range(2)] for _ in range(971)],identities = [[[] for _ in range(2)] for _ in range(971)],identities = [[[] for _ in range(2)] for _ in range(971)],"identities = []
+for _ in range(971):
+    identities1 = []
+    for _ in range(2):
+        identities1.append([])
+    identities.append(identities1)
+",0,0,0,0
+disentanglement_lib,https://github.com/google-research/disentanglement_lib/tree/master/disentanglement_lib/evaluation/metrics/fairness.py,,compute_scores_dict$116,"relevant_scores = [metric[i, j] for i in range(metric.shape[0]) if i != j]","relevant_scores = [metric[i, j] for i in range(metric.shape[0]) if i != j]","relevant_scores = [metric[i, j] for i in range(metric.shape[0]) if i != j]","relevant_scores = []
+for i in range(metric.shape[0]):
+    if i != j:
+        relevant_scores.append(metric[i, j])
+",0,0,0,0
+scipy,https://github.com/scipy/scipy/tree/master/scipy/interpolate/tests/test_polyint.py,TestKrogh,test_vector$202,"assert_almost_equal(P(test_xs), np.asarray([p(test_xs) for p in Pi]).T)",np.asarray([p(test_xs) for p in Pi]),np.asarray([p(test_xs) for p in Pi]),"def my_comprehension_func(test_xs):
+    tmp_ListComp0 = []
+    for p in Pi:
+        tmp_ListComp0.append(p(test_xs))
+    return tmp_ListComp0
+assert_almost_equal(P(test_xs), np.asarray(my_comprehension_func(test_xs)).T)",1,1,1,0
+sublemacspro,https://github.com/sublime-emacs/sublemacspro/tree/master//jove.py,SbpPaneCmdCommand,destroy$1013,views = [window.active_view_in_group(i) for i in range(window.num_groups())],views = [window.active_view_in_group(i) for i in range(window.num_groups())],views = [window.active_view_in_group(i) for i in range(window.num_groups())],"views = []
+for i in range(window.num_groups()):
+    views.append(window.active_view_in_group(i))
+",0,0,0,0
+opentelemetry-python,https://github.com/open-telemetry/opentelemetry-python/tree/master/opentelemetry-sdk/tests/logs/test_export.py,TestBatchLogProcessor,test_shutdown$178,"emitted = [(item.log_record.body, item.log_record.severity_text) for item in finished_logs]","emitted = [(item.log_record.body, item.log_record.severity_text) for item in finished_logs]","emitted = [(item.log_record.body, item.log_record.severity_text) for item in finished_logs]","emitted = []
+for item in finished_logs:
+    emitted.append((item.log_record.body, item.log_record.severity_text))
+",0,0,0,0
+evalml,https://github.com/alteryx/evalml/tree/master/evalml/tests/component_tests/test_estimators.py,,test_binary_classification_estimators_predict_proba_col_order$62,supported_problem_types = [handle_problem_types(pt) for pt in estimator_class.supported_problem_types],supported_problem_types = [handle_problem_types(pt) for pt in estimator_class.supported_problem_types],supported_problem_types = [handle_problem_types(pt) for pt in estimator_class.supported_problem_types],"supported_problem_types = []
+for pt in estimator_class.supported_problem_types:
+    supported_problem_types.append(handle_problem_types(pt))
+",0,0,0,0
+pupil,https://github.com/pupil-labs/pupil/tree/master/pupil_src/shared_modules/head_pose_tracker/function/get_initial_guess.py,,calculate$23,key_markers_useful = [key_marker for key_marker in key_markers if key_marker.frame_id in frame_id_to_extrinsics_init.keys() and key_marker.marker_id in marker_id_to_extrinsics_init.keys()],key_markers_useful = [key_marker for key_marker in key_markers if key_marker.frame_id in frame_id_to_extrinsics_init.keys() and key_marker.marker_id in marker_id_to_extrinsics_init.keys()],key_markers_useful = [key_marker for key_marker in key_markers if key_marker.frame_id in frame_id_to_extrinsics_init.keys() and key_marker.marker_id in marker_id_to_extrinsics_init.keys()],"key_markers_useful = []
+for key_marker in key_markers:
+    if key_marker.frame_id in frame_id_to_extrinsics_init.keys() and key_marker.marker_id in marker_id_to_extrinsics_init.keys():
+        key_markers_useful.append(key_marker)
+",0,0,0,0
+fast_abs_rl,https://github.com/ChenRocks/fast_abs_rl/tree/master/data/batcher.py,,batchify_fn_copy$140,tar_ins = [[start] + tgt for tgt in tar_ins],tar_ins = [[start] + tgt for tgt in tar_ins],tar_ins = [[start] + tgt for tgt in tar_ins],"tmp_ListComp0 = []
+for tgt in tar_ins:
+    tmp_ListComp0.append([start] + tgt)
+tar_ins = tmp_ListComp0",1,0,1,0
+wagtail,https://github.com/wagtail/wagtail/tree/master/wagtail/search/tests/test_backends.py,BackendTests,test_filter_lt$238,"self.assertUnsortedListEqual([r.title for r in results], ['The Hobbit', 'JavaScript: The good parts', 'The Fellowship of the Ring', 'Foundation', 'The Two Towers'])","self.assertUnsortedListEqual([r.title for r in results], ['The Hobbit', 'JavaScript: The good parts', 'The Fellowship of the Ring', 'Foundation', 'The Two Towers'])","self.assertUnsortedListEqual([r.title for r in results], ['The Hobbit', 'JavaScript: The good parts', 'The Fellowship of the Ring', 'Foundation', 'The Two Towers'])","tmp_ListComp0 = []
+for r in results:
+    tmp_ListComp0.append(r.title)
+self.assertUnsortedListEqual(tmp_ListComp0, ['The Hobbit', 'JavaScript: The good parts', 'The Fellowship of the Ring', 'Foundation', 'The Two Towers'])",1,0,1,0
+ThinkMatch,https://github.com/Thinklab-SJTU/ThinkMatch/tree/master/src/lap_solvers/sinkhorn.py,Sinkhorn,forward_ori$189,nrows = [s.shape[1] for _ in range(batch_size)],nrows = [s.shape[1] for _ in range(batch_size)],nrows = [s.shape[1] for _ in range(batch_size)],"nrows = []
+for _ in range(batch_size):
+    nrows.append(s.shape[1])
+",0,0,0,0
+jax,https://github.com/google/jax/tree/master/jax/_src/nn/initializers.py,,_compute_fans$47,in_size = int(np.prod([shape[i] for i in in_axis])),np.prod([shape[i] for i in in_axis]),np.prod([shape[i] for i in in_axis]),"tmp_ListComp0 = []
+for i in in_axis:
+    tmp_ListComp0.append(shape[i])
+in_size = int(np.prod(tmp_ListComp0))",1,0,1,0
+OneNet,https://github.com/PeizeSun/OneNet/tree/master/detectron2/checkpoint/c2_model_loading.py,,align_and_update_state_dicts$211,unmatched_ckpt_keys = [k for k in ckpt_keys if k not in matched_ckpt_keys],unmatched_ckpt_keys = [k for k in ckpt_keys if k not in matched_ckpt_keys],unmatched_ckpt_keys = [k for k in ckpt_keys if k not in matched_ckpt_keys],"unmatched_ckpt_keys = []
+for k in ckpt_keys:
+    if k not in matched_ckpt_keys:
+        unmatched_ckpt_keys.append(k)
+",0,0,0,0
+federated,https://github.com/tensorflow/federated/tree/master/tensorflow_federated/python/core/impl/utils/tensorflow_utils.py,,capture_result_from_graph$179,"element_type_binding_pairs = [capture_result_from_graph(e, graph) for e in result]","element_type_binding_pairs = [capture_result_from_graph(e, graph) for e in result]","element_type_binding_pairs = [capture_result_from_graph(e, graph) for e in result]","element_type_binding_pairs = []
+for e in result:
+    element_type_binding_pairs.append(capture_result_from_graph(e, graph))
+",0,0,0,0
+atomic,https://github.com/projectatomic/atomic/tree/master/Atomic/mount.py,DockerMount,_get_all_cids$678,return [x['Id'] for x in self.d.containers(all=True)],return [x['Id'] for x in self.d.containers(all=True)],return [x['Id'] for x in self.d.containers(all=True)],"tmp_ListComp0 = []
+for x in self.d.containers(all=True):
+    tmp_ListComp0.append(x['Id'])
+return tmp_ListComp0",1,0,1,0
+alibi,https://github.com/SeldonIO/alibi/tree/master/alibi/utils/tests/test_distributed.py,,test_concatenate_minibatches$375,grouped_slices = [slices[i::minibatch_size] for i in range(n_minibatches)],grouped_slices = [slices[i::minibatch_size] for i in range(n_minibatches)],grouped_slices = [slices[i::minibatch_size] for i in range(n_minibatches)],"grouped_slices = []
+for i in range(n_minibatches):
+    grouped_slices.append(slices[i::minibatch_size])
+",0,0,0,0
+sklearn-porter,https://github.com/nok/sklearn-porter/tree/master/tests/language/C.py,C,pred_in_custom$40,args = [str(f).strip() for f in features],args = [str(f).strip() for f in features],args = [str(f).strip() for f in features],"args = []
+for f in features:
+    args.append(str(f).strip())
+",0,0,0,0
+azure-cli,https://github.com/Azure/azure-cli/tree/master/src/azure-cli/azure/cli/command_modules/network/_completers.py,,completer$42,"return [r.name for r in getattr(ag, prop)]","return [r.name for r in getattr(ag, prop)]","return [r.name for r in getattr(ag, prop)]","tmp_ListComp0 = []
+for r in getattr(ag, prop):
+    tmp_ListComp0.append(r.name)
+return tmp_ListComp0",1,0,1,0
+dagster,https://github.com/dagster-io/dagster/tree/master/python_modules/libraries/dagster-dbt/dagster_dbt_tests/test_asset_defs.py,,test_python_interleaving$687,"return [(uid, uid % 5 == 0) for (_, uid) in cleaned_users]","return [(uid, uid % 5 == 0) for (_, uid) in cleaned_users]","return [(uid, uid % 5 == 0) for (_, uid) in cleaned_users]","tmp_ListComp0 = []
+for (_, uid) in cleaned_users:
+    tmp_ListComp0.append((uid, uid % 5 == 0))
+return tmp_ListComp0",1,0,1,0
+gpiozero,https://github.com/gpiozero/gpiozero/tree/master/tests/test_boards.py,,test_robot$920,"pins = [mock_factory.pin(n) for n in (2, 3, 4, 5)]","pins = [mock_factory.pin(n) for n in (2, 3, 4, 5)]","pins = [mock_factory.pin(n) for n in (2, 3, 4, 5)]","pins = []
+for n in (2, 3, 4, 5):
+    pins.append(mock_factory.pin(n))
+",0,0,0,0
+texar,https://github.com/asyml/texar/tree/master/tests/data/data/dataset_utils_test.py,TransformationTest,test_make_chained_transformation$20,data_ = [elem_ - 11100 for elem_ in data_],data_ = [elem_ - 11100 for elem_ in data_],data_ = [elem_ - 11100 for elem_ in data_],"tmp_ListComp0 = []
+for elem_ in data_:
+    tmp_ListComp0.append(elem_ - 11100)
+data_ = tmp_ListComp0",1,0,1,0
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/tests/unittests/dist_ctr_reader.py,,read_data$33,ret_lines = [_.decode('utf-8') for _ in f.readlines()],ret_lines = [_.decode('utf-8') for _ in f.readlines()],ret_lines = [_.decode('utf-8') for _ in f.readlines()],"ret_lines = []
+for _ in f.readlines():
+    ret_lines.append(_.decode('utf-8'))
+",0,0,0,0
+psutil,https://github.com/giampaolo/psutil/tree/master/psutil/tests/test_windows.py,TestProcess,test_cpu_affinity$471,return [i for i in range(64) if 1 << i & x],return [i for i in range(64) if 1 << i & x],return [i for i in range(64) if 1 << i & x],"tmp_ListComp0 = []
+for i in range(64):
+    if 1 << i & x:
+        tmp_ListComp0.append(i)
+return tmp_ListComp0",1,0,1,0
+amundsen,https://github.com/amundsen-io/amundsen/tree/master/databuilder/tests/unit/loader/test_file_system_atlas_csv_loader.py,TestFileSystemAtlasCSVLoader,_get_csv_rows$76,"files = [join(path, f) for f in listdir(path) if isfile(join(path, f))]","files = [join(path, f) for f in listdir(path) if isfile(join(path, f))]","files = [join(path, f) for f in listdir(path) if isfile(join(path, f))]","files = []
+for f in listdir(path):
+    if isfile(join(path, f)):
+        files.append(join(path, f))
+",0,0,0,0
+Chinese-Text-Classification-Pytorch,https://github.com/649453932/Chinese-Text-Classification-Pytorch/tree/master//utils_fasttext.py,DatasetIterater,_to_tensor$101,trigram = torch.LongTensor([_[4] for _ in datas]).to(self.device),torch.LongTensor([_[4] for _ in datas]),torch.LongTensor([_[4] for _ in datas]),"tmp_ListComp0 = []
+for _ in datas:
+    tmp_ListComp0.append(_[4])
+trigram = torch.LongTensor(tmp_ListComp0).to(self.device)",1,0,1,0
+Just-Code,https://github.com/YaxeZhang/Just-Code/tree/master/src/0315.count-of-smaller-numbers-after-self/count-of-smaller-numbers-after-self.py,Solution,countSmaller$2,"return [binsrh(tmp, nums[i]) for i in range(len(nums) - 1, -1, -1)][::-1]","[binsrh(tmp, nums[i]) for i in range(len(nums) - 1, -1, -1)][::-1]","[binsrh(tmp, nums[i]) for i in range(len(nums) - 1, -1, -1)][::-1]","tmp_ListComp0 = []
+for i in range(len(nums) - 1, -1, -1):
+    tmp_ListComp0.append(binsrh(tmp, nums[i]))
+return tmp_ListComp0[::-1]",1,0,1,0
+django-haystack,https://github.com/django-haystack/django-haystack/tree/master/haystack/backends/whoosh_backend.py,WhooshSearchBackend,more_like_this$595,"narrow_queries.add(' OR '.join(['%s:%s' % (DJANGO_CT, rm) for rm in model_choices]))"," OR '.join(['%s:%s' % (DJANGO_CT, rm) for rm in model_choices])"," OR '.join(['%s:%s' % (DJANGO_CT, rm) for rm in model_choices])","tmp_ListComp0 = []
+for rm in model_choices:
+    tmp_ListComp0.append('%s:%s' % (DJANGO_CT, rm))
+narrow_queries.add(' OR '.join(tmp_ListComp0))",1,0,1,0
+enaml,https://github.com/nucleic/enaml/tree/master/enaml/layout/spacers.py,Spacer,create_constraints$73,cns = [cn | strength for cn in cns],cns = [cn | strength for cn in cns],cns = [cn | strength for cn in cns],"tmp_ListComp0 = []
+for cn in cns:
+    tmp_ListComp0.append(cn | strength)
+cns = tmp_ListComp0",1,0,1,0
+lingvo,https://github.com/tensorflow/lingvo/tree/master/lingvo/core/layers_test.py,EmbeddingLayerTest,testSinusoidalPositionalEmbeddingLayer$3917,"expected_output = [[math.sin(p / 2 * math.pi), math.cos(p / 2 * math.pi)] for p in range(4)]","expected_output = [[math.sin(p / 2 * math.pi), math.cos(p / 2 * math.pi)] for p in range(4)]","expected_output = [[math.sin(p / 2 * math.pi), math.cos(p / 2 * math.pi)] for p in range(4)]","expected_output = []
+for p in range(4):
+    expected_output.append([math.sin(p / 2 * math.pi), math.cos(p / 2 * math.pi)])
+",0,0,0,0
+angr-doc,https://github.com/angr/angr-doc/tree/master/examples/defcon2019quals_veryandroidoso/solve.py,,solve$41,solution = b'OOO{%s}' % b''.join([b'%02x' % i for i in intsols]),b''.join([b'%02x' % i for i in intsols]),b''.join([b'%02x' % i for i in intsols]),"tmp_ListComp0 = []
+for i in intsols:
+    tmp_ListComp0.append(b'%02x' % i)
+solution = b'OOO{%s}' % b''.join(tmp_ListComp0)",1,0,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/solvers/inequalities.py,,solve_poly_inequalities$111,return Union(*[s for p in polys for s in solve_poly_inequality(*p)]),*[s for p in polys for s in solve_poly_inequality(*p)],*[s for p in polys for s in solve_poly_inequality(*p)],"tmp_ListComp0 = []
+for p in polys:
+    for s in solve_poly_inequality(*p):
+        tmp_ListComp0.append(s)
+return Union(*tmp_ListComp0)",1,0,1,0
+videos,https://github.com/3b1b/videos/tree/master/_2016/eola/chapter10.py,RevisitExampleTransformation,show_diagonally_altered_transform$1417,"self.play(*it.chain([mob.restore for mob in (self.plane, self.i_hat, self.j_hat)], list(map(Animation, self.foreground_mobjects))))","it.chain([mob.restore for mob in (self.plane, self.i_hat, self.j_hat)], list(map(Animation, self.foreground_mobjects)))","it.chain([mob.restore for mob in (self.plane, self.i_hat, self.j_hat)], list(map(Animation, self.foreground_mobjects)))","def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for mob in (self.plane, self.i_hat, self.j_hat):
+        tmp_ListComp0.append(mob.restore)
+    return tmp_ListComp0
+self.play(*it.chain(my_comprehension_func(self), list(map(Animation, self.foreground_mobjects))))",1,1,1,0
+bpytop,https://github.com/aristocratos/bpytop/tree/master//bpytop.py,NetBox,_draw_fg$2355,"Key.mouse['z'] = [[x + w - len(net.nic[:10]) - 14 + i, y - 1] for i in range(4)]","Key.mouse['z'] = [[x + w - len(net.nic[:10]) - 14 + i, y - 1] for i in range(4)]","Key.mouse['z'] = [[x + w - len(net.nic[:10]) - 14 + i, y - 1] for i in range(4)]","Key.mouse['z'] = []
+for i in range(4):
+    Key.mouse['z'].append([x + w - len(net.nic[:10]) - 14 + i, y - 1])
+",0,0,0,0
+dataprep,https://github.com/sfu-db/dataprep/tree/master/dataprep/eda/missing/render.py,,render_dendrogram$566,null_mismatch_vals = [coord[0] for coord in h_lns_y],null_mismatch_vals = [coord[0] for coord in h_lns_y],null_mismatch_vals = [coord[0] for coord in h_lns_y],"null_mismatch_vals = []
+for coord in h_lns_y:
+    null_mismatch_vals.append(coord[0])
+",0,0,0,0
+redis-py,https://github.com/redis/redis-py/tree/master/redis/commands/timeseries/utils.py,,parse_range$8,"return [tuple((r[0], float(r[1]))) for r in response]","return [tuple((r[0], float(r[1]))) for r in response]","return [tuple((r[0], float(r[1]))) for r in response]","tmp_ListComp0 = []
+for r in response:
+    tmp_ListComp0.append(tuple((r[0], float(r[1]))))
+return tmp_ListComp0",1,0,1,0
+PythonProgrammingPuzzles,https://github.com/microsoft/PythonProgrammingPuzzles/tree/master/generators/trivial_inverse.py,ListMul,gen_random$387,"li = [self.random.randrange(-10 ** 5, 10 ** 5) for _ in range(self.random.randrange(1, 10))] * self.random.randint(1, 3)","[self.random.randrange(-10 ** 5, 10 ** 5) for _ in range(self.random.randrange(1, 10))] * self.random.randint(1, 3)","[self.random.randrange(-10 ** 5, 10 ** 5) for _ in range(self.random.randrange(1, 10))] * self.random.randint(1, 3)","def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for _ in range(self.random.randrange(1, 10)):
+        tmp_ListComp0.append(self.random.randrange(-10 ** 5, 10 ** 5))
+    return tmp_ListComp0
+li = my_comprehension_func(self) * self.random.randint(1, 3)",1,1,1,0
+zato,https://github.com/zatosource/zato/tree/master/code/zato-server/src/zato/server/service/internal/pubsub/topic.py,DeleteTopics,_get_topic_id_list$302,out = [elem['id'] for elem in topic_data],out = [elem['id'] for elem in topic_data],out = [elem['id'] for elem in topic_data],"out = []
+for elem in topic_data:
+    out.append(elem['id'])
+",0,0,0,0
+imgaug,https://github.com/aleju/imgaug/tree/master/test/augmenters/test_geometric.py,TestRot90,test_bounding_boxes_k_is_1_keep_size_is_true$8617,"expected = [(8 * x / 4, 4 * y / 8) for (x, y) in expected]","expected = [(8 * x / 4, 4 * y / 8) for (x, y) in expected]","expected = [(8 * x / 4, 4 * y / 8) for (x, y) in expected]","tmp_ListComp0 = []
+for (x, y) in expected:
+    tmp_ListComp0.append((8 * x / 4, 4 * y / 8))
+expected = tmp_ListComp0",1,0,1,0
+astropy,https://github.com/astropy/astropy/tree/master/astropy/modeling/projections.py,Pix2SkyProjection,inverse$202,"pv = [getattr(self, param).value for param in self.param_names]","pv = [getattr(self, param).value for param in self.param_names]","pv = [getattr(self, param).value for param in self.param_names]","pv = []
+for param in self.param_names:
+    pv.append(getattr(self, param).value)
+",0,0,0,0
+knowledge_graph_attention_network,https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model/utility/load_data.py,Data,get_sparsity_split$133,f.write(' '.join([str(uid) for uid in split_uids[idx]]) + '\n'),' '.join([str(uid) for uid in split_uids[idx]]),' '.join([str(uid) for uid in split_uids[idx]]),"tmp_ListComp0 = []
+for uid in split_uids[idx]:
+    tmp_ListComp0.append(str(uid))
+f.write(' '.join(tmp_ListComp0) + '\n')",1,0,1,0
+bulk-downloader-for-reddit,https://github.com/aliparlakci/bulk-downloader-for-reddit/tree/master/bdfr/site_downloaders/vidble.py,Vidble,get_links$35,images = [i.get('src') for i in images],images = [i.get('src') for i in images],images = [i.get('src') for i in images],"tmp_ListComp0 = []
+for i in images:
+    tmp_ListComp0.append(i.get('src'))
+images = tmp_ListComp0",1,0,1,0
+koalas,https://github.com/databricks/koalas/tree/master/databricks/koalas/namespace.py,,get_dummies$1769,"column_labels = [label for label in kdf._internal.column_labels if isinstance(kdf._internal.spark_type_for(label), _get_dummies_default_accept_types)]","column_labels = [label for label in kdf._internal.column_labels if isinstance(kdf._internal.spark_type_for(label), _get_dummies_default_accept_types)]","column_labels = [label for label in kdf._internal.column_labels if isinstance(kdf._internal.spark_type_for(label), _get_dummies_default_accept_types)]","column_labels = []
+for label in kdf._internal.column_labels:
+    if isinstance(kdf._internal.spark_type_for(label), _get_dummies_default_accept_types):
+        column_labels.append(label)
+",0,0,0,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/matrices/common.py,MatrixShaping,extract$313,"rowsList = [index for (index, item) in enumerate(rowsList) if item]","rowsList = [index for (index, item) in enumerate(rowsList) if item]","rowsList = [index for (index, item) in enumerate(rowsList) if item]","tmp_ListComp0 = []
+for (index, item) in enumerate(rowsList):
+    if item:
+        tmp_ListComp0.append(index)
+rowsList = tmp_ListComp0",1,0,1,0
+Multi-Label-Text-Classification,https://github.com/RandolphVI/Multi-Label-Text-Classification/tree/master/CNN/test_cnn.py,,test_cnn$32,predicted_onehot_labels_tk = [[] for _ in range(args.topK)],predicted_onehot_labels_tk = [[] for _ in range(args.topK)],predicted_onehot_labels_tk = [[] for _ in range(args.topK)],"predicted_onehot_labels_tk = []
+for _ in range(args.topK):
+    predicted_onehot_labels_tk.append([])
+",0,0,0,0
+mars,https://github.com/mars-project/mars/tree/master/mars/dataframe/arithmetic/core.py,DataFrameBinOpMixin,_calc_properties$406,"dtypes = pd.Series([infer_dtype(dt1, dt2, cls._operator) for (dt1, dt2) in zip(x1.dtypes, x2.dtypes)], index=x1.dtypes.index)","pd.Series([infer_dtype(dt1, dt2, cls._operator) for (dt1, dt2) in zip(x1.dtypes, x2.dtypes)], index=x1.dtypes.index)","pd.Series([infer_dtype(dt1, dt2, cls._operator) for (dt1, dt2) in zip(x1.dtypes, x2.dtypes)], index=x1.dtypes.index)","def my_comprehension_func(x1):
+    tmp_ListComp0 = []
+    for (dt1, dt2) in zip(x1.dtypes, x2.dtypes):
+        tmp_ListComp0.append(infer_dtype(dt1, dt2, cls._operator))
+    return tmp_ListComp0
+dtypes = pd.Series(my_comprehension_func(x1), index=x1.dtypes.index)",1,1,1,0
+retopoflow,https://github.com/CGCookie/retopoflow/tree/master/retopoflow/rfmesh/rfmesh.py,RFMesh,_crawl$362,l = [bmf for bmf in l if bmf in bmfs_intersect],l = [bmf for bmf in l if bmf in bmfs_intersect],l = [bmf for bmf in l if bmf in bmfs_intersect],"tmp_ListComp0 = []
+for bmf in l:
+    if bmf in bmfs_intersect:
+        tmp_ListComp0.append(bmf)
+l = tmp_ListComp0",1,0,1,0
+pyvmomi,https://github.com/vmware/pyvmomi/tree/master/pyVmomi/VmomiSupport.py,,GetServiceVersions$1361,"return sorted([v for (v, n) in six.iteritems(serviceNsMap) if n == namespace], compare)","sorted([v for (v, n) in six.iteritems(serviceNsMap) if n == namespace], compare)","sorted([v for (v, n) in six.iteritems(serviceNsMap) if n == namespace], compare)","tmp_ListComp0 = []
+for (v, n) in six.iteritems(serviceNsMap):
+    if n == namespace:
+        tmp_ListComp0.append(v)
+return sorted(tmp_ListComp0, compare)",1,0,1,0
+numpy,https://github.com/numpy/numpy/tree/master/numpy/core/tests/test_einsum.py,TestEinsum,test_einsum_views$103,"assert_equal(b, [a.transpose(2, 0, 1)[:, i, i] for i in range(3)])","assert_equal(b, [a.transpose(2, 0, 1)[:, i, i] for i in range(3)])","assert_equal(b, [a.transpose(2, 0, 1)[:, i, i] for i in range(3)])","tmp_ListComp0 = []
+for i in range(3):
+    tmp_ListComp0.append(a.transpose(2, 0, 1)[:, i, i])
+assert_equal(b, tmp_ListComp0)",1,0,1,0
+gluon-cv,https://github.com/dmlc/gluon-cv/tree/master/gluoncv/torch/model_zoo/pose/directpose_resnet_fpn.py,Downsample1D,__init__$377,self.pad_sizes = [pad_size + pad_off for pad_size in self.pad_sizes],self.pad_sizes = [pad_size + pad_off for pad_size in self.pad_sizes],self.pad_sizes = [pad_size + pad_off for pad_size in self.pad_sizes],"tmp_ListComp0 = []
+for pad_size in self.pad_sizes:
+    tmp_ListComp0.append(pad_size + pad_off)
+self.pad_sizes = tmp_ListComp0",1,0,1,0
+splinter,https://github.com/cobrateam/splinter/tree/master/splinter/driver/zopetestbrowser.py,ZopeTestBrowserElement,find_by_tag$347,"return ElementList([self.__class__(element, self) for element in elements])","ElementList([self.__class__(element, self) for element in elements])","ElementList([self.__class__(element, self) for element in elements])","tmp_ListComp0 = []
+for element in elements:
+    tmp_ListComp0.append(self.__class__(element, self))
+return ElementList(tmp_ListComp0)",1,0,1,0
+deeplift,https://github.com/kundajelab/deeplift/tree/master/tests/layers/test_dense.py,TestDense,test_dense_backprop$39,"self.assertListEqual([list(x) for x in func([self.inp, np.zeros_like(self.inp)])], [self.w2, self.w2])","self.assertListEqual([list(x) for x in func([self.inp, np.zeros_like(self.inp)])], [self.w2, self.w2])","self.assertListEqual([list(x) for x in func([self.inp, np.zeros_like(self.inp)])], [self.w2, self.w2])","def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for x in func([self.inp, np.zeros_like(self.inp)]):
+        tmp_ListComp0.append(list(x))
+    return tmp_ListComp0
+self.assertListEqual(my_comprehension_func(self), [self.w2, self.w2])",1,1,1,0
+uncurl,https://github.com/spulec/uncurl/tree/master/uncurl/api.py,,parse_context$32,"occurrence = [m.start() for m in re.finditer(':', curl_header)]","occurrence = [m.start() for m in re.finditer(':', curl_header)]","occurrence = [m.start() for m in re.finditer(':', curl_header)]","occurrence = []
+for m in re.finditer(':', curl_header):
+    occurrence.append(m.start())
+",0,0,0,0
+python-louvain,https://github.com/taynaud/python-louvain/tree/master//test_community.py,GenerateDendrogramTest,test_modularity_increase$285,"mods = [co.modularity(co.partition_at_level(dendo, level), graph) for level in range(len(dendo))]","mods = [co.modularity(co.partition_at_level(dendo, level), graph) for level in range(len(dendo))]","mods = [co.modularity(co.partition_at_level(dendo, level), graph) for level in range(len(dendo))]","mods = []
+for level in range(len(dendo)):
+    mods.append(co.modularity(co.partition_at_level(dendo, level), graph))
+",0,0,0,0
+become-yukarin,https://github.com/Hiroshiba/become-yukarin/tree/master/become_yukarin/vocoder.py,RealtimeVocoder,decode$70,y = numpy.array([self._synthesizer.buffer[i] for i in range(self.buffer_size)]),numpy.array([self._synthesizer.buffer[i] for i in range(self.buffer_size)]),numpy.array([self._synthesizer.buffer[i] for i in range(self.buffer_size)]),"tmp_ListComp0 = []
+for i in range(self.buffer_size):
+    tmp_ListComp0.append(self._synthesizer.buffer[i])
+y = numpy.array(tmp_ListComp0)",1,0,1,0
+portia,https://github.com/scrapinghub/portia/tree/master/slybot/slybot/starturls/generated_url.py,GeneratedUrl,normalized_url$24,paths = [normalize_url_path(path) for path in self.spec['paths']],paths = [normalize_url_path(path) for path in self.spec['paths']],paths = [normalize_url_path(path) for path in self.spec['paths']],"paths = []
+for path in self.spec['paths']:
+    paths.append(normalize_url_path(path))
+",0,0,0,0
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/dviread.py,Vf,_read$700,"(packet_len, packet_char, packet_width) = [self._arg(x) for x in (4, 4, 4)]","(packet_len, packet_char, packet_width) = [self._arg(x) for x in (4, 4, 4)]","(packet_len, packet_char, packet_width) = [self._arg(x) for x in (4, 4, 4)]","tmp_ListComp0 = []
+for x in (4, 4, 4):
+    tmp_ListComp0.append(self._arg(x))
+(packet_len, packet_char, packet_width) = tmp_ListComp0",1,0,1,0
+cvpods,https://github.com/Megvii-BaseDetection/cvpods/tree/master/cvpods/data/base_dataset.py,,print_instances_class_histogram$313,"data = list(itertools.chain(*[[short_name(class_names[i]), int(v)] for (i, v) in enumerate(histogram)]))","*[[short_name(class_names[i]), int(v)] for (i, v) in enumerate(histogram)]","*[[short_name(class_names[i]), int(v)] for (i, v) in enumerate(histogram)]","tmp_ListComp0 = []
+for (i, v) in enumerate(histogram):
+    tmp_ListComp0.append([short_name(class_names[i]), int(v)])
+data = list(itertools.chain(*tmp_ListComp0))",1,0,1,0
+ru_transformers,https://github.com/mgrankin/ru_transformers/tree/master//tpu_lm_finetuning.py,,req_len$672,return len([param for item in flatten_model(model) for param in item.parameters() if param.requires_grad]),len([param for item in flatten_model(model) for param in item.parameters() if param.requires_grad]),len([param for item in flatten_model(model) for param in item.parameters() if param.requires_grad]),"tmp_ListComp0 = []
+for item in flatten_model(model):
+    for param in item.parameters():
+        if param.requires_grad:
+            tmp_ListComp0.append(param)
+return len(tmp_ListComp0)",1,0,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/integrals/prde.py,,prde_no_cancel_b_large$322,dc = max([qi.degree(DE.t) for qi in Q]),max([qi.degree(DE.t) for qi in Q]),max([qi.degree(DE.t) for qi in Q]),"tmp_ListComp0 = []
+for qi in Q:
+    tmp_ListComp0.append(qi.degree(DE.t))
+dc = max(tmp_ListComp0)",1,0,1,0
+networkx,https://github.com/networkx/networkx/tree/master/networkx/readwrite/graph6.py,,from_graph6_bytes$63,data = [c - 63 for c in bytes_in],data = [c - 63 for c in bytes_in],data = [c - 63 for c in bytes_in],"data = []
+for c in bytes_in:
+    data.append(c - 63)
+",0,0,0,0
+haystack,https://github.com/deepset-ai/haystack/tree/master/haystack/nodes/other/join_docs.py,JoinDocuments,__init__$27,self.weights = [float(i) / sum(weights) for i in weights] if weights else None,[float(i) / sum(weights) for i in weights] if weights else None,[float(i) / sum(weights) for i in weights] if weights else None,"def my_comprehension_func(weights):
+    tmp_ListComp0 = []
+    for i in weights:
+        tmp_ListComp0.append(float(i) / sum(weights))
+    return tmp_ListComp0
+self.weights = my_comprehension_func(weights) if weights else None",1,1,1,1
+SegFormer,https://github.com/NVlabs/SegFormer/tree/master/mmseg/models/segmentors/base.py,BaseSegmentor,forward_test$76,pad_shapes = [_['pad_shape'] for _ in img_meta],pad_shapes = [_['pad_shape'] for _ in img_meta],pad_shapes = [_['pad_shape'] for _ in img_meta],"pad_shapes = []
+for _ in img_meta:
+    pad_shapes.append(_['pad_shape'])
+",0,0,0,0
+nova,https://github.com/openstack/nova/tree/master/nova/tests/unit/pci/test_stats.py,PciDeviceStatsTestCase,_get_fake_requests$70,specs = [{'vendor_id': vendor_id} for vendor_id in vendor_ids],specs = [{'vendor_id': vendor_id} for vendor_id in vendor_ids],specs = [{'vendor_id': vendor_id} for vendor_id in vendor_ids],"specs = []
+for vendor_id in vendor_ids:
+    specs.append({'vendor_id': vendor_id})
+",0,0,0,0
+mmpose,https://github.com/open-mmlab/mmpose/tree/master/mmpose/models/backbones/hourglass_ae.py,HourglassAENet,__init__$102,"self.hourglass_modules = nn.ModuleList([nn.Sequential(HourglassAEModule(downsample_times, stage_channels, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg)) for _ in range(num_stacks)])","nn.ModuleList([nn.Sequential(HourglassAEModule(downsample_times, stage_channels, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg)) for _ in range(num_stacks)])","nn.ModuleList([nn.Sequential(HourglassAEModule(downsample_times, stage_channels, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg)) for _ in range(num_stacks)])","def my_comprehension_func(nn):
+    tmp_ListComp0 = []
+    for _ in range(num_stacks):
+        tmp_ListComp0.append(nn.Sequential(HourglassAEModule(downsample_times, stage_channels, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg), ConvModule(feat_channels, feat_channels, 3, padding=1, norm_cfg=norm_cfg)))
+    return tmp_ListComp0
+self.hourglass_modules = nn.ModuleList(my_comprehension_func(nn))",1,1,1,0
+oppia,https://github.com/oppia/oppia/tree/master/core/domain/learner_progress_services.py,,get_exploration_progress$2267,exploration_playlist_summaries = [exploration_id_to_model_dict[exp_id] if exp_id in exploration_id_to_model_dict else None for exp_id in exploration_playlist_ids],exploration_playlist_summaries = [exploration_id_to_model_dict[exp_id] if exp_id in exploration_id_to_model_dict else None for exp_id in exploration_playlist_ids],exploration_playlist_summaries = [exploration_id_to_model_dict[exp_id] if exp_id in exploration_id_to_model_dict else None for exp_id in exploration_playlist_ids],"exploration_playlist_summaries = []
+for exp_id in exploration_playlist_ids:
+    if exp_id in exploration_id_to_model_dict:
+        exploration_playlist_summaries.append(exploration_id_to_model_dict[exp_id])
+    else:
+        exploration_playlist_summaries.append(None)
+",0,0,0,0
+ansible,https://github.com/ansible/ansible/tree/master/lib/ansible/plugins/shell/powershell.py,ShellModule,join_path$81,parts = [ntpath.normpath(self._unquote(arg)) for arg in args],parts = [ntpath.normpath(self._unquote(arg)) for arg in args],parts = [ntpath.normpath(self._unquote(arg)) for arg in args],"parts = []
+for arg in args:
+    parts.append(ntpath.normpath(self._unquote(arg)))
+",0,0,0,0
+exabgp,https://github.com/Exa-Networks/exabgp/tree/master/src/exabgp/bgp/message/update/attribute/clusterlist.py,ClusterList,json$52,"return '[ %s ]' % ', '.join(['""%s""' % str(_) for _ in self.clusters])",", '.join(['""%s""' % str(_) for _ in self.clusters])",", '.join(['""%s""' % str(_) for _ in self.clusters])","tmp_ListComp0 = []
+for _ in self.clusters:
+    tmp_ListComp0.append('""%s""' % str(_))
+return '[ %s ]' % ', '.join(tmp_ListComp0)",1,0,1,0
+agents,https://github.com/tensorflow/agents/tree/master/tf_agents/benchmark/distribution_strategy_utils.py,,get_distribution_strategy$26,devices = ['device:GPU:%d' % i for i in range(num_gpus)],devices = ['device:GPU:%d' % i for i in range(num_gpus)],devices = ['device:GPU:%d' % i for i in range(num_gpus)],"devices = []
+for i in range(num_gpus):
+    devices.append('device:GPU:%d' % i)
+",0,0,0,0
+UNetPlusPlus,https://github.com/MrGiovanni/UNetPlusPlus/tree/master/pytorch/nnunet/inference/ensemble_predictions.py,,merge$56,"property_files.append([join(f, p + '.pkl') for f in folders])","property_files.append([join(f, p + '.pkl') for f in folders])","property_files.append([join(f, p + '.pkl') for f in folders])","tmp_ListComp0 = []
+for f in folders:
+    tmp_ListComp0.append(join(f, p + '.pkl'))
+property_files.append(tmp_ListComp0)",1,0,1,0
+homework,https://github.com/berkeleydeeprlcourse/homework/tree/master/hw4/timer.py,TimeIt,__str__$26,"times_summed = sum([t for (k, t) in self.elapsed_times.items() if k != 'total'])","sum([t for (k, t) in self.elapsed_times.items() if k != 'total'])","sum([t for (k, t) in self.elapsed_times.items() if k != 'total'])","tmp_ListComp0 = []
+for (k, t) in self.elapsed_times.items():
+    if k != 'total':
+        tmp_ListComp0.append(t)
+times_summed = sum(tmp_ListComp0)",1,0,1,0
+HyperGAN,https://github.com/HyperGAN/HyperGAN/tree/master/hypergan/train_hooks/stabilizing_training_train_hook.py,StabilizingTrainingTrainHook,forward$25,reg_d2 = [(d2 ** 2).cuda() * (_d2_norm ** 2).cuda() for _d2_norm in d2_norm],reg_d2 = [(d2 ** 2).cuda() * (_d2_norm ** 2).cuda() for _d2_norm in d2_norm],reg_d2 = [(d2 ** 2).cuda() * (_d2_norm ** 2).cuda() for _d2_norm in d2_norm],"reg_d2 = []
+for _d2_norm in d2_norm:
+    reg_d2.append((d2 ** 2).cuda() * (_d2_norm ** 2).cuda())
+",0,0,0,0
+novelWriter,https://github.com/vkbo/novelWriter/tree/master/novelwriter/core/tohtml.py,ToHtml,getFullResultSize$93,return sum([len(x) for x in self.fullHTML]),sum([len(x) for x in self.fullHTML]),sum([len(x) for x in self.fullHTML]),"tmp_ListComp0 = []
+for x in self.fullHTML:
+    tmp_ListComp0.append(len(x))
+return sum(tmp_ListComp0)",1,0,1,0
+networkx,https://github.com/networkx/networkx/tree/master/networkx/algorithms/connectivity/edge_augmentation.py,,_unpack_available_edges$496,avail_uv = [tup[0:2] for tup in avail],avail_uv = [tup[0:2] for tup in avail],avail_uv = [tup[0:2] for tup in avail],"avail_uv = []
+for tup in avail:
+    avail_uv.append(tup[0:2])
+",0,0,0,0
+big_transfer,https://github.com/google-research/big_transfer/tree/master/bit_pytorch/fewshot.py,,find_fewshot_indices$51,all_indices = [i for indices in per_label_indices.values() for i in indices],all_indices = [i for indices in per_label_indices.values() for i in indices],all_indices = [i for indices in per_label_indices.values() for i in indices],"all_indices = []
+for indices in per_label_indices.values():
+    for i in indices:
+        all_indices.append(i)
+",0,0,0,0
+THUMT,https://github.com/THUNLP-MT/THUMT/tree/master/thumt/optimizers/clipping.py,,global_norm_clipper$11,gradients = [grad.data.mul_(scale) if grad is not None else None for grad in gradients],gradients = [grad.data.mul_(scale) if grad is not None else None for grad in gradients],gradients = [grad.data.mul_(scale) if grad is not None else None for grad in gradients],"tmp_ListComp0 = []
+for grad in gradients:
+    if grad is not None:
+        tmp_ListComp0.append(grad.data.mul_(scale))
+    else:
+        tmp_ListComp0.append(None)
+gradients = tmp_ListComp0",1,0,1,0
+Kats,https://github.com/facebookresearch/Kats/tree/master/kats/tests/detectors/utils.py,,gen_trend_data_ndim$37,ix = np.array([np.arange(n_days) for i in range(ndim)]),np.array([np.arange(n_days) for i in range(ndim)]),np.array([np.arange(n_days) for i in range(ndim)]),"def my_comprehension_func(np):
+    tmp_ListComp0 = []
+    for i in range(ndim):
+        tmp_ListComp0.append(np.arange(n_days))
+    return tmp_ListComp0
+ix = np.array(my_comprehension_func(np))",1,1,1,0
+django-postgres-extra,https://github.com/SectorLabs/django-postgres-extra/tree/master/psqlextra/backend/side_effects/hstore_unique.py,HStoreUniqueSchemaEditorSideEffect,_create_hstore_unique$94,"columns = [""(%s->'%s')"" % (field.column, key) for key in keys]","columns = [""(%s->'%s')"" % (field.column, key) for key in keys]","columns = [""(%s->'%s')"" % (field.column, key) for key in keys]","columns = []
+for key in keys:
+    columns.append(""(%s->'%s')"" % (field.column, key))
+",0,0,0,0
+brat,https://github.com/nlplab/brat/tree/master/server/src/norm.py,,_norm_search_name_attr$273,"id_names = [(i, n) for (i, n, s) in id_name_scores]","id_names = [(i, n) for (i, n, s) in id_name_scores]","id_names = [(i, n) for (i, n, s) in id_name_scores]","id_names = []
+for (i, n, s) in id_name_scores:
+    id_names.append((i, n))
+",0,0,0,0
+d2l-en,https://github.com/d2l-ai/d2l-en/tree/master/d2l/mxnet.py,MTFraEng,_build_array$834,"sentences = [pad_or_trim(s, self.num_steps) for s in sentences]","sentences = [pad_or_trim(s, self.num_steps) for s in sentences]","sentences = [pad_or_trim(s, self.num_steps) for s in sentences]","tmp_ListComp0 = []
+for s in sentences:
+    tmp_ListComp0.append(pad_or_trim(s, self.num_steps))
+sentences = tmp_ListComp0",1,0,1,0
+causalnex,https://github.com/quantumblacklabs/causalnex/tree/master/causalnex/structure/categorical_variable_mapper.py,VariableFeatureMapper,get_feature_names$218,"return [k for (k, v) in self._cat_fte_var_dict.items() if v == var]","return [k for (k, v) in self._cat_fte_var_dict.items() if v == var]","return [k for (k, v) in self._cat_fte_var_dict.items() if v == var]","tmp_ListComp0 = []
+for (k, v) in self._cat_fte_var_dict.items():
+    if v == var:
+        tmp_ListComp0.append(k)
+return tmp_ListComp0",1,0,1,0
+fiftyone,https://github.com/voxel51/fiftyone/tree/master/fiftyone/utils/coco.py,,_load_image_ids_txt$1956,return [l.strip() for l in f.readlines()],return [l.strip() for l in f.readlines()],return [l.strip() for l in f.readlines()],"tmp_ListComp0 = []
+for l in f.readlines():
+    tmp_ListComp0.append(l.strip())
+return tmp_ListComp0",1,0,1,0
+wagtail,https://github.com/wagtail/wagtail/tree/master/wagtail/search/backends/elasticsearch5.py,Elasticsearch5SearchQueryCompiler,_connect_filters$380,filter_out = {'bool': {'should': [fil for fil in filters if fil is not None]}},{'should': [fil for fil in filters if fil is not None]},{'should': [fil for fil in filters if fil is not None]},"tmp_ListComp0 = []
+for fil in filters:
+    if fil is not None:
+        tmp_ListComp0.append(fil)
+filter_out = {'bool': {'should': tmp_ListComp0}}",1,0,1,0
+GPT2-Chinese,https://github.com/Morizeyao/GPT2-Chinese/tree/master//eval.py,,main$39,tokens = [int(token) for token in tokens],tokens = [int(token) for token in tokens],tokens = [int(token) for token in tokens],"tmp_ListComp0 = []
+for token in tokens:
+    tmp_ListComp0.append(int(token))
+tokens = tmp_ListComp0",1,0,1,0
+NudeNet,https://github.com/notAI-tech/NudeNet/tree/master/nudenet/detector.py,Detector,detect$133,labels = [op for op in outputs if op.dtype == 'int32'][0],[op for op in outputs if op.dtype == 'int32'][0],[op for op in outputs if op.dtype == 'int32'][0],"tmp_ListComp0 = []
+for op in outputs:
+    if op.dtype == 'int32':
+        tmp_ListComp0.append(op)
+labels = tmp_ListComp0[0]",1,0,1,0
+buildbot,https://github.com/buildbot/buildbot/tree/master/master/buildbot/test/unit/data/test_build_data.py,TestBuildDatasNoValueEndpoint,test_get_builds_id$288,"self.assertEqual([r['name'] for r in results], exp_names)","self.assertEqual([r['name'] for r in results], exp_names)","self.assertEqual([r['name'] for r in results], exp_names)","tmp_ListComp0 = []
+for r in results:
+    tmp_ListComp0.append(r['name'])
+self.assertEqual(tmp_ListComp0, exp_names)",1,0,1,0
+coach,https://github.com/IntelLabs/coach/tree/master/rl_coach/dashboard_components/signals_files_group.py,SignalsFilesGroup,load_csv$57,self.csv_stdev.columns = [s + '/Stdev' for s in self.csv_stdev.columns],self.csv_stdev.columns = [s + '/Stdev' for s in self.csv_stdev.columns],self.csv_stdev.columns = [s + '/Stdev' for s in self.csv_stdev.columns],"tmp_ListComp0 = []
+for s in self.csv_stdev.columns:
+    tmp_ListComp0.append(s + '/Stdev')
+self.csv_stdev.columns = tmp_ListComp0",1,0,1,0
+mlens,https://github.com/flennerhag/mlens/tree/master/mlens/index/tests/test_base.py,,test_blend_tuple_shape$276,"tup = [(tri, tei) for (tri, tei) in BlendIndex(0.4, 0.5).generate(X)]","tup = [(tri, tei) for (tri, tei) in BlendIndex(0.4, 0.5).generate(X)]","tup = [(tri, tei) for (tri, tei) in BlendIndex(0.4, 0.5).generate(X)]","tup = []
+for (tri, tei) in BlendIndex(0.4, 0.5).generate(X):
+    tup.append((tri, tei))
+",0,0,0,0
+freemocap,https://github.com/jonmatthis/freemocap/tree/master/freemocap/fmc_anipose.py,CameraGroup,triangulate_possible$553,cnums = [p[0] for p in picked],cnums = [p[0] for p in picked],cnums = [p[0] for p in picked],"cnums = []
+for p in picked:
+    cnums.append(p[0])
+",0,0,0,0
+ros_comm,https://github.com/ros/ros_comm/tree/master/utilities/message_filters/test/test_approxsync.py,TestApproxSync,test_approx$65,"seq0 = [MockMessage(rospy.Time(t), random.random()) for t in range(N)]","seq0 = [MockMessage(rospy.Time(t), random.random()) for t in range(N)]","seq0 = [MockMessage(rospy.Time(t), random.random()) for t in range(N)]","seq0 = []
+for t in range(N):
+    seq0.append(MockMessage(rospy.Time(t), random.random()))
+",0,0,0,0
+swift,https://github.com/openstack/swift/tree/master/test/unit/account/test_server.py,TestAccountController,test_GET_with_containers_xml$1136,container = [n for n in listing[-1].childNodes if n.nodeName != '#text'],container = [n for n in listing[-1].childNodes if n.nodeName != '#text'],container = [n for n in listing[-1].childNodes if n.nodeName != '#text'],"container = []
+for n in listing[-1].childNodes:
+    if n.nodeName != '#text':
+        container.append(n)
+",0,0,0,0
+DeepPavlov,https://github.com/deepmipt/DeepPavlov/tree/master/deeppavlov/models/spelling_correction/levenshtein/tabled_trie.py,Trie,_get_children_and_letters$297,answer = [elem for elem in enumerate(self.graph[index]) if elem[1] != Trie.NO_NODE],answer = [elem for elem in enumerate(self.graph[index]) if elem[1] != Trie.NO_NODE],answer = [elem for elem in enumerate(self.graph[index]) if elem[1] != Trie.NO_NODE],"answer = []
+for elem in enumerate(self.graph[index]):
+    if elem[1] != Trie.NO_NODE:
+        answer.append(elem)
+",0,0,0,0
+koalas,https://github.com/databricks/koalas/tree/master/databricks/koalas/indexes/base.py,Index,difference$1915,"internal = InternalFrame(spark_frame=sdf_diff, index_spark_columns=[scol_for(sdf_diff, col) for col in self._internal.index_spark_column_names], index_names=self._internal.index_names, index_dtypes=self._internal.index_dtypes)","index_spark_columns=[scol_for(sdf_diff, col) for col in self._internal.index_spark_column_names]","index_spark_columns=[scol_for(sdf_diff, col) for col in self._internal.index_spark_column_names]","def my_comprehension_func(self, sdf_diff):
+    tmp_ListComp0 = []
+    for col in self._internal.index_spark_column_names:
+        tmp_ListComp0.append(scol_for(sdf_diff, col))
+    return tmp_ListComp0
+internal = InternalFrame(spark_frame=sdf_diff, index_spark_columns=my_comprehension_func(self, sdf_diff), index_names=self._internal.index_names, index_dtypes=self._internal.index_dtypes)",1,1,1,0
+tfx,https://github.com/tensorflow/tfx/tree/master/tfx/examples/bigquery_ml/taxi_utils_bqml.py,,_build_estimator$149,"categorical_columns = [tf.feature_column.categorical_column_with_identity(key, num_buckets=_VOCAB_SIZE + _OOV_SIZE, default_value=0) for key in _transformed_names(_VOCAB_FEATURE_KEYS)]","categorical_columns = [tf.feature_column.categorical_column_with_identity(key, num_buckets=_VOCAB_SIZE + _OOV_SIZE, default_value=0) for key in _transformed_names(_VOCAB_FEATURE_KEYS)]","categorical_columns = [tf.feature_column.categorical_column_with_identity(key, num_buckets=_VOCAB_SIZE + _OOV_SIZE, default_value=0) for key in _transformed_names(_VOCAB_FEATURE_KEYS)]","categorical_columns = []
+for key in _transformed_names(_VOCAB_FEATURE_KEYS):
+    categorical_columns.append(tf.feature_column.categorical_column_with_identity(key, num_buckets=_VOCAB_SIZE + _OOV_SIZE, default_value=0))
+",0,0,0,0
+docassemble,https://github.com/jhpyle/docassemble/tree/master/docassemble_webapp/docassemble/webapp/server.py,,get_vars_in_use$3520,"static = sorted([f for f in os.listdir(the_directory) if os.path.isfile(os.path.join(the_directory, f)) and re.search('^[A-Za-z0-9]', f)])","sorted([f for f in os.listdir(the_directory) if os.path.isfile(os.path.join(the_directory, f)) and re.search('^[A-Za-z0-9]', f)])","sorted([f for f in os.listdir(the_directory) if os.path.isfile(os.path.join(the_directory, f)) and re.search('^[A-Za-z0-9]', f)])","tmp_ListComp0 = []
+for f in os.listdir(the_directory):
+    if os.path.isfile(os.path.join(the_directory, f)) and re.search('^[A-Za-z0-9]', f):
+        tmp_ListComp0.append(f)
+static = sorted(tmp_ListComp0)",1,0,1,0
+distributed,https://github.com/dask/distributed/tree/master/distributed/scheduler.py,Scheduler,validate_released$4958,assert not any([ts in dts.waiters for dts in ts.dependencies]),any([ts in dts.waiters for dts in ts.dependencies]),any([ts in dts.waiters for dts in ts.dependencies]),"tmp_ListComp0 = []
+for dts in ts.dependencies:
+    tmp_ListComp0.append(ts in dts.waiters)
+assert not any(tmp_ListComp0)",1,0,1,0
+h,https://github.com/hypothesis/h/tree/master/tests/h/services/bulk_executor/_actions_test.py,TestBulkGroupUpsert,test_it_returns_in_the_same_order_as_the_commands$154,reversed_ids = [report.id for report in reversed_reports],reversed_ids = [report.id for report in reversed_reports],reversed_ids = [report.id for report in reversed_reports],"reversed_ids = []
+for report in reversed_reports:
+    reversed_ids.append(report.id)
+",0,0,0,0
+unilm,https://github.com/microsoft/unilm/tree/master/layoutreader/s2s_ft/modeling_decoding.py,BertEncoder,__init__$654,self.layer = nn.ModuleList([copy.deepcopy(layer) for _ in range(config.num_hidden_layers)]),nn.ModuleList([copy.deepcopy(layer) for _ in range(config.num_hidden_layers)]),nn.ModuleList([copy.deepcopy(layer) for _ in range(config.num_hidden_layers)]),"tmp_ListComp0 = []
+for _ in range(config.num_hidden_layers):
+    tmp_ListComp0.append(copy.deepcopy(layer))
+self.layer = nn.ModuleList(tmp_ListComp0)",1,0,1,0
+datasketch,https://github.com/ekzhu/datasketch/tree/master/benchmark/indexes/jaccard/utils.py,,evaluate_runs$197,ground_truth = [x for x in runs if x['name'] == 'ground_truth' and x['benchmark'] == run['benchmark']][0],[x for x in runs if x['name'] == 'ground_truth' and x['benchmark'] == run['benchmark']][0],[x for x in runs if x['name'] == 'ground_truth' and x['benchmark'] == run['benchmark']][0],"tmp_ListComp0 = []
+for x in runs:
+    if x['name'] == 'ground_truth' and x['benchmark'] == run['benchmark']:
+        tmp_ListComp0.append(x)
+ground_truth = tmp_ListComp0[0]",1,0,1,0
+fedlearner,https://github.com/bytedance/fedlearner/tree/master/fedlearner/trainer/sparse_estimator.py,SparseFLModel,_get_vec_slot_configs$119,vec_config['optimizers'] = [fs_map[i]._vec_optimizer for i in vec_config['weight_group_keys']],vec_config['optimizers'] = [fs_map[i]._vec_optimizer for i in vec_config['weight_group_keys']],vec_config['optimizers'] = [fs_map[i]._vec_optimizer for i in vec_config['weight_group_keys']],"tmp_ListComp0 = []
+for i in vec_config['weight_group_keys']:
+    tmp_ListComp0.append(fs_map[i]._vec_optimizer)
+vec_config['optimizers'] = tmp_ListComp0",1,0,1,0
+tvm,https://github.com/apache/tvm/tree/master/vta/python/vta/libinfo.py,,find_libvta$45,lib_found = [x for x in lib_path if os.path.exists(x)],lib_found = [x for x in lib_path if os.path.exists(x)],lib_found = [x for x in lib_path if os.path.exists(x)],"lib_found = []
+for x in lib_path:
+    if os.path.exists(x):
+        lib_found.append(x)
+",0,0,0,0
+pennylane,https://github.com/PennyLaneAI/pennylane/tree/master/tests/devices/test_default_mixed.py,TestApply,test_max_mixed_state$900,flips = [PauliX(i) for i in range(nr_wires)],flips = [PauliX(i) for i in range(nr_wires)],flips = [PauliX(i) for i in range(nr_wires)],"flips = []
+for i in range(nr_wires):
+    flips.append(PauliX(i))
+",0,0,0,0
+variety,https://github.com/varietywalls/variety/tree/master/variety/ThumbsManager.py,ThumbsManager,remove_image$464,self.images = [f for f in self.images if f != file],self.images = [f for f in self.images if f != file],self.images = [f for f in self.images if f != file],"tmp_ListComp0 = []
+for f in self.images:
+    if f != file:
+        tmp_ListComp0.append(f)
+self.images = tmp_ListComp0",1,0,1,0
+cx_Freeze,https://github.com/marcelotduarte/cx_Freeze/tree/master/cx_Freeze/freezer.py,Freezer,_write_modules$482,modules = [m for m in finder.modules if m.name not in finder.excludes],modules = [m for m in finder.modules if m.name not in finder.excludes],modules = [m for m in finder.modules if m.name not in finder.excludes],"modules = []
+for m in finder.modules:
+    if m.name not in finder.excludes:
+        modules.append(m)
+",0,0,0,0
+speechbrain,https://github.com/speechbrain/speechbrain/tree/master/templates/speech_recognition/ASR/train.py,ASR,compute_objectives$172,target_words = [words.split(' ') for words in batch.words],target_words = [words.split(' ') for words in batch.words],target_words = [words.split(' ') for words in batch.words],"target_words = []
+for words in batch.words:
+    target_words.append(words.split(' '))
+",0,0,0,0
+pandas,https://github.com/pandas-dev/pandas/tree/master/pandas/core/frame.py,DataFrame,sort_values$6758,"keys = [self._get_label_or_level_values(x, axis=axis) for x in by]","keys = [self._get_label_or_level_values(x, axis=axis) for x in by]","keys = [self._get_label_or_level_values(x, axis=axis) for x in by]","keys = []
+for x in by:
+    keys.append(self._get_label_or_level_values(x, axis=axis))
+",0,0,0,0
+speechbrain,https://github.com/speechbrain/speechbrain/tree/master/speechbrain/processing/PLDA_LDA.py,StatObject_SB,align_models$292,indx = numpy.array([numpy.argwhere(self.modelset == v)[0][0] for v in model_list]),numpy.array([numpy.argwhere(self.modelset == v)[0][0] for v in model_list]),numpy.array([numpy.argwhere(self.modelset == v)[0][0] for v in model_list]),"def my_comprehension_func(numpy):
+    tmp_ListComp0 = []
+    for v in model_list:
+        tmp_ListComp0.append(numpy.argwhere(self.modelset == v)[0][0])
+    return tmp_ListComp0
+indx = numpy.array(my_comprehension_func(numpy))",1,1,1,0
+hivemind,https://github.com/learning-at-home/hivemind/tree/master/tests/test_util_modules.py,,_run_peer$290,fork_futures = [hivemind.MPFuture() for _ in range(500)],fork_futures = [hivemind.MPFuture() for _ in range(500)],fork_futures = [hivemind.MPFuture() for _ in range(500)],"fork_futures = []
+for _ in range(500):
+    fork_futures.append(hivemind.MPFuture())
+",0,0,0,0
+MxShop,https://github.com/derek-zhang123/MxShop/tree/master/extra_apps/xadmin/views/edit.py,ModelFormAdminView,get_form_layout$194,"other_fieldset = Fieldset(_(u'Other Fields'), *[f for f in fields if f not in rendered_fields])",*[f for f in fields if f not in rendered_fields],*[f for f in fields if f not in rendered_fields],"tmp_ListComp0 = []
+for f in fields:
+    if f not in rendered_fields:
+        tmp_ListComp0.append(f)
+other_fieldset = Fieldset(_(u'Other Fields'), *tmp_ListComp0)",1,0,1,0
+Vxscan,https://github.com/al0ne/Vxscan/tree/master/lib/verify.py,,get_md5$106,plain = ''.join([random.choice('0123456789') for _ in range(8)]),''.join([random.choice('0123456789') for _ in range(8)]),''.join([random.choice('0123456789') for _ in range(8)]),"tmp_ListComp0 = []
+for _ in range(8):
+    tmp_ListComp0.append(random.choice('0123456789'))
+plain = ''.join(tmp_ListComp0)",1,0,1,0
+WeasyPrint,https://github.com/Kozea/WeasyPrint/tree/master/weasyprint/images.py,RadialGradient,layout$462,positions = [position + offset for position in positions],positions = [position + offset for position in positions],positions = [position + offset for position in positions],"tmp_ListComp0 = []
+for position in positions:
+    tmp_ListComp0.append(position + offset)
+positions = tmp_ListComp0",1,0,1,0
+3DMPPE_POSENET_RELEASE,https://github.com/mks0601/3DMPPE_POSENET_RELEASE/tree/master/common/utils/vis.py,,vis_3d_skeleton$41,"colors = [cmap(i) for i in np.linspace(0, 1, len(kps_lines) + 2)]","colors = [cmap(i) for i in np.linspace(0, 1, len(kps_lines) + 2)]","colors = [cmap(i) for i in np.linspace(0, 1, len(kps_lines) + 2)]","colors = []
+for i in np.linspace(0, 1, len(kps_lines) + 2):
+    colors.append(cmap(i))
+",0,0,0,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/sets/tests/test_fancysets.py,,test_Range_eval_imageset$604,"assert list(imset) == [eq.subs(x, i).expand() for i in list(r)]","list(imset) == [eq.subs(x, i).expand() for i in list(r)]","list(imset) == [eq.subs(x, i).expand() for i in list(r)]","def my_comprehension_func(list):
+    tmp_ListComp0 = []
+    for i in list(r):
+        tmp_ListComp0.append(eq.subs(x, i).expand())
+    return tmp_ListComp0
+assert list(imset) == my_comprehension_func(list)",1,1,1,0
+spaCy,https://github.com/explosion/spaCy/tree/master/spacy/tests/tokenizer/test_tokenizer.py,,test_tokenizer_prefix_suffix_overlap_lookbehind$217,tokens = [t.text for t in tokenizer('a10.')],tokens = [t.text for t in tokenizer('a10.')],tokens = [t.text for t in tokenizer('a10.')],"tokens = []
+for t in tokenizer('a10.'):
+    tokens.append(t.text)
+",0,0,0,0
+yolov3,https://github.com/ultralytics/yolov3/tree/master/utils/general.py,,check_requirements$261,requirements = [f'{x.name}{x.specifier}' for x in pkg.parse_requirements(f) if x.name not in exclude],requirements = [f'{x.name}{x.specifier}' for x in pkg.parse_requirements(f) if x.name not in exclude],requirements = [f'{x.name}{x.specifier}' for x in pkg.parse_requirements(f) if x.name not in exclude],"requirements = []
+for x in pkg.parse_requirements(f):
+    if x.name not in exclude:
+        requirements.append(f'{x.name}{x.specifier}')
+",0,0,0,0
+yt-dlc,https://github.com/blackjack4494/yt-dlc/tree/master/youtube_dlc/extractor/viewlift.py,ViewLiftEmbedIE,_real_extract$94,"info[k] = [v['title'] for v in content_data.get(k, []) if v.get('title')]","info[k] = [v['title'] for v in content_data.get(k, []) if v.get('title')]","info[k] = [v['title'] for v in content_data.get(k, []) if v.get('title')]","tmp_ListComp0 = []
+for v in content_data.get(k, []):
+    if v.get('title'):
+        tmp_ListComp0.append(v['title'])
+info[k] = tmp_ListComp0",1,0,1,0
+spiders,https://github.com/xiyaowong/spiders/tree/master/extractor/qutoutiao.py,,get$8,urls = [add['url'] for add in address],urls = [add['url'] for add in address],urls = [add['url'] for add in address],"urls = []
+for add in address:
+    urls.append(add['url'])
+",0,0,0,0
+mythril,https://github.com/ConsenSys/mythril/tree/master/mythril/laser/ethereum/transaction/symbolic.py,,_setup_global_state_for_execution$195,global_state.world_state.constraints.append(Or(*[transaction.caller == actor for actor in ACTORS.addresses.values()])),*[transaction.caller == actor for actor in ACTORS.addresses.values()],*[transaction.caller == actor for actor in ACTORS.addresses.values()],"tmp_ListComp0 = []
+for actor in ACTORS.addresses.values():
+    tmp_ListComp0.append(transaction.caller == actor)
+global_state.world_state.constraints.append(Or(*tmp_ListComp0))",1,0,1,0
+crepe,https://github.com/marl/crepe/tree/master/crepe/core.py,,to_local_average_cents$95,"return np.array([to_local_average_cents(salience[i, :]) for i in range(salience.shape[0])])","np.array([to_local_average_cents(salience[i, :]) for i in range(salience.shape[0])])","np.array([to_local_average_cents(salience[i, :]) for i in range(salience.shape[0])])","tmp_ListComp0 = []
+for i in range(salience.shape[0]):
+    tmp_ListComp0.append(to_local_average_cents(salience[i, :]))
+return np.array(tmp_ListComp0)",1,0,1,0
+gef,https://github.com/hugsy/gef/tree/master//gef.py,ContextCommand,context_source$7516,bp_locations = [b.location for b in breakpoints if b.location and file_base_name in b.location],bp_locations = [b.location for b in breakpoints if b.location and file_base_name in b.location],bp_locations = [b.location for b in breakpoints if b.location and file_base_name in b.location],"bp_locations = []
+for b in breakpoints:
+    if b.location and file_base_name in b.location:
+        bp_locations.append(b.location)
+",0,0,0,0
+yt-dlc,https://github.com/blackjack4494/yt-dlc/tree/master/youtube_dlc/extractor/ivi.py,IviCompilationIE,_extract_entries$237,"return [self.url_result('http://www.ivi.ru/watch/%s/%s' % (compilation_id, serie), IviIE.ie_key()) for serie in re.findall('<a\\b[^>]+\\bhref=[""\\\']/watch/%s/(\\d+)[""\\\']' % compilation_id, html)]","return [self.url_result('http://www.ivi.ru/watch/%s/%s' % (compilation_id, serie), IviIE.ie_key()) for serie in re.findall('<a\\b[^>]+\\bhref=[""\\\']/watch/%s/(\\d+)[""\\\']' % compilation_id, html)]","return [self.url_result('http://www.ivi.ru/watch/%s/%s' % (compilation_id, serie), IviIE.ie_key()) for serie in re.findall('<a\\b[^>]+\\bhref=[""\\\']/watch/%s/(\\d+)[""\\\']' % compilation_id, html)]","tmp_ListComp0 = []
+for serie in re.findall('<a\\b[^>]+\\bhref=[""\\\']/watch/%s/(\\d+)[""\\\']' % compilation_id, html):
+    tmp_ListComp0.append(self.url_result('http://www.ivi.ru/watch/%s/%s' % (compilation_id, serie), IviIE.ie_key()))
+return tmp_ListComp0",1,0,1,0
+ParsePy,https://github.com/milesrichardson/ParsePy/tree/master/parse_rest/tests.py,TestQuery,setUpClass$258,"cls.scores = [GameScore(score=s, player_name='John Doe', game=cls.game) for s in range(1, 6)]","cls.scores = [GameScore(score=s, player_name='John Doe', game=cls.game) for s in range(1, 6)]","cls.scores = [GameScore(score=s, player_name='John Doe', game=cls.game) for s in range(1, 6)]","tmp_ListComp0 = []
+for s in range(1, 6):
+    tmp_ListComp0.append(GameScore(score=s, player_name='John Doe', game=cls.game))
+cls.scores = tmp_ListComp0",1,0,1,0
+evalml,https://github.com/alteryx/evalml/tree/master/evalml/tests/component_tests/test_lsa.py,,test_lsa_with_nontext$34,assert set([type(v) for v in X_t.ww.logical_types.values()]) == {ww.logical_types.Double},set([type(v) for v in X_t.ww.logical_types.values()]),set([type(v) for v in X_t.ww.logical_types.values()]),"tmp_ListComp0 = []
+for v in X_t.ww.logical_types.values():
+    tmp_ListComp0.append(type(v))
+assert set(tmp_ListComp0) == {ww.logical_types.Double}",1,0,1,0
+FewShotWithoutForgetting,https://github.com/gidariss/FewShotWithoutForgetting/tree/master//dataloader.py,FewShotDataloader,sample_train_and_test_examples_for_novel_categories$347,"Exemplars += [(img_id, nKbase + Knovel_idx) for img_id in imds_ememplars]","Exemplars += [(img_id, nKbase + Knovel_idx) for img_id in imds_ememplars]","Exemplars += [(img_id, nKbase + Knovel_idx) for img_id in imds_ememplars]","tmp_ListComp0 = []
+for img_id in imds_ememplars:
+    tmp_ListComp0.append((img_id, nKbase + Knovel_idx))
+Exemplars += tmp_ListComp0",1,0,1,0
+ann-benchmarks,https://github.com/erikbern/ann-benchmarks/tree/master/ann_benchmarks/algorithms/definitions.py,,_substitute_variables$60,"return [_substitute_variables(a, vs) for a in arg]","return [_substitute_variables(a, vs) for a in arg]","return [_substitute_variables(a, vs) for a in arg]","tmp_ListComp0 = []
+for a in arg:
+    tmp_ListComp0.append(_substitute_variables(a, vs))
+return tmp_ListComp0",1,0,1,0
+sphinx,https://github.com/sphinx-doc/sphinx/tree/master/tests/test_build_text.py,,test_nonascii_table$66,line_widths = [column_width(line) for line in lines],line_widths = [column_width(line) for line in lines],line_widths = [column_width(line) for line in lines],"line_widths = []
+for line in lines:
+    line_widths.append(column_width(line))
+",0,0,0,0
+arviz,https://github.com/arviz-devs/arviz/tree/master/arviz/data/io_emcee.py,,_verify_names$13,arg_names = [f'arg_{idx}' for idx in range(num_args)],arg_names = [f'arg_{idx}' for idx in range(num_args)],arg_names = [f'arg_{idx}' for idx in range(num_args)],"arg_names = []
+for idx in range(num_args):
+    arg_names.append(f'arg_{idx}')
+",0,0,0,0
+openpifpaf,https://github.com/openpifpaf/openpifpaf/tree/master/src/openpifpaf/network/trainer.py,Trainer,val$353,head_epoch_counts = [0 for _ in head_losses],head_epoch_counts = [0 for _ in head_losses],head_epoch_counts = [0 for _ in head_losses],"head_epoch_counts = []
+for _ in head_losses:
+    head_epoch_counts.append(0)
+",0,0,0,0
+nvda,https://github.com/nvaccess/nvda/tree/master/source/oleacc.py,,AccessibleChildren$307,return [x.value for x in varChildren[0:pcObtained.value]],return [x.value for x in varChildren[0:pcObtained.value]],return [x.value for x in varChildren[0:pcObtained.value]],"tmp_ListComp0 = []
+for x in varChildren[0:pcObtained.value]:
+    tmp_ListComp0.append(x.value)
+return tmp_ListComp0",1,0,1,0
+stash,https://github.com/ywangd/stash/tree/master/lib/stashutils/wheels.py,Wheel,__init__$383,"self.handlers = [handler(self, self.verbose) for handler in handlers]","self.handlers = [handler(self, self.verbose) for handler in handlers]","self.handlers = [handler(self, self.verbose) for handler in handlers]","tmp_ListComp0 = []
+for handler in handlers:
+    tmp_ListComp0.append(handler(self, self.verbose))
+self.handlers = tmp_ListComp0",1,0,1,0
+numpy-ml,https://github.com/ddbourgin/numpy-ml/tree/master/numpy_ml/bandits/bandits.py,MultinomialBandit,__init__$79,payoff_probs = np.array([np.array(x) for x in payoff_probs]),np.array([np.array(x) for x in payoff_probs]),np.array([np.array(x) for x in payoff_probs]),"def my_comprehension_func(np):
+    tmp_ListComp0 = []
+    for x in payoff_probs:
+        tmp_ListComp0.append(np.array(x))
+    return tmp_ListComp0
+payoff_probs = np.array(my_comprehension_func(np))",1,1,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/functions/special/bsplines.py,,interpolating_spline$256,"piece = sum([c * d.get(i, S.Zero) for (c, d) in zip(coeff, basis_dicts)], S.Zero)","sum([c * d.get(i, S.Zero) for (c, d) in zip(coeff, basis_dicts)], S.Zero)","sum([c * d.get(i, S.Zero) for (c, d) in zip(coeff, basis_dicts)], S.Zero)","def my_comprehension_func(S):
+    tmp_ListComp0 = []
+    for (c, d) in zip(coeff, basis_dicts):
+        tmp_ListComp0.append(c * d.get(i, S.Zero))
+    return tmp_ListComp0
+piece = sum(my_comprehension_func(S), S.Zero)",1,1,1,0
+pycuda,https://github.com/inducer/pycuda/tree/master/pycuda/elementwise.py,,get_take_kernel$292,"args = [VectorArg(idx_dtype, 'idx')] + [VectorArg(dtype, 'dest' + str(i)) for i in range(vec_count)] + [ScalarArg(np.intp, 'n')]","[VectorArg(idx_dtype, 'idx')] + [VectorArg(dtype, 'dest' + str(i)) for i in range(vec_count)]","[VectorArg(idx_dtype, 'idx')] + [VectorArg(dtype, 'dest' + str(i)) for i in range(vec_count)]","def my_comprehension_func(VectorArg):
+    tmp_ListComp0 = []
+    for i in range(vec_count):
+        tmp_ListComp0.append(VectorArg(dtype, 'dest' + str(i)))
+    return tmp_ListComp0
+args = [VectorArg(idx_dtype, 'idx')] + my_comprehension_func(VectorArg) + [ScalarArg(np.intp, 'n')]",1,1,1,0
+xDeepFM,https://github.com/Leavingseason/xDeepFM/tree/master/exdeepfm/train.py,,train$155,"eval_info = ', '.join([str(item[0]) + ':' + str(item[1]) for item in sorted(eval_res.items(), key=lambda x: x[0])])",", '.join([str(item[0]) + ':' + str(item[1]) for item in sorted(eval_res.items(), key=lambda x: x[0])])",", '.join([str(item[0]) + ':' + str(item[1]) for item in sorted(eval_res.items(), key=lambda x: x[0])])","tmp_ListComp0 = []
+for item in sorted(eval_res.items(), key=lambda x: x[0]):
+    tmp_ListComp0.append(str(item[0]) + ':' + str(item[1]))
+eval_info = ', '.join(tmp_ListComp0)",1,0,1,0
+transform,https://github.com/tensorflow/transform/tree/master/tensorflow_transform/saved/saved_transform_io.py,,_partially_apply_saved_transform_impl$176,components = [lookup_remapped_tensor(info.name) for info in tensor_info.composite_tensor.components],components = [lookup_remapped_tensor(info.name) for info in tensor_info.composite_tensor.components],components = [lookup_remapped_tensor(info.name) for info in tensor_info.composite_tensor.components],"components = []
+for info in tensor_info.composite_tensor.components:
+    components.append(lookup_remapped_tensor(info.name))
+",0,0,0,0
+UNITER,https://github.com/ChenRocks/UNITER/tree/master//train_re.py,,build_optimizer$64,"param_optimizer = [(n, p) for (n, p) in model.named_parameters() if 're_output' not in n]","param_optimizer = [(n, p) for (n, p) in model.named_parameters() if 're_output' not in n]","param_optimizer = [(n, p) for (n, p) in model.named_parameters() if 're_output' not in n]","param_optimizer = []
+for (n, p) in model.named_parameters():
+    if 're_output' not in n:
+        param_optimizer.append((n, p))
+",0,0,0,0
+TracKit,https://github.com/researchmm/TracKit/tree/master/lib/tracker/online.py,ONLINE,generate_init_samples$323,"self.transforms.extend([augmentation.Translation(get_absolute(shift), aug_output_sz, global_shift.long().tolist()) for shift in augs['relativeshift']])","self.transforms.extend([augmentation.Translation(get_absolute(shift), aug_output_sz, global_shift.long().tolist()) for shift in augs['relativeshift']])","self.transforms.extend([augmentation.Translation(get_absolute(shift), aug_output_sz, global_shift.long().tolist()) for shift in augs['relativeshift']])","tmp_ListComp0 = []
+for shift in augs['relativeshift']:
+    tmp_ListComp0.append(augmentation.Translation(get_absolute(shift), aug_output_sz, global_shift.long().tolist()))
+self.transforms.extend(tmp_ListComp0)",1,0,1,0
+icalendar,https://github.com/collective/icalendar/tree/master/src/icalendar/cal.py,Timezone,_extract_offsets$520,"transitions = [(transtime, offsetfrom, offsetto, tzname) for transtime in set(transtimes)]","transitions = [(transtime, offsetfrom, offsetto, tzname) for transtime in set(transtimes)]","transitions = [(transtime, offsetfrom, offsetto, tzname) for transtime in set(transtimes)]","transitions = []
+for transtime in set(transtimes):
+    transitions.append((transtime, offsetfrom, offsetto, tzname))
+",0,0,0,0
+Deep-Reinforcement-Learning-Algorithms-with-PyTorch,https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch/tree/master/utilities/data_structures/Replay_Buffer.py,Replay_Buffer,separate_out_data_types$41,next_states = torch.from_numpy(np.vstack([e.next_state for e in experiences if e is not None])).float().to(self.device),np.vstack([e.next_state for e in experiences if e is not None]),np.vstack([e.next_state for e in experiences if e is not None]),"tmp_ListComp0 = []
+for e in experiences:
+    if e is not None:
+        tmp_ListComp0.append(e.next_state)
+next_states = torch.from_numpy(np.vstack(tmp_ListComp0)).float().to(self.device)",1,0,1,0
+horizon,https://github.com/openstack/horizon/tree/master/openstack_dashboard/dashboards/admin/instances/views.py,AdminIndexView,_populate_image_info$234,instance_volumes = [attachment for volume in volume_dict.values() for attachment in volume.attachments if attachment['server_id'] == instance.id],instance_volumes = [attachment for volume in volume_dict.values() for attachment in volume.attachments if attachment['server_id'] == instance.id],instance_volumes = [attachment for volume in volume_dict.values() for attachment in volume.attachments if attachment['server_id'] == instance.id],"instance_volumes = []
+for volume in volume_dict.values():
+    for attachment in volume.attachments:
+        if attachment['server_id'] == instance.id:
+            instance_volumes.append(attachment)
+",0,0,0,0
+mmdetection-mini,https://github.com/hhaAndroid/mmdetection-mini/tree/master/mmdet/models/roi_heads/test_mixins.py,MaskTestMixin,simple_test_mask$138,"_bboxes = [det_bboxes[i][:, :4] * scale_factors[i] if rescale else det_bboxes[i][:, :4] for i in range(len(det_bboxes))]","_bboxes = [det_bboxes[i][:, :4] * scale_factors[i] if rescale else det_bboxes[i][:, :4] for i in range(len(det_bboxes))]","_bboxes = [det_bboxes[i][:, :4] * scale_factors[i] if rescale else det_bboxes[i][:, :4] for i in range(len(det_bboxes))]","_bboxes = []
+for i in range(len(det_bboxes)):
+    if rescale:
+        _bboxes.append(det_bboxes[i][:, :4] * scale_factors[i])
+    else:
+        _bboxes.append(det_bboxes[i][:, :4])
+",0,0,0,0
+lightly,https://github.com/lightly-ai/lightly/tree/master/tests/utils/test_io.py,TestEmbeddingsIO,setUp$44,labels = [0 for i in range(len(embeddings))],labels = [0 for i in range(len(embeddings))],labels = [0 for i in range(len(embeddings))],"labels = []
+for i in range(len(embeddings)):
+    labels.append(0)
+",0,0,0,0
+exbert,https://github.com/bhoov/exbert/tree/master/server/transformers/examples/utils_multiple_choice.py,,convert_examples_to_features$370,attention_mask = [x['attention_mask'] for x in choices_inputs] if 'attention_mask' in choices_inputs[0] else None,[x['attention_mask'] for x in choices_inputs] if 'attention_mask' in choices_inputs[0] else None,[x['attention_mask'] for x in choices_inputs] if 'attention_mask' in choices_inputs[0] else None,"def my_comprehension_func(choices_inputs):
+    tmp_ListComp0 = []
+    for x in choices_inputs:
+        tmp_ListComp0.append(x['attention_mask'])
+    return tmp_ListComp0
+attention_mask = my_comprehension_func(choices_inputs) if 'attention_mask' in choices_inputs[0] else None",1,1,1,0
+django-extensions,https://github.com/django-extensions/django-extensions/tree/master/tests/management/test_modelviz.py,ModelVizTests,test_generate_graph_data_can_render_label$7,relation_labels = [x['label'] for x in user_data['relations']],relation_labels = [x['label'] for x in user_data['relations']],relation_labels = [x['label'] for x in user_data['relations']],"relation_labels = []
+for x in user_data['relations']:
+    relation_labels.append(x['label'])
+",0,0,0,0
+pychess,https://github.com/pychess/pychess/tree/master/lib/pychess/Utils/lutils/lsearch.py,,alphaBeta$31,"moves = [(-getMoveValue(board, table, depth, m), m) for m in mlist]","moves = [(-getMoveValue(board, table, depth, m), m) for m in mlist]","moves = [(-getMoveValue(board, table, depth, m), m) for m in mlist]","moves = []
+for m in mlist:
+    moves.append((-getMoveValue(board, table, depth, m), m))
+",0,0,0,0
+mutagen,https://github.com/quodlibet/mutagen/tree/master/mutagen/id3/_specs.py,MultiSpec,validate$522,"return [[s.validate(frame, v) for (v, s) in zip(val, self.specs)] for val in value]","return [[s.validate(frame, v) for (v, s) in zip(val, self.specs)] for val in value]","return [[s.validate(frame, v) for (v, s) in zip(val, self.specs)] for val in value]","tmp_ListComp0 = []
+for val in value:
+    tmp_ListComp1 = []
+    for (v, s) in zip(val, self.specs):
+        tmp_ListComp1.append(s.validate(frame, v))
+    tmp_ListComp0.append(tmp_ListComp1)
+return tmp_ListComp0",1,0,1,0
+wagtail,https://github.com/wagtail/wagtail/tree/master/wagtail/contrib/postgres_search/tests/test_backend.py,TestPostgresSearchBackend,test_autocomplete_tsquery_chars$87,"self.assertUnsortedListEqual([r.title for r in results], [])","self.assertUnsortedListEqual([r.title for r in results], [])","self.assertUnsortedListEqual([r.title for r in results], [])","tmp_ListComp0 = []
+for r in results:
+    tmp_ListComp0.append(r.title)
+self.assertUnsortedListEqual(tmp_ListComp0, [])",1,0,1,0
+django,https://github.com/django/django/tree/master/tests/migrations/test_operations.py,OperationTests,assertIdTypeEqualsFkType$1487,"(remote_m2m_fk_type, remote_m2m_fk_null) = [(c.type_code, c.null_ok) for c in connection.introspection.get_table_description(cursor, 'test_alflpkfk_stable_ponies') if c.name == 'pony_id'][0]","[(c.type_code, c.null_ok) for c in connection.introspection.get_table_description(cursor, 'test_alflpkfk_stable_ponies') if c.name == 'pony_id'][0]","[(c.type_code, c.null_ok) for c in connection.introspection.get_table_description(cursor, 'test_alflpkfk_stable_ponies') if c.name == 'pony_id'][0]","tmp_ListComp0 = []
+for c in connection.introspection.get_table_description(cursor, 'test_alflpkfk_stable_ponies'):
+    if c.name == 'pony_id':
+        tmp_ListComp0.append((c.type_code, c.null_ok))
+(remote_m2m_fk_type, remote_m2m_fk_null) = tmp_ListComp0[0]",1,0,1,0
+pandas-ta,https://github.com/twopirllc/pandas-ta/tree/master/pandas_ta/momentum/squeeze.py,,simplify_columns$35,return [c.split('_')[0][n - 1:n] for c in df.columns],return [c.split('_')[0][n - 1:n] for c in df.columns],return [c.split('_')[0][n - 1:n] for c in df.columns],"tmp_ListComp0 = []
+for c in df.columns:
+    tmp_ListComp0.append(c.split('_')[0][n - 1:n])
+return tmp_ListComp0",1,0,1,0
+TorchSeg,https://github.com/ycszen/TorchSeg/tree/master/furnace/engine/dist_test.py,Evaluator,run$43,"models = [os.path.join(model_path, model) for model in model_slice]","models = [os.path.join(model_path, model) for model in model_slice]","models = [os.path.join(model_path, model) for model in model_slice]","models = []
+for model in model_slice:
+    models.append(os.path.join(model_path, model))
+",0,0,0,0
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/tests/unittests/xpu/test_one_hot_v2_op_xpu.py,TestOneHotOp,setUp$46,"x = [np.random.randint(0, depth - 1) for i in range(sum(x_lod[0]))]","x = [np.random.randint(0, depth - 1) for i in range(sum(x_lod[0]))]","x = [np.random.randint(0, depth - 1) for i in range(sum(x_lod[0]))]","x = []
+for i in range(sum(x_lod[0])):
+    x.append(np.random.randint(0, depth - 1))
+",0,0,0,0
+checkov,https://github.com/bridgecrewio/checkov/tree/master/tests/terraform/checks/resource/aws/test_KinesisStreamEncryptedWithCMK.py,TestKinesisStreamEncryptedWithCMK,test$9,failed_check_resources = set([c.resource for c in report.failed_checks]),set([c.resource for c in report.failed_checks]),set([c.resource for c in report.failed_checks]),"tmp_ListComp0 = []
+for c in report.failed_checks:
+    tmp_ListComp0.append(c.resource)
+failed_check_resources = set(tmp_ListComp0)",1,0,1,0
+pyperf,https://github.com/psf/pyperf/tree/master/pyperf/_bench.py,Benchmark,_extract_metadata$614,new_runs = [run._extract_metadata(name) for run in self._runs],new_runs = [run._extract_metadata(name) for run in self._runs],new_runs = [run._extract_metadata(name) for run in self._runs],"new_runs = []
+for run in self._runs:
+    new_runs.append(run._extract_metadata(name))
+",0,0,0,0
+Tools,https://github.com/CharlesPikachu/Tools/tree/master/SucculentQuery/modules/crawler.py,SucculentCrawler,__getAllPageUrls$103,"page_urls = ['http://www.mengsang.com/duorou/list_1_%s.html' % i for i in range(1, int(num_pages) + 1)]","page_urls = ['http://www.mengsang.com/duorou/list_1_%s.html' % i for i in range(1, int(num_pages) + 1)]","page_urls = ['http://www.mengsang.com/duorou/list_1_%s.html' % i for i in range(1, int(num_pages) + 1)]","page_urls = []
+for i in range(1, int(num_pages) + 1):
+    page_urls.append('http://www.mengsang.com/duorou/list_1_%s.html' % i)
+",0,0,0,0
+ParlAI,https://github.com/facebookresearch/ParlAI/tree/master/parlai/tasks/integration_tests/agents.py,CandidateBaseTeacher,_setup_data$105,self.corpus = [' '.join(x) for x in self.corpus],self.corpus = [' '.join(x) for x in self.corpus],self.corpus = [' '.join(x) for x in self.corpus],"tmp_ListComp0 = []
+for x in self.corpus:
+    tmp_ListComp0.append(' '.join(x))
+self.corpus = tmp_ListComp0",1,0,1,0
+barman,https://github.com/EnterpriseDB/barman/tree/master/barman/output.py,NagiosOutputWriter,_print_check_success$1841,issues_message = ''.join([' * IGNORING: %s' % issue for issue in issues]),''.join([' * IGNORING: %s' % issue for issue in issues]),''.join([' * IGNORING: %s' % issue for issue in issues]),"tmp_ListComp0 = []
+for issue in issues:
+    tmp_ListComp0.append(' * IGNORING: %s' % issue)
+issues_message = ''.join(tmp_ListComp0)",1,0,1,0
+multi-agent-emergence-environments,https://github.com/openai/multi-agent-emergence-environments/tree/master/mae_envs/wrappers/lidar.py,Lidar,reset$40,self.agent_geom_ids = np.array([sim.model.geom_name2id(f'agent{i}:agent') for i in range(self.n_agents)]),np.array([sim.model.geom_name2id(f'agent{i}:agent') for i in range(self.n_agents)]),np.array([sim.model.geom_name2id(f'agent{i}:agent') for i in range(self.n_agents)]),"tmp_ListComp0 = []
+for i in range(self.n_agents):
+    tmp_ListComp0.append(sim.model.geom_name2id(f'agent{i}:agent'))
+self.agent_geom_ids = np.array(tmp_ListComp0)",1,0,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/physics/control/lti.py,TransferFunctionMatrix,elem_poles$2874,return [[element.poles() for element in row] for row in self.doit().args[0]],return [[element.poles() for element in row] for row in self.doit().args[0]],return [[element.poles() for element in row] for row in self.doit().args[0]],"tmp_ListComp0 = []
+for row in self.doit().args[0]:
+    tmp_ListComp1 = []
+    for element in row:
+        tmp_ListComp1.append(element.poles())
+    tmp_ListComp0.append(tmp_ListComp1)
+return tmp_ListComp0",1,0,1,0
+aws-data-wrangler,https://github.com/awslabs/aws-data-wrangler/tree/master/awswrangler/catalog/_definitions.py,,_csv_table_definition$102,"return {'Name': table, 'PartitionKeys': [{'Name': cname, 'Type': dtype} for (cname, dtype) in partitions_types.items()], 'TableType': 'EXTERNAL_TABLE' if table_type is None else table_type, 'Parameters': parameters, 'StorageDescriptor': {'Columns': [{'Name': cname, 'Type': dtype} for (cname, dtype) in columns_types.items()], 'Location': path, 'InputFormat': 'org.apache.hadoop.mapred.TextInputFormat', 'OutputFormat': 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat', 'Compressed': compressed, 'NumberOfBuckets': -1 if bucketing_info is None else bucketing_info[1], 'SerdeInfo': serde_info, 'BucketColumns': [] if bucketing_info is None else bucketing_info[0], 'StoredAsSubDirectories': False, 'SortColumns': [], 'Parameters': parameters}}","{'Name': table, 'PartitionKeys': [{'Name': cname, 'Type': dtype} for (cname, dtype) in partitions_types.items()], 'TableType': 'EXTERNAL_TABLE' if table_type is None else table_type, 'Parameters': parameters, 'StorageDescriptor': {'Columns': [{'Name': cname, 'Type': dtype} for (cname, dtype) in columns_types.items()], 'Location': path, 'InputFormat': 'org.apache.hadoop.mapred.TextInputFormat', 'OutputFormat': 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat', 'Compressed': compressed, 'NumberOfBuckets': -1 if bucketing_info is None else bucketing_info[1], 'SerdeInfo': serde_info, 'BucketColumns': [] if bucketing_info is None else bucketing_info[0], 'StoredAsSubDirectories': False, 'SortColumns': [], 'Parameters': parameters}}","{'Name': table, 'PartitionKeys': [{'Name': cname, 'Type': dtype} for (cname, dtype) in partitions_types.items()], 'TableType': 'EXTERNAL_TABLE' if table_type is None else table_type, 'Parameters': parameters, 'StorageDescriptor': {'Columns': [{'Name': cname, 'Type': dtype} for (cname, dtype) in columns_types.items()], 'Location': path, 'InputFormat': 'org.apache.hadoop.mapred.TextInputFormat', 'OutputFormat': 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat', 'Compressed': compressed, 'NumberOfBuckets': -1 if bucketing_info is None else bucketing_info[1], 'SerdeInfo': serde_info, 'BucketColumns': [] if bucketing_info is None else bucketing_info[0], 'StoredAsSubDirectories': False, 'SortColumns': [], 'Parameters': parameters}}","tmp_ListComp0 = []
+for (cname, dtype) in partitions_types.items():
+    tmp_ListComp0.append({'Name': cname, 'Type': dtype})
+return {'Name': table, 'PartitionKeys': tmp_ListComp0, 'TableType': 'EXTERNAL_TABLE' if table_type is None else table_type, 'Parameters': parameters, 'StorageDescriptor': {'Columns': [{'Name': cname, 'Type': dtype} for (cname, dtype) in columns_types.items()], 'Location': path, 'InputFormat': 'org.apache.hadoop.mapred.TextInputFormat', 'OutputFormat': 'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat', 'Compressed': compressed, 'NumberOfBuckets': -1 if bucketing_info is None else bucketing_info[1], 'SerdeInfo': serde_info, 'BucketColumns': [] if bucketing_info is None else bucketing_info[0], 'StoredAsSubDirectories': False, 'SortColumns': [], 'Parameters': parameters}}",1,0,1,0
+AnimationsWithManim,https://github.com/Elteoremadebeethoven/AnimationsWithManim/tree/master/English/extra/complex_examples.py,Mnemonics,construct$21,"self.play(LaggedStart(*[Write(tv[3]) for tv in tan_vals], lag_ratio=LAG_RATIO * 3.2), LaggedStart(*[TransformFromCopy(sn, tv[:3], path_arc=PATH_ARC, run_time=3) for (sn, tv) in zip([t.top for t in sin_vals], tan_vals)], lag_ratio=LAG_RATIO), LaggedStart(*[TransformFromCopy(cn, tv[4:], path_arc=PATH_ARC, run_time=3) for (cn, tv) in zip([t.top for t in cos_vals], tan_vals)], lag_ratio=LAG_RATIO))",*[Write(tv[3]) for tv in tan_vals],*[Write(tv[3]) for tv in tan_vals],"def my_comprehension_func(tan_vals):
+    tmp_ListComp0 = []
+    for tv in tan_vals:
+        tmp_ListComp0.append(Write(tv[3]))
+    return tmp_ListComp0
+self.play(LaggedStart(*my_comprehension_func(tan_vals), lag_ratio=LAG_RATIO * 3.2), LaggedStart(*[TransformFromCopy(sn, tv[:3], path_arc=PATH_ARC, run_time=3) for (sn, tv) in zip([t.top for t in sin_vals], tan_vals)], lag_ratio=LAG_RATIO), LaggedStart(*[TransformFromCopy(cn, tv[4:], path_arc=PATH_ARC, run_time=3) for (cn, tv) in zip([t.top for t in cos_vals], tan_vals)], lag_ratio=LAG_RATIO))",1,1,1,0
+azure-cli,https://github.com/Azure/azure-cli/tree/master/src/azure-cli/azure/cli/command_modules/rdbms/tests/latest/test_rdbms_flexible_commands.py,FlexibleServerReplicationMgmtScenarioTest,_test_flexible_server_replica_mgmt$1222,"replica_subnet = [self.create_random_name(f'SUBNET{i + 1}', SERVER_NAME_MAX_LENGTH) for i in range(2)]","replica_subnet = [self.create_random_name(f'SUBNET{i + 1}', SERVER_NAME_MAX_LENGTH) for i in range(2)]","replica_subnet = [self.create_random_name(f'SUBNET{i + 1}', SERVER_NAME_MAX_LENGTH) for i in range(2)]","replica_subnet = []
+for i in range(2):
+    replica_subnet.append(self.create_random_name(f'SUBNET{i + 1}', SERVER_NAME_MAX_LENGTH))
+",0,0,0,0
+PaddleDetection,https://github.com/PaddlePaddle/PaddleDetection/tree/master/deploy/pptracking/python/mot/mtmct/postprocess.py,,save_mtmct_crops$265,"(cid, tid, fid, x1, y1, w, h) = [int(v) for v in track]","(cid, tid, fid, x1, y1, w, h) = [int(v) for v in track]","(cid, tid, fid, x1, y1, w, h) = [int(v) for v in track]","tmp_ListComp0 = []
+for v in track:
+    tmp_ListComp0.append(int(v))
+(cid, tid, fid, x1, y1, w, h) = tmp_ListComp0",1,0,1,0
+pandapower,https://github.com/e2nIEE/pandapower/tree/master/pandapower/test/loadflow/test_results.py,,test_shunt$661,shunts = [x for x in net.shunt.index if net.shunt.bus[x] in buses.index],shunts = [x for x in net.shunt.index if net.shunt.bus[x] in buses.index],shunts = [x for x in net.shunt.index if net.shunt.bus[x] in buses.index],"shunts = []
+for x in net.shunt.index:
+    if net.shunt.bus[x] in buses.index:
+        shunts.append(x)
+",0,0,0,0
+mssql-cli,https://github.com/dbcli/mssql-cli/tree/master/tests/metadata.py,MetaData,keywords$77,"return [keyword(kw, pos) for kw in self.completer.keywords_tree.keys()]","return [keyword(kw, pos) for kw in self.completer.keywords_tree.keys()]","return [keyword(kw, pos) for kw in self.completer.keywords_tree.keys()]","tmp_ListComp0 = []
+for kw in self.completer.keywords_tree.keys():
+    tmp_ListComp0.append(keyword(kw, pos))
+return tmp_ListComp0",1,0,1,0
+pupil,https://github.com/pupil-labs/pupil/tree/master/pupil_src/shared_modules/methods.py,,find_kink$296,kink_index = [i for i in range(len(curvature)) if abs(curvature[i]) < angle],kink_index = [i for i in range(len(curvature)) if abs(curvature[i]) < angle],kink_index = [i for i in range(len(curvature)) if abs(curvature[i]) < angle],"kink_index = []
+for i in range(len(curvature)):
+    if abs(curvature[i]) < angle:
+        kink_index.append(i)
+",0,0,0,0
+python-igraph,https://github.com/igraph/python-igraph/tree/master/tests/test_flow.py,MaxFlowTests,testMaxFlow$42,"self.assertEqual([e.index for e in flow.es], [3, 4])","self.assertEqual([e.index for e in flow.es], [3, 4])","self.assertEqual([e.index for e in flow.es], [3, 4])","tmp_ListComp0 = []
+for e in flow.es:
+    tmp_ListComp0.append(e.index)
+self.assertEqual(tmp_ListComp0, [3, 4])",1,0,1,0
+tvm,https://github.com/apache/tvm/tree/master/apps/pt_tvmdsoop/tests/test_torch_graph_module.py,,test_pt_run$75,return [inp.cuda(int(device_id)) for inp in inps],return [inp.cuda(int(device_id)) for inp in inps],return [inp.cuda(int(device_id)) for inp in inps],"tmp_ListComp0 = []
+for inp in inps:
+    tmp_ListComp0.append(inp.cuda(int(device_id)))
+return tmp_ListComp0",1,0,1,0
+aws-data-wrangler,https://github.com/awslabs/aws-data-wrangler/tree/master/tests/test_athena.py,,test_bucketing_csv_saving$999,data = [bool(i % nb_of_buckets) for i in range(nb_of_rows)],data = [bool(i % nb_of_buckets) for i in range(nb_of_rows)],data = [bool(i % nb_of_buckets) for i in range(nb_of_rows)],"data = []
+for i in range(nb_of_rows):
+    data.append(bool(i % nb_of_buckets))
+",0,0,0,0
+ProperTree,https://github.com/corpnewt/ProperTree/tree/master/Scripts/plistwindow.py,PlistWindow,get_min_max_from_match$958,max_list = [x for x in min_list],max_list = [x for x in min_list],max_list = [x for x in min_list],"max_list = []
+for x in min_list:
+    max_list.append(x)
+",0,0,0,0
+espnet,https://github.com/espnet/espnet/tree/master/espnet/nets/pytorch_backend/frontends/beamformer.py,,get_mvdr_vector$40,"shape = [1 for _ in range(psd_n.dim() - 2)] + [C, C]","[1 for _ in range(psd_n.dim() - 2)] + [C, C]","[1 for _ in range(psd_n.dim() - 2)] + [C, C]","tmp_ListComp0 = []
+for _ in range(psd_n.dim() - 2):
+    tmp_ListComp0.append(1)
+shape = tmp_ListComp0 + [C, C]",1,0,1,0
+gandissect,https://github.com/CSAILVision/gandissect/tree/master/netdissect/acesummarize.py,,run_command$27,"dat = [torch.load(os.path.join(snapshots, 'epoch-%d.pth' % i)) for i in range(10)]","dat = [torch.load(os.path.join(snapshots, 'epoch-%d.pth' % i)) for i in range(10)]","dat = [torch.load(os.path.join(snapshots, 'epoch-%d.pth' % i)) for i in range(10)]","dat = []
+for i in range(10):
+    dat.append(torch.load(os.path.join(snapshots, 'epoch-%d.pth' % i)))
+",0,0,0,0
+lisa.py,https://github.com/ant4g0nist/lisa.py/tree/master//lisa.py,LookupDictionary,get_keys_for_value$781,list_result = [item[0] for item in self.items() if item[1] == value],list_result = [item[0] for item in self.items() if item[1] == value],list_result = [item[0] for item in self.items() if item[1] == value],"list_result = []
+for item in self.items():
+    if item[1] == value:
+        list_result.append(item[0])
+",0,0,0,0
+MONAI,https://github.com/Project-MONAI/MONAI/tree/master/tests/test_compute_roc_auc.py,TestComputeROCAUC,test_class_value$83,y_pred = [y_pred_trans(i) for i in decollate_batch(y_pred)],y_pred = [y_pred_trans(i) for i in decollate_batch(y_pred)],y_pred = [y_pred_trans(i) for i in decollate_batch(y_pred)],"tmp_ListComp0 = []
+for i in decollate_batch(y_pred):
+    tmp_ListComp0.append(y_pred_trans(i))
+y_pred = tmp_ListComp0",1,0,1,0
+veusz,https://github.com/veusz/veusz/tree/master/veusz/utils/utilfuncs.py,,topological_sort$434,"cyclic = [n for (n, heads) in num_heads.items() if heads]","cyclic = [n for (n, heads) in num_heads.items() if heads]","cyclic = [n for (n, heads) in num_heads.items() if heads]","cyclic = []
+for (n, heads) in num_heads.items():
+    if heads:
+        cyclic.append(n)
+",0,0,0,0
+homework,https://github.com/berkeleydeeprlcourse/homework/tree/master/hw1/tf_util.py,,l2loss$55,return tf.add_n([sum(tf.square(p)) for p in params]),tf.add_n([sum(tf.square(p)) for p in params]),tf.add_n([sum(tf.square(p)) for p in params]),"def my_comprehension_func(tf):
+    tmp_ListComp0 = []
+    for p in params:
+        tmp_ListComp0.append(sum(tf.square(p)))
+    return tmp_ListComp0
+return tf.add_n(my_comprehension_func(tf))",1,1,1,0
+neon,https://github.com/NervanaSystems/neon/tree/master/neon/backends/nervanamkl.py,NervanaMKL,fprop_mergebroadcast$701,alloc_layers = [l for l in layer.layers if l.owns_output],alloc_layers = [l for l in layer.layers if l.owns_output],alloc_layers = [l for l in layer.layers if l.owns_output],"alloc_layers = []
+for l in layer.layers:
+    if l.owns_output:
+        alloc_layers.append(l)
+",0,0,0,0
+trading_calendars,https://github.com/quantopian/trading_calendars/tree/master/trading_calendars/exchange_calendar_xjse.py,XJSEExchangeCalendar,adhoc_holidays$141,"return [Timestamp(date, tz=UTC) for date in ['2004-04-14', '2006-03-01', '2009-04-22', '2011-05-18', '2014-05-07', '2016-08-03', '2019-05-08', '2008-05-02', '2011-12-27', '2016-12-27']]","return [Timestamp(date, tz=UTC) for date in ['2004-04-14', '2006-03-01', '2009-04-22', '2011-05-18', '2014-05-07', '2016-08-03', '2019-05-08', '2008-05-02', '2011-12-27', '2016-12-27']]","return [Timestamp(date, tz=UTC) for date in ['2004-04-14', '2006-03-01', '2009-04-22', '2011-05-18', '2014-05-07', '2016-08-03', '2019-05-08', '2008-05-02', '2011-12-27', '2016-12-27']]","tmp_ListComp0 = []
+for date in ['2004-04-14', '2006-03-01', '2009-04-22', '2011-05-18', '2014-05-07', '2016-08-03', '2019-05-08', '2008-05-02', '2011-12-27', '2016-12-27']:
+    tmp_ListComp0.append(Timestamp(date, tz=UTC))
+return tmp_ListComp0",1,0,1,0
+oppia,https://github.com/oppia/oppia/tree/master/core/domain/state_domain.py,State,update_interaction_id$4813,old_content_id_list = [answer_group.outcome.feedback.content_id for answer_group in self.interaction.answer_groups],old_content_id_list = [answer_group.outcome.feedback.content_id for answer_group in self.interaction.answer_groups],old_content_id_list = [answer_group.outcome.feedback.content_id for answer_group in self.interaction.answer_groups],"old_content_id_list = []
+for answer_group in self.interaction.answer_groups:
+    old_content_id_list.append(answer_group.outcome.feedback.content_id)
+",0,0,0,0
+deep-learning-for-image-processing,https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/tree/master/tensorflow_classification/Test9_efficientNet/utils.py,,read_split_data$9,"flower_class = [cla for cla in os.listdir(root) if os.path.isdir(os.path.join(root, cla))]","flower_class = [cla for cla in os.listdir(root) if os.path.isdir(os.path.join(root, cla))]","flower_class = [cla for cla in os.listdir(root) if os.path.isdir(os.path.join(root, cla))]","flower_class = []
+for cla in os.listdir(root):
+    if os.path.isdir(os.path.join(root, cla)):
+        flower_class.append(cla)
+",0,0,0,0
+kb,https://github.com/gnebbia/kb/tree/master/kb/printer/grep.py,,generate_grep_header$22,"len_tags = max(max([len(art.tags) if art.tags else 0 for art in grep_result]), min_length)",max([len(art.tags) if art.tags else 0 for art in grep_result]),max([len(art.tags) if art.tags else 0 for art in grep_result]),"tmp_ListComp0 = []
+for art in grep_result:
+    if art.tags:
+        tmp_ListComp0.append(len(art.tags))
+    else:
+        tmp_ListComp0.append(0)
+len_tags = max(max(tmp_ListComp0), min_length)",1,0,1,0
+freqtrade,https://github.com/freqtrade/freqtrade/tree/master/freqtrade/optimize/optimize_reports.py,,generate_daily_stats$342,"daily_profit_list = [(str(idx.date()), val) for (idx, val) in daily_profit.items()]","daily_profit_list = [(str(idx.date()), val) for (idx, val) in daily_profit.items()]","daily_profit_list = [(str(idx.date()), val) for (idx, val) in daily_profit.items()]","daily_profit_list = []
+for (idx, val) in daily_profit.items():
+    daily_profit_list.append((str(idx.date()), val))
+",0,0,0,0
+airflow,https://github.com/apache/airflow/tree/master/chart/tests/test_git_sync_webserver.py,GitSyncWebserverTest,test_git_sync_with_different_airflow_versions$97,"volume_names = [volume['name'] for volume in jmespath.search('spec.template.spec.volumes', docs[0])]","volume_names = [volume['name'] for volume in jmespath.search('spec.template.spec.volumes', docs[0])]","volume_names = [volume['name'] for volume in jmespath.search('spec.template.spec.volumes', docs[0])]","volume_names = []
+for volume in jmespath.search('spec.template.spec.volumes', docs[0]):
+    volume_names.append(volume['name'])
+",0,0,0,0
+evalml,https://github.com/alteryx/evalml/tree/master/evalml/tests/conftest.py,,_imbalanced_data_X_y$1198,col_names = [f'col_{i}' for i in range(100)],col_names = [f'col_{i}' for i in range(100)],col_names = [f'col_{i}' for i in range(100)],"col_names = []
+for i in range(100):
+    col_names.append(f'col_{i}')
+",0,0,0,0
+pixel-nerf,https://github.com/sxyu/pixel-nerf/tree/master/eval/calc_metrics.py,,run_map$119,objs_avail = [x for x in objs if osp.exists(x[1])],objs_avail = [x for x in objs if osp.exists(x[1])],objs_avail = [x for x in objs if osp.exists(x[1])],"objs_avail = []
+for x in objs:
+    if osp.exists(x[1]):
+        objs_avail.append(x)
+",0,0,0,0
+SMAC3,https://github.com/automl/SMAC3/tree/master/test/test_epm/test_gp.py,,get_gp$22,"bounds = [(0.0, 1.0) for _ in range(n_dimensions)]","bounds = [(0.0, 1.0) for _ in range(n_dimensions)]","bounds = [(0.0, 1.0) for _ in range(n_dimensions)]","bounds = []
+for _ in range(n_dimensions):
+    bounds.append((0.0, 1.0))
+",0,0,0,0
+mesh,https://github.com/tensorflow/mesh/tree/master/examples/toy_model_tpu.py,,model_fn$146,device_list = [host_placement_fn(host_id=t) for t in range(num_hosts)],device_list = [host_placement_fn(host_id=t) for t in range(num_hosts)],device_list = [host_placement_fn(host_id=t) for t in range(num_hosts)],"device_list = []
+for t in range(num_hosts):
+    device_list.append(host_placement_fn(host_id=t))
+",0,0,0,0
+inql,https://github.com/doyensec/inql/tree/master/inql/widgets/generator.py,GeneratorPanel,_cfg$139,"new_hash = hash(string.join([str(i) for (_, i) in self._run_config]))","string.join([str(i) for (_, i) in self._run_config])","string.join([str(i) for (_, i) in self._run_config])","tmp_ListComp0 = []
+for (_, i) in self._run_config:
+    tmp_ListComp0.append(str(i))
+new_hash = hash(string.join(tmp_ListComp0))",1,0,1,0
+gluon-nlp,https://github.com/dmlc/gluon-nlp/tree/master/src/gluonnlp/data/vocab.py,Vocab,to_tokens$270,return [self.all_tokens[i] for i in idx],return [self.all_tokens[i] for i in idx],return [self.all_tokens[i] for i in idx],"tmp_ListComp0 = []
+for i in idx:
+    tmp_ListComp0.append(self.all_tokens[i])
+return tmp_ListComp0",1,0,1,0
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/relay/backend/contrib/ethosu/te/pooling.py,,pooling_compute$29,"(pool_shape_h, pool_shape_w) = [int(v) for v in pool_shape]","(pool_shape_h, pool_shape_w) = [int(v) for v in pool_shape]","(pool_shape_h, pool_shape_w) = [int(v) for v in pool_shape]","tmp_ListComp0 = []
+for v in pool_shape:
+    tmp_ListComp0.append(int(v))
+(pool_shape_h, pool_shape_w) = tmp_ListComp0",1,0,1,0
+imgclsmob,https://github.com/osmr/imgclsmob/tree/master/gluon/gluoncv2/models/vovnet.py,,get_vovnet$202,"channels = [[ci] * li for (ci, li) in zip(channels_per_layers, layers)]","channels = [[ci] * li for (ci, li) in zip(channels_per_layers, layers)]","channels = [[ci] * li for (ci, li) in zip(channels_per_layers, layers)]","channels = []
+for (ci, li) in zip(channels_per_layers, layers):
+    channels.append([ci] * li)
+",0,0,0,0
+python-docs-samples,https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard/migration/urlfetch/async/main.py,,get_callback$47,"futures = [session.get(url, hooks={'response': cb}) for url in urls]","futures = [session.get(url, hooks={'response': cb}) for url in urls]","futures = [session.get(url, hooks={'response': cb}) for url in urls]","futures = []
+for url in urls:
+    futures.append(session.get(url, hooks={'response': cb}))
+",0,0,0,0
+retinanet-examples,https://github.com/NVIDIA/retinanet-examples/tree/master/odtk/data.py,RotatedCocoDataset,collate_fn$403,max_det = max([t.size()[0] for t in targets]),max([t.size()[0] for t in targets]),max([t.size()[0] for t in targets]),"tmp_ListComp0 = []
+for t in targets:
+    tmp_ListComp0.append(t.size()[0])
+max_det = max(tmp_ListComp0)",1,0,1,0
+ldap3,https://github.com/cannatag/ldap3/tree/master/ldap3/protocol/convert.py,,changes_to_list$93,return [change_to_dict(change) for change in changes],return [change_to_dict(change) for change in changes],return [change_to_dict(change) for change in changes],"tmp_ListComp0 = []
+for change in changes:
+    tmp_ListComp0.append(change_to_dict(change))
+return tmp_ListComp0",1,0,1,0
+django-tables2,https://github.com/jieter/django-tables2/tree/master/tests/test_ordering.py,OrderingTest,test_multi_column_ordering_by_table$132,"self.assertEqual([brad2, brad, chris, davina, ross], [r.record for r in table.rows])","self.assertEqual([brad2, brad, chris, davina, ross], [r.record for r in table.rows])","self.assertEqual([brad2, brad, chris, davina, ross], [r.record for r in table.rows])","tmp_ListComp0 = []
+for r in table.rows:
+    tmp_ListComp0.append(r.record)
+self.assertEqual([brad2, brad, chris, davina, ross], tmp_ListComp0)",1,0,1,0
+DFDNet,https://github.com/csxmli2016/DFDNet/tree/master/sync_batchnorm/batchnorm.py,_SynchronizedBatchNorm,_data_parallel_master$105,sum_size = sum([i[1].sum_size for i in intermediates]),sum([i[1].sum_size for i in intermediates]),sum([i[1].sum_size for i in intermediates]),"tmp_ListComp0 = []
+for i in intermediates:
+    tmp_ListComp0.append(i[1].sum_size)
+sum_size = sum(tmp_ListComp0)",1,0,1,0
+nnFormer,https://github.com/282857341/nnFormer/tree/master/nnformer/experiment_planning/summarize_plans.py,,if_main_my$64,"task_dirs = [i for i in subdirs(base_dir, join=False, prefix='Task') if i.find('BrainTumor') == -1 and i.find('MSSeg') == -1]","task_dirs = [i for i in subdirs(base_dir, join=False, prefix='Task') if i.find('BrainTumor') == -1 and i.find('MSSeg') == -1]","task_dirs = [i for i in subdirs(base_dir, join=False, prefix='Task') if i.find('BrainTumor') == -1 and i.find('MSSeg') == -1]","task_dirs = []
+for i in subdirs(base_dir, join=False, prefix='Task'):
+    if i.find('BrainTumor') == -1 and i.find('MSSeg') == -1:
+        task_dirs.append(i)
+",0,0,0,0
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/autotvm/record.py,,decode$127,"result = MeasureResult(*[tuple(x) if isinstance(x, list) else x for x in row['result']])","*[tuple(x) if isinstance(x, list) else x for x in row['result']]","*[tuple(x) if isinstance(x, list) else x for x in row['result']]","tmp_ListComp0 = []
+for x in row['result']:
+    if isinstance(x, list):
+        tmp_ListComp0.append(tuple(x))
+    else:
+        tmp_ListComp0.append(x)
+result = MeasureResult(*tmp_ListComp0)",1,0,1,0
+indico,https://github.com/indico/indico/tree/master/indico/modules/events/registration/fields/choices.py,MultiChoiceField,get_friendly_data$253,"choices = [_format_item(uuid, number_of_slots) for (uuid, number_of_slots) in reg_data.items()]","choices = [_format_item(uuid, number_of_slots) for (uuid, number_of_slots) in reg_data.items()]","choices = [_format_item(uuid, number_of_slots) for (uuid, number_of_slots) in reg_data.items()]","choices = []
+for (uuid, number_of_slots) in reg_data.items():
+    choices.append(_format_item(uuid, number_of_slots))
+",0,0,0,0
+mlflow,https://github.com/mlflow/mlflow/tree/master/mlflow/tracking/fluent.py,,search_runs$1327,experiment_ids = [exp.experiment_id for exp in search_experiments(view_type=ViewType.ACTIVE_ONLY)],experiment_ids = [exp.experiment_id for exp in search_experiments(view_type=ViewType.ACTIVE_ONLY)],experiment_ids = [exp.experiment_id for exp in search_experiments(view_type=ViewType.ACTIVE_ONLY)],"experiment_ids = []
+for exp in search_experiments(view_type=ViewType.ACTIVE_ONLY):
+    experiment_ids.append(exp.experiment_id)
+",0,0,0,0
+fairseq,https://github.com/pytorch/fairseq/tree/master/fairseq/models/lstm.py,LSTMDecoder,reorder_incremental_state$637,"prev_hiddens = [p.index_select(0, new_order) for p in prev_hiddens]","prev_hiddens = [p.index_select(0, new_order) for p in prev_hiddens]","prev_hiddens = [p.index_select(0, new_order) for p in prev_hiddens]","tmp_ListComp0 = []
+for p in prev_hiddens:
+    tmp_ListComp0.append(p.index_select(0, new_order))
+prev_hiddens = tmp_ListComp0",1,0,1,0
+espresso,https://github.com/freewym/espresso/tree/master/fairseq/data/audio/text_to_speech_dataset.py,TextToSpeechDataset,collater$110,"target_lengths = torch.tensor([s.source.shape[0] for s in samples], dtype=torch.long).index_select(0, order)","torch.tensor([s.source.shape[0] for s in samples], dtype=torch.long)","torch.tensor([s.source.shape[0] for s in samples], dtype=torch.long)","tmp_ListComp0 = []
+for s in samples:
+    tmp_ListComp0.append(s.source.shape[0])
+target_lengths = torch.tensor(tmp_ListComp0, dtype=torch.long).index_select(0, order)",1,0,1,0
+stumpy,https://github.com/TDAmeritrade/stumpy/tree/master/tests/test_non_normalized_decorator.py,,test_gpu_ostinato$197,"Ts = [np.random.rand(n) for n in [64, 128, 256]]","Ts = [np.random.rand(n) for n in [64, 128, 256]]","Ts = [np.random.rand(n) for n in [64, 128, 256]]","Ts = []
+for n in [64, 128, 256]:
+    Ts.append(np.random.rand(n))
+",0,0,0,0
+PyTorch-Networks,https://github.com/shanglianlm0525/PyTorch-Networks/tree/master/Lightweight/MixNet.py,MDConv,forward$46,"outputs = [layer(sp_x) for (layer, sp_x) in zip(self.layers, split_x)]","outputs = [layer(sp_x) for (layer, sp_x) in zip(self.layers, split_x)]","outputs = [layer(sp_x) for (layer, sp_x) in zip(self.layers, split_x)]","outputs = []
+for (layer, sp_x) in zip(self.layers, split_x):
+    outputs.append(layer(sp_x))
+",0,0,0,0
+lifelines,https://github.com/CamDavidsonPilon/lifelines/tree/master/lifelines/fitters/coxph_fitter.py,ParametricPiecewiseBaselinePHFitter,_cumulative_hazard_sans_strata$3166,log_lambdas_ = anp.array([0.0] + [params[param][0] for param in self._fitted_parameter_names if param != 'beta_']),[0.0] + [params[param][0] for param in self._fitted_parameter_names if param != 'beta_'],[0.0] + [params[param][0] for param in self._fitted_parameter_names if param != 'beta_'],"tmp_ListComp0 = []
+for param in self._fitted_parameter_names:
+    if param != 'beta_':
+        tmp_ListComp0.append(params[param][0])
+log_lambdas_ = anp.array([0.0] + tmp_ListComp0)",1,0,1,0
+RenderPipeline,https://github.com/tobspr/RenderPipeline/tree/master/rplibs/yaml/yaml_py3/events.py,Event,__repr__$8,"arguments = ', '.join(['%s=%r' % (key, getattr(self, key)) for key in attributes])",", '.join(['%s=%r' % (key, getattr(self, key)) for key in attributes])",", '.join(['%s=%r' % (key, getattr(self, key)) for key in attributes])","tmp_ListComp0 = []
+for key in attributes:
+    tmp_ListComp0.append('%s=%r' % (key, getattr(self, key)))
+arguments = ', '.join(tmp_ListComp0)",1,0,1,0
+torchgeo,https://github.com/microsoft/torchgeo/tree/master/torchgeo/datasets/sen12ms.py,SEN12MS,__init__$164,self.band_indices = torch.tensor([self.band_names.index(b) for b in bands]).long(),torch.tensor([self.band_names.index(b) for b in bands]),torch.tensor([self.band_names.index(b) for b in bands]),"tmp_ListComp0 = []
+for b in bands:
+    tmp_ListComp0.append(self.band_names.index(b))
+self.band_indices = torch.tensor(tmp_ListComp0).long()",1,0,1,0
+baserow,https://github.com/bram2w/baserow/tree/master/backend/src/baserow/contrib/database/api/views/grid/views.py,,get_available_aggregation_type$84,return [f.type for f in view_aggregation_type_registry.get_all()],return [f.type for f in view_aggregation_type_registry.get_all()],return [f.type for f in view_aggregation_type_registry.get_all()],"tmp_ListComp0 = []
+for f in view_aggregation_type_registry.get_all():
+    tmp_ListComp0.append(f.type)
+return tmp_ListComp0",1,0,1,0
+docassemble,https://github.com/jhpyle/docassemble/tree/master/docassemble_base/docassemble/base/mako/codegen.py,_Identifiers,__repr__$1087,"return 'Identifiers(declared=%r, locally_declared=%r, undeclared=%r, topleveldefs=%r, closuredefs=%r, argumentdeclared=%r)' % (list(self.declared), list(self.locally_declared), list(self.undeclared), [c.name for c in self.topleveldefs.values()], [c.name for c in self.closuredefs.values()], self.argument_declared)","(list(self.declared), list(self.locally_declared), list(self.undeclared), [c.name for c in self.topleveldefs.values()], [c.name for c in self.closuredefs.values()], self.argument_declared)","(list(self.declared), list(self.locally_declared), list(self.undeclared), [c.name for c in self.topleveldefs.values()], [c.name for c in self.closuredefs.values()], self.argument_declared)","def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for c in self.topleveldefs.values():
+        tmp_ListComp0.append(c.name)
+    return tmp_ListComp0
+return 'Identifiers(declared=%r, locally_declared=%r, undeclared=%r, topleveldefs=%r, closuredefs=%r, argumentdeclared=%r)' % (list(self.declared), list(self.locally_declared), list(self.undeclared), my_comprehension_func(self), [c.name for c in self.closuredefs.values()], self.argument_declared)",1,1,1,0
+plato-research-dialogue-system,https://github.com/uber-archive/plato-research-dialogue-system/tree/master/plato/agent/component/dialogue_policy/deep_learning/supervised_policy.py,SupervisedPolicy,next_action$239,"sys_acts = self.decode_action(random.choices([a for a in range(self.NActions)], weights=positive_weights)[0], self.agent_role == 'system')","random.choices([a for a in range(self.NActions)], weights=positive_weights)","random.choices([a for a in range(self.NActions)], weights=positive_weights)","def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for a in range(self.NActions):
+        tmp_ListComp0.append(a)
+    return tmp_ListComp0
+sys_acts = self.decode_action(random.choices(my_comprehension_func(self), weights=positive_weights)[0], self.agent_role == 'system')",1,1,1,0
+nanovna-saver,https://github.com/NanoVNA-Saver/nanovna-saver/tree/master/NanoVNASaver/Calibration.py,CalDataSet,size_of$107,return len([v for v in self.data.values() if v[name] is not None]),len([v for v in self.data.values() if v[name] is not None]),len([v for v in self.data.values() if v[name] is not None]),"tmp_ListComp0 = []
+for v in self.data.values():
+    if v[name] is not None:
+        tmp_ListComp0.append(v)
+return len(tmp_ListComp0)",1,0,1,0
+softlearning,https://github.com/rail-berkeley/softlearning/tree/master/softlearning/utils/tune.py,,is_trial_directory$45,params_files = [filename for filename in files if is_params_file(filename)],params_files = [filename for filename in files if is_params_file(filename)],params_files = [filename for filename in files if is_params_file(filename)],"params_files = []
+for filename in files:
+    if is_params_file(filename):
+        params_files.append(filename)
+",0,0,0,0
+ansible-modules-core,https://github.com/ansible/ansible-modules-core/tree/master/network/nxos/nxos_feature.py,CustomNetworkConfig,to_block$145,return '\n'.join([item.raw for item in section]),'\n'.join([item.raw for item in section]),'\n'.join([item.raw for item in section]),"tmp_ListComp0 = []
+for item in section:
+    tmp_ListComp0.append(item.raw)
+return '\n'.join(tmp_ListComp0)",1,0,1,0
+tslearn,https://github.com/tslearn-team/tslearn/tree/master/tslearn/shapelets/shapelets.py,,_kmeans_init_shapelets$78,"indices_time = numpy.array([numpy.random.choice(ts_size(ts) - shp_len + 1, size=1)[0] for ts in X[indices_ts]])","numpy.array([numpy.random.choice(ts_size(ts) - shp_len + 1, size=1)[0] for ts in X[indices_ts]])","numpy.array([numpy.random.choice(ts_size(ts) - shp_len + 1, size=1)[0] for ts in X[indices_ts]])","def my_comprehension_func(numpy):
+    tmp_ListComp0 = []
+    for ts in X[indices_ts]:
+        tmp_ListComp0.append(numpy.random.choice(ts_size(ts) - shp_len + 1, size=1)[0])
+    return tmp_ListComp0
+indices_time = numpy.array(my_comprehension_func(numpy))",1,1,1,0
+NeuralBabyTalk,https://github.com/jiasenlu/NeuralBabyTalk/tree/master/misc/CaptionModel.py,CaptionModel,constraint_beam_search$219,new_state = [_.clone() for _ in state],new_state = [_.clone() for _ in state],new_state = [_.clone() for _ in state],"new_state = []
+for _ in state:
+    new_state.append(_.clone())
+",0,0,0,0
+SMARTS,https://github.com/huawei-noah/SMARTS/tree/master/baselines/marl_benchmark/agents/maddpg/tf_policy.py,,_make_loss_inputs$99,"return [(ph.name.split('/')[-1].split(':')[0], ph) for ph in placeholders]","return [(ph.name.split('/')[-1].split(':')[0], ph) for ph in placeholders]","return [(ph.name.split('/')[-1].split(':')[0], ph) for ph in placeholders]","tmp_ListComp0 = []
+for ph in placeholders:
+    tmp_ListComp0.append((ph.name.split('/')[-1].split(':')[0], ph))
+return tmp_ListComp0",1,0,1,0
+nilearn,https://github.com/nilearn/nilearn/tree/master/nilearn/glm/tests/test_second_level.py,,test_check_second_level_input$81,"_check_second_level_input([FirstLevelModel(subject_label='sub_{}'.format(i)) for i in range(1, 3)], pd.DataFrame())","_check_second_level_input([FirstLevelModel(subject_label='sub_{}'.format(i)) for i in range(1, 3)], pd.DataFrame())","_check_second_level_input([FirstLevelModel(subject_label='sub_{}'.format(i)) for i in range(1, 3)], pd.DataFrame())","tmp_ListComp0 = []
+for i in range(1, 3):
+    tmp_ListComp0.append(FirstLevelModel(subject_label='sub_{}'.format(i)))
+_check_second_level_input(tmp_ListComp0, pd.DataFrame())",1,0,1,0
+SparseR-CNN,https://github.com/PeizeSun/SparseR-CNN/tree/master/detectron2/evaluation/lvis_evaluation.py,,_evaluate_box_proposals$199,"gt_boxes = [BoxMode.convert(obj['bbox'], BoxMode.XYWH_ABS, BoxMode.XYXY_ABS) for obj in anno]","gt_boxes = [BoxMode.convert(obj['bbox'], BoxMode.XYWH_ABS, BoxMode.XYXY_ABS) for obj in anno]","gt_boxes = [BoxMode.convert(obj['bbox'], BoxMode.XYWH_ABS, BoxMode.XYXY_ABS) for obj in anno]","gt_boxes = []
+for obj in anno:
+    gt_boxes.append(BoxMode.convert(obj['bbox'], BoxMode.XYWH_ABS, BoxMode.XYXY_ABS))
+",0,0,0,0
+dagster,https://github.com/dagster-io/dagster/tree/master/python_modules/dagster-graphql/dagster_graphql_tests/graphql/test_workspace.py,TestLoadWorkspace,test_load_workspace$80,"assert all([node['__typename'] == 'WorkspaceLocationEntry' for node in nodes]), str(nodes)",all([node['__typename'] == 'WorkspaceLocationEntry' for node in nodes]),all([node['__typename'] == 'WorkspaceLocationEntry' for node in nodes]),"def my_comprehension_func(nodes):
+    tmp_ListComp0 = []
+    for node in nodes:
+        tmp_ListComp0.append(node['__typename'] == 'WorkspaceLocationEntry')
+    return tmp_ListComp0
+assert all(my_comprehension_func(nodes)), str(nodes)",1,1,1,0
+featuretools,https://github.com/alteryx/featuretools/tree/master/featuretools/tests/synthesis/test_deep_feature_synthesis.py,,test_where_primitives$812,"assert len([d for f in where_feats for d in f.get_dependencies(deep=True) if isinstance(d.primitive, Absolute)]) > 0","len([d for f in where_feats for d in f.get_dependencies(deep=True) if isinstance(d.primitive, Absolute)])","len([d for f in where_feats for d in f.get_dependencies(deep=True) if isinstance(d.primitive, Absolute)])","tmp_ListComp0 = []
+for f in where_feats:
+    for d in f.get_dependencies(deep=True):
+        if isinstance(d.primitive, Absolute):
+            tmp_ListComp0.append(d)
+assert len(tmp_ListComp0) > 0",1,0,1,0
+kombu,https://github.com/celery/kombu/tree/master/kombu/transport/virtual/base.py,BrokerState,queue_bindings_delete$141,"[self.bindings.pop(binding, None) for binding in bindings]","[self.bindings.pop(binding, None) for binding in bindings]","[self.bindings.pop(binding, None) for binding in bindings]","tmp_ListComp0 = []
+for binding in bindings:
+    tmp_ListComp0.append(self.bindings.pop(binding, None))
+tmp_ListComp0",1,0,1,0
+mlflow,https://github.com/mlflow/mlflow/tree/master/examples/sklearn_autolog/grid_search_cv.py,,main$11,param_cols = ['params.{}'.format(p) for p in parameters.keys()],param_cols = ['params.{}'.format(p) for p in parameters.keys()],param_cols = ['params.{}'.format(p) for p in parameters.keys()],"param_cols = []
+for p in parameters.keys():
+    param_cols.append('params.{}'.format(p))
+",0,0,0,0
+galaxy,https://github.com/ansible/galaxy/tree/master/lib/galaxy_test/api/test_tools.py,ToolsTestCase,test_filter_failed_list$632,filtered_states = [get_state(_) for _ in filtered_hdca['elements']],filtered_states = [get_state(_) for _ in filtered_hdca['elements']],filtered_states = [get_state(_) for _ in filtered_hdca['elements']],"filtered_states = []
+for _ in filtered_hdca['elements']:
+    filtered_states.append(get_state(_))
+",0,0,0,0
+airflow,https://github.com/apache/airflow/tree/master/airflow/macros/hive.py,,closest_ds_partition$82,"parts = [datetime.datetime.strptime(pv, '%Y-%m-%d') for pv in part_vals]","parts = [datetime.datetime.strptime(pv, '%Y-%m-%d') for pv in part_vals]","parts = [datetime.datetime.strptime(pv, '%Y-%m-%d') for pv in part_vals]","parts = []
+for pv in part_vals:
+    parts.append(datetime.datetime.strptime(pv, '%Y-%m-%d'))
+",0,0,0,0
+keras,https://github.com/keras-team/keras/tree/master/keras/utils/conv_utils_test.py,TestConvUtils,test_conv_kernel_mask_almost_full_stride$247,"strides = tuple([max(d - 1, 1) for d in input_shape])","tuple([max(d - 1, 1) for d in input_shape])","tuple([max(d - 1, 1) for d in input_shape])","tmp_ListComp0 = []
+for d in input_shape:
+    tmp_ListComp0.append(max(d - 1, 1))
+strides = tuple(tmp_ListComp0)",1,0,1,0
+numpy,https://github.com/numpy/numpy/tree/master/numpy/core/tests/test_umath.py,TestDivisionIntegerOverflowsAndDivideByZero,test_overflows$918,"arrays = [np.array([np.iinfo(dividend_dtype).min] * i, dtype=dividend_dtype) for i in range(1, 129)]","arrays = [np.array([np.iinfo(dividend_dtype).min] * i, dtype=dividend_dtype) for i in range(1, 129)]","arrays = [np.array([np.iinfo(dividend_dtype).min] * i, dtype=dividend_dtype) for i in range(1, 129)]","arrays = []
+for i in range(1, 129):
+    arrays.append(np.array([np.iinfo(dividend_dtype).min] * i, dtype=dividend_dtype))
+",0,0,0,0
+beets,https://github.com/beetbox/beets/tree/master/beetsplug/bpd/gstplayer.py,,if_main_my$298,paths = [os.path.abspath(os.path.expanduser(p)) for p in sys.argv[1:]],paths = [os.path.abspath(os.path.expanduser(p)) for p in sys.argv[1:]],paths = [os.path.abspath(os.path.expanduser(p)) for p in sys.argv[1:]],"paths = []
+for p in sys.argv[1:]:
+    paths.append(os.path.abspath(os.path.expanduser(p)))
+",0,0,0,0
+UnsupervisedMT,https://github.com/facebookresearch/UnsupervisedMT/tree/master/NMT/src/model/seq2seq.py,Decoder,__init__$156,"lstm_proj_layers = [nn.Linear(self.hidden_dim, self.emb_dim) for _ in range(self.n_langs)]","lstm_proj_layers = [nn.Linear(self.hidden_dim, self.emb_dim) for _ in range(self.n_langs)]","lstm_proj_layers = [nn.Linear(self.hidden_dim, self.emb_dim) for _ in range(self.n_langs)]","lstm_proj_layers = []
+for _ in range(self.n_langs):
+    lstm_proj_layers.append(nn.Linear(self.hidden_dim, self.emb_dim))
+",0,0,0,0
+gluon-cv,https://github.com/dmlc/gluon-cv/tree/master/scripts/gan/srgan/train_srgan.py,DataSet,__init__$158,"self.paths = [os.path.join(self.dir, f) for f in os.listdir(self.dir)]","self.paths = [os.path.join(self.dir, f) for f in os.listdir(self.dir)]","self.paths = [os.path.join(self.dir, f) for f in os.listdir(self.dir)]","tmp_ListComp0 = []
+for f in os.listdir(self.dir):
+    tmp_ListComp0.append(os.path.join(self.dir, f))
+self.paths = tmp_ListComp0",1,0,1,0
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/utils/gast/ast3.py,GAstToAst3,visit_arguments$444,"new_node = ast.arguments([self._make_arg(n) for n in node.args], *extra_args)","ast.arguments([self._make_arg(n) for n in node.args], *extra_args)","ast.arguments([self._make_arg(n) for n in node.args], *extra_args)","tmp_ListComp0 = []
+for n in node.args:
+    tmp_ListComp0.append(self._make_arg(n))
+new_node = ast.arguments(tmp_ListComp0, *extra_args)",1,0,1,0
+tf_ner,https://github.com/guillaumegenthial/tf_ner/tree/master/models/chars_conv_lstm_crf/serve.py,,parse_fn$12,"chars = [c + [b'<pad>'] * (max_len - l) for (c, l) in zip(chars, lengths)]","chars = [c + [b'<pad>'] * (max_len - l) for (c, l) in zip(chars, lengths)]","chars = [c + [b'<pad>'] * (max_len - l) for (c, l) in zip(chars, lengths)]","tmp_ListComp0 = []
+for (c, l) in zip(chars, lengths):
+    tmp_ListComp0.append(c + [b'<pad>'] * (max_len - l))
+chars = tmp_ListComp0",1,0,1,0
+sympy,https://github.com/sympy/sympy/tree/master/sympy/functions/special/hyper.py,hyper,radius_of_convergence$289,aints = [a for a in self.ap if a.is_Integer and (a <= 0) == True],aints = [a for a in self.ap if a.is_Integer and (a <= 0) == True],aints = [a for a in self.ap if a.is_Integer and (a <= 0) == True],"aints = []
+for a in self.ap:
+    if a.is_Integer and (a <= 0) == True:
+        aints.append(a)
+",0,0,0,0
+CLUEPretrainedModels,https://github.com/CLUEbenchmark/CLUEPretrainedModels/tree/master/baselines/models/roberta_wwm_large_ext/run_classifier.py,,convert_single_example$307,tf.logging.info('segment_ids: %s' % ' '.join([str(x) for x in segment_ids])),' '.join([str(x) for x in segment_ids]),' '.join([str(x) for x in segment_ids]),"tmp_ListComp0 = []
+for x in segment_ids:
+    tmp_ListComp0.append(str(x))
+tf.logging.info('segment_ids: %s' % ' '.join(tmp_ListComp0))",1,0,1,0
+MillionHeroAssistant,https://github.com/smileboywtu/MillionHeroAssistant/tree/master/core/crawler/html_tools.py,,get_html_baike$26,"[s.extract() for s in soup_baike(['script', 'style', 'img', 'sup', 'b'])]","[s.extract() for s in soup_baike(['script', 'style', 'img', 'sup', 'b'])]","[s.extract() for s in soup_baike(['script', 'style', 'img', 'sup', 'b'])]","tmp_ListComp0 = []
+for s in soup_baike(['script', 'style', 'img', 'sup', 'b']):
+    tmp_ListComp0.append(s.extract())
+tmp_ListComp0",1,0,1,0
+pdf2image,https://github.com/Belval/pdf2image/tree/master//tests.py,PDFConversionMethods,test_conversion_from_path_using_dir_and_cropbox$687,[im.close() for im in images_from_path],[im.close() for im in images_from_path],[im.close() for im in images_from_path],"tmp_ListComp0 = []
+for im in images_from_path:
+    tmp_ListComp0.append(im.close())
+tmp_ListComp0",1,0,1,0
+Office365-REST-Python-Client,https://github.com/vgrem/Office365-REST-Python-Client/tree/master/office365/runtime/client_object_collection.py,ClientObjectCollection,create_typed_object$35,"[client_object.set_property(k, v) for (k, v) in initial_properties.items() if v is not None]","[client_object.set_property(k, v) for (k, v) in initial_properties.items() if v is not None]","[client_object.set_property(k, v) for (k, v) in initial_properties.items() if v is not None]","tmp_ListComp0 = []
+for (k, v) in initial_properties.items():
+    if v is not None:
+        tmp_ListComp0.append(client_object.set_property(k, v))
+tmp_ListComp0",1,0,1,0
+celery,https://github.com/celery/celery/tree/master/celery/app/builtins.py,,add_group_task$135,"[stask.apply_async(group_id=group_id, producer=producer, add_to_parent=False) for stask in taskit]","[stask.apply_async(group_id=group_id, producer=producer, add_to_parent=False) for stask in taskit]","[stask.apply_async(group_id=group_id, producer=producer, add_to_parent=False) for stask in taskit]","tmp_ListComp0 = []
+for stask in taskit:
+    tmp_ListComp0.append(stask.apply_async(group_id=group_id, producer=producer, add_to_parent=False))
+tmp_ListComp0",1,0,1,0
+transformers,https://github.com/huggingface/transformers/tree/master/src/transformers/testing_utils.py,,mockenv_context$1266,[env.pop(k) for k in remove_after],[env.pop(k) for k in remove_after],[env.pop(k) for k in remove_after],"tmp_ListComp0 = []
+for k in remove_after:
+    tmp_ListComp0.append(env.pop(k))
+tmp_ListComp0",1,0,1,0
+frappe,https://github.com/frappe/frappe/tree/master/frappe/tests/test_domainification.py,TestDomainification,remove_from_active_domains$40,[to_remove.append(row) for row in domain_settings.active_domains if row.domain == domain],[to_remove.append(row) for row in domain_settings.active_domains if row.domain == domain],[to_remove.append(row) for row in domain_settings.active_domains if row.domain == domain],"tmp_ListComp0 = []
+for row in domain_settings.active_domains:
+    if row.domain == domain:
+        tmp_ListComp0.append(to_remove.append(row))
+tmp_ListComp0",1,0,1,0
+anchore-engine,https://github.com/anchore/anchore-engine/tree/master/anchore_engine/common/models/policy_engine.py,VulnerabilityMatch,get_cvss_scores_nvd$794,[scores.extend(nvd_reference.cvss) for nvd_reference in self.nvd if nvd_reference.cvss],[scores.extend(nvd_reference.cvss) for nvd_reference in self.nvd if nvd_reference.cvss],[scores.extend(nvd_reference.cvss) for nvd_reference in self.nvd if nvd_reference.cvss],"tmp_ListComp0 = []
+for nvd_reference in self.nvd:
+    if nvd_reference.cvss:
+        tmp_ListComp0.append(scores.extend(nvd_reference.cvss))
+tmp_ListComp0",1,0,1,0
+icalendar,https://github.com/collective/icalendar/tree/master/src/icalendar/prop.py,vCategory,__init__$272,self.cats = [vText(c) for c in c_list],self.cats = [vText(c) for c in c_list],self.cats = [vText(c) for c in c_list],"self.cats = []
+for c in c_list:
+    self.cats.append(vText(c))
+",0,0,0,0
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/graphics/grabseeds.py,,pixel_stats$380,"img = [(p_round(r), p_round(g), p_round(b)) for (r, g, b) in img]","img = [(p_round(r), p_round(g), p_round(b)) for (r, g, b) in img]","img = [(p_round(r), p_round(g), p_round(b)) for (r, g, b) in img]","tmp_ListComp0 = []
+for (r, g, b) in img:
+    tmp_ListComp0.append((p_round(r), p_round(g), p_round(b)))
+img = tmp_ListComp0",1,0,1,0
+chia-rosechain,https://github.com/snight1983/chia-rosechain/tree/master/chia/farmer/farmer.py,Farmer,__init__$83,self._private_keys = [master_sk_to_farmer_sk(sk) for sk in self.all_root_sks] + [master_sk_to_pool_sk(sk) for sk in self.all_root_sks],[master_sk_to_farmer_sk(sk) for sk in self.all_root_sks] + [master_sk_to_pool_sk(sk) for sk in self.all_root_sks],[master_sk_to_farmer_sk(sk) for sk in self.all_root_sks] + [master_sk_to_pool_sk(sk) for sk in self.all_root_sks],"def my_comprehension_func(self):
+    tmp_ListComp0 = []
+    for sk in self.all_root_sks:
+        tmp_ListComp0.append(master_sk_to_farmer_sk(sk))
+    return tmp_ListComp0
+self._private_keys = my_comprehension_func(self) + [master_sk_to_pool_sk(sk) for sk in self.all_root_sks]",1,1,1,0
+,,,,,,,,219,28,220,2
+,,,,,,,,,,0.572916667,0.005208333

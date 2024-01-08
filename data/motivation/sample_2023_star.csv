@@ -1,0 +1,1153 @@
+repo_name,file_html,file_path,complicate_code,call_func,simple_code,if_refactorable
+PyGrid,https://github.com/OpenMined/PyGrid/tree/master/apps/domain/tests/test_routes/test_users_http.py,,test_get_users_missing_token$283,*user2,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2021/quick_eigen.py,TypicalComputation,construct$487,"*(det_expression[i] for i in [6, 7, 11, 12])","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+netbox,https://github.com/netbox-community/netbox/tree/master/netbox/extras/scripts.py,IntegerVar,__init__$128,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+syncthing-gtk,https://github.com/kozec/syncthing-gtk/tree/master/syncthing_gtk/daemon.py,RESTRequest,_response$1119,*self._callback_data,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pyro,https://github.com/pyro-ppl/pyro/tree/master/pyro/infer/inspect.py,,get_model_relations$230,*model_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Archery,https://github.com/hhyo/Archery/tree/master/sql/models.py,CloudAccessKey,__init__$793,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+unknown-horizons,https://github.com/unknown-horizons/unknown-horizons/tree/master/horizons/gui/mousetools/navigationtool.py,NavigationTool,mouseDragged$127,*scroll_by,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+yt-dlp,https://github.com/yt-dlp/yt-dlp/tree/master/yt_dlp/extractor/radiocanada.py,RadioCanadaIE,_real_extract$144,*self._match_valid_url(url).groups(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sympy,https://github.com/sympy/sympy/tree/master/sympy/physics/quantum/qexpr.py,QExpr,_print_contents_latex$290,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+fuzzbench,https://github.com/google/fuzzbench/tree/master/docs/reference/benchmarks.py,,infos_to_markdown_table$165,*benchmark_info,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+edx-platform,https://github.com/edx/edx-platform/tree/master/lms/djangoapps/grades/rest_api/v1/utils.py,GradeViewMixin,_paginate_users$132,*filter_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sympy,https://github.com/sympy/sympy/tree/master/sympy/polys/rootoftools.py,RootSum,_rational_case$1119,*p.gens,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+brainstorm,https://github.com/IDSIA/brainstorm/tree/master/brainstorm/structure/buffer_structure.py,BufferStructure,from_layout$111,*shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+bonobo,https://github.com/python-bonobo/bonobo/tree/master/bonobo/util/testing.py,EnvironmentTestCase,run_environ$152,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+cubes,https://github.com/DataBrewery/cubes/tree/master/cubes/server/decorators.py,,wrapper$145,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PyUserInput,https://github.com/SavinaRoja/PyUserInput/tree/master/pymouse/windows.py,PyMouse,drag$72,*m.position(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+celery,https://github.com/celery/celery/tree/master/celery/utils/collections.py,ConfigurationView,__init__$368,*defaults,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jumpserver,https://github.com/jumpserver/jumpserver/tree/master/apps/authentication/backends/radius.py,CreateUserMixin,_perform_radius_auth$35,*sys.exc_info(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sktime,https://github.com/alan-turing-institute/sktime/tree/master/sktime/classification/dictionary_based/_cboss.py,ContractableBOSS,_fit$168,*parameters,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+trax,https://github.com/google/trax/tree/master/trax/tf_numpy/jax_tests/test_util.py,,rand_some_equal$454,*onp.shape(x),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+genshin_auto_fish,https://github.com/7eu7d7/genshin_auto_fish/tree/master/yolox/data/dataloading.py,DataLoader,__init__$40,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+instaloader,https://github.com/instaloader/instaloader/tree/master/instaloader/instaloader.py,,call$95,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+astropy,https://github.com/astropy/astropy/tree/master/astropy/modeling/tests/test_input.py,,test_format_input_arrays_transposed$1088,*input,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+bayespy,https://github.com/bayespy/bayespy/tree/master/bayespy/utils/misc.py,,diag$1253,*np.shape(X)[-ndim:],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2021/shadows.py,IntroduceShadow,construct$391,"*map(FadeOut, (rect, s_eq, *edge_lines, *s_labels, s_squared))","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+captum,https://github.com/pytorch/captum/tree/master/tests/attr/test_saliency.py,Test,test_saliency_test_basic_multi_vargrad$126,*_get_multiargs_basic_config(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PhiFlow,https://github.com/tum-pbs/PhiFlow/tree/master/phi/torch/_torch_backend.py,TorchFunction,forward$138,*y,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+elyra,https://github.com/elyra-ai/elyra/tree/master/elyra/tests/pipeline/resources/components/airflow_test_operator.py,HelperClass1,__init__$186,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+aequitas,https://github.com/dssg/aequitas/tree/master/src/aequitas/plot/summary_chart.py,,__draw_metric_line_titles$99,*metric_line_titles,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+elodie,https://github.com/jmathai/elodie/tree/master/elodie/media/photo.py,Photo,get_date_taken$48,*dt_list,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+unilm,https://github.com/microsoft/unilm/tree/master/xtune/src/pequod/training/trainer.py,DistillTrainer,labeling_dataset$221,"*dataset.tensors[:-1] + (preds,)","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+glance,https://github.com/openstack/glance/tree/master/glance/tests/unit/test_domain_proxy.py,TestProxyRepoPlain,_test_method$63,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+reformer-pytorch,https://github.com/lucidrains/reformer-pytorch/tree/master/reformer_pytorch/reformer_pytorch.py,,cached_fn$63,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+aiohttp,https://github.com/aio-libs/aiohttp/tree/master/aiohttp/web_urldispatcher.py,ResourceRoute,url_for$887,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+SMASH,https://github.com/ajbrock/SMASH/tree/master//layers.py,SMASHLayer,forward$200,*args[1],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pathos,https://github.com/uqfoundation/pathos/tree/master/pathos/multiprocessing.py,ProcessPool,amap$151,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+virt-manager,https://github.com/virt-manager/virt-manager/tree/master/virtManager/details/viewers.py,Viewer,_set_size_request$113,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+transformers,https://github.com/huggingface/transformers/tree/master/src/transformers/models/splinter/modeling_splinter.py,SplinterEncoder,forward$428,*inputs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+vispy,https://github.com/vispy/vispy/tree/master/vispy/visuals/tests/test_image.py,,test_image$17,*shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+core,https://github.com/home-assistant/core/tree/master/homeassistant/components/toon/helpers.py,,toon_exception_handler$9,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/backends/_backend_tk.py,FigureCanvasTk,new_timer$379,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nnabla,https://github.com/sony/nnabla/tree/master/python/test/function/test_vat_noise.py,,test_vat_noise$39,*shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+kombu,https://github.com/celery/kombu/tree/master/t/unit/test_simple.py,test_SimpleBuffer,Queue$169,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+scipy,https://github.com/scipy/scipy/tree/master/scipy/linalg/tests/test_lapack.py,,generate_random_dtype_array$43,*shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+diffvg,https://github.com/BachiLi/diffvg/tree/master/apps/svg_brush.py,,render$38,*scene_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+django-extensions,https://github.com/django-extensions/django-extensions/tree/master/tests/test_runscript.py,ChangingDirectoryTests,_execute_script_with_chdir$148,*start_path,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+klein,https://github.com/twisted/klein/tree/master/src/klein/_app.py,Klein,route$297,*a,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mahotas,https://github.com/luispedro/mahotas/tree/master/mahotas/tests/test_edge.py,,test_sobel$19,*np.where(E),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+napari,https://github.com/napari/napari/tree/master/napari/_qt/_tests/test_qt_window.py,,test_set_geometry$51,*values,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gandissect,https://github.com/CSAILVision/gandissect/tree/master/netdissect/runningstats.py,RunningQuantile,normalize$433,*data.shape[1:],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Mathics,https://github.com/mathics/Mathics/tree/master/mathics/builtin/numeric.py,NIntegrate,apply_with_func_domain$1054,*coords,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pyqtgraph,https://github.com/pyqtgraph/pyqtgraph/tree/master/pyqtgraph/SRTTransform3D.py,SRTTransform3D,translate$66,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+codechecker,https://github.com/Ericsson/codechecker/tree/master/web/server/codechecker_server/api/report_server.py,,process_report_filter$187,*AND,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+astropy,https://github.com/astropy/astropy/tree/master/astropy/units/core.py,EquivalentUnitsList,__repr__$1598,*widths,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+neon,https://github.com/NervanaSystems/neon/tree/master/examples/cifar10_msra/data.py,,ingest_cifar10$26,*dataset[setn],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+ExtremeNet,https://github.com/xingyizhou/ExtremeNet/tree/master/models/py_utils/exkp.py,exkp,forward$264,*xs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+opendevops,https://github.com/opendevops-cn/opendevops/tree/master/scripts/tornado_source_code/tornado/test/ioloop_test.py,TestIOLoop,test_add_callback_return_sequence$29,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+textdistance,https://github.com/life4/textdistance/tree/master/textdistance/algorithms/token_based.py,Tversky,__call__$97,*sequences,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sympy,https://github.com/sympy/sympy/tree/master/sympy/printing/pretty/pretty.py,PrettyPrinter,_print_Laplacian$145,*pform.left(self._print(U('INCREMENT'))),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jupyterhub,https://github.com/jupyterhub/jupyterhub/tree/master/jupyterhub/tests/utils.py,_AsyncRequests,__init__$24,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Cyberbrain,https://github.com/laike9m/Cyberbrain/tree/master/cyberbrain/value_stack.py,BaseValueStack,_BUILD_MAP_UNPACK_handler$595,*items,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+web3.py,https://github.com/ethereum/web3.py/tree/master/tests/integration/test_ethereum_tester.py,,func_wrapper$269,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PyDataset,https://github.com/iamaziz/PyDataset/tree/master/pydataset/support.py,,find_similar$36,*result,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pony,https://github.com/ponyorm/pony/tree/master/pony/orm/decompiling.py,Decompiler,decompile$166,*arg,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2016/hanoi.py,DescribeTriforcePattern,construct$3053,"*list(map(ShowCreation, bold_edges[1:]))","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+kivy,https://github.com/kivy/kivy/tree/master/kivy/uix/effectwidget.py,AdvancedEffectBase,set_fbo_shader$460,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+VIBE,https://github.com/mkocabas/VIBE/tree/master/lib/models/spin.py,HMR,_make_layer$110,*layers,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+swa,https://github.com/timgaripov/swa/tree/master/models/preresnet.py,PreResNet,_make_layer$122,*layers,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PythonProgrammingPuzzles,https://github.com/microsoft/PythonProgrammingPuzzles/tree/master/solvers/enumerative/tython/parse.py,,from_ast$82,*make_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PyRep,https://github.com/stepjam/PyRep/tree/master/pyrep/objects/object.py,Object,get_objects_in_tree$671,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+vector-python-sdk,https://github.com/anki/vector-python-sdk/tree/master/examples/apps/remote_control/remote_control.py,RemoteControlVector,update_mouse_driving$355,*wheel_params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+maro,https://github.com/microsoft/maro/tree/master/maro/streamit/client/client.py,,_wrapper$18,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tvm,https://github.com/apache/tvm/tree/master/tests/python/contrib/test_ethosu/test_legalize.py,,test_tflite_transpose_convolution$2261,*tuple(ifm_shape),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+TorchSnooper,https://github.com/zasdfgbnm/TorchSnooper/tree/master/tests/mini_toolbox/contextlib.py,ContextDecorator,inner$50,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+chainer-chemistry,https://github.com/chainer/chainer-chemistry/tree/master/tests/dataset_tests/splitters_tests/test_stratified_splitter.py,,test_regression_split$138,*reg_dataset.features[test_ind],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jax,https://github.com/google/jax/tree/master/jax/_src/lax/control_flow.py,,_cond_jvp$1012,*branches_out_nz,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Qt.py,https://github.com/mottosso/Qt.py/tree/master/examples/QtSiteConfig/QtSiteConfig.py,,_widgetDecorator$64,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+optax,https://github.com/deepmind/optax/tree/master/optax/_src/control_variates_test.py,DeltaControlVariateTest,testPolinomialFunction$99,*params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+brian2,https://github.com/brian-team/brian2/tree/master/brian2/codegen/optimisation.py,,optimise_statements$63,*bool_space,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+evennia,https://github.com/evennia/evennia/tree/master/evennia/utils/dbserialize.py,_SaverSet,union$400,*others,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+riposte,https://github.com/fwkz/riposte/tree/master/riposte/command.py,Command,_apply_guides$67,*value,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+primerpython,https://github.com/Helpsypoo/primerpython/tree/master/blender_scripts/tools/drawn_market.py,DrawnAgent,make_display$98,*display_bobjects,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+UvSquares,https://github.com/Radivarig/UvSquares/tree/master//uv_squares.py,,FollowActiveUV$312,*f_triple,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/eoc/chapter6.py,RelatedRatesExample,take_derivative_of_rhs$950,"*self.get_added_anims_for_ladder_fall() + [Animation(self.dy_group), Animation(self.dx_group)]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+caer,https://github.com/jasmcaus/caer/tree/master/examples/GUI/caer_gui.py,,main$470,*anchorChoices,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nova,https://github.com/openstack/nova/tree/master/nova/tests/unit/virt/vmwareapi/fake.py,FakeVim,__getattr__$1579,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+dask,https://github.com/dask/dask/tree/master/dask/bytes/tests/test_s3.py,,test_compression$382,*concat(values),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+wagtail,https://github.com/wagtail/wagtail/tree/master/wagtail/images/views/bulk_actions/add_to_collection.py,CollectionForm,__init__$9,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/256.py,BreakUp2To256,reorganize_four_billions$133,*[se[i] for se in self.subexpressions],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+weblate,https://github.com/WeblateOrg/weblate/tree/master/weblate/trans/tasks.py,,perform_push$114,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sympy,https://github.com/sympy/sympy/tree/master/sympy/printing/tests/test_theanocode.py,,test_BlockMatrix_Inverse_execution$442,*x.shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+asynq,https://github.com/quora/asynq/tree/master/asynq/decorators.py,PureAsyncDecorator,_fn_wrapper$122,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+py2neo,https://github.com/py2neo-org/py2neo/tree/master/py2neo/addressing.py,IPv6Address,__str__$120,*self,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+addons,https://github.com/tensorflow/addons/tree/master/tensorflow_addons/text/tests/crf_test.py,,test_crf_multi_tag_sequence_score$151,*all_indices_list,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+dragonfly,https://github.com/dragonfly/dragonfly/tree/master/dragonfly/opt/gp_bandit.py,CPGPBandit,_get_initial_qinfos$906,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+checkmk,https://github.com/tribe29/checkmk/tree/master/cmk/base/plugins/agent_based/utils/temperature.py,,check_temperature$250,*(result.state for result in dev_results),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+wagtail,https://github.com/wagtail/wagtail/tree/master/wagtail/contrib/routable_page/models.py,RoutablePageMixin,index_route$39,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pygraphistry,https://github.com/graphistry/pygraphistry/tree/master/graphistry/tests/test_compute.py,CGFull,__init__$18,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mlflow,https://github.com/mlflow/mlflow/tree/master/mlflow/spark.py,,__init__$996,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nnabla,https://github.com/sony/nnabla/tree/master/python/test/function/test_add_n.py,,test_add_n_active_inputs$66,"*[nn.Variable.from_numpy_array(inp).apply(need_grad=True) for (act, inp) in zip(active, inputs) if act]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+numpy,https://github.com/numpy/numpy/tree/master/numpy/core/tests/test_multiarray.py,TestChoose,test_output_dtype$7283,*ops,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+xonsh,https://github.com/xonsh/xonsh/tree/master/xonsh/lazyasd.py,BackgroundModuleLoader,__init__$282,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/leibniz.py,FactorizationPattern,show_three_mod_four_primes$2256,*[Dot(self.number_line.number_to_point(prime)) for prime in primes],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Neuraxle,https://github.com/Neuraxio/Neuraxle/tree/master/neuraxle/steps/flow.py,ExecutionPhaseSwitch,__init__$197,*phase_to_callable.items(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+freeipa,https://github.com/freeipa/freeipa/tree/master/ipaserver/plugins/dns.py,dnsrecord_mod,args_options_2_entry$3726,*keys,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+klio,https://github.com/spotify/klio/tree/master/lib/src/klio/transforms/decorators.py,,func_wrapper$529,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+modin,https://github.com/modin-project/modin/tree/master/modin/core/dataframe/pandas/partitioning/axis_partition.py,PandasDataframeAxisPartition,apply$31,*tuple(self.list_of_blocks + [part for axis_partition in other_axis_partition for part in axis_partition.list_of_blocks]),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+colour,https://github.com/colour-science/colour/tree/master/colour/io/luts/resolve_cube.py,,_format_array$319,*array,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Gradient-Free-Optimizers,https://github.com/SimonBlanke/Gradient-Free-Optimizers/tree/master/tests/test_optimizers/test_results.py,,test_results_0$8,*optimizers,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+neutron,https://github.com/openstack/neutron/tree/master/neutron/tests/unit/db/test_db_base_plugin_v2.py,TestSubnetsV2,test_create_subnets_bulk_emulated_plugin_failure$3532,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+s3prl,https://github.com/s3prl/s3prl/tree/master/s3prl/upstream/interfaces.py,UpstreamBase,__call__$100,*hook_hiddens,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+R-Drop,https://github.com/dropreg/R-Drop/tree/master/huggingface_transformer_src/src/transformers/models/distilbert/modeling_tf_distilbert.py,TFDistilBertForSequenceClassification,__init__$744,*inputs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+multiview-human-pose-estimation-pytorch,https://github.com/microsoft/multiview-human-pose-estimation-pytorch/tree/master/lib/models/pose_resnet.py,PoseResNet,_make_layer$133,*layers,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mitmproxy,https://github.com/mitmproxy/mitmproxy/tree/master/test/mitmproxy/tools/console/test_commander.py,,commander_tctx$10,*[f'confdir={confdir}'],"
+f'confdir={confdir}'
+"
+neon,https://github.com/NervanaSystems/neon/tree/master/neon/backends/nervanagpu.py,NervanaGPU,xnor_compound_dot$1766,*xnor_params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nucypher,https://github.com/nucypher/nucypher/tree/master/nucypher/utilities/gas_strategies.py,,web3_gas_strategy_wrapper$85,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sockeye,https://github.com/awslabs/sockeye/tree/master/sockeye/arguments.py,ConfigArgumentParser,_new_add_argument$56,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+boofuzz,https://github.com/jtpereyda/boofuzz/tree/master/boofuzz/monitors/pedrpc.py,Server,serve_forever$316,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+chalice,https://github.com/aws/chalice/tree/master/tests/unit/test_local.py,TestLambdaContext,test_can_get_remaining_time_once$748,*lambda_context_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+flax,https://github.com/google/flax/tree/master/flax/core/lift.py,,vjp$302,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pennylane,https://github.com/PennyLaneAI/pennylane/tree/master/tests/optimize/test_rotosolve.py,TestWithClassicalFunction,_fun$199,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pretix,https://github.com/pretix/pretix/tree/master/src/pretix/base/views/tasks.py,AsyncFormView,get$254,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+3d-vehicle-tracking,https://github.com/ucbdrive/3d-vehicle-tracking/tree/master/3d-tracking/lib/model/faster_rcnn/vgg16.py,vgg16,_init_modules$28,*list(vgg.features._modules.values())[:-1],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+zerorpc-python,https://github.com/0rpc/zerorpc-python/tree/master/zerorpc/core.py,Puller,__call__$345,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+flask-mongorest,https://github.com/closeio/flask-mongorest/tree/master/flask_mongorest/resources.py,Resource,apply_ordering$813,*order_params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PlainTasks,https://github.com/aziz/PlainTasks/tree/master//plist_parser.py,XmlPropertyListParser,_parse_date$185,*components,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+R-Drop,https://github.com/dropreg/R-Drop/tree/master/huggingface_transformer_src/src/transformers/benchmark/benchmark_utils.py,,separate_process_wrapper_fn$76,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+kornia,https://github.com/kornia/kornia/tree/master/docs/generate_example_images.py,,main$32,*args_in,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+imbalanced-learn,https://github.com/scikit-learn-contrib/imbalanced-learn/tree/master/imblearn/metrics/_classification.py,,compute_score$785,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+CenterPoint,https://github.com/tianweiy/CenterPoint/tree/master/det3d/models/roi_heads/roi_head_template.py,RoIHeadTemplate,make_fc_layers$27,*fc_layers,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pyradio,https://github.com/coderholic/pyradio/tree/master/pyradio/radio.py,PyRadio,_rename_playlist_from_normal_mode$6716,*last_history,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+celery,https://github.com/celery/celery/tree/master/t/integration/test_canvas.py,test_chord,test_simple_chord_with_a_delay_in_group_save$1212,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+exabgp,https://github.com/Exa-Networks/exabgp/tree/master/src/exabgp/configuration/configuration.py,Configuration,__init__$107,*params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+django,https://github.com/django/django/tree/master/django/utils/deprecation.py,RenameMethodsBase,__new__$47,*renamed_method,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+astropy,https://github.com/astropy/astropy/tree/master/astropy/utils/data_info.py,BaseColumnInfo,adjust_indices$620,*t,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+CPM-1-Generate,https://github.com/TsinghuaAI/CPM-1-Generate/tree/master/mpu/transformer.py,BertParallelSelfAttention,forward$526,*new_context_layer_shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mimesis,https://github.com/lk-geimfari/mimesis/tree/master/mimesis/providers/payment.py,Payment,__init__$24,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+qutip,https://github.com/qutip/qutip/tree/master/qutip/tests/test_random.py,,test_rand_oper_dims$176,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sdc,https://github.com/IntelPython/sdc/tree/master/sdc/tests/tests_perf/test_perf_series_rolling.py,TestSeriesRollingMethods,_test_case$101,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+bonobo,https://github.com/python-bonobo/bonobo/tree/master/bonobo/nodes/basics.py,,wrapped$64,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+adapter-transformers,https://github.com/Adapter-Hub/adapter-transformers/tree/master/src/transformers/models/roformer/modeling_tf_roformer.py,TFRoFormerForCausalLM,__init__$937,*inputs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+shuup,https://github.com/shuup/shuup/tree/master/shuup/campaigns/admin_module/forms/_basket_conditions.py,ProductsInBasketConditionForm,__init__$48,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+yt-dlp,https://github.com/yt-dlp/yt-dlp/tree/master/yt_dlp/utils.py,,urlencode_postdata$4342,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+CellProfiler,https://github.com/CellProfiler/CellProfiler/tree/master/tests/modules/test_exporttodatabase.py,TestExportToDatabase,interaction_handler$2468,*args[1:],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pygmt,https://github.com/GenericMappingTools/pygmt/tree/master/pygmt/helpers/decorators.py,,deprecator$782,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+cupy,https://github.com/cupy/cupy/tree/master/tests/cupy_tests/core_tests/fusion_tests/fusion_utils.py,,wrapper$93,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+coq_nvim,https://github.com/ms-jpq/coq_nvim/tree/master/coq/shared/sql.py,,cont$32,*paths,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+matplotlib,https://github.com/matplotlib/matplotlib/tree/master/lib/matplotlib/pyplot.py,,set_loglevel$174,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sympy,https://github.com/sympy/sympy/tree/master/sympy/printing/codeprinter.py,CodePrinter,doprint$104,"*[_handle_assign_to(lhs, rhs) for (lhs, rhs) in zip(expr, assign_to)]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mars,https://github.com/mars-project/mars/tree/master/mars/services/web/core.py,,wrapper$57,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+poutyne,https://github.com/GRAAL-Research/poutyne/tree/master/poutyne/framework/callbacks/policies.py,Phase,__iter__$111,*self.configuration.values(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jax,https://github.com/google/jax/tree/master/jax/_src/numpy/lax_numpy.py,,_call$6502,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+seahub,https://github.com/haiwen/seahub/tree/master/seahub/api2/endpoints/file_tag.py,,check_parameter$153,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+transformers,https://github.com/huggingface/transformers/tree/master/examples/flax/language-modeling/run_clm_flax.py,,main$322,*examples[k],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+KivyMD,https://github.com/kivymd/KivyMD/tree/master/kivymd/uix/behaviors/hover_behavior.py,HoverBehavior,on_mouse_update$142,*pos,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+flask-cors,https://github.com/corydolphin/flask-cors/tree/master/tests/base_test.py,FlaskCorsTestCase,get$49,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+ds4drv,https://github.com/chrippa/ds4drv/tree/master/ds4drv/__main__.py,DS4Controller,exit$112,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sunpy,https://github.com/sunpy/sunpy/tree/master/sunpy/map/mapbase.py,GenericMap,top_right_coord$992,*top_right,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+dm-haiku,https://github.com/deepmind/dm-haiku/tree/master/haiku/_src/layer_norm_test.py,,with_param_axis_error$31,*a,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sdc,https://github.com/IntelPython/sdc/tree/master/sdc/tests/indexes/test_positional_index.py,TestPositionalIndex,test_positional_index_attribute_values$163,*params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tfc,https://github.com/maqp/tfc/tree/master/tests/transmitter/test_commands.py,TestChangeSetting,test_individual_settings$858,*self.args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+TransTrack,https://github.com/PeizeSun/TransTrack/tree/master/util/misc.py,NestedTensor,record_stream$345,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+anaconda,https://github.com/DamnWidget/anaconda/tree/master/anaconda_lib/autopep/autopep8_lib/lib2to3/fixes/fix_exitfunc.py,FixExitfunc,__init__$30,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/mug.py,LightUpNodes,describe_one_as_lit$1071,"*it.chain(houses, utilities)","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sphinx,https://github.com/sphinx-doc/sphinx/tree/master/tests/test_templating.py,,test_autosummary_class_template_overloading$20,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+patator,https://github.com/lanjelot/patator/tree/master//patator.py,Controller,produce$1867,*pset,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+icevision,https://github.com/airctic/icevision/tree/master/icevision/models/ultralytics/yolov5/model.py,,model$19,*neck,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+numpy,https://github.com/numpy/numpy/tree/master/numpy/core/tests/test_deprecations.py,_DeprecationTestCase,assert_deprecated$52,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gef,https://github.com/hugsy/gef/tree/master//gef.py,,decorator$462,*argname,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+SfmLearner-Pytorch,https://github.com/ClementPinard/SfmLearner-Pytorch/tree/master//test_pose.py,,main$33,*std_errors,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gan-compression,https://github.com/mit-han-lab/gan-compression/tree/master/distillers/base_resnet_distiller.py,BaseResnetDistiller,__init__$41,*G_params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+opendevops,https://github.com/opendevops-cn/opendevops/tree/master/scripts/tornado_source_code/tornado/httputil.py,HTTPHeaders,__init__$148,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+CausalDiscoveryToolbox,https://github.com/FenTechSolutions/CausalDiscoveryToolbox/tree/master/cdt/causality/graph/SAM.py,SAM,orient_directed_graph$566,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mmdetection3d,https://github.com/open-mmlab/mmdetection3d/tree/master/mmdet3d/core/evaluation/kitti_utils/eval.py,,print_str$587,*arg,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+salt,https://github.com/saltstack/salt/tree/master/salt/modules/freebsdpkg.py,,version$218,*names,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2020/med_test.py,NewSnazzyBayesRuleSteps,construct$3785,"*(multiplication[i] for i in [0, 2, 3])","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+geonotebook,https://github.com/OpenGeoscience/geonotebook/tree/master/geonotebook/vis/ktile/vrt/gdalvrtbindings.py,SimpleSourceType,factory$3976,*args_,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pandas,https://github.com/pandas-dev/pandas/tree/master/pandas/tests/strings/test_api.py,,test_api_for_categorical$128,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+asv,https://github.com/airspeed-velocity/asv/tree/master/asv/benchmark.py,Benchmark,method_caller$576,*params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nova,https://github.com/openstack/nova/tree/master/nova/volume/cinder.py,,translate_mixed_exceptions$471,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2018/eop/combinations.py,SumsToPowerOf2,show_alternate_sum$3408,*fractions[4:-1],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Multi-Label-Text-Classification,https://github.com/RandolphVI/Multi-Label-Text-Classification/tree/master/HAN/test_han.py,,test_han$32,*batch_test,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+angr,https://github.com/angr/angr/tree/master/angr/engines/vex/light/light.py,VEXMixin,_analyze_vex_stmt_LoadG_alt$279,*a,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+AnimationsWithManim,https://github.com/Elteoremadebeethoven/AnimationsWithManim/tree/master/English/update_successions/dt_parameter.py,OrderMobjects,construct$4,"*[mob.set_height(4) for mob in [Square(), Circle(), Triangle()]]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+falcon,https://github.com/falconry/falcon/tree/master/tests/test_media_handlers.py,,test_deserialization$95,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gnes,https://github.com/gnes-ai/gnes/tree/master/gnes/helper.py,,batching$413,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+torchprof,https://github.com/awwong1/torchprof/tree/master/torchprof/display.py,,traces_to_display$130,*[heading] + format_lines,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+edx-platform,https://github.com/edx/edx-platform/tree/master/lms/djangoapps/course_blocks/transformers/tests/test_user_partitions.py,UserPartitionTransformerTestCase,test_transform$213,*expected_blocks,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Mathics,https://github.com/mathics/Mathics/tree/master/mathics/builtin/drawing/plot.py,_Plot,apply$380,*options_to_rules(options),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+quart,https://github.com/pgjones/quart/tree/master/src/quart/views.py,View,as_view$54,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+skidl,https://github.com/devbisme/skidl/tree/master/skidl/skidlbaseobj.py,SkidlBaseObject,_exec_erc_functions$163,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+salt,https://github.com/saltstack/salt/tree/master/salt/modules/at_solaris.py,,atq$44,"*time.strptime(timestr, '%b %d, %Y %H:%M')[0:5]","
+time.strptime(timestr, '%b %d, %Y %H:%M')[0], time.strptime(timestr, '%b %d, %Y %H:%M')[1], time.strptime(timestr, '%b %d, %Y %H:%M')[2], time.strptime(timestr, '%b %d, %Y %H:%M')[3], time.strptime(timestr, '%b %d, %Y %H:%M')[4]
+"
+salt,https://github.com/saltstack/salt/tree/master/tests/unit/modules/test_linux_acl.py,LinuxAclTestCase,test_modfacl_wo_args$109,*acl,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mechanize,https://github.com/python-mechanize/mechanize/tree/master/test/test_urllib2_localnet.py,ProxyAuthTests,create_fake_proxy_handler$265,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nnabla,https://github.com/sony/nnabla/tree/master/python/test/function/test_fused_batch_normalization.py,,test_fused_batch_normalization_forward_backward$145,"*inputs + [axes, decay_rate, eps, batch_stat, nonlinearity, output_stat]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+metric-learn,https://github.com/scikit-learn-contrib/metric-learn/tree/master/test/test_mahalanobis_mixin.py,,test_get_metric_is_pseudo_metric$225,"*remove_y(estimator, input_data, labels)","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+eo-learn,https://github.com/sentinel-hub/eo-learn/tree/master/core/eolearn/core/eoworkflow.py,EOWorkflow,_parse_dependencies$74,*dep,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+river,https://github.com/online-ml/river/tree/master/river/tree/nodes/branch.py,NumericMultiwayBranch,__init__$121,*children,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jupyterlite,https://github.com/jupyterlite/jupyterlite/tree/master/py/jupyterlite/src/jupyterlite/tests/test_cli.py,,test_cli_version$61,*lite_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+scrapy,https://github.com/scrapy/scrapy/tree/master/scrapy/extensions/feedexport.py,FeedExporter,_get_exporter$499,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sympy,https://github.com/sympy/sympy/tree/master/sympy/integrals/integrals.py,Integral,doit$380,*_sum.limits,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+adapter-transformers,https://github.com/Adapter-Hub/adapter-transformers/tree/master/src/transformers/models/albert/modeling_tf_albert.py,TFAlbertForQuestionAnswering,__init__$1276,*inputs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gpytorch,https://github.com/cornellius-gp/gpytorch/tree/master/gpytorch/kernels/polynomial_kernel_grad.py,PolynomialKernelGrad,forward$11,*batch_shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+horizon,https://github.com/openstack/horizon/tree/master/horizon/utils/memoized.py,,decorate$65,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2016/brachistochrone/light.py,GeometryOfGlassSituation,construct$438,*pair,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nni,https://github.com/microsoft/nni/tree/master/examples/trials/pix2pix-pytorch/pix2pix.py,,main$129,*train_params.values(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2019/hyperdarts.py,IntroduceGame,show_board_dimensions$2450,"*[TexText('2 ft').next_to(square.get_edge_center(vect), vect) for vect in [DOWN, RIGHT]]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+you-get,https://github.com/soimort/you-get/tree/master/src/you_get/util/log.py,,print_err$68,*colors,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+zhusuan,https://github.com/thu-ml/zhusuan/tree/master/examples/toy_examples/toy2d_intractable.py,,if_main_my$33,*ylimits,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+edx-platform,https://github.com/edx/edx-platform/tree/master/lms/djangoapps/certificates/apis/v0/tests/test_views.py,CertificatesListRestApiTest,test_another_user_with_certs_shared_custom$257,*list(AuthType),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/leibniz.py,IntroduceComplexConjugate,show_confusion$1510,"*list(map(FadeIn, [randy, morty]))","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+keras,https://github.com/keras-team/keras/tree/master/keras/engine/training_generator_test.py,TestGeneratorMethods,test_generator_dynamic_shapes$324,*[i.split() for i in x],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+freezegun,https://github.com/spulec/freezegun/tree/master/freezegun/api.py,_freeze_time,wrapper$779,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+clize,https://github.com/epsy/clize/tree/master/clize/tests/test_help.py,,clize_helper_class$23,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sopel,https://github.com/sopel-irc/sopel/tree/master/sopel/plugins/rules.py,Manager,get_triggered_rules$399,*nick_rules,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+buildbot,https://github.com/buildbot/buildbot/tree/master/master/buildbot/test/unit/worker/test_ec2.py,TestEC2LatentWorker,fake_describe_spot_instance_requests$108,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+chainer,https://github.com/chainer/chainer/tree/master/chainer/functions/array/tile.py,Tile,forward$30,*inputs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nanodet,https://github.com/RangiLyu/nanodet/tree/master/nanodet/data/transform/color.py,,color_aug_and_norm$55,*kwargs['normalize'],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+captum,https://github.com/pytorch/captum/tree/master/tests/attr/test_kernel_shap.py,Test,test_multi_inp_kernel_shap_scalar_float$327,*inp,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+cupy,https://github.com/cupy/cupy/tree/master/cupy/_core/_fusion_op.py,_ElementwiseTraceOp,__init__$89,*in_params,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+indico,https://github.com/indico/indico/tree/master/indico/modules/rb/event/forms.py,BookingListForm,__init__$23,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tortoise-orm,https://github.com/tortoise/tortoise-orm/tree/master/tortoise/expressions.py,Aggregate,_get_function_field$502,*default_values,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gallery-dl,https://github.com/mikf/gallery-dl/tree/master/gallery_dl/postprocessor/zip.py,ZipPP,write$47,*self.args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+koalas,https://github.com/databricks/koalas/tree/master/databricks/koalas/groupby.py,GroupBy,idxmax$1471,*groupkey_names,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+diffy,https://github.com/Netflix-Skunkworks/diffy/tree/master/diffy_api/common/util.py,,decorator$57,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+adminset,https://github.com/guohongze/adminset/tree/master/setup/forms.py,PeriodicTaskForm,__init__$63,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+salt,https://github.com/saltstack/salt/tree/master/salt/ext/tornado/ioloop.py,IOLoop,add_timeout$476,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+brevitas,https://github.com/Xilinx/brevitas/tree/master/src/brevitas/export/manager.py,_JitTraceExportWrapper,forward$25,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+parameterized,https://github.com/wolever/parameterized/tree/master/parameterized/parameterized.py,,getargspec$58,*args[:4],"
+args[0], args[1], args[2], args[3]
+"
+freeipa,https://github.com/freeipa/freeipa/tree/master/ipalib/frontend.py,Command,__call__$461,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tensorpack,https://github.com/tensorpack/tensorpack/tree/master/tensorpack/callbacks/inference_runner.py,DataParallelInferenceRunner,_build_hook_parallel$274,*[t.get_tensors(out_names) for t in self._handles],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PhiFlow,https://github.com/tum-pbs/PhiFlow/tree/master/phi/math/_functional.py,LinearFunction,_trace$202,*f_input,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+metric-learn,https://github.com/scikit-learn-contrib/metric-learn/tree/master/test/test_mahalanobis_mixin.py,,test_pair_distance_toy_example$75,"*remove_y(estimator, input_data, labels)","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nova,https://github.com/openstack/nova/tree/master/nova/tests/functional/regressions/test_bug_1879878.py,TestCrossCell,test_migrate_confirm$242,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pefile,https://github.com/erocarrera/pefile/tree/master//pefile.py,,wrapper$58,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+TSD,https://github.com/Sense-X/TSD/tree/master/mmdet/models/detectors/two_stage.py,TwoStageDetector,forward_train$142,*bbox_targets,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+neural-backed-decision-trees,https://github.com/alvinwan/neural-backed-decision-trees/tree/master/nbdt/data/imagenet.py,_Imagenet1000Train,__init__$188,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+fairseq,https://github.com/pytorch/fairseq/tree/master/examples/speech_synthesis/generate_waveform.py,,main$126,*result,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2021/quick_eigen.py,PauliMatrices,get_lhss_and_matrices$1899,*colors,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+llvmlite,https://github.com/numba/llvmlite/tree/master/ffi/build.py,,find_windows_generator$56,*generator,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+googleads-python-lib,https://github.com/googleads/googleads-python-lib/tree/master/googleads/common.py,,RegisterUtility$363,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+chainer,https://github.com/chainer/chainer/tree/master/tests/chainer_tests/functions_tests/pooling_tests/test_unpooling_nd.py,,xs_iter$15,*[range(d) for d in dims],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+napari,https://github.com/napari/napari/tree/master/napari/_vendor/experimental/cachetools/cachetools/decorators.py,,cachedmethod$47,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2020/med_test.py,ContrastTwoFormulas,construct$4957,"*(get_covid_clipboard('Disease').set_height(1.5).next_to(rect, DOWN) for rect in new_bf_rects)","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+FeelUOwn,https://github.com/feeluown/FeelUOwn/tree/master//mpv_old.py,ErrorCode,raise_for_ec$123,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+NeoVintageous,https://github.com/NeoVintageous/NeoVintageous/tree/master/tests/nv/vi/test_text_objects__find_paragraph_text_object.py,Test_find_paragraph_text_object,runTests$70,*td.expected_region,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nextcord,https://github.com/nextcord/nextcord/tree/master/nextcord/ext/commands/core.py,,hooked_wrapped_callback$139,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sg2im,https://github.com/google/sg2im/tree/master/sg2im/layers.py,,build_cnn$129,*layers,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+quodlibet,https://github.com/quodlibet/quodlibet/tree/master/quodlibet/packages/raven/breadcrumbs.py,,send$294,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tensorpack,https://github.com/tensorpack/tensorpack/tree/master/tensorpack/callbacks/graph.py,CheckNumerics,_get_op$238,*ops,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+socorro,https://github.com/mozilla-services/socorro/tree/master/webapp-django/crashstats/api/views.py,,handle_ratelimit$474,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tvm,https://github.com/apache/tvm/tree/master/python/tvm/target/datatype.py,,create_lower_func$272,*op.args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+skidl,https://github.com/devbisme/skidl/tree/master/skidl/logger.py,SkidlLogFileHandler,__init__$52,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jedi-vim,https://github.com/davidhalter/jedi-vim/tree/master/pythonx/jedi_vim.py,,goto$409,*pos,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pyGAM,https://github.com/dswah/pyGAM/tree/master/pygam/tests/test_terms.py,,der1$278,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2020/hamming.py,TripleRedundancy,construct$588,*[zap_anim(f) for f in flippers],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+neon,https://github.com/NervanaSystems/neon/tree/master/neon/backends/layer_gpu.py,ConvLayer,__init__$360,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+fonttools,https://github.com/fonttools/fonttools/tree/master/Lib/fontTools/cu2qu/cu2qu.py,,cubic_approx_spline$310,*next_cubic,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/outside_videos/merch_designs.py,SquareWave,construct$54,"*[FunctionGraph(lambda x: self.approx_square_wave(x, L, n_terms), x_range=[-2 * L, 2 * L, L / 50]) for n_terms in range(1, 5)]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+conifer,https://github.com/Rhizome-Conifer/conifer/tree/master/webrecorder/webrecorder/models/recording.py,Recording,init_new$100,*ra_list,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tutor,https://github.com/overhangio/tutor/tree/master/tutor/commands/compose.py,ComposeJobRunner,run_job$87,*run_command,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+fonttools,https://github.com/fonttools/fonttools/tree/master/Lib/fontTools/misc/bezierTools.py,,splitQuadratic$422,*solutions,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PaddleClas,https://github.com/PaddlePaddle/PaddleClas/tree/master/ppcls/utils/logger.py,,log_at_trainer0$88,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jcvi,https://github.com/tanghaibao/jcvi/tree/master/jcvi/compara/fractionation.py,,estimate_size$120,*accns,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tvm,https://github.com/apache/tvm/tree/master/tests/python/relay/test_op_level1.py,TestUnaryOp,test_unary_op$75,*shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pyrsistent,https://github.com/tobgu/pyrsistent/tree/master/pyrsistent/_pmap.py,PMap,update$210,*maps,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+psutil,https://github.com/giampaolo/psutil/tree/master/psutil/_pssunos.py,,cpu_times$172,*[sum(x) for x in zip(*ret)],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+strawberryfields,https://github.com/XanaduAI/strawberryfields/tree/master/strawberryfields/backends/tfbackend/ops.py,,gaussian_gate_matrix$556,"*choi_trick(S_, d_)","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jax,https://github.com/google/jax/tree/master/tests/batching_test.py,BatchingTest,testPdotJvp$1134,*y.shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nni,https://github.com/microsoft/nni/tree/master/nni/algorithms/hpo/metis_tuner/lib_acquisition_function.py,,next_hyperparameter_lowest_confidence$88,*fun_prediction_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+fonttools,https://github.com/fonttools/fonttools/tree/master/Lib/fontTools/pens/wxPen.py,WxPen,_qCurveToOne$25,*p1 + p2,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/nn/part2.py,ShowFullCostFunctionGradient,organize_weights_as_column_vector$1979,"*it.chain(decimals[:3], [dots] * (len(edges) - 6), decimals[-3:])","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+platformio-core,https://github.com/platformio/platformio-core/tree/master/platformio/proc.py,,exec_command$107,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+security_monkey,https://github.com/Netflix/security_monkey/tree/master/security_monkey/watchers/vpc/vpc.py,VPC,__init__$34,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+modin,https://github.com/modin-project/modin/tree/master/modin/pandas/test/dataframe/test_map_metadata.py,,test_dropna_subset_error$919,*create_test_dfs(data),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pytorch_geometric,https://github.com/pyg-team/pytorch_geometric/tree/master/torch_geometric/data/temporal.py,TemporalData,apply$84,*keys,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mmtracking,https://github.com/open-mmlab/mmtracking/tree/master/mmtrack/models/track_heads/roi_track_head.py,RoITrackHead,_track_forward_train$148,*track_targets,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+zarr-python,https://github.com/zarr-developers/zarr-python/tree/master/zarr/convenience.py,_LogWriter,__call__$503,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pysc2,https://github.com/deepmind/pysc2/tree/master/pysc2/env/base_env_wrapper.py,BaseEnvWrapper,observation_spec$31,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+texar-pytorch,https://github.com/asyml/texar-pytorch/tree/master/texar/torch/run/metric/classification.py,F1,_value$329,*Precision._value(self),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+lupa,https://github.com/scoder/lupa/tree/master/lupa/tests/test.py,TestLuaRuntime,test_table_from_dicts_and_lists$545,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+core,https://github.com/home-assistant/core/tree/master/homeassistant/components/sonos/helpers.py,,soco_error$27,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+open_model_zoo,https://github.com/openvinotoolkit/open_model_zoo/tree/master/tools/model_tools/src/openvino/model_zoo/_reporting.py,Reporter,print_progress$93,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+vispy,https://github.com/vispy/vispy/tree/master/examples/basics/visuals/mesh.py,Canvas,on_draw$109,*self.physical_size,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+klio,https://github.com/spotify/klio/tree/master/exec/src/klio_exec/commands/utils/wrappers.py,KLineProfilerMixin,wrap_generator$108,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+django-auditlog,https://github.com/jazzband/django-auditlog/tree/master/auditlog/receivers.py,,wrapper$19,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+sentry,https://github.com/getsentry/sentry/tree/master/src/sentry/models/group.py,Group,save$465,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pynvim,https://github.com/neovim/pynvim/tree/master/pynvim/plugin/host.py,Host,_load$151,*info,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+planet,https://github.com/google-research/planet/tree/master/planet/tools/nested.py,,map_$48,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+keras,https://github.com/keras-team/keras/tree/master/keras/engine/ragged_keras_tensor_test.py,RaggedKerasTensorTest,test_instance_method$156,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+breathe,https://github.com/michaeljones/breathe/tree/master/breathe/parser/compoundsuper.py,docLanguageType,factory$5261,*args_,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+SlowFast,https://github.com/facebookresearch/SlowFast/tree/master/slowfast/visualization/ava_demo_precomputed_boxes.py,,load_boxes_labels$390,*boxes_and_labels,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Multi-Camera-Live-Object-Tracking,https://github.com/LeonLok/Multi-Camera-Live-Object-Tracking/tree/master/object_counting/yolo4/model.py,,DarknetConv2D$48,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pyscaffold,https://github.com/pyscaffold/pyscaffold/tree/master/tests/test_log.py,,format$325,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+MONAI,https://github.com/Project-MONAI/MONAI/tree/master/monai/networks/layers/spatial_transforms.py,_GridCount,backward$235,*opt,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+structure_knowledge_distillation,https://github.com/irfanICMLL/structure_knowledge_distillation/tree/master/networks/sagan_models.py,Generator,__init__$46,*layer3,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pandas,https://github.com/pandas-dev/pandas/tree/master/pandas/util/_decorators.py,,wrapper$345,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+scipy,https://github.com/scipy/scipy/tree/master/scipy/interpolate/tests/test_rbfinterp.py,TestRBFInterpolatorNeighborsNone,build$381,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+vision,https://github.com/pytorch/vision/tree/master/torchvision/models/quantization/inception.py,QuantizableBasicConv2d,__init__$27,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+djongo,https://github.com/nesdis/djongo/tree/master/tests/django_tests/tests/v22/tests/view_tests/views.py,,sensitive_kwargs_function_caller$183,*exc_info,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+zipline,https://github.com/quantopian/zipline/tree/master/zipline/pipeline/filters/filter.py,ArrayPredicate,_compute$580,*params['opargs'],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+GitSavvy,https://github.com/timbrel/GitSavvy/tree/master/tests/mockito/mockito.py,,_get_wanted_verification$53,*between,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+consoleme,https://github.com/Netflix/consoleme/tree/master/consoleme/lib/redis.py,ConsoleMeRedis,hmset$156,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Django-3-by-Example,https://github.com/PacktPublishing/Django-3-by-Example/tree/master/Chapter14/educa/courses/views.py,ContentCreateUpdateView,get_form$101,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+xalpha,https://github.com/refraction-ray/xalpha/tree/master/xalpha/universal.py,,wrapper$1898,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2016/eola/chapter10.py,SymbolicEigenvectors,rewrite_righthand_side$765,"*[matrix.get_mob_matrix()[i, i] for i in range(3)]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tvm,https://github.com/apache/tvm/tree/master/tests/python/relay/test_op_level3.py,,verify_adv_index$1806,*np_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+semshi,https://github.com/numirias/semshi/tree/master/rplugin/python3/semshi/util.py,,wrapper$17,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mathematics_dataset,https://github.com/deepmind/mathematics_dataset/tree/master/mathematics_dataset/modules/probability.py,,_swr_space$191,*sample_range,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+adminset,https://github.com/guohongze/adminset/tree/master/elfinder/utils/archivers.py,ZipFileArchiver,__init__$11,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+AnimationsWithManim,https://github.com/Elteoremadebeethoven/AnimationsWithManim/tree/master/math_capsules/sine_cosine_laws.py,SineCosineLaws,cosine_law_B$790,"*[TransformFromCopy(f[3][i], f[4][j]) for (i, j) in zip(range(11), range(11))]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pydruid,https://github.com/druid-io/pydruid/tree/master/pydruid/db/api.py,,check_result$67,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+opt_einsum,https://github.com/dgasmith/opt_einsum/tree/master/opt_einsum/backends/theano.py,,theano_contract$37,"*[x for x in arrays if not isinstance(x, theano.tensor.TensorConstant)]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+allennlp,https://github.com/allenai/allennlp/tree/master/allennlp/fairness/adversarial_bias_mitigator.py,AdversarialBiasMitigator,make_output_human_readable$152,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+NeoVintageous,https://github.com/NeoVintageous/NeoVintageous/tree/master/nv/vi/cmd_defs.py,ViGotoOpeningBrace,__init__$2413,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+opsmop,https://github.com/opsmop/opsmop/tree/master/opsmop/core/resource.py,Resource,__init__$23,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+MatchZoo-py,https://github.com/NTMC-Community/MatchZoo-py/tree/master/matchzoo/models/hbmp.py,HBMP,forward$83,*state_shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+fvcore,https://github.com/facebookresearch/fvcore/tree/master/tests/test_transform.py,TestTransforms,test_scale_seg_transforms$969,*param,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+GlobaLeaks,https://github.com/globaleaks/GlobaLeaks/tree/master/backend/globaleaks/orm.py,,db_query$109,*filter,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+picard,https://github.com/metabrainz/picard/tree/master/picard/script/functions.py,,func_div$572,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+astropy,https://github.com/astropy/astropy/tree/master/astropy/wcs/wcsapi/high_level_api.py,BaseHighLevelWCS,world_to_array_index$102,*world_objects,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/leibniz.py,IntroduceGaussianPrimes,construct$1958,*[m.restore for m in movers],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+ibis,https://github.com/ibis-project/ibis/tree/master/ibis/backends/dask/trace.py,,trace$108,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+open_model_zoo,https://github.com/openvinotoolkit/open_model_zoo/tree/master/demos/common/python/openvino/model_zoo/model_api/models/centernet.py,CenterNet,max_pool2d$147,*kernel_size,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+lbry-sdk,https://github.com/lbryio/lbry-sdk/tree/master/lbry/wallet/server/db/prefixes.py,ClaimTakeoverPrefixRow,unpack_value$911,*super().unpack_value(data),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+awx,https://github.com/ansible/awx/tree/master/awx/api/generics.py,SubListCreateAttachDetachAPIView,post$742,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+exbert,https://github.com/bhoov/exbert/tree/master/server/transformers/templates/adding_a_new_model/tests/test_modeling_tf_xxx.py,TFXxxModelTest,test_for_masked_lm$233,*config_and_inputs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+ibis,https://github.com/ibis-project/ibis/tree/master/ibis/backends/dask/udf.py,,execute_udaf_node_no_groupby$106,*series[1:],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pylearn2,https://github.com/lisa-lab/pylearn2/tree/master/pylearn2/optimization/minres.py,,minres$31,*vs,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2019/diffyq/part4/fourier_series_scenes.py,RealValuedFunctionFourierSeries,focus_on_vector_pair$333,"*[SurroundingRectangle(VGroup(top_circles[i], labels[i])) for i in pair]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+SublimeLinter,https://github.com/SublimeLinter/SublimeLinter/tree/master/tests/parameterized/parameterized.py,param,explicit$67,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+mypy,https://github.com/python/mypy/tree/master/test-data/stdlib-samples/3.2/test/support.py,,inner$996,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+dask,https://github.com/dask/dask/tree/master/dask/dataframe/core.py,,elemwise$6140,*parts,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+moses,https://github.com/molecularsets/moses/tree/master/moses/utils.py,StringDataset,default_collate$273,*batch,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tahoe-lafs,https://github.com/tahoe-lafs/tahoe-lafs/tree/master/src/allmydata/util/eliotutil.py,,logged_f$323,*a,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+iocage,https://github.com/iocage/iocage/tree/master/iocage_lib/dataset.py,Snapshot,__init__$116,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pymdown-extensions,https://github.com/facelessuser/pymdown-extensions/tree/master/pymdownx/caret.py,,makeExtension$158,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+OctoPrint,https://github.com/OctoPrint/OctoPrint/tree/master/src/octoprint/util/commandline.py,CommandlineCaller,_log_stderr$261,*lines,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+qlib,https://github.com/microsoft/qlib/tree/master/qlib/utils/index_data.py,SingleData,__init__$518,*data.items(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+toolz,https://github.com/pytoolz/toolz/tree/master/toolz/tests/test_dicttoolz.py,TestDict,test_merge_with$37,*dicts,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+rlpyt,https://github.com/astooke/rlpyt/tree/master/rlpyt/algos/qpg/ddpg.py,DDPG,optimize_agent$131,*([] for _ in range(len(OptInfo._fields))),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+PhiFlow,https://github.com/tum-pbs/PhiFlow/tree/master/phi/math/_shape.py,,merge_shapes$1057,*shapes,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+numpyro,https://github.com/pyro-ppl/numpyro/tree/master/numpyro/contrib/funsor/infer_util.py,,_enum_log_density$155,*model_args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+jax,https://github.com/google/jax/tree/master/tests/sparse_test.py,cuSparseTest,test_coo_matmat$387,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+YOLOX,https://github.com/Megvii-BaseDetection/YOLOX/tree/master/demo/MegEngine/python/demo.py,,imageflow_demo$175,*'mp4v',"
+m, p, 4, v
+"
+pgsync,https://github.com/toluaina/pgsync/tree/master/pgsync/querybuilder.py,QueryBuilder,_root$125,*node.columns,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+R-Drop,https://github.com/dropreg/R-Drop/tree/master/fairseq_src/fairseq/models/nat/fairseq_nat_model.py,,wrapper$18,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+holoviews,https://github.com/holoviz/holoviews/tree/master/holoviews/plotting/plotly/dash.py,,update_figure$499,*input_values,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+bugwarrior,https://github.com/ralphbean/bugwarrior/tree/master/tests/test_kanboard.py,TestKanboardService,get_mock_service$73,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+zentral,https://github.com/zentralopensource/zentral/tree/master/zentral/contrib/monolith/forms.py,EditManifestCatalogForm,__init__$337,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+SLM-Lab,https://github.com/kengz/SLM-Lab/tree/master/slm_lab/lib/viz.py,,plot$71,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/nn/part2.py,IntroduceCostFunction,bring_back_rest_of_network$756,"*[LaggedStartMap(FadeIn, group, run_time=3) for group in (neurons, edges)]","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Misago,https://github.com/rafalp/Misago/tree/master/misago/users/admin/forms.py,EditUserForm,__init__$200,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+surreal,https://github.com/SurrealAI/surreal/tree/master/surreal/utils/common.py,,_deprecated$358,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+nova,https://github.com/openstack/nova/tree/master/nova/virt/powervm/tasks/base.py,,log_with_instance$30,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+advertools,https://github.com/eliasdabbas/advertools/tree/master/tests/test_serp.py,,test_dict_product_return_correct_types$48,*d.values(),"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2015/moser_main.py,HardProblemsSimplerQuestions,__init__$164,"*Texs(['x', '^' + sym, '+', 'y', '^' + sym, '=', 'z', '^' + sym])","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+hyperopt,https://github.com/hyperopt/hyperopt/tree/master/hyperopt/tests/unit/test_pyll_utils.py,,test_uniformint_arguments$98,*arguments,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pygame_tutorials,https://github.com/kidscancode/pygame_tutorials/tree/master/platform/part 4/main.py,Game,new$21,*plat,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gitfs,https://github.com/presslabs/gitfs/tree/master/tests/integrations/base.py,GitFSLog,expect_multiple$205,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2017/eoc/chapter10.py,ExpPolynomial,show_derivatives$2509,"*list(zip(derivs_at_x, arrows))","
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+shuup,https://github.com/shuup/shuup/tree/master/shuup/admin/modules/products/views/edit_cross_sell.py,ProductCrossSellFormSet,__init__$55,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+asyncssh,https://github.com/ronf/asyncssh/tree/master/tests/pkcs11_stub.py,PKCS11Lib,init_tokens$188,*info,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+videos,https://github.com/3b1b/videos/tree/master/_2015/tau_poem.py,TauPoem,line3$232,*tau.parts + pi.parts,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+pretix,https://github.com/pretix/pretix/tree/master/src/pretix/control/forms/organizer.py,GateForm,__init__$229,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Merlion,https://github.com/salesforce/Merlion/tree/master//benchmark_anomaly.py,,train_model$268,*all_anom,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+bleach,https://github.com/mozilla/bleach/tree/master/bleach/_vendor/html5lib/html5parser.py,,wrapped$402,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Paddle,https://github.com/PaddlePaddle/Paddle/tree/master/python/paddle/fluid/framework.py,,__impl__$514,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+quay,https://github.com/quay/quay/tree/master/util/request.py,,wrapper$31,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+dask-ml,https://github.com/dask/dask-ml/tree/master/tests/model_selection/dask_searchcv/test_model_selection.py,CountTakes,__getitem__$740,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+python-inquirer,https://github.com/magmax/python-inquirer/tree/master/tests/integration/console_render/test_text.py,TextRenderTest,test_basic_render$19,*stdin_array,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+poetry,https://github.com/sheepzh/poetry/tree/master/src/poetry/console/commands/run.py,RunCommand,run_script$44,*cmd,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+gluon-ts,https://github.com/awslabs/gluon-ts/tree/master/src/gluonts/model/forecast.py,QuantileForecast,plot$596,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+ibis,https://github.com/ibis-project/ibis/tree/master/ibis/backends/pandas/core.py,,execute_with_scope$175,*clients,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+django-machina,https://github.com/ellmetha/django-machina/tree/master/machina/models/fields.py,ExtendedImageField,clean$212,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+geonotebook,https://github.com/OpenGeoscience/geonotebook/tree/master/geonotebook/vis/ktile/vrt/gdalvrtbindings.py,KernelType,factory$4946,*args_,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+autograd,https://github.com/HIPS/autograd/tree/master/autograd/builtins.py,DictVSpace,_map$160,*[x[k] for x in args],"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+opt_einsum,https://github.com/dgasmith/opt_einsum/tree/master/opt_einsum/tests/test_paths.py,,test_dp_edge_cases_all_singlet_indices$228,*shapes,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+tfc,https://github.com/maqp/tfc/tree/master/tests/receiver/test_files.py,TestNewFile,test_valid_file_without_key_is_cached$200,*self.args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+butterflow,https://github.com/dthpham/butterflow/tree/master/tests/test_sequence.py,SubregionTestCase,test_intersects_inside_left_edge$174,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+Multi-Label-Text-Classification,https://github.com/RandolphVI/Multi-Label-Text-Classification/tree/master/ANN/train_ann.py,,train_step$134,*batch_data,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+lxmert,https://github.com/airsplay/lxmert/tree/master/src/lxrt/modeling.py,BertAttention,forward$320,*new_context_layer_shape,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+youtube-dl,https://github.com/lrvick/youtube-dl/tree/master/youtube_dl/extractor/xiami.py,XiamiBaseIE,_download_webpage_handle$12,*args,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"
+ykdl,https://github.com/SeaHOH/ykdl/tree/master/ykdl/extractors/douyu/live.py,Douyutv,prepare_list$100,*douyu_match_pattern,"
+tmp_arg[0], tmp_arg[1], ..., tmp_arg[len(tmp_arg) - 1]
+"

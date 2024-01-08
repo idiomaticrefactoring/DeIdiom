@@ -1,0 +1,384 @@
+repo_name,file_html,cl,me,complicate_code
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/tcolor128.py,TColor128,__init__$22,download
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/otb.py,OTB,__init__$72,download
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/lasot.py,LaSOT,__getitem__$58,self.return_meta
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/vot.py,VOT,__init__$39,download
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/vot.py,VOT,__getitem__$62,self.return_meta
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/vot.py,VOT,_corner2rect$213,center
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/got10k.py,GOT10k,__init__$27,check_integrity
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/datasets/got10k.py,GOT10k,__getitem__$47,self.return_meta
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/otb.py,ExperimentOTB,report$62,plot_curves
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,run_supervised$80,self.read_image
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,run_supervised$80,visualize
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,run_supervised$80,failure
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,run_realtime$199,self.read_image
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,run_realtime$199,visualize
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,run_realtime$199,not failure
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/vot.py,ExperimentVOT,_calc_iou$560,burnin
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/got10k.py,ExperimentGOT10k,__init__$35,use_dataset
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/got10k.py,ExperimentGOT10k,run$48,save_video
+toolkit,https://github.com/got-10k/toolkit/tree/master/got10k/experiments/got10k.py,ExperimentGOT10k,report$118,plot_curves
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master//tasks.py,,format$46,check
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master//tasks.py,,format$46,check
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master//tasks.py,,coverage$78,publish
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_ecg.py,,test_ecg_intervalrelated$248,"(elem in columns for elem in np.array(features_df.columns.values, dtype=str))"
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_ecg.py,,test_ecg_intervalrelated$248,"(elem in columns for elem in np.array(features_dict.columns.values, dtype=str))"
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entropy_app_samp_entropy$308,approximate
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entropy_app_samp_entropy$308,approximate
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,scale
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,remove_baseline
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,cross
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,cross
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,cross
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,remove_baseline
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,cross
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,cross
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,entro_py_entropy$380,fuzzy
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,MultiscaleEntropy_coarse_grain$483,x_len % scale_factor
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,MultiscaleEntropy_sample_entropy$498,not safe_mode
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_complexity.py,,MultiscaleEntropy_mse$579,not safe_mode
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/tests/tests_ecg_delineate.py,,setup_load_ecg_data$16,SHOW_DEBUG_PLOTS
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/epochs/epochs_create.py,,epochs_create$9,zero_or_one
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/epochs/epochs_plot.py,,epochs_plot$7,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/rsp/rsp_rrv.py,,rsp_rrv$16,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/eeg/eeg_badchannels.py,,eeg_badchannels$11,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/eeg/mne_crop.py,,mne_crop$4,include_tmax
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/eeg/mne_crop.py,,_time_mask$88,include_tmax
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/eeg/mne_crop.py,,_time_mask$88,include_tmax
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/eeg/mne_crop.py,,_time_mask$88,include_tmax
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_segment.py,,ecg_segment$10,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,ecg_delineate$15,cols
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,ecg_delineate$15,cols
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,_dwt_delineate_tp_peaks$251,not candidate_peaks
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,_dwt_delineate_tp_peaks$251,not candidate_peaks
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,_dwt_delineate_tp_peaks$251,correct_sign
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,_dwt_delineate_tp_peaks$251,correct_sign
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_delineate.py,,_find_tppeaks$738,correct_sign
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_findpeaks.py,,_ecg_findpeaks_elgendi$832,QRS
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ecg/ecg_peaks.py,,ecg_peaks$7,correct_artifacts
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_distort.py,,signal_distort$11,linear_drift
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_distort.py,,_signal_distort_noise$254,not silent
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_distort.py,,_signal_distort_noise$254,not silent
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_simulate.py,,signal_simulate$9,not silent
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_simulate.py,,signal_simulate$9,not silent
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_power.py,,_signal_power_instant$98,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_signal_fixpeaks_kubios$150,iterative
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_signal_fixpeaks_kubios$150,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_find_artifacts$185,"~np.any([np.abs(drrs[i]) > 1, np.abs(mrrs[i]) > 3])"
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_find_artifacts$185,"~np.any([eq3, eq4, eq5])"
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_correct_artifacts$324,extra_idcs
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_correct_artifacts$324,missed_idcs
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_correct_artifacts$324,ectopic_idcs
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_correct_artifacts$324,longshort_idcs
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_fixpeaks.py,,_update_indices$411,not update_idcs
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_noise.py,,signal_noise$4,not n % 2
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_interpolate.py,,signal_interpolate$6,monotone_cubic
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_interpolate.py,,signal_interpolate$6,monotone_cubic
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_timefrequency.py,,wvd$248,analytical_signal
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_autocor.py,,signal_autocor$6,demean
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/signal/signal_autocor.py,,signal_autocor$6,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/stats/cluster.py,,_cluster_kmod$292,optimize
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/stats/cluster.py,,_cluster_aahc$588,use_peaks
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/events/events_plot.py,,events_plot$8,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/misc/find_plateau.py,,find_plateau$10,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_findpeaks.py,,_ppg_findpeaks_elgendi$69,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_findpeaks.py,,_ppg_findpeaks_elgendi$69,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_findpeaks.py,,_ppg_findpeaks_elgendi$69,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_findpeaks.py,,_ppg_findpeaks_elgendi$69,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_simulate.py,,ppg_simulate$10,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_simulate.py,,ppg_simulate$10,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/ppg/ppg_simulate.py,,ppg_simulate$10,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/hrv/hrv_nonlinear.py,,hrv_nonlinear$19,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/hrv/hrv_time.py,,hrv_time$11,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/hrv/hrv_frequency.py,,hrv_frequency$14,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/hrv/hrv_rsa.py,,_hrv_rsa_formatinput$526,ecg_cols
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/hrv/hrv_rsa.py,,_hrv_rsa_formatinput$526,ecg_cols
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/hrv/hrv.py,,hrv$14,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/fractal_dfa.py,,_fractal_dfa_getwindow$423,overlap
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/information_mutual.py,,_mutual_information_varoquaux$73,normalized
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/optim_complexity_optimize.py,,_complexity_delay$224,~np.isnan(optimal)
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/optim_complexity_dimension.py,,_embedding_dimension_neighbors$270,not maxnum
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/entropy_spectral.py,,entropy_spectral$7,normalize
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/fractal_psdslope.py,,fractal_psdslope$8,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/entropy_multiscale.py,,entropy_multiscale$11,refined
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/entropy_multiscale.py,,entropy_multiscale$11,fuzzy
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/entropy_multiscale.py,,entropy_multiscale$11,composite
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/fractal_higuchi.py,,fractal_higuchi$9,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_simulate.py,,_complexity_simulate_mackeyglass$60,not x0
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_hurst.py,,complexity_hurst$9,corrected
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_hurst.py,,complexity_hurst$9,corrected
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_hurst.py,,complexity_hurst$9,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_hurst.py,,_complexity_hurst_plot$162,corrected
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/utils.py,,_get_tolerance$144,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/entropy_permutation.py,,_entropy_permutation$133,corrected
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_lempelziv.py,,complexity_lempelziv$11,multiscale
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_lempelziv.py,,complexity_lempelziv$11,permutation
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_lempelziv.py,,_complexity_lempelziv$154,multiscale
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_lempelziv.py,,_complexity_lempelziv$154,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/complexity_lempelziv.py,,_complexity_lempelziv$154,permutation
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/fractal_sda.py,,fractal_sda$12,show
+NeuroKit,https://github.com/neuropsychology/NeuroKit/tree/master/neurokit2/complexity/optim_complexity_k.py,,complexity_k$10,show
+nameko,https://github.com/nameko/nameko/tree/master/test/test_queue_consumer.py,,test_lifecycle$57,not gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_queue_consumer.py,,test_stop_while_starting$130,not gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_queue_consumer.py,,test_stop_while_starting$130,queue_consumer._gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_queue_consumer.py,,test_kill_closes_connections$315,connections
+nameko,https://github.com/nameko/nameko/tree/master/test/test_queue_consumer.py,,check_connections_closed$343,connections
+nameko,https://github.com/nameko/nameko/tree/master/test/test_rpc.py,,test_rpc_consumer$116,queue.durable
+nameko,https://github.com/nameko/nameko/tree/master/test/test_rpc.py,,test_rpc_consumer_unregisters_if_no_providers$158,queue_consumer.unregister_provider.called
+nameko,https://github.com/nameko/nameko/tree/master/test/test_rpc.py,,test_rpc_incorrect_signature$356,not is_valid_call
+nameko,https://github.com/nameko/nameko/tree/master/test/test_rpc.py,,test_rpc_container_being_killed_retries$506,not waiter.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_rpc.py,TestRpcConsumerDisconnections,test_message_ack_regression$1127,not lock._waiters
+nameko,https://github.com/nameko/nameko/tree/master/test/test_rpc.py,TestBackwardsCompatClassAttrs,test_attrs_are_applied_as_defaults$1518,warnings.warn.called
+nameko,https://github.com/nameko/nameko/tree/master/test/test_messaging.py,,test_consume_provider$45,not queue_consumer.ack_message.called
+nameko,https://github.com/nameko/nameko/tree/master/test/test_messaging.py,,test_consume_provider$45,not queue_consumer.ack_message.called
+nameko,https://github.com/nameko/nameko/tree/master/test/test_messaging.py,TestConsumerDisconnections,test_message_ack_regression$682,not lock._waiters
+nameko,https://github.com/nameko/nameko/tree/master/test/test_messaging.py,TestConsumerDisconnections,test_message_requeue_regression$715,not lock._waiters
+nameko,https://github.com/nameko/nameko/tree/master/test/test_messaging.py,TestBackwardsCompatClassAttrs,test_attrs_are_applied_as_defaults$1026,warnings.warn.called
+nameko,https://github.com/nameko/nameko/tree/master/test/test_container.py,,test_wait_waits_for_container_stopped$192,not gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_container.py,,test_wait_waits_for_container_stopped$192,gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_container.py,,test_container_doesnt_exhaust_max_workers$202,not gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_container.py,,test_container_doesnt_exhaust_max_workers$202,gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/test_timers.py,,test_timer_run$29,eager
+nameko,https://github.com/nameko/nameko/tree/master/test/test_events.py,TestBackwardsCompatClassAttrs,test_attrs_are_applied_as_defaults$730,warnings.warn.called
+nameko,https://github.com/nameko/nameko/tree/master/test/amqp/test_publish.py,TestPublisher,test_mandatory_delivery$213,warnings.warn.called
+nameko,https://github.com/nameko/nameko/tree/master/test/standalone/test_event_dispatcher.py,TestMandatoryDelivery,test_confirms_disabled$72,warnings.warn.called
+nameko,https://github.com/nameko/nameko/tree/master/test/standalone/test_rpc_proxy.py,TestConsumeEvent,test_wait_exception_before_wait$405,not queue_consumer.get_message.called
+nameko,https://github.com/nameko/nameko/tree/master/test/standalone/test_rpc_proxy.py,TestConsumeEvent,test_wait_queue_consumer_stopped$416,not queue_consumer.get_message.called
+nameko,https://github.com/nameko/nameko/tree/master/test/standalone/test_rpc_proxy.py,TestConsumeEvent,test_wait_queue_consumer_disconnected$427,not queue_consumer.get_message.called
+nameko,https://github.com/nameko/nameko/tree/master/test/cli/test_shell.py,,test_uses_plain_when_not_tty$141,code.interact.called
+nameko,https://github.com/nameko/nameko/tree/master/test/cli/test_main.py,TestConfigEnvironmentVariables,test_detect_nested_env_vars$407,should_match
+nameko,https://github.com/nameko/nameko/tree/master/test/cli/test_main.py,TestConfigEnvironmentVariables,test_environment_vars_recursive_in_config$463,has_regex_module
+nameko,https://github.com/nameko/nameko/tree/master/test/web/test_websocket.py,,test_close$137,subscribers1['test_channel']
+nameko,https://github.com/nameko/nameko/tree/master/test/web/test_websocket.py,,test_close$137,not subscribers2['test_channel']
+nameko,https://github.com/nameko/nameko/tree/master/test/web/test_websocket.py,,test_badly_encoded_data$193,not response['success']
+nameko,https://github.com/nameko/nameko/tree/master/test/web/test_websocket.py,,on_message$200,not response['success']
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_utils.py,,test_wait_for_worker_idle$171,not gt.dead
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_utils.py,TestFindFreePort,test_default_host$229,mock_sock.close.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_utils.py,TestFindFreePort,test_specified_host$239,mock_sock.close.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,test_wait_for_specific_result$20,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,count_forever$31,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,test_wait_until_called_with_argument$44,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,increment_forever_via_set$56,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,test_wait_until_raises$69,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,count_forever$88,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,test_wait_until_stops_raising$102,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWaitUseCases,count_forever$122,forever
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_callback$268,callback.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_callback_multiple_calls$288,callback.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_callback_with_exception$316,callback.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_callback_with_exception_multiple_calls$341,callback.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_with_new_thread$369,callback.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_target_as_mock$392,patched_attr.upper.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_waiting.py,TestPatchWait,test_target_as_mock$392,instance.attr.upper.called
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_pytest_plugin.py,TestMonkeyPatchWarning,test_warning$133,suppress_warning
+nameko,https://github.com/nameko/nameko/tree/master/test/testing/test_pytest_plugin.py,TestMonkeyPatchWarning,test_warning$133,not suppress_warning
+nameko,https://github.com/nameko/nameko/tree/master/nameko/runners.py,,run_services$105,kill_on_exit
+nameko,https://github.com/nameko/nameko/tree/master/nameko/messaging.py,Publisher,__init__$78,self.exchange
+nameko,https://github.com/nameko/nameko/tree/master/nameko/messaging.py,QueueConsumer,start$224,not self._starting
+nameko,https://github.com/nameko/nameko/tree/master/nameko/messaging.py,QueueConsumer,ack_message$310,message.channel.connection
+nameko,https://github.com/nameko/nameko/tree/master/nameko/messaging.py,QueueConsumer,requeue_message$319,message.channel.connection
+nameko,https://github.com/nameko/nameko/tree/master/nameko/rpc.py,RpcConsumer,stop$70,not self._providers_registered
+nameko,https://github.com/nameko/nameko/tree/master/nameko/rpc.py,RpcConsumer,unregister_provider$82,not remaining_providers
+nameko,https://github.com/nameko/nameko/tree/master/nameko/rpc.py,RpcReply,result$328,error
+nameko,https://github.com/nameko/nameko/tree/master/nameko/timer.py,Timer,_run$58,self.eager
+nameko,https://github.com/nameko/nameko/tree/master/nameko/timer.py,Timer,get_next_interval$61,self.eager
+nameko,https://github.com/nameko/nameko/tree/master/nameko/extensions.py,SharedExtension,bind$123,shared
+nameko,https://github.com/nameko/nameko/tree/master/nameko/extensions.py,ProviderCollector,wait_for_providers$231,self._providers_registered
+nameko,https://github.com/nameko/nameko/tree/master/nameko/extensions.py,Entrypoint,__init__$263,sensitive_variables
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,WorkerContext,origin_call_id$113,self._parent_call_id_stack
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,WorkerContext,immediate_parent_call_id$118,self._parent_call_id_stack
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,ServiceContainer,stop$192,self._being_killed
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,ServiceContainer,kill$254,self._being_killed
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,ServiceContainer,spawn_worker$318,self._being_killed
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,ServiceContainer,_kill_worker_threads$439,num_workers
+nameko,https://github.com/nameko/nameko/tree/master/nameko/containers.py,ServiceContainer,_kill_managed_threads$452,num_threads
+nameko,https://github.com/nameko/nameko/tree/master/nameko/events.py,EventHandler,broadcast_identifier$168,self.reliable_delivery
+nameko,https://github.com/nameko/nameko/tree/master/nameko/events.py,EventHandler,setup$226,self.reliable_delivery
+nameko,https://github.com/nameko/nameko/tree/master/nameko/amqp/publish.py,,get_connection$20,not transport_options
+nameko,https://github.com/nameko/nameko/tree/master/nameko/amqp/publish.py,Publisher,publish$171,mandatory
+nameko,https://github.com/nameko/nameko/tree/master/nameko/amqp/publish.py,Publisher,publish$171,not use_confirms
+nameko,https://github.com/nameko/nameko/tree/master/nameko/standalone/rpc.py,ConsumeEvent,wait$39,self.exception
+nameko,https://github.com/nameko/nameko/tree/master/nameko/standalone/rpc.py,ConsumeEvent,wait$39,self.queue_consumer.stopped
+nameko,https://github.com/nameko/nameko/tree/master/nameko/standalone/rpc.py,ConsumeEvent,wait$39,self.exception
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/code.py,RaisingInteractiveConsole,runcode$17,self.raise_expections
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/shell.py,ShellRunner,start_shell$36,name
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/shell.py,,main$80,args.config
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/run.py,,import_service$36,not found_services
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/run.py,,main$159,args.config
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/backdoor.py,,main$9,rlwrap
+nameko,https://github.com/nameko/nameko/tree/master/nameko/cli/main.py,,env_var_constructor$110,raw
+nameko,https://github.com/nameko/nameko/tree/master/nameko/web/websocket.py,WebSocketHubProvider,cleanup_websocket$169,subs
+nameko,https://github.com/nameko/nameko/tree/master/nameko/web/websocket.py,WebSocketHub,_get_connection$185,not create
+nameko,https://github.com/nameko/nameko/tree/master/nameko/web/websocket.py,WebSocketHub,_get_connection$185,not create
+nameko,https://github.com/nameko/nameko/tree/master/nameko/web/server.py,WebServer,run$82,self._is_accepting
+nameko,https://github.com/nameko/nameko/tree/master/nameko/web/server.py,WebServer,process_request$90,STATE_IDLE
+nameko,https://github.com/nameko/nameko/tree/master/nameko/web/server.py,WebServer,start$108,not self._starting
+nameko,https://github.com/nameko/nameko/tree/master/nameko/utils/retry.py,RetryDelay,next$14,self.backoff
+nameko,https://github.com/nameko/nameko/tree/master/nameko/utils/retry.py,RetryDelay,next$14,self.max_delay
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/rabbit.py,Client,_request$40,result.content
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/utils.py,,get_extension$16,not match_attrs
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/utils.py,,wait_for_call$46,not mock_method.called
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/utils.py,ResourcePipeline,_create$195,self.running
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/websocket.py,,make_virtual_socket$13,rv['success']
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/websocket.py,Socket,rpc$29,rv['success']
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,entrypoint_waiter$89,complete
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,on_worker_result$178,complete
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,worker_factory$219,dependencies
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,_replace_dependencies$308,container.started
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,_replace_dependencies$308,missing
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,restrict_entrypoints$422,container.started
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/services.py,,restrict_entrypoints$422,missing
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/pytest.py,,pytest_configure$85,config.option.blocking_detection
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/pytest.py,,pytest_sessionstart$92,not session.config.option.suppress_eventlet_notification
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/pytest.py,,get_message_from_queue$327,ack
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/pytest.py,,get$330,ack
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/waiting.py,WaitResult,send$25,not self.has_result
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/waiting.py,WaitResult,get$30,not self.has_result
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/waiting.py,,wait_for_call$40,should_release
+nameko,https://github.com/nameko/nameko/tree/master/nameko/testing/waiting.py,,maybe_release$47,should_release
+nameko,https://github.com/nameko/nameko/tree/master/docs/examples/auth.py,Api,authenticate$25,not user
+nameko,https://github.com/nameko/nameko/tree/master/docs/examples/auth.py,Api,has_role$40,not token
+nameko,https://github.com/nameko/nameko/tree/master/docs/examples/config_dependency_provider.py,Service,foo$16,not self.foo_enabled
+nameko,https://github.com/nameko/nameko/tree/master/docs/examples/travis.py,Travis,status_message$34,status['last_build_result']
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/tests/serialization_test.py,TestSerialization,test_hdf5_serialize_unserialize$35,filename
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/tests/cli_test.py,TestCLI,test__main__$15,__main__
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_outer_land_border
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_mountains
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_biome
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_outer_land_border
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_biome
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_rivers
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,draw_mountains
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/drawing_functions.py,,draw_ancientmap$361,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/image_io.py,PNGWriter,from_array$115,scale_to_range
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,generate_plates_simulation$13,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,generate_plates_simulation$13,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,fade_borders
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/plates.py,,world_gen$55,verbose
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_simple_elevation$323,has_ocean
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_simple_elevation$323,has_ocean
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_satellite$375,"smooth_mask[y, x]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_satellite$375,"smooth_mask[j, i]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_elevation$484,"ocean[y, x]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_ocean$519,"ocean[y, x]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_precipitation$530,black_and_white
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/draw.py,,draw_temperature_levels$581,black_and_white
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,AStar,_get_best_open_node$62,not best_node
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,AStar,find_path$115,finish
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,SQMapHandler,get_adjacent_nodes$166,n
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,SQMapHandler,get_adjacent_nodes$166,n
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,SQMapHandler,get_adjacent_nodes$166,n
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,SQMapHandler,get_adjacent_nodes$166,n
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/astar.py,PathFinder,find$209,not p
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/generation.py,,fill_ocean$75,"not ocean[ty, tx]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/generation.py,,generate_world$209,not step.include_precipitations
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/generation.py,,generate_world$209,not step.include_erosion
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/common.py,,_equal$158,not t
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/common.py,,_equal$158,not t
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,generate_world$33,step.include_precipitations
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,generate_world$33,step.include_biome
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,__get_last_byte__$156,tmp_data
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,__get_last_byte__$156,tmp_data
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,__get_tag__$178,not data
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,__get_tag__$178,not data
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,load_world$207,pb
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.version
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.world_name
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.hdf5
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.temps
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.humids
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,generation_operation
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,warnings
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.temps
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.humids
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.grayscale_heightmap
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.rivers_map
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.scatter_plot
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.satelite_map
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,args.icecaps_map
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,not args.world_file
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,main$236,not args.generated_file
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/cli/main.py,,usage$625,error
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,find_water_flow$76,path
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_sources$126,not neighbour_seed_found
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_sources$126,neighbour_seed_found
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_flow$178,quick_section
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_flow$178,self.wrap
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_flow$178,lower_path
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_flow$178,not edge_path
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,river_flow$178,merge
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/erosion.py,ErosionSimulation,rivermap_update$393,isSeed
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/icecap.py,IcecapSimulation,_calculate$20,"solid_map[y, x]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/biome.py,BiomeSimulation,execute$11,"ocean[y, x]"
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/hydrology.py,WatermapSimulation,_watermap$17,lowers
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/hydrology.py,WatermapSimulation,_watermap$17,going
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/hydrology.py,WatermapSimulation,droplet$18,lowers
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/hydrology.py,WatermapSimulation,droplet$18,going
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/simulations/irrigation.py,IrrigationSimulation,_calculate$12,not it_all.finished
+worldengine,https://github.com/Mindwerks/worldengine/tree/master/worldengine/model/world.py,World,_from_protobuf_matrix$182,transformation
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//DNSDumpsterAPI.py,DNSDumpsterAPI,__init__$20,not session
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//DNSDumpsterAPI.py,DNSDumpsterAPI,display_message$27,self.verbose
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,dnsdumpster$81,res['dns_records']['host']
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,dnsdumpster$81,res['dns_records']['dns']
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,dnsdumpster$81,res['dns_records']['mx']
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,init$129,args.target
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,init$129,ifIpIsWithin
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,inCloudFlare$163,isInNetwork
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,subdomain_scan$190,subdomains
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//cloudfail.py,,subdomain_scan$190,not ifIpIsWithin
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,ProxyError,__init__$78,socket_err
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,,set_default_proxy$115,username
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,,set_default_proxy$115,password
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,,wrap_module$136,socksocket.default_proxy
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,__init__$246,self.default_proxy
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_readall$261,not d
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,set_proxy$274,username
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,set_proxy$274,password
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,bind$298,self._proxyconn
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,sendto$334,not self._proxyconn
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,recvfrom$359,not self._proxyconn
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,recvfrom$359,self.proxy_peername
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,close$383,self._proxyconn
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_write_SOCKS5_address$503,rdns
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_negotiate_SOCKS4$560,username
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_negotiate_SOCKS4$560,remote_resolve
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_negotiate_SOCKS4$560,remote_resolve
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_negotiate_SOCKS4$560,rdns
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_negotiate_HTTP$619,not status_line
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_negotiate_HTTP$619,rdns
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,connect$680,not self._proxyconn
+CloudFail,https://github.com/m0rtem/CloudFail/tree/master//socks.py,socksocket,_proxy_addr$757,not proxy_port
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/market.py,Market,fetch_market$54,md_request.push_to_cache
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/market.py,Market,fetch_market$54,df.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/market.py,Market,create_md_request_from_dataframe$386,smart_group
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/market.py,Market,create_md_request_from_freeform$632,return_df
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/market.py,FXVolFactory,get_fx_implied_vol$1064,not vol_data_10am.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorBinance,load_ticker$896,(len(data_read) == 0) & (len(data_frame) == 0)
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorBitfinex,load_ticker$978,(len(data_read) == 0) & (len(data_frame) == 0)
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorHuobi,load_ticker$1276,df.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorDukasCopy,download_tick$1448,multi_threaded
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorDukasCopy,download_tick$1448,do_retrieve_df
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorDukasCopy,download_tick$1448,not completed
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorDukasCopy,fetch_file$1533,constants.dukascopy_write_temp_tick_disk
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorweb.py,DataVendorDukasCopy,fetch_file$1533,do_retrieve_df
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorbbg.py,DataVendorBBG,load_ticker$44,data_frame.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorbbg.py,DataVendorBBG,get_daily_data$184,data_frame.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorbbg.py,DataVendorBBG,get_reference_data$232,data_frame.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorbbg.py,DataVendorBBG,force_type_conversion$283,not data_frame.empty
+findatapy,https://github.com/cuemacro/findatapy/tree/master/findatapy/market/datavendorbbg.py,DataVendorBBG,force_type_conversion$283,not is_date
