@@ -40,7 +40,7 @@ We develop a web application for demostration of deidioming pythonic code into e
 	
 	4). data/survey/: 
 	
-	    The notes documentation, all questions, and answers of 27 questions of Section 4.2 (Refactoring Usefulness). 
+	    The notes documentation, all questions, and answers of 20 participants of Section 4.2 (Refactoring Usefulness). 
  
 
 
