@@ -42,5 +42,21 @@ We develop a web application for demostration of deidioming pythonic code into e
 	
 	    The notes documentation, all questions, and answers of 20 participants of Section 4.2 (Refactoring Usefulness). 
  
+## If the work is helpful to you, please cite the paper
 
+@inproceedings{deidiom,
+author = {Zhang, Zejun and Xing, Zhenchang and Zhao, Dehai and Lu, Qinghua and Xu, Xiwei and Zhu, Liming},
+title = {Hard to Read and Understand Pythonic Idioms? DeIdiom and Explain Them in Non-Idiomatic Equivalent Code},
+year = {2024},
+isbn = {979-8-4007-0217-4/24/04},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597503.3639101},
+doi = {10.1145/3597503.3639101},
+booktitle = {2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE '24)},
+pages = {},
+numpages = {12},
+location = {<conf-loc>, <city>Lisbon</city>, <country>Portugal</country>, </conf-loc>},
+series = {ICSE 2024}
+}
 
