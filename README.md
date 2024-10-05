@@ -5,7 +5,7 @@ Appendices.pdf is the supplementary document.
 
 
  ## Web application: 
-We develop a web application for demostration of deidioming pythonic code into explanatory non-idiomatic code to enhance the readability of nine pythonic idioms (list/set/dict-comprehension, chain-comparison, truth-value-test, loop-else, assign-multiple-targets, for-multiple-targets and star). Please visit http://35.77.46.3:5000.
+We develop a web application for demostration of deidioming pythonic code into explanatory non-idiomatic code to enhance the readability of nine pythonic idioms (list/set/dict-comprehension, chain-comparison, truth-value-test, loop-else, assign-multiple-targets, for-multiple-targets and star). Please visit https://zzj.pythonanywhere.com/. Note: the original url(http://35.77.46.3:5000) has not been maintained.
 	
 
  ## Code:
